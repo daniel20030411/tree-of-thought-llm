@@ -1,0 +1,16 @@
+[
+    {
+        "index": 3,
+        "best node id": 255,
+        "node depth": 9,
+        "chosen step": 16,
+        "distance to root": 72.7,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___",
+        "accuracy": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "cost time": 2.493483066558838
+    }
+]

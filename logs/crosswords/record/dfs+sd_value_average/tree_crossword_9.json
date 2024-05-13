@@ -1,0 +1,2706 @@
+[
+    {
+        "total_step": 0,
+        "env_step": 1,
+        "actions": [
+            "h5. enter"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 1,
+        "depth": 1,
+        "d_thres": 10000,
+        "answer": "_____\n_____\n_____\n_____\nENTER"
+    },
+    {
+        "total_step": 1,
+        "env_step": 2,
+        "actions": [
+            "h5. enter",
+            "h2. place"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 10,
+        "depth": 2,
+        "d_thres": 10000,
+        "answer": "_____\nPLACE\n_____\n_____\nENTER"
+    },
+    {
+        "total_step": 2,
+        "env_step": 3,
+        "actions": [
+            "h5. enter",
+            "h2. place",
+            "h3. alarm"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 24,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "_____\nPLACE\nALARM\n_____\nENTER"
+    },
+    {
+        "total_step": 3,
+        "env_step": 4,
+        "actions": [
+            "h5. enter",
+            "h2. place",
+            "h3. alarm",
+            "h4. drunk"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 1
+        },
+        "current_node_id": 45,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "_____\nPLACE\nALARM\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 4,
+        "env_step": 4,
+        "actions": [
+            "h5. enter",
+            "h2. place",
+            "h3. alarm",
+            "h1. erupt"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 3
+        },
+        "current_node_id": 46,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "ERUPT\nPLACE\nALARM\n_____\nENTER"
+    },
+    {
+        "total_step": 5,
+        "env_step": 4,
+        "actions": [
+            "h5. enter",
+            "h2. place",
+            "h3. alarm",
+            "h1. eruct"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 1,
+            "impossible": 2
+        },
+        "current_node_id": 48,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "ERUCT\nPLACE\nALARM\n_____\nENTER"
+    },
+    {
+        "total_step": 6,
+        "env_step": 3,
+        "actions": [
+            "h5. enter",
+            "h2. place",
+            "h1. eruct"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 25,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "ERUCT\nPLACE\n_____\n_____\nENTER"
+    },
+    {
+        "total_step": 7,
+        "env_step": 4,
+        "actions": [
+            "h5. enter",
+            "h2. place",
+            "h1. eruct",
+            "v5. tenor"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 52,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "ERUCT\nPLACE\n____N\n____O\nENTER"
+    },
+    {
+        "total_step": 8,
+        "env_step": 4,
+        "actions": [
+            "h5. enter",
+            "h2. place",
+            "h1. eruct",
+            "h4. drunk"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 53,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "ERUCT\nPLACE\n_____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 9,
+        "env_step": 5,
+        "actions": [
+            "h5. enter",
+            "h2. place",
+            "h1. eruct",
+            "h4. drunk",
+            "h3. alarm"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 68,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "ERUCT\nPLACE\nALARM\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 10,
+        "env_step": 4,
+        "actions": [
+            "h5. enter",
+            "h2. place",
+            "h1. eruct",
+            "h3. alarm"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 1,
+            "impossible": 2
+        },
+        "current_node_id": 55,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "ERUCT\nPLACE\nALARM\n_____\nENTER"
+    },
+    {
+        "total_step": 11,
+        "env_step": 3,
+        "actions": [
+            "h5. enter",
+            "h2. place",
+            "h4. drunk"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 27,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "_____\nPLACE\n_____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 12,
+        "env_step": 4,
+        "actions": [
+            "h5. enter",
+            "h2. place",
+            "h4. drunk",
+            "h3. alarm"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 1
+        },
+        "current_node_id": 72,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "_____\nPLACE\nALARM\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 13,
+        "env_step": 4,
+        "actions": [
+            "h5. enter",
+            "h2. place",
+            "h4. drunk",
+            "h1. eruct"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 75,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "ERUCT\nPLACE\n_____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 14,
+        "env_step": 5,
+        "actions": [
+            "h5. enter",
+            "h2. place",
+            "h4. drunk",
+            "h1. eruct",
+            "h3. alarm"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 92,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "ERUCT\nPLACE\nALARM\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 15,
+        "env_step": 4,
+        "actions": [
+            "h5. enter",
+            "h2. place",
+            "h4. drunk",
+            "h3. alert"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 78,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "_____\nPLACE\nALERT\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 16,
+        "env_step": 2,
+        "actions": [
+            "h5. enter",
+            "v1. evade"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 11,
+        "depth": 2,
+        "d_thres": 10000,
+        "answer": "E____\nV____\nA____\nD____\nENTER"
+    },
+    {
+        "total_step": 17,
+        "env_step": 3,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 95,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "E____\nV____\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 18,
+        "env_step": 4,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h3. alarm"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 0,
+            "impossible": 2
+        },
+        "current_node_id": 107,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "E____\nV____\nALARM\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 19,
+        "env_step": 4,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 108,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "E____\nV____\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 20,
+        "env_step": 5,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h3. alarm"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 0,
+            "impossible": 2
+        },
+        "current_node_id": 129,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "E____\nV____\nALARM\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 21,
+        "env_step": 5,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 130,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "E____\nV____\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 22,
+        "env_step": 6,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter",
+            "h3. alarm"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 0,
+            "impossible": 2
+        },
+        "current_node_id": 151,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "E____\nV____\nALARM\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 23,
+        "env_step": 6,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 152,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "E____\nV____\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 24,
+        "env_step": 7,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter",
+            "h3. alarm"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 0,
+            "impossible": 2
+        },
+        "current_node_id": 173,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "E____\nV____\nALARM\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 25,
+        "env_step": 7,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 174,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "E____\nV____\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 26,
+        "env_step": 8,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter",
+            "h3. alarm"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 0,
+            "impossible": 2
+        },
+        "current_node_id": 195,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "E____\nV____\nALARM\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 27,
+        "env_step": 8,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 196,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "E____\nV____\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 28,
+        "env_step": 9,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter",
+            "h3. alarm"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 0,
+            "impossible": 2
+        },
+        "current_node_id": 217,
+        "distance to root": 112.1998,
+        "depth": 9,
+        "d_thres": 112.1998,
+        "answer": "E____\nV____\nALARM\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 29,
+        "env_step": 9,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 218,
+        "distance to root": 115.9,
+        "depth": 9,
+        "d_thres": 112.1998,
+        "answer": "E____\nV____\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 30,
+        "env_step": 9,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter",
+            "h2. venue"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 220,
+        "distance to root": 110.10000000000001,
+        "depth": 9,
+        "d_thres": 110.10000000000001,
+        "answer": "E____\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 31,
+        "env_step": 8,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter",
+            "h2. venue"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 198,
+        "depth": 8,
+        "d_thres": 110.10000000000001,
+        "answer": "E____\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 32,
+        "env_step": 9,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter",
+            "h2. venue",
+            "h3. alarm"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 277,
+        "distance to root": 106.1999,
+        "depth": 9,
+        "d_thres": 106.1999,
+        "answer": "E____\nVENUE\nALARM\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 33,
+        "env_step": 9,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter",
+            "h2. venue",
+            "h1. eruct"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 278,
+        "distance to root": 104.2,
+        "depth": 9,
+        "d_thres": 104.2,
+        "answer": "ERUCT\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 34,
+        "env_step": 9,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter",
+            "h2. venue",
+            "h2. venue"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 281,
+        "distance to root": 104.30000000000001,
+        "depth": 9,
+        "d_thres": 104.2,
+        "answer": "E____\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 35,
+        "env_step": 7,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter",
+            "h2. venue"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 176,
+        "depth": 7,
+        "d_thres": 104.2,
+        "answer": "E____\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 36,
+        "env_step": 8,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter",
+            "h2. venue",
+            "h3. alarm"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 307,
+        "depth": 8,
+        "d_thres": 104.2,
+        "answer": "E____\nVENUE\nALARM\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 37,
+        "env_step": 8,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter",
+            "h2. venue",
+            "h1. eruct"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 308,
+        "depth": 8,
+        "d_thres": 104.2,
+        "answer": "ERUCT\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 38,
+        "env_step": 8,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter",
+            "h2. venue",
+            "h2. venue"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 311,
+        "depth": 8,
+        "d_thres": 104.2,
+        "answer": "E____\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 39,
+        "env_step": 9,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter",
+            "h2. venue",
+            "h2. venue",
+            "h3. alarm"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 322,
+        "distance to root": 100.3999,
+        "depth": 9,
+        "d_thres": 100.3999,
+        "answer": "E____\nVENUE\nALARM\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 40,
+        "env_step": 9,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter",
+            "h2. venue",
+            "h2. venue",
+            "h1. eruct"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 323,
+        "distance to root": 98.4,
+        "depth": 9,
+        "d_thres": 98.4,
+        "answer": "ERUCT\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 41,
+        "env_step": 9,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter",
+            "h5. enter",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 326,
+        "distance to root": 98.5,
+        "depth": 9,
+        "d_thres": 98.4,
+        "answer": "E____\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 42,
+        "env_step": 6,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter",
+            "h2. venue"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 154,
+        "depth": 6,
+        "d_thres": 98.4,
+        "answer": "E____\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 43,
+        "env_step": 7,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter",
+            "h2. venue",
+            "h3. alarm"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 352,
+        "depth": 7,
+        "d_thres": 98.4,
+        "answer": "E____\nVENUE\nALARM\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 44,
+        "env_step": 7,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter",
+            "h2. venue",
+            "h1. eruct"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 353,
+        "depth": 7,
+        "d_thres": 98.4,
+        "answer": "ERUCT\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 45,
+        "env_step": 7,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter",
+            "h2. venue",
+            "h2. venue"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 356,
+        "depth": 7,
+        "d_thres": 98.4,
+        "answer": "E____\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 46,
+        "env_step": 8,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter",
+            "h2. venue",
+            "h2. venue",
+            "h3. alarm"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 367,
+        "depth": 8,
+        "d_thres": 98.4,
+        "answer": "E____\nVENUE\nALARM\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 47,
+        "env_step": 8,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter",
+            "h2. venue",
+            "h2. venue",
+            "h1. eruct"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 368,
+        "depth": 8,
+        "d_thres": 98.4,
+        "answer": "ERUCT\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 48,
+        "env_step": 8,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 371,
+        "depth": 8,
+        "d_thres": 98.4,
+        "answer": "E____\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 49,
+        "env_step": 9,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h3. alarm"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 382,
+        "distance to root": 94.5999,
+        "depth": 9,
+        "d_thres": 94.5999,
+        "answer": "E____\nVENUE\nALARM\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 50,
+        "env_step": 9,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h1. eruct"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 383,
+        "distance to root": 92.60000000000001,
+        "depth": 9,
+        "d_thres": 92.60000000000001,
+        "answer": "ERUCT\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 51,
+        "env_step": 9,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h5. enter",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 386,
+        "distance to root": 92.7,
+        "depth": 9,
+        "d_thres": 92.60000000000001,
+        "answer": "E____\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 52,
+        "env_step": 5,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h2. venue"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 132,
+        "depth": 5,
+        "d_thres": 92.60000000000001,
+        "answer": "E____\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 53,
+        "env_step": 6,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h2. venue",
+            "h3. alarm"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 412,
+        "depth": 6,
+        "d_thres": 92.60000000000001,
+        "answer": "E____\nVENUE\nALARM\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 54,
+        "env_step": 6,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h2. venue",
+            "h1. eruct"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 413,
+        "depth": 6,
+        "d_thres": 92.60000000000001,
+        "answer": "ERUCT\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 55,
+        "env_step": 6,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h2. venue",
+            "h2. venue"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 416,
+        "depth": 6,
+        "d_thres": 92.60000000000001,
+        "answer": "E____\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 56,
+        "env_step": 7,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h2. venue",
+            "h2. venue",
+            "h3. alarm"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 427,
+        "depth": 7,
+        "d_thres": 92.60000000000001,
+        "answer": "E____\nVENUE\nALARM\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 57,
+        "env_step": 7,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h2. venue",
+            "h2. venue",
+            "h1. eruct"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 428,
+        "depth": 7,
+        "d_thres": 92.60000000000001,
+        "answer": "ERUCT\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 58,
+        "env_step": 7,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 431,
+        "depth": 7,
+        "d_thres": 92.60000000000001,
+        "answer": "E____\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 59,
+        "env_step": 8,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h3. alarm"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 442,
+        "depth": 8,
+        "d_thres": 92.60000000000001,
+        "answer": "E____\nVENUE\nALARM\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 60,
+        "env_step": 8,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h1. eruct"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 443,
+        "depth": 8,
+        "d_thres": 92.60000000000001,
+        "answer": "ERUCT\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 61,
+        "env_step": 8,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 446,
+        "depth": 8,
+        "d_thres": 92.60000000000001,
+        "answer": "E____\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 62,
+        "env_step": 9,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h3. alarm"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 457,
+        "distance to root": 88.7999,
+        "depth": 9,
+        "d_thres": 88.7999,
+        "answer": "E____\nVENUE\nALARM\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 63,
+        "env_step": 9,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h1. eruct"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 458,
+        "distance to root": 86.8,
+        "depth": 9,
+        "d_thres": 86.8,
+        "answer": "ERUCT\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 64,
+        "env_step": 9,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h5. enter",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 461,
+        "distance to root": 86.9,
+        "depth": 9,
+        "d_thres": 86.8,
+        "answer": "E____\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 65,
+        "env_step": 4,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h2. venue"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 110,
+        "depth": 4,
+        "d_thres": 86.8,
+        "answer": "E____\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 66,
+        "env_step": 5,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h2. venue",
+            "h3. alarm"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 487,
+        "depth": 5,
+        "d_thres": 86.8,
+        "answer": "E____\nVENUE\nALARM\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 67,
+        "env_step": 5,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h2. venue",
+            "h1. eruct"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 488,
+        "depth": 5,
+        "d_thres": 86.8,
+        "answer": "ERUCT\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 68,
+        "env_step": 5,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h2. venue",
+            "h2. venue"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 491,
+        "depth": 5,
+        "d_thres": 86.8,
+        "answer": "E____\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 69,
+        "env_step": 6,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h2. venue",
+            "h2. venue",
+            "h3. alarm"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 502,
+        "depth": 6,
+        "d_thres": 86.8,
+        "answer": "E____\nVENUE\nALARM\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 70,
+        "env_step": 6,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h2. venue",
+            "h2. venue",
+            "h1. eruct"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 503,
+        "depth": 6,
+        "d_thres": 86.8,
+        "answer": "ERUCT\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 71,
+        "env_step": 6,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 506,
+        "depth": 6,
+        "d_thres": 86.8,
+        "answer": "E____\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 72,
+        "env_step": 7,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h3. alarm"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 517,
+        "depth": 7,
+        "d_thres": 86.8,
+        "answer": "E____\nVENUE\nALARM\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 73,
+        "env_step": 7,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h1. eruct"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 518,
+        "depth": 7,
+        "d_thres": 86.8,
+        "answer": "ERUCT\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 74,
+        "env_step": 7,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 521,
+        "depth": 7,
+        "d_thres": 86.8,
+        "answer": "E____\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 75,
+        "env_step": 8,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h3. alarm"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 532,
+        "depth": 8,
+        "d_thres": 86.8,
+        "answer": "E____\nVENUE\nALARM\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 76,
+        "env_step": 8,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h1. eruct"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 533,
+        "depth": 8,
+        "d_thres": 86.8,
+        "answer": "ERUCT\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 77,
+        "env_step": 8,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 536,
+        "depth": 8,
+        "d_thres": 86.8,
+        "answer": "E____\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 78,
+        "env_step": 9,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h3. alarm"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 547,
+        "distance to root": 82.9999,
+        "depth": 9,
+        "d_thres": 82.9999,
+        "answer": "E____\nVENUE\nALARM\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 79,
+        "env_step": 9,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h1. eruct"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 548,
+        "distance to root": 81.0,
+        "depth": 9,
+        "d_thres": 81.0,
+        "answer": "ERUCT\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 80,
+        "env_step": 9,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "h4. drunk",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 551,
+        "distance to root": 81.1,
+        "depth": 9,
+        "d_thres": 81.0,
+        "answer": "E____\nVENUE\nA____\nDRUNK\nENTER"
+    },
+    {
+        "total_step": 81,
+        "env_step": 3,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "v5. tenor"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 96,
+        "depth": 3,
+        "d_thres": 81.0,
+        "answer": "E___T\nV___E\nA___N\nD___O\nENTER"
+    },
+    {
+        "total_step": 82,
+        "env_step": 4,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "v5. tenor",
+            "h2. venue"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 576,
+        "depth": 4,
+        "d_thres": 81.0,
+        "answer": "E___T\nVENUE\nA___N\nD___O\nENTER"
+    },
+    {
+        "total_step": 83,
+        "env_step": 5,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "v5. tenor",
+            "h2. venue",
+            "v4. curse"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 591,
+        "depth": 5,
+        "d_thres": 81.0,
+        "answer": "E__CT\nVENUE\nA__RN\nD__SO\nENTER"
+    },
+    {
+        "total_step": 84,
+        "env_step": 6,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "v5. tenor",
+            "h2. venue",
+            "v4. curse",
+            "v3. unfit"
+        ],
+        "info": {
+            "r_letter": 0.8,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 606,
+        "depth": 6,
+        "d_thres": 81.0,
+        "answer": "E_UCT\nVENUE\nA_FRN\nD_ISO\nENTER"
+    },
+    {
+        "total_step": 85,
+        "env_step": 7,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "v5. tenor",
+            "h2. venue",
+            "v4. curse",
+            "v3. unfit",
+            "h1. eruct"
+        ],
+        "info": {
+            "r_letter": 0.84,
+            "r_word": 0.6,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 622,
+        "depth": 7,
+        "d_thres": 81.0,
+        "answer": "ERUCT\nVENUE\nA_FRN\nD_ISO\nENTER"
+    },
+    {
+        "total_step": 86,
+        "env_step": 6,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "v5. tenor",
+            "h2. venue",
+            "v4. curse",
+            "h2. venue"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 607,
+        "depth": 6,
+        "d_thres": 81.0,
+        "answer": "E__CT\nVENUE\nA__RN\nD__SO\nENTER"
+    },
+    {
+        "total_step": 87,
+        "env_step": 7,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "v5. tenor",
+            "h2. venue",
+            "v4. curse",
+            "h2. venue",
+            "v3. unfit"
+        ],
+        "info": {
+            "r_letter": 0.8,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 627,
+        "depth": 7,
+        "d_thres": 81.0,
+        "answer": "E_UCT\nVENUE\nA_FRN\nD_ISO\nENTER"
+    },
+    {
+        "total_step": 88,
+        "env_step": 8,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "v5. tenor",
+            "h2. venue",
+            "v4. curse",
+            "h2. venue",
+            "v3. unfit",
+            "h1. eruct"
+        ],
+        "info": {
+            "r_letter": 0.84,
+            "r_word": 0.6,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 643,
+        "depth": 8,
+        "d_thres": 81.0,
+        "answer": "ERUCT\nVENUE\nA_FRN\nD_ISO\nENTER"
+    },
+    {
+        "total_step": 89,
+        "env_step": 7,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "v5. tenor",
+            "h2. venue",
+            "v4. curse",
+            "h2. venue",
+            "h2. venue"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 628,
+        "depth": 7,
+        "d_thres": 81.0,
+        "answer": "E__CT\nVENUE\nA__RN\nD__SO\nENTER"
+    },
+    {
+        "total_step": 90,
+        "env_step": 8,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "v5. tenor",
+            "h2. venue",
+            "v4. curse",
+            "h2. venue",
+            "h2. venue",
+            "v3. unfit"
+        ],
+        "info": {
+            "r_letter": 0.8,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 648,
+        "depth": 8,
+        "d_thres": 81.0,
+        "answer": "E_UCT\nVENUE\nA_FRN\nD_ISO\nENTER"
+    },
+    {
+        "total_step": 91,
+        "env_step": 9,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "v5. tenor",
+            "h2. venue",
+            "v4. curse",
+            "h2. venue",
+            "h2. venue",
+            "v3. unfit",
+            "h1. eruct"
+        ],
+        "info": {
+            "r_letter": 0.84,
+            "r_word": 0.6,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 664,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 76.1,
+        "answer": "ERUCT\nVENUE\nA_FRN\nD_ISO\nENTER"
+    },
+    {
+        "total_step": 92,
+        "env_step": 8,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "v5. tenor",
+            "h2. venue",
+            "v4. curse",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 649,
+        "depth": 8,
+        "d_thres": 76.1,
+        "answer": "E__CT\nVENUE\nA__RN\nD__SO\nENTER"
+    },
+    {
+        "total_step": 93,
+        "env_step": 9,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "v5. tenor",
+            "h2. venue",
+            "v4. curse",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "v3. unfit"
+        ],
+        "info": {
+            "r_letter": 0.8,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 669,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 76.1,
+        "answer": "E_UCT\nVENUE\nA_FRN\nD_ISO\nENTER"
+    },
+    {
+        "total_step": 94,
+        "env_step": 9,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "v5. tenor",
+            "h2. venue",
+            "v4. curse",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 670,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 76.1,
+        "answer": "E__CT\nVENUE\nA__RN\nD__SO\nENTER"
+    },
+    {
+        "total_step": 95,
+        "env_step": 9,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "v5. tenor",
+            "h2. venue",
+            "v4. curse",
+            "h2. venue",
+            "h2. venue",
+            "h2. venue",
+            "h5. enter"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 671,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 76.1,
+        "answer": "E__CT\nVENUE\nA__RN\nD__SO\nENTER"
+    },
+    {
+        "total_step": 96,
+        "env_step": 8,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "v5. tenor",
+            "h2. venue",
+            "v4. curse",
+            "h2. venue",
+            "h2. venue",
+            "h5. enter"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 650,
+        "depth": 8,
+        "d_thres": 76.1,
+        "answer": "E__CT\nVENUE\nA__RN\nD__SO\nENTER"
+    },
+    {
+        "total_step": 97,
+        "env_step": 9,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "v5. tenor",
+            "h2. venue",
+            "v4. curse",
+            "h2. venue",
+            "h2. venue",
+            "h5. enter",
+            "v3. unfit"
+        ],
+        "info": {
+            "r_letter": 0.8,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 712,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 76.1,
+        "answer": "E_UCT\nVENUE\nA_FRN\nD_ISO\nENTER"
+    },
+    {
+        "total_step": 98,
+        "env_step": 9,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "v5. tenor",
+            "h2. venue",
+            "v4. curse",
+            "h2. venue",
+            "h2. venue",
+            "h5. enter",
+            "h2. venue"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 713,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 76.1,
+        "answer": "E__CT\nVENUE\nA__RN\nD__SO\nENTER"
+    },
+    {
+        "total_step": 99,
+        "env_step": 9,
+        "actions": [
+            "h5. enter",
+            "v1. evade",
+            "v5. tenor",
+            "h2. venue",
+            "v4. curse",
+            "h2. venue",
+            "h2. venue",
+            "h5. enter",
+            "h5. enter"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 714,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 76.1,
+        "answer": "E__CT\nVENUE\nA__RN\nD__SO\nENTER"
+    },
+    {
+        "index": 9,
+        "best node id": 664,
+        "node depth": 9,
+        "chosen step": 91,
+        "distance to root": 76.1,
+        "answer": "ERUCT\nVENUE\nA_FRN\nD_ISO\nENTER",
+        "accuracy": {
+            "r_letter": 0.84,
+            "r_word": 0.6,
+            "r_game": false
+        },
+        "cost time": 260.55946469306946
+    }
+]

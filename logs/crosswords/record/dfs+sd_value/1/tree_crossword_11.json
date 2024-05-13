@@ -1,0 +1,2880 @@
+[
+    {
+        "total_step": 0,
+        "env_step": 1,
+        "actions": [
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 1,
+        "depth": 1,
+        "d_thres": 10000,
+        "answer": "_____\n_____\n_____\nTOTEM\n_____"
+    },
+    {
+        "total_step": 1,
+        "env_step": 2,
+        "actions": [
+            "h4. totem",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 6,
+        "depth": 2,
+        "d_thres": 10000,
+        "answer": "_____\n_____\nSIOUX\nTOTEM\n_____"
+    },
+    {
+        "total_step": 2,
+        "env_step": 3,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "h1. crowd"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 1
+        },
+        "current_node_id": 27,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "CROWD\n_____\nSIOUX\nTOTEM\n_____"
+    },
+    {
+        "total_step": 3,
+        "env_step": 3,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "h2. shift"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 28,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "_____\nSHIFT\nSIOUX\nTOTEM\n_____"
+    },
+    {
+        "total_step": 4,
+        "env_step": 4,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "h2. shift",
+            "h1. horde"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 3
+        },
+        "current_node_id": 52,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "HORDE\nSHIFT\nSIOUX\nTOTEM\n_____"
+    },
+    {
+        "total_step": 5,
+        "env_step": 4,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "h2. shift",
+            "h1. swarm"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 0,
+            "impossible": 5
+        },
+        "current_node_id": 54,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "SWARM\nSHIFT\nSIOUX\nTOTEM\n_____"
+    },
+    {
+        "total_step": 6,
+        "env_step": 3,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 30,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 7,
+        "env_step": 4,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 63,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 8,
+        "env_step": 5,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 84,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 9,
+        "env_step": 6,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 105,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 10,
+        "env_step": 7,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 126,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 11,
+        "env_step": 8,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 147,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 12,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 168,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 13,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 169,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 14,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 170,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 15,
+        "env_step": 8,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 148,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 16,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 252,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 17,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 253,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 18,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 254,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 19,
+        "env_step": 8,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 149,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 20,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 336,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 21,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote",
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 337,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 22,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 338,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 23,
+        "env_step": 7,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 127,
+        "depth": 7,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 24,
+        "env_step": 8,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 420,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 25,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h3. sioux",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 441,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 26,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h3. sioux",
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 442,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 27,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 443,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 28,
+        "env_step": 8,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 421,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 29,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h4. totem",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 525,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 30,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h4. totem",
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 526,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 31,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h4. totem",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 527,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 32,
+        "env_step": 8,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 422,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 33,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "v3. smote",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 609,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 34,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "v3. smote",
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 610,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 35,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "v3. smote",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 611,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 36,
+        "env_step": 7,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 128,
+        "depth": 7,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 37,
+        "env_step": 8,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 693,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 38,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 714,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 39,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 715,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 40,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 716,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 41,
+        "env_step": 8,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote",
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 694,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 42,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote",
+            "h4. totem",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 798,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 43,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote",
+            "h4. totem",
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 799,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 44,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote",
+            "h4. totem",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 800,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 45,
+        "env_step": 8,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 695,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 46,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote",
+            "v3. smote",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 882,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 47,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote",
+            "v3. smote",
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 883,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 48,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote",
+            "v3. smote",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 884,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 49,
+        "env_step": 6,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 106,
+        "depth": 6,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 50,
+        "env_step": 7,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 966,
+        "depth": 7,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 51,
+        "env_step": 8,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h3. sioux",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 987,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 52,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1008,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 53,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1009,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 54,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1010,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 55,
+        "env_step": 8,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h3. sioux",
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 988,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 56,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h3. sioux",
+            "h4. totem",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1092,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 57,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h3. sioux",
+            "h4. totem",
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1093,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 58,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h3. sioux",
+            "h4. totem",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1094,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 59,
+        "env_step": 8,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 989,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 60,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1176,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 61,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1177,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 62,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1178,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 63,
+        "env_step": 7,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 967,
+        "depth": 7,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 64,
+        "env_step": 8,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h4. totem",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1260,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 65,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h4. totem",
+            "h3. sioux",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1281,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 66,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h4. totem",
+            "h3. sioux",
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1282,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 67,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1283,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 68,
+        "env_step": 8,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h4. totem",
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1261,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 69,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h4. totem",
+            "h4. totem",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1365,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 70,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h4. totem",
+            "h4. totem",
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1366,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 71,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h4. totem",
+            "h4. totem",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1367,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 72,
+        "env_step": 8,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h4. totem",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1262,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 73,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h4. totem",
+            "v3. smote",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1449,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 74,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h4. totem",
+            "v3. smote",
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1450,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 75,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "h4. totem",
+            "v3. smote",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1451,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 76,
+        "env_step": 7,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 968,
+        "depth": 7,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 77,
+        "env_step": 8,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "v3. smote",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1533,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 78,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1554,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 79,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "v3. smote",
+            "h3. sioux",
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1555,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 80,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "v3. smote",
+            "h3. sioux",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1556,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 81,
+        "env_step": 8,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "v3. smote",
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1534,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 82,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "v3. smote",
+            "h4. totem",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1638,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 83,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "v3. smote",
+            "h4. totem",
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1639,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 84,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "v3. smote",
+            "h4. totem",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1640,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 85,
+        "env_step": 8,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "v3. smote",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1535,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 86,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "v3. smote",
+            "v3. smote",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1722,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 87,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "v3. smote",
+            "v3. smote",
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1723,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 88,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem",
+            "v3. smote",
+            "v3. smote",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1724,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 89,
+        "env_step": 6,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 107,
+        "depth": 6,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 90,
+        "env_step": 7,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1806,
+        "depth": 7,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 91,
+        "env_step": 8,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1827,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 92,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1848,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 93,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1849,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 94,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1850,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 95,
+        "env_step": 8,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1828,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 96,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h4. totem",
+            "h3. sioux"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1932,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 97,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h4. totem",
+            "h4. totem"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1933,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 98,
+        "env_step": 9,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h4. totem",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1934,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "total_step": 99,
+        "env_step": 8,
+        "actions": [
+            "h4. totem",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "h3. sioux",
+            "v3. smote",
+            "h3. sioux",
+            "v3. smote"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1829,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__"
+    },
+    {
+        "index": 11,
+        "best node id": 168,
+        "node depth": 9,
+        "chosen step": 12,
+        "distance to root": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__",
+        "accuracy": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "cost time": 95.20626854896545
+    }
+]

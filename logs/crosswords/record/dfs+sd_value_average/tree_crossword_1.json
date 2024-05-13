@@ -1,0 +1,2843 @@
+[
+    {
+        "total_step": 0,
+        "env_step": 1,
+        "actions": [
+            "v3. evade"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 1,
+        "depth": 1,
+        "d_thres": 10000,
+        "answer": "__E__\n__V__\n__A__\n__D__\n__E__"
+    },
+    {
+        "total_step": 1,
+        "env_step": 2,
+        "actions": [
+            "v3. evade",
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 10,
+        "depth": 2,
+        "d_thres": 10000,
+        "answer": "__E__\n__V__\n__A__\nSEDER\n__E__"
+    },
+    {
+        "total_step": 2,
+        "env_step": 3,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 22,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "__EF_\n__VI_\n__AL_\nSEDER\n__ER_"
+    },
+    {
+        "total_step": 3,
+        "env_step": 4,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v4. filer",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 33,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\n__ERN"
+    },
+    {
+        "total_step": 4,
+        "env_step": 5,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v4. filer",
+            "v5. yearn",
+            "h5. stern"
+        ],
+        "info": {
+            "r_letter": 0.72,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 40,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nSTERN"
+    },
+    {
+        "total_step": 5,
+        "env_step": 5,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v4. filer",
+            "v5. yearn",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 46,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "__EFY\n__VIE\nIGALA\nSEDER\n__ERN"
+    },
+    {
+        "total_step": 6,
+        "env_step": 6,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v4. filer",
+            "v5. yearn",
+            "h3. igala",
+            "h5. evern"
+        ],
+        "info": {
+            "r_letter": 0.8,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 3,
+            "impossible": 1
+        },
+        "current_node_id": 59,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "__EFY\n__VIE\nIGALA\nSEDER\nEVERN"
+    },
+    {
+        "total_step": 7,
+        "env_step": 5,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v4. filer",
+            "v5. yearn",
+            "h3. alala"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 3,
+            "impossible": 1
+        },
+        "current_node_id": 47,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "__EFY\n__VIE\nALALA\nSEDER\n__ERN"
+    },
+    {
+        "total_step": 8,
+        "env_step": 4,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v4. filer",
+            "h5. evern"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 1
+        },
+        "current_node_id": 38,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "__EF_\n__VI_\n__AL_\nSEDER\nEVERN"
+    },
+    {
+        "total_step": 9,
+        "env_step": 3,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 26,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "__E_Y\n__V_E\n__A_A\nSEDER\n__E_N"
+    },
+    {
+        "total_step": 10,
+        "env_step": 4,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 61,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\n__ERN"
+    },
+    {
+        "total_step": 11,
+        "env_step": 5,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "v4. filer",
+            "h5. stern"
+        ],
+        "info": {
+            "r_letter": 0.72,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 80,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nSTERN"
+    },
+    {
+        "total_step": 12,
+        "env_step": 5,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "v4. filer",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 86,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "__EFY\n__VIE\nIGALA\nSEDER\n__ERN"
+    },
+    {
+        "total_step": 13,
+        "env_step": 6,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "v4. filer",
+            "h3. igala",
+            "h5. evern"
+        ],
+        "info": {
+            "r_letter": 0.8,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 3,
+            "impossible": 1
+        },
+        "current_node_id": 99,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "__EFY\n__VIE\nIGALA\nSEDER\nEVERN"
+    },
+    {
+        "total_step": 14,
+        "env_step": 5,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "v4. filer",
+            "h3. alala"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 3,
+            "impossible": 1
+        },
+        "current_node_id": 87,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "__EFY\n__VIE\nALALA\nSEDER\n__ERN"
+    },
+    {
+        "total_step": 15,
+        "env_step": 4,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 63,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\n__E_N"
+    },
+    {
+        "total_step": 16,
+        "env_step": 5,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 100,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "__EFY\n__VIE\nIGALA\nSEDER\n__ERN"
+    },
+    {
+        "total_step": 17,
+        "env_step": 6,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "v4. filer",
+            "h5. evern"
+        ],
+        "info": {
+            "r_letter": 0.8,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 3,
+            "impossible": 1
+        },
+        "current_node_id": 117,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "__EFY\n__VIE\nIGALA\nSEDER\nEVERN"
+    },
+    {
+        "total_step": 18,
+        "env_step": 5,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 101,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 19,
+        "env_step": 6,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 118,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 20,
+        "env_step": 7,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 125,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 21,
+        "env_step": 8,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h3. igala",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 132,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 22,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h3. igala",
+            "h3. igala",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 139,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 23,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h3. igala",
+            "h3. igala",
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 140,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 24,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h3. igala",
+            "h3. igala",
+            "h5. queen"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 141,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 25,
+        "env_step": 8,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h3. igala",
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 133,
+        "depth": 8,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 26,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h3. igala",
+            "h4. seder",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 167,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 27,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h3. igala",
+            "h4. seder",
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 168,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 28,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h3. igala",
+            "h4. seder",
+            "h5. queen"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 169,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 29,
+        "env_step": 8,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h3. igala",
+            "h5. queen"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 134,
+        "depth": 8,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 30,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 195,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 31,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 196,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 32,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h3. igala",
+            "h5. queen",
+            "h5. queen"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 197,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 33,
+        "env_step": 7,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 126,
+        "depth": 7,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 34,
+        "env_step": 8,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h4. seder",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 223,
+        "depth": 8,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 35,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h4. seder",
+            "h3. igala",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 230,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 36,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h4. seder",
+            "h3. igala",
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 231,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 37,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h4. seder",
+            "h3. igala",
+            "h5. queen"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 232,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 38,
+        "env_step": 8,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h4. seder",
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 224,
+        "depth": 8,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 39,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h4. seder",
+            "h4. seder",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 258,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 40,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h4. seder",
+            "h4. seder",
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 259,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 41,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h4. seder",
+            "h4. seder",
+            "h5. queen"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 260,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 42,
+        "env_step": 8,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h4. seder",
+            "h5. queen"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 225,
+        "depth": 8,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 43,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h4. seder",
+            "h5. queen",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 286,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 44,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h4. seder",
+            "h5. queen",
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 287,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 45,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h4. seder",
+            "h5. queen",
+            "h5. queen"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 288,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 46,
+        "env_step": 7,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h5. queen"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 127,
+        "depth": 7,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 47,
+        "env_step": 8,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 314,
+        "depth": 8,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 48,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 321,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 49,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 322,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 50,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h5. queen"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 323,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 51,
+        "env_step": 8,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 315,
+        "depth": 8,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 52,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 349,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 53,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 350,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 54,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h5. queen"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 351,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 55,
+        "env_step": 8,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h5. queen",
+            "h5. queen"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 316,
+        "depth": 8,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 56,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h5. queen",
+            "h5. queen",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 377,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 57,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h5. queen",
+            "h5. queen",
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 378,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 58,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala",
+            "h5. queen",
+            "h5. queen",
+            "h5. queen"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 379,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 59,
+        "env_step": 6,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 119,
+        "depth": 6,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 60,
+        "env_step": 7,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 405,
+        "depth": 7,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 61,
+        "env_step": 8,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h3. igala",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 412,
+        "depth": 8,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 62,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h3. igala",
+            "h3. igala",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 419,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 63,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h3. igala",
+            "h3. igala",
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 420,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 64,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h3. igala",
+            "h3. igala",
+            "h5. queen"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 421,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 65,
+        "env_step": 8,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h3. igala",
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 413,
+        "depth": 8,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 66,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h3. igala",
+            "h4. seder",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 447,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 67,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h3. igala",
+            "h4. seder",
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 448,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 68,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h3. igala",
+            "h4. seder",
+            "h5. queen"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 449,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 69,
+        "env_step": 8,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h3. igala",
+            "h5. queen"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 414,
+        "depth": 8,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 70,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h3. igala",
+            "h5. queen",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 475,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 71,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 476,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 72,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h3. igala",
+            "h5. queen",
+            "h5. queen"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 477,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 73,
+        "env_step": 7,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 406,
+        "depth": 7,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 74,
+        "env_step": 8,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h4. seder",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 503,
+        "depth": 8,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 75,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h4. seder",
+            "h3. igala",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 510,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 76,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h4. seder",
+            "h3. igala",
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 511,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 77,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h4. seder",
+            "h3. igala",
+            "h5. queen"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 512,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 78,
+        "env_step": 8,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h4. seder",
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 504,
+        "depth": 8,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 79,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h4. seder",
+            "h4. seder",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 538,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 80,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h4. seder",
+            "h4. seder",
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 539,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 81,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h4. seder",
+            "h4. seder",
+            "h5. queen"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 540,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 82,
+        "env_step": 8,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h4. seder",
+            "h5. queen"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 505,
+        "depth": 8,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 83,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h4. seder",
+            "h5. queen",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 566,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 84,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h4. seder",
+            "h5. queen",
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 567,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 85,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h4. seder",
+            "h5. queen",
+            "h5. queen"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 568,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 86,
+        "env_step": 7,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h5. queen"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 407,
+        "depth": 7,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 87,
+        "env_step": 8,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h5. queen",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 594,
+        "depth": 8,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 88,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h5. queen",
+            "h3. igala",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 601,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 89,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h5. queen",
+            "h3. igala",
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 602,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 90,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h5. queen",
+            "h3. igala",
+            "h5. queen"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 603,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 91,
+        "env_step": 8,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h5. queen",
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 595,
+        "depth": 8,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 92,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h5. queen",
+            "h4. seder",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 629,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 93,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h5. queen",
+            "h4. seder",
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 630,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 94,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h5. queen",
+            "h4. seder",
+            "h5. queen"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 631,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 95,
+        "env_step": 8,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h5. queen",
+            "h5. queen"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 596,
+        "depth": 8,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 96,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h5. queen",
+            "h5. queen",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 657,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 97,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h5. queen",
+            "h5. queen",
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 658,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 98,
+        "env_step": 9,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h4. seder",
+            "h5. queen",
+            "h5. queen",
+            "h5. queen"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 659,
+        "distance to root": 85.6,
+        "depth": 9,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 99,
+        "env_step": 6,
+        "actions": [
+            "v3. evade",
+            "h4. seder",
+            "v5. yearn",
+            "h3. igala",
+            "h5. queen",
+            "h5. queen"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 120,
+        "depth": 6,
+        "d_thres": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "index": 1,
+        "best node id": 139,
+        "node depth": 9,
+        "chosen step": 22,
+        "distance to root": 85.6,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN",
+        "accuracy": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "cost time": 106.59483289718628
+    }
+]

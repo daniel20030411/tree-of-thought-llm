@@ -1,0 +1,2846 @@
+[
+    {
+        "total_step": 0,
+        "env_step": 1,
+        "actions": [
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 1,
+        "depth": 1,
+        "d_thres": 10000,
+        "answer": "SALSA\n_____\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 1,
+        "env_step": 2,
+        "actions": [
+            "h1. salsa",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 11,
+        "depth": 2,
+        "d_thres": 10000,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 2,
+        "env_step": 3,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 15,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 3,
+        "env_step": 4,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 29,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 4,
+        "env_step": 5,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 43,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 5,
+        "env_step": 6,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 57,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 6,
+        "env_step": 7,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 71,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 7,
+        "env_step": 8,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 85,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 8,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 99,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 9,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 100,
+        "distance to root": 75.9,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 10,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 101,
+        "distance to root": 76.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 11,
+        "env_step": 8,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 86,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 12,
+        "env_step": 8,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 87,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 13,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 141,
+        "distance to root": 76.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 14,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 142,
+        "distance to root": 76.9,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 15,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 143,
+        "distance to root": 77.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 16,
+        "env_step": 7,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 72,
+        "depth": 7,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 17,
+        "env_step": 7,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 73,
+        "depth": 7,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 18,
+        "env_step": 8,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 183,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 19,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 197,
+        "distance to root": 76.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 20,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 198,
+        "distance to root": 76.9,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 21,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 199,
+        "distance to root": 77.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 22,
+        "env_step": 8,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 184,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 23,
+        "env_step": 8,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 185,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 24,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 239,
+        "distance to root": 77.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 25,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 240,
+        "distance to root": 77.9,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 26,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 241,
+        "distance to root": 78.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 27,
+        "env_step": 6,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 58,
+        "depth": 6,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 28,
+        "env_step": 6,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 59,
+        "depth": 6,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 29,
+        "env_step": 7,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 281,
+        "depth": 7,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 30,
+        "env_step": 8,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 295,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 31,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 309,
+        "distance to root": 76.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 32,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 310,
+        "distance to root": 76.9,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 33,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 311,
+        "distance to root": 77.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 34,
+        "env_step": 8,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 296,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 35,
+        "env_step": 8,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 297,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 36,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 351,
+        "distance to root": 77.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 37,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h1. salsa",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 352,
+        "distance to root": 77.9,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 38,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 353,
+        "distance to root": 78.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 39,
+        "env_step": 7,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 282,
+        "depth": 7,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 40,
+        "env_step": 7,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 283,
+        "depth": 7,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 41,
+        "env_step": 8,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 393,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 42,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 407,
+        "distance to root": 77.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 43,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h2. crown",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 408,
+        "distance to root": 77.9,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 44,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h2. crown",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 409,
+        "distance to root": 78.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 45,
+        "env_step": 8,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 394,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 46,
+        "env_step": 8,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 395,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 47,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h1. salsa",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 449,
+        "distance to root": 78.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 48,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h1. salsa",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 450,
+        "distance to root": 78.9,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 49,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h1. salsa",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 451,
+        "distance to root": 79.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 50,
+        "env_step": 5,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 44,
+        "depth": 5,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 51,
+        "env_step": 5,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 45,
+        "depth": 5,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 52,
+        "env_step": 6,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 491,
+        "depth": 6,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 53,
+        "env_step": 7,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 505,
+        "depth": 7,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 54,
+        "env_step": 8,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 519,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 55,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 533,
+        "distance to root": 76.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 56,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 534,
+        "distance to root": 76.9,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 57,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 535,
+        "distance to root": 77.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 58,
+        "env_step": 8,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 520,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 59,
+        "env_step": 8,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 521,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 60,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 575,
+        "distance to root": 77.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 61,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 576,
+        "distance to root": 77.9,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 62,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 577,
+        "distance to root": 78.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 63,
+        "env_step": 7,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 506,
+        "depth": 7,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 64,
+        "env_step": 7,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 507,
+        "depth": 7,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 65,
+        "env_step": 8,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 617,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 66,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 631,
+        "distance to root": 77.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 67,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 632,
+        "distance to root": 77.9,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 68,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 633,
+        "distance to root": 78.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 69,
+        "env_step": 8,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h1. salsa",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 618,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 70,
+        "env_step": 8,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 619,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 71,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 673,
+        "distance to root": 78.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 72,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 674,
+        "distance to root": 78.9,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 73,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 675,
+        "distance to root": 79.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 74,
+        "env_step": 6,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 492,
+        "depth": 6,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 75,
+        "env_step": 6,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 493,
+        "depth": 6,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 76,
+        "env_step": 7,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 715,
+        "depth": 7,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 77,
+        "env_step": 8,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 729,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 78,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 743,
+        "distance to root": 77.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 79,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 744,
+        "distance to root": 77.9,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 80,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 745,
+        "distance to root": 78.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 81,
+        "env_step": 8,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h2. crown",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 730,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 82,
+        "env_step": 8,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h2. crown",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 731,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 83,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 785,
+        "distance to root": 78.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 84,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h2. crown",
+            "h1. salsa",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 786,
+        "distance to root": 78.9,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 85,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 787,
+        "distance to root": 79.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 86,
+        "env_step": 7,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 716,
+        "depth": 7,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 87,
+        "env_step": 7,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 717,
+        "depth": 7,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 88,
+        "env_step": 8,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h1. salsa",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 827,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 89,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 841,
+        "distance to root": 78.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 90,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h1. salsa",
+            "h2. crown",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 842,
+        "distance to root": 78.9,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 91,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h1. salsa",
+            "h2. crown",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 843,
+        "distance to root": 79.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 92,
+        "env_step": 8,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h1. salsa",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 828,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 93,
+        "env_step": 8,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h1. salsa",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 829,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 94,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h1. salsa",
+            "h1. salsa",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 883,
+        "distance to root": 79.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 95,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h1. salsa",
+            "h1. salsa",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 884,
+        "distance to root": 79.9,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 96,
+        "env_step": 9,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h1. salsa",
+            "h1. salsa",
+            "h1. salsa",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 885,
+        "distance to root": 80.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 97,
+        "env_step": 4,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h5. order"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 30,
+        "depth": 4,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\nORDER"
+    },
+    {
+        "total_step": 98,
+        "env_step": 4,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 31,
+        "depth": 4,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 99,
+        "env_step": 5,
+        "actions": [
+            "h1. salsa",
+            "h2. crown",
+            "h2. crown",
+            "h1. salsa",
+            "h2. crown"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 925,
+        "depth": 5,
+        "d_thres": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____"
+    },
+    {
+        "index": 8,
+        "best node id": 99,
+        "node depth": 9,
+        "chosen step": 8,
+        "distance to root": 75.2,
+        "answer": "SALSA\nCROWN\n_____\n_____\n_____",
+        "accuracy": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "cost time": 18.994856119155884
+    }
+]

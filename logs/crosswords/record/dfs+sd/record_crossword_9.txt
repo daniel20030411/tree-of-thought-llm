@@ -1,0 +1,100 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 9
+pruning = True
+date: 2024-05-06
+time: 00:25:52
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h2. place'], 'info': {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': '_____\nPLACE\n_____\n_____\n_____'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['h2. place', 'h5. enter'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 11, 'depth': 2, 'd_thres': 10000, 'answer': '_____\nPLACE\n_____\n_____\nENTER'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['h2. place', 'h5. enter', 'h3. alarm'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 28, 'depth': 3, 'd_thres': 10000, 'answer': '_____\nPLACE\nALARM\n_____\nENTER'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['h2. place', 'h5. enter', 'h3. alarm', 'h1. eruct'], 'info': {'r_letter': 0.56, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 1}, 'current_node_id': 45, 'depth': 4, 'd_thres': 10000, 'answer': 'ERUCT\nPLACE\nALARM\n_____\nENTER'}
+
+{'total_step': 4, 'env_step': 4, 'actions': ['h2. place', 'h5. enter', 'h3. alarm', 'h4. drunk'], 'info': {'r_letter': 0.4, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 47, 'depth': 4, 'd_thres': 10000, 'answer': '_____\nPLACE\nALARM\nDRUNK\nENTER'}
+
+{'total_step': 5, 'env_step': 3, 'actions': ['h2. place', 'h5. enter', 'h1. eruct'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 0}, 'current_node_id': 29, 'depth': 3, 'd_thres': 10000, 'answer': 'ERUCT\nPLACE\n_____\n_____\nENTER'}
+
+{'total_step': 6, 'env_step': 4, 'actions': ['h2. place', 'h5. enter', 'h1. eruct', 'v5. tenor'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 0}, 'current_node_id': 50, 'depth': 4, 'd_thres': 10000, 'answer': 'ERUCT\nPLACE\n____N\n____O\nENTER'}
+
+{'total_step': 7, 'env_step': 4, 'actions': ['h2. place', 'h5. enter', 'h1. eruct', 'h3. alarm'], 'info': {'r_letter': 0.56, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 1}, 'current_node_id': 51, 'depth': 4, 'd_thres': 10000, 'answer': 'ERUCT\nPLACE\nALARM\n_____\nENTER'}
+
+{'total_step': 8, 'env_step': 4, 'actions': ['h2. place', 'h5. enter', 'h1. eruct', 'h4. drunk'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 0}, 'current_node_id': 52, 'depth': 4, 'd_thres': 10000, 'answer': 'ERUCT\nPLACE\n_____\nDRUNK\nENTER'}
+
+{'total_step': 9, 'env_step': 3, 'actions': ['h2. place', 'h5. enter', 'v3. faint'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 32, 'depth': 3, 'd_thres': 10000, 'answer': '__F__\nPLACE\n__I__\n__N__\nENTER'}
+
+{'total_step': 10, 'env_step': 4, 'actions': ['h2. place', 'h5. enter', 'v3. faint', 'h1. rifle'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 65, 'depth': 4, 'd_thres': 10000, 'answer': 'RIFLE\nPLACE\n__I__\n__N__\nENTER'}
+
+{'total_step': 11, 'env_step': 2, 'actions': ['h2. place', 'h3. alarm'], 'info': {'r_letter': 0.16, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 14, 'depth': 2, 'd_thres': 10000, 'answer': '_____\nPLACE\nALARM\n_____\n_____'}
+
+{'total_step': 12, 'env_step': 3, 'actions': ['h2. place', 'h3. alarm', 'h5. enter'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 68, 'depth': 3, 'd_thres': 10000, 'answer': '_____\nPLACE\nALARM\n_____\nENTER'}
+
+{'total_step': 13, 'env_step': 4, 'actions': ['h2. place', 'h3. alarm', 'h5. enter', 'h1. eruct'], 'info': {'r_letter': 0.56, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 1}, 'current_node_id': 80, 'depth': 4, 'd_thres': 10000, 'answer': 'ERUCT\nPLACE\nALARM\n_____\nENTER'}
+
+{'total_step': 14, 'env_step': 4, 'actions': ['h2. place', 'h3. alarm', 'h5. enter', 'h4. drunk'], 'info': {'r_letter': 0.4, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 82, 'depth': 4, 'd_thres': 10000, 'answer': '_____\nPLACE\nALARM\nDRUNK\nENTER'}
+
+{'total_step': 15, 'env_step': 3, 'actions': ['h2. place', 'h3. alarm', 'h4. drunk'], 'info': {'r_letter': 0.2, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 73, 'depth': 3, 'd_thres': 10000, 'answer': '_____\nPLACE\nALARM\nDRUNK\n_____'}
+
+{'total_step': 16, 'env_step': 4, 'actions': ['h2. place', 'h3. alarm', 'h4. drunk', 'h5. enter'], 'info': {'r_letter': 0.4, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 85, 'depth': 4, 'd_thres': 10000, 'answer': '_____\nPLACE\nALARM\nDRUNK\nENTER'}
+
+{'total_step': 17, 'env_step': 4, 'actions': ['h2. place', 'h3. alarm', 'h4. drunk', 'h1. eruct'], 'info': {'r_letter': 0.4, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 0, 'impossible': 4}, 'current_node_id': 88, 'depth': 4, 'd_thres': 10000, 'answer': 'ERUCT\nPLACE\nALARM\nDRUNK\n_____'}
+
+{'total_step': 18, 'env_step': 3, 'actions': ['h2. place', 'h3. alarm', 'h1. eruct'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 74, 'depth': 3, 'd_thres': 10000, 'answer': 'ERUCT\nPLACE\nALARM\n_____\n_____'}
+
+{'total_step': 19, 'env_step': 2, 'actions': ['h2. place', 'h1. eruct'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 16, 'depth': 2, 'd_thres': 10000, 'answer': 'ERUCT\nPLACE\n_____\n_____\n_____'}
+
+{'total_step': 20, 'env_step': 3, 'actions': ['h2. place', 'h1. eruct', 'h5. enter'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 0}, 'current_node_id': 97, 'depth': 3, 'd_thres': 10000, 'answer': 'ERUCT\nPLACE\n_____\n_____\nENTER'}
+
+{'total_step': 21, 'env_step': 4, 'actions': ['h2. place', 'h1. eruct', 'h5. enter', 'v5. tenor'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 0}, 'current_node_id': 108, 'depth': 4, 'd_thres': 10000, 'answer': 'ERUCT\nPLACE\n____N\n____O\nENTER'}
+
+{'total_step': 22, 'env_step': 4, 'actions': ['h2. place', 'h1. eruct', 'h5. enter', 'h3. alarm'], 'info': {'r_letter': 0.56, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 1}, 'current_node_id': 109, 'depth': 4, 'd_thres': 10000, 'answer': 'ERUCT\nPLACE\nALARM\n_____\nENTER'}
+
+{'total_step': 23, 'env_step': 4, 'actions': ['h2. place', 'h1. eruct', 'h5. enter', 'h4. drunk'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 0}, 'current_node_id': 110, 'depth': 4, 'd_thres': 10000, 'answer': 'ERUCT\nPLACE\n_____\nDRUNK\nENTER'}
+
+{'total_step': 24, 'env_step': 3, 'actions': ['h2. place', 'h1. eruct', 'h3. alarm'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 99, 'depth': 3, 'd_thres': 10000, 'answer': 'ERUCT\nPLACE\nALARM\n_____\n_____'}
+
+{'total_step': 25, 'env_step': 3, 'actions': ['h2. place', 'h1. eruct', 'h4. souse'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 100, 'depth': 3, 'd_thres': 10000, 'answer': 'ERUCT\nPLACE\n_____\nSOUSE\n_____'}
+
+{'total_step': 26, 'env_step': 4, 'actions': ['h2. place', 'h1. eruct', 'h4. souse', 'h3. alarm'], 'info': {'r_letter': 0.4, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 1, 'impossible': 4}, 'current_node_id': 115, 'depth': 4, 'd_thres': 10000, 'answer': 'ERUCT\nPLACE\nALARM\nSOUSE\n_____'}
+
+{'total_step': 27, 'env_step': 4, 'actions': ['h2. place', 'h1. eruct', 'h4. souse', 'h5. enter'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 116, 'depth': 4, 'd_thres': 10000, 'answer': 'ERUCT\nPLACE\n_____\nSOUSE\nENTER'}
+
+{'total_step': 28, 'env_step': 1, 'actions': ['h3. alarm'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 2, 'depth': 1, 'd_thres': 10000, 'answer': '_____\n_____\nALARM\n_____\n_____'}
+
+{'total_step': 29, 'env_step': 2, 'actions': ['h3. alarm', 'h3. alarm'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 121, 'depth': 2, 'd_thres': 10000, 'answer': '_____\n_____\nALARM\n_____\n_____'}
+
+{'total_step': 30, 'env_step': 3, 'actions': ['h3. alarm', 'h3. alarm', 'h3. alarm'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 126, 'depth': 3, 'd_thres': 10000, 'answer': '_____\n_____\nALARM\n_____\n_____'}
+
+{'total_step': 31, 'env_step': 4, 'actions': ['h3. alarm', 'h3. alarm', 'h3. alarm', 'h3. alarm'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 131, 'depth': 4, 'd_thres': 10000, 'answer': '_____\n_____\nALARM\n_____\n_____'}
+
+{'total_step': 32, 'env_step': 5, 'actions': ['h3. alarm', 'h3. alarm', 'h3. alarm', 'h3. alarm', 'h3. alarm'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 136, 'depth': 5, 'd_thres': 10000, 'answer': '_____\n_____\nALARM\n_____\n_____'}
+
+{'total_step': 33, 'env_step': 6, 'actions': ['h3. alarm', 'h3. alarm', 'h3. alarm', 'h3. alarm', 'h3. alarm', 'h3. alarm'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 141, 'depth': 6, 'd_thres': 10000, 'answer': '_____\n_____\nALARM\n_____\n_____'}
+
+{'total_step': 34, 'env_step': 7, 'actions': ['h3. alarm', 'h3. alarm', 'h3. alarm', 'h3. alarm', 'h3. alarm', 'h3. alarm', 'h3. alarm'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 146, 'depth': 7, 'd_thres': 10000, 'answer': '_____\n_____\nALARM\n_____\n_____'}
+
+{'total_step': 35, 'env_step': 8, 'actions': ['h3. alarm', 'h3. alarm', 'h3. alarm', 'h3. alarm', 'h3. alarm', 'h3. alarm', 'h3. alarm', 'h3. alarm'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 151, 'depth': 8, 'd_thres': 10000, 'answer': '_____\n_____\nALARM\n_____\n_____'}
+
+{'total_step': 36, 'env_step': 9, 'actions': ['h3. alarm', 'h3. alarm', 'h3. alarm', 'h3. alarm', 'h3. alarm', 'h3. alarm', 'h3. alarm', 'h3. alarm', 'h3. alarm'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 156, 'distance to root': 55.0, 'depth': 9, 'd_thres': 55.0, 'answer': '_____\n_____\nALARM\n_____\n_____'}
+
+-----------------------
+
+best node id: 156
+node depth: 9
+chosen step: 36
+distance to root: 55.0
+answer:
+
+_____
+_____
+ALARM
+_____
+_____
+
+accuracy: {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}
+cost time: 186.36503100395203 s
+
+---- Task Complete ----

@@ -1,0 +1,138 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 6
+pruning = True
+date: 2024-05-06
+time: 00:25:52
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h5. karst'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': '_____\n_____\n_____\n_____\nKARST'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['h5. karst', 'v1. croak'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 17, 'depth': 2, 'd_thres': 10000, 'answer': 'C____\nR____\nO____\nA____\nKARST'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['h5. karst', 'v1. croak', 'v5. greet'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 38, 'depth': 3, 'd_thres': 10000, 'answer': 'C___G\nR___R\nO___E\nA___E\nKARST'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 61, 'depth': 4, 'd_thres': 10000, 'answer': 'C___G\nR___R\nO___E\nA___E\nKARST'}
+
+{'total_step': 4, 'env_step': 5, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 85, 'depth': 5, 'd_thres': 10000, 'answer': 'C___G\nR___R\nO___E\nA___E\nKARST'}
+
+{'total_step': 5, 'env_step': 6, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 109, 'depth': 6, 'd_thres': 10000, 'answer': 'C___G\nR___R\nO___E\nA___E\nKARST'}
+
+{'total_step': 6, 'env_step': 7, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h5. karst'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 133, 'depth': 7, 'd_thres': 10000, 'answer': 'C___G\nR___R\nO___E\nA___E\nKARST'}
+
+{'total_step': 7, 'env_step': 8, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h5. karst', 'h5. karst'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 157, 'depth': 8, 'd_thres': 10000, 'answer': 'C___G\nR___R\nO___E\nA___E\nKARST'}
+
+{'total_step': 8, 'env_step': 9, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h5. karst', 'h5. karst', 'h5. karst'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 181, 'distance to root': 58.2, 'depth': 9, 'd_thres': 58.2, 'answer': 'C___G\nR___R\nO___E\nA___E\nKARST'}
+
+{'total_step': 9, 'env_step': 9, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h5. karst', 'h5. karst', 'h1. cling'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 182, 'distance to root': 59.5, 'depth': 9, 'd_thres': 58.2, 'answer': 'CLING\nR___R\nO___E\nA___E\nKARST'}
+
+{'total_step': 10, 'env_step': 9, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h5. karst', 'h5. karst', 'h3. ombre'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 185, 'distance to root': 61.0, 'depth': 9, 'd_thres': 58.2, 'answer': 'C___G\nR___R\nOMBRE\nA___E\nKARST'}
+
+{'total_step': 11, 'env_step': 8, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h5. karst', 'h1. cling'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 158, 'depth': 8, 'd_thres': 58.2, 'answer': 'CLING\nR___R\nO___E\nA___E\nKARST'}
+
+{'total_step': 12, 'env_step': 9, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h5. karst', 'h1. cling', 'h4. abase'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 267, 'distance to root': 61.599999999999994, 'depth': 9, 'd_thres': 58.2, 'answer': 'CLING\nR___R\nO___E\nABASE\nKARST'}
+
+{'total_step': 13, 'env_step': 9, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h5. karst', 'h1. cling', 'h2. ruler'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 1}, 'current_node_id': 268, 'distance to root': 62.099999999999994, 'depth': 9, 'd_thres': 58.2, 'answer': 'CLING\nRULER\nO___E\nA___E\nKARST'}
+
+{'total_step': 14, 'env_step': 9, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h5. karst', 'h1. cling', 'v2. llama'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 2}, 'current_node_id': 269, 'distance to root': 62.5, 'depth': 9, 'd_thres': 58.2, 'answer': 'CLING\nRL__R\nOA__E\nAM__E\nKARST'}
+
+{'total_step': 15, 'env_step': 8, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h5. karst', 'h3. ombre'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 161, 'depth': 8, 'd_thres': 58.2, 'answer': 'C___G\nR___R\nOMBRE\nA___E\nKARST'}
+
+{'total_step': 16, 'env_step': 9, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h5. karst', 'h3. ombre', 'h3. ombre'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 306, 'distance to root': 58.0, 'depth': 9, 'd_thres': 58.0, 'answer': 'C___G\nR___R\nOMBRE\nA___E\nKARST'}
+
+{'total_step': 17, 'env_step': 9, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h5. karst', 'h3. ombre', 'h5. karst'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 307, 'distance to root': 58.0, 'depth': 9, 'd_thres': 58.0, 'answer': 'C___G\nR___R\nOMBRE\nA___E\nKARST'}
+
+{'total_step': 18, 'env_step': 9, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h5. karst', 'h3. ombre', 'v1. croak'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 308, 'distance to root': 58.0, 'depth': 9, 'd_thres': 58.0, 'answer': 'C___G\nR___R\nOMBRE\nA___E\nKARST'}
+
+{'total_step': 19, 'env_step': 7, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h1. cling'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 134, 'depth': 7, 'd_thres': 58.0, 'answer': 'CLING\nR___R\nO___E\nA___E\nKARST'}
+
+{'total_step': 20, 'env_step': 8, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h1. cling', 'h4. abase'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 390, 'depth': 8, 'd_thres': 58.0, 'answer': 'CLING\nR___R\nO___E\nABASE\nKARST'}
+
+{'total_step': 21, 'env_step': 9, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h1. cling', 'h4. abase', 'h2. ruler'], 'info': {'r_letter': 0.72, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 1}, 'current_node_id': 407, 'distance to root': 64.10000000000001, 'depth': 9, 'd_thres': 58.0, 'answer': 'CLING\nRULER\nO___E\nABASE\nKARST'}
+
+{'total_step': 22, 'env_step': 9, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h1. cling', 'h4. abase', 'h3. ombre'], 'info': {'r_letter': 0.8, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 408, 'distance to root': 64.5, 'depth': 9, 'd_thres': 58.0, 'answer': 'CLING\nR___R\nOMBRE\nABASE\nKARST'}
+
+{'total_step': 23, 'env_step': 9, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h1. cling', 'h4. abase', 'v5. greet'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 409, 'distance to root': 64.60000000000001, 'depth': 9, 'd_thres': 58.0, 'answer': 'CLING\nR___R\nO___E\nABASE\nKARST'}
+
+{'total_step': 24, 'env_step': 8, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h1. cling', 'h2. ruler'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 1}, 'current_node_id': 391, 'depth': 8, 'd_thres': 58.0, 'answer': 'CLING\nRULER\nO___E\nA___E\nKARST'}
+
+{'total_step': 25, 'env_step': 8, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h1. cling', 'v2. llama'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 2}, 'current_node_id': 392, 'depth': 8, 'd_thres': 58.0, 'answer': 'CLING\nRL__R\nOA__E\nAM__E\nKARST'}
+
+{'total_step': 26, 'env_step': 7, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h3. ombre'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 137, 'depth': 7, 'd_thres': 58.0, 'answer': 'C___G\nR___R\nOMBRE\nA___E\nKARST'}
+
+{'total_step': 27, 'env_step': 8, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h3. ombre', 'h3. ombre'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 467, 'depth': 8, 'd_thres': 58.0, 'answer': 'C___G\nR___R\nOMBRE\nA___E\nKARST'}
+
+{'total_step': 28, 'env_step': 9, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h3. ombre', 'h3. ombre', 'h3. ombre'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 488, 'distance to root': 55.0, 'depth': 9, 'd_thres': 55.0, 'answer': 'C___G\nR___R\nOMBRE\nA___E\nKARST'}
+
+{'total_step': 29, 'env_step': 9, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h3. ombre', 'h3. ombre', 'h5. karst'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 489, 'distance to root': 55.0, 'depth': 9, 'd_thres': 55.0, 'answer': 'C___G\nR___R\nOMBRE\nA___E\nKARST'}
+
+{'total_step': 30, 'env_step': 9, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h3. ombre', 'h3. ombre', 'v1. croak'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 490, 'distance to root': 55.0, 'depth': 9, 'd_thres': 55.0, 'answer': 'C___G\nR___R\nOMBRE\nA___E\nKARST'}
+
+{'total_step': 31, 'env_step': 8, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h3. ombre', 'h5. karst'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 468, 'depth': 8, 'd_thres': 55.0, 'answer': 'C___G\nR___R\nOMBRE\nA___E\nKARST'}
+
+{'total_step': 32, 'env_step': 9, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h3. ombre', 'h5. karst', 'h3. ombre'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 572, 'distance to root': 55.0, 'depth': 9, 'd_thres': 55.0, 'answer': 'C___G\nR___R\nOMBRE\nA___E\nKARST'}
+
+{'total_step': 33, 'env_step': 9, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h3. ombre', 'h5. karst', 'h5. karst'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 573, 'distance to root': 55.0, 'depth': 9, 'd_thres': 55.0, 'answer': 'C___G\nR___R\nOMBRE\nA___E\nKARST'}
+
+{'total_step': 34, 'env_step': 9, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h3. ombre', 'h5. karst', 'v1. croak'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 574, 'distance to root': 55.0, 'depth': 9, 'd_thres': 55.0, 'answer': 'C___G\nR___R\nOMBRE\nA___E\nKARST'}
+
+{'total_step': 35, 'env_step': 8, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h3. ombre', 'v1. croak'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 469, 'depth': 8, 'd_thres': 55.0, 'answer': 'C___G\nR___R\nOMBRE\nA___E\nKARST'}
+
+{'total_step': 36, 'env_step': 9, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h3. ombre', 'v1. croak', 'h3. ombre'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 656, 'distance to root': 55.0, 'depth': 9, 'd_thres': 55.0, 'answer': 'C___G\nR___R\nOMBRE\nA___E\nKARST'}
+
+{'total_step': 37, 'env_step': 9, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h3. ombre', 'v1. croak', 'h5. karst'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 657, 'distance to root': 55.0, 'depth': 9, 'd_thres': 55.0, 'answer': 'C___G\nR___R\nOMBRE\nA___E\nKARST'}
+
+{'total_step': 38, 'env_step': 9, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h5. karst', 'h3. ombre', 'v1. croak', 'v1. croak'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 658, 'distance to root': 55.0, 'depth': 9, 'd_thres': 55.0, 'answer': 'C___G\nR___R\nOMBRE\nA___E\nKARST'}
+
+{'total_step': 39, 'env_step': 6, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h1. cling'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 110, 'depth': 6, 'd_thres': 55.0, 'answer': 'CLING\nR___R\nO___E\nA___E\nKARST'}
+
+{'total_step': 40, 'env_step': 7, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h1. cling', 'h4. abase'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 740, 'depth': 7, 'd_thres': 55.0, 'answer': 'CLING\nR___R\nO___E\nABASE\nKARST'}
+
+{'total_step': 41, 'env_step': 8, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h1. cling', 'h4. abase', 'h2. ruler'], 'info': {'r_letter': 0.72, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 1}, 'current_node_id': 757, 'depth': 8, 'd_thres': 55.0, 'answer': 'CLING\nRULER\nO___E\nABASE\nKARST'}
+
+{'total_step': 42, 'env_step': 8, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h1. cling', 'h4. abase', 'h3. ombre'], 'info': {'r_letter': 0.8, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 758, 'depth': 8, 'd_thres': 55.0, 'answer': 'CLING\nR___R\nOMBRE\nABASE\nKARST'}
+
+{'total_step': 43, 'env_step': 9, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h1. cling', 'h4. abase', 'h3. ombre', 'v1. croak'], 'info': {'r_letter': 0.8, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 779, 'distance to root': 66.5, 'depth': 9, 'd_thres': 55.0, 'answer': 'CLING\nR___R\nOMBRE\nABASE\nKARST'}
+
+{'total_step': 44, 'env_step': 9, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h1. cling', 'h4. abase', 'h3. ombre', 'v5. greet'], 'info': {'r_letter': 0.8, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 780, 'distance to root': 66.5, 'depth': 9, 'd_thres': 55.0, 'answer': 'CLING\nR___R\nOMBRE\nABASE\nKARST'}
+
+{'total_step': 45, 'env_step': 9, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h1. cling', 'h4. abase', 'h3. ombre', 'h2. ruler'], 'info': {'r_letter': 0.84, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 2}, 'current_node_id': 781, 'distance to root': 66.8, 'depth': 9, 'd_thres': 55.0, 'answer': 'CLING\nRULER\nOMBRE\nABASE\nKARST'}
+
+{'total_step': 46, 'env_step': 8, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h1. cling', 'h4. abase', 'v5. greet'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 759, 'depth': 8, 'd_thres': 55.0, 'answer': 'CLING\nR___R\nO___E\nABASE\nKARST'}
+
+{'total_step': 47, 'env_step': 9, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h1. cling', 'h4. abase', 'v5. greet', 'h2. ruler'], 'info': {'r_letter': 0.72, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 1}, 'current_node_id': 827, 'distance to root': 67.1, 'depth': 9, 'd_thres': 55.0, 'answer': 'CLING\nRULER\nO___E\nABASE\nKARST'}
+
+{'total_step': 48, 'env_step': 9, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h1. cling', 'h4. abase', 'v5. greet', 'h3. ombre'], 'info': {'r_letter': 0.8, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 828, 'distance to root': 67.5, 'depth': 9, 'd_thres': 55.0, 'answer': 'CLING\nR___R\nOMBRE\nABASE\nKARST'}
+
+{'total_step': 49, 'env_step': 9, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h1. cling', 'h4. abase', 'v5. greet', 'v5. greet'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 829, 'distance to root': 67.6, 'depth': 9, 'd_thres': 55.0, 'answer': 'CLING\nR___R\nO___E\nABASE\nKARST'}
+
+{'total_step': 50, 'env_step': 7, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h1. cling', 'h2. ruler'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 1}, 'current_node_id': 741, 'depth': 7, 'd_thres': 55.0, 'answer': 'CLING\nRULER\nO___E\nA___E\nKARST'}
+
+{'total_step': 51, 'env_step': 7, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h1. cling', 'v2. llama'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 2}, 'current_node_id': 742, 'depth': 7, 'd_thres': 55.0, 'answer': 'CLING\nRL__R\nOA__E\nAM__E\nKARST'}
+
+{'total_step': 52, 'env_step': 6, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h3. ombre'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 113, 'depth': 6, 'd_thres': 55.0, 'answer': 'C___G\nR___R\nOMBRE\nA___E\nKARST'}
+
+{'total_step': 53, 'env_step': 7, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h3. ombre', 'h3. ombre'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 887, 'depth': 7, 'd_thres': 55.0, 'answer': 'C___G\nR___R\nOMBRE\nA___E\nKARST'}
+
+{'total_step': 54, 'env_step': 8, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h3. ombre', 'h3. ombre', 'h3. ombre'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 908, 'depth': 8, 'd_thres': 55.0, 'answer': 'C___G\nR___R\nOMBRE\nA___E\nKARST'}
+
+{'total_step': 55, 'env_step': 9, 'actions': ['h5. karst', 'v1. croak', 'v5. greet', 'h5. karst', 'h5. karst', 'h3. ombre', 'h3. ombre', 'h3. ombre', 'h3. ombre'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 929, 'distance to root': 52.0, 'depth': 9, 'd_thres': 52.0, 'answer': 'C___G\nR___R\nOMBRE\nA___E\nKARST'}
+
+-----------------------
+
+best node id: 929
+node depth: 9
+chosen step: 55
+distance to root: 52.0
+answer:
+
+C___G
+R___R
+OMBRE
+A___E
+KARST
+
+accuracy: {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}
+cost time: 76.0357232093811 s
+
+---- Task Complete ----

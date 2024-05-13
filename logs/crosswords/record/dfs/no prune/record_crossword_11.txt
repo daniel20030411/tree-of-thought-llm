@@ -1,0 +1,226 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs
+idx: 11
+pruning = False
+date: 2024-05-06
+time: 02:32:47
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h1. crowd'], 'info': {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'distance to root': 9.8, 'depth': 1, 'd_thres': 10000, 'answer': 'CROWD\n_____\n_____\n_____\n_____'}
+
+{'total_step': 1, 'env_step': 1, 'actions': ['h2. shift'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 2, 'distance to root': 9.8, 'depth': 1, 'd_thres': 10000, 'answer': '_____\nSHIFT\n_____\n_____\n_____'}
+
+{'total_step': 2, 'env_step': 2, 'actions': ['h2. shift', 'h4. totem'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 10, 'distance to root': 18.200000000000003, 'depth': 2, 'd_thres': 10000, 'answer': '_____\nSHIFT\n_____\nTOTEM\n_____'}
+
+{'total_step': 3, 'env_step': 3, 'actions': ['h2. shift', 'h4. totem', 'h1. horde'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 1}, 'current_node_id': 34, 'distance to root': 27.8, 'depth': 3, 'd_thres': 10000, 'answer': 'HORDE\nSHIFT\n_____\nTOTEM\n_____'}
+
+{'total_step': 4, 'env_step': 4, 'actions': ['h2. shift', 'h4. totem', 'h1. horde', 'h3. creek'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 1, 'impossible': 3}, 'current_node_id': 41, 'distance to root': 37.0, 'depth': 4, 'd_thres': 10000, 'answer': 'HORDE\nSHIFT\nCREEK\nTOTEM\n_____'}
+
+{'total_step': 5, 'env_step': 4, 'actions': ['h2. shift', 'h4. totem', 'h1. horde', 'v3. riata'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 0}, 'current_node_id': 44, 'distance to root': 37.599999999999994, 'depth': 4, 'd_thres': 10000, 'answer': 'HORDE\nSHIFT\n__A__\nTOTEM\n__A__'}
+
+{'total_step': 6, 'env_step': 5, 'actions': ['h2. shift', 'h4. totem', 'h1. horde', 'v3. riata', 'h3. osage'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 1}, 'current_node_id': 61, 'distance to root': 47.400000000000006, 'depth': 5, 'd_thres': 10000, 'answer': 'HORDE\nSHIFT\nOSAGE\nTOTEM\n__A__'}
+
+{'total_step': 7, 'env_step': 4, 'actions': ['h2. shift', 'h4. totem', 'h1. horde', 'v3. riots'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 1}, 'current_node_id': 47, 'distance to root': 37.599999999999994, 'depth': 4, 'd_thres': 10000, 'answer': 'HORDE\nSHIFT\n__O__\nTOTEM\n__S__'}
+
+{'total_step': 8, 'env_step': 3, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 35, 'distance to root': 27.8, 'depth': 3, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 9, 'env_step': 4, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 68, 'distance to root': 37.099999999999994, 'depth': 4, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 10, 'env_step': 5, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 93, 'distance to root': 45.099999999999994, 'depth': 5, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 11, 'env_step': 6, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 109, 'distance to root': 53.099999999999994, 'depth': 6, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 12, 'env_step': 7, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 125, 'distance to root': 61.099999999999994, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 13, 'env_step': 8, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h2. shift', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 141, 'distance to root': 69.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 14, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h2. shift', 'h2. shift', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 157, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 15, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h2. shift', 'h2. shift', 'h3. sioux'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 158, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 16, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h2. shift', 'h2. shift', 'h4. totem'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 159, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 17, 'env_step': 8, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h2. shift', 'h3. sioux'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 142, 'distance to root': 69.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 18, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h2. shift', 'h3. sioux', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 221, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 19, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h2. shift', 'h3. sioux', 'h3. sioux'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 222, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 20, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h2. shift', 'h3. sioux', 'h4. totem'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 223, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 21, 'env_step': 8, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h2. shift', 'h4. totem'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 143, 'distance to root': 69.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 22, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h2. shift', 'h4. totem', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 285, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 23, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h2. shift', 'h4. totem', 'h3. sioux'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 286, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 24, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h2. shift', 'h4. totem', 'h4. totem'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 287, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 25, 'env_step': 7, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h3. sioux'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 126, 'distance to root': 61.099999999999994, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 26, 'env_step': 8, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h3. sioux', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 349, 'distance to root': 69.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 27, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h3. sioux', 'h2. shift', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 365, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 28, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h3. sioux', 'h2. shift', 'h3. sioux'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 366, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 29, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h3. sioux', 'h2. shift', 'h4. totem'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 367, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 30, 'env_step': 8, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h3. sioux', 'h3. sioux'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 350, 'distance to root': 69.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 31, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h3. sioux', 'h3. sioux', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 429, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 32, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h3. sioux', 'h3. sioux', 'h3. sioux'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 430, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 33, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h3. sioux', 'h3. sioux', 'h4. totem'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 431, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 34, 'env_step': 8, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h3. sioux', 'h4. totem'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 351, 'distance to root': 69.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 35, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h3. sioux', 'h4. totem', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 493, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 36, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h3. sioux', 'h4. totem', 'h3. sioux'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 494, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 37, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h3. sioux', 'h4. totem', 'h4. totem'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 495, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 38, 'env_step': 7, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h4. totem'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 127, 'distance to root': 61.099999999999994, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 39, 'env_step': 8, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h4. totem', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 557, 'distance to root': 69.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 40, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h4. totem', 'h2. shift', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 573, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 41, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h4. totem', 'h2. shift', 'h3. sioux'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 574, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 42, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h4. totem', 'h2. shift', 'h4. totem'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 575, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 43, 'env_step': 8, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h4. totem', 'h3. sioux'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 558, 'distance to root': 69.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 44, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h4. totem', 'h3. sioux', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 637, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 45, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h4. totem', 'h3. sioux', 'h3. sioux'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 638, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 46, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h4. totem', 'h3. sioux', 'h4. totem'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 639, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 47, 'env_step': 8, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h4. totem', 'h4. totem'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 559, 'distance to root': 69.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 48, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h4. totem', 'h4. totem', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 701, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 49, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h4. totem', 'h4. totem', 'h3. sioux'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 702, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 50, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h2. shift', 'h4. totem', 'h4. totem', 'h4. totem'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 703, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 51, 'env_step': 6, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 110, 'distance to root': 53.099999999999994, 'depth': 6, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 52, 'env_step': 7, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 765, 'distance to root': 61.099999999999994, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 53, 'env_step': 8, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h2. shift', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 781, 'distance to root': 69.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 54, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h2. shift', 'h2. shift', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 797, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 55, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h2. shift', 'h2. shift', 'h3. sioux'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 798, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 56, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h2. shift', 'h2. shift', 'h4. totem'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 799, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 57, 'env_step': 8, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h2. shift', 'h3. sioux'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 782, 'distance to root': 69.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 58, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h2. shift', 'h3. sioux', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 861, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 59, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h2. shift', 'h3. sioux', 'h3. sioux'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 862, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 60, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h2. shift', 'h3. sioux', 'h4. totem'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 863, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 61, 'env_step': 8, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h2. shift', 'h4. totem'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 783, 'distance to root': 69.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 62, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h2. shift', 'h4. totem', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 925, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 63, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h2. shift', 'h4. totem', 'h3. sioux'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 926, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 64, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h2. shift', 'h4. totem', 'h4. totem'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 927, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 65, 'env_step': 7, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h3. sioux'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 766, 'distance to root': 61.099999999999994, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 66, 'env_step': 8, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h3. sioux', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 989, 'distance to root': 69.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 67, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h3. sioux', 'h2. shift', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1005, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 68, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h3. sioux', 'h2. shift', 'h3. sioux'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1006, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 69, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h3. sioux', 'h2. shift', 'h4. totem'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1007, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 70, 'env_step': 8, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h3. sioux', 'h3. sioux'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 990, 'distance to root': 69.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 71, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1069, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 72, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1070, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 73, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1071, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 74, 'env_step': 8, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h3. sioux', 'h4. totem'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 991, 'distance to root': 69.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 75, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1133, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 76, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h3. sioux'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1134, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 77, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h4. totem'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1135, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 78, 'env_step': 7, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h4. totem'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 767, 'distance to root': 61.099999999999994, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 79, 'env_step': 8, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h4. totem', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1197, 'distance to root': 69.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 80, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h4. totem', 'h2. shift', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1213, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 81, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h4. totem', 'h2. shift', 'h3. sioux'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1214, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 82, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h4. totem', 'h2. shift', 'h4. totem'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1215, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 83, 'env_step': 8, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h4. totem', 'h3. sioux'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1198, 'distance to root': 69.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 84, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h4. totem', 'h3. sioux', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1277, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 85, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h4. totem', 'h3. sioux', 'h3. sioux'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1278, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 86, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h4. totem', 'h3. sioux', 'h4. totem'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1279, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 87, 'env_step': 8, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h4. totem', 'h4. totem'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1199, 'distance to root': 69.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 88, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h4. totem', 'h4. totem', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1341, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 89, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h4. totem', 'h4. totem', 'h3. sioux'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1342, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 90, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h3. sioux', 'h4. totem', 'h4. totem', 'h4. totem'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1343, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 91, 'env_step': 6, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h4. totem'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 111, 'distance to root': 53.099999999999994, 'depth': 6, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 92, 'env_step': 7, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h4. totem', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1405, 'distance to root': 61.099999999999994, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 93, 'env_step': 8, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h4. totem', 'h2. shift', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1421, 'distance to root': 69.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 94, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h4. totem', 'h2. shift', 'h2. shift', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1437, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 95, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h4. totem', 'h2. shift', 'h2. shift', 'h3. sioux'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1438, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 96, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h4. totem', 'h2. shift', 'h2. shift', 'h4. totem'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1439, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 97, 'env_step': 8, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h4. totem', 'h2. shift', 'h3. sioux'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1422, 'distance to root': 69.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 98, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h4. totem', 'h2. shift', 'h3. sioux', 'h2. shift'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1501, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 99, 'env_step': 9, 'actions': ['h2. shift', 'h4. totem', 'h3. sioux', 'h5. ewery', 'h2. shift', 'h4. totem', 'h2. shift', 'h3. sioux', 'h3. sioux'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1502, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\nEWERY'}
+
+-----------------------
+
+best node id: 61
+node depth: 5
+chosen step: 6
+distance to root: 47.400000000000006
+answer:
+
+HORDE
+SHIFT
+OSAGE
+TOTEM
+__A__
+
+accuracy: {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}
+cost time: 109.72707867622375 s
+
+---- Task Complete ----

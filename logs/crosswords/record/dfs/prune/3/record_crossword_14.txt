@@ -1,0 +1,26 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs
+idx: 14
+pruning = True
+date: 2024-05-10
+time: 19:31:01
+
+-----------------------
+
+best node id: 31
+node depth: 3
+chosen step: 2
+distance to root: 23.0
+answer:
+
+_____
+QUILL
+UVULA
+_____
+BARGE
+
+accuracy: {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}
+cost time: 3.080780029296875 s
+
+---- Task Complete ----

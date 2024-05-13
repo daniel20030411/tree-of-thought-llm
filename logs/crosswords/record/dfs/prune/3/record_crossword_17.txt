@@ -1,0 +1,26 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs
+idx: 17
+pruning = True
+date: 2024-05-10
+time: 19:31:01
+
+-----------------------
+
+best node id: 26
+node depth: 3
+chosen step: 3
+distance to root: 22.4
+answer:
+
+M____
+OVINE
+W____
+E____
+REALM
+
+accuracy: {'r_letter': 0.4, 'r_word': 0.1, 'r_game': False}
+cost time: 2.389707565307617 s
+
+---- Task Complete ----

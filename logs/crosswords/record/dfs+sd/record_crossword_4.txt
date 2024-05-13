@@ -1,0 +1,198 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 4
+pruning = True
+date: 2024-05-06
+time: 00:25:52
+
+{'total_step': 0, 'env_step': 1, 'actions': ['v4. cider'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': '___C_\n___I_\n___D_\n___E_\n___R_'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['v4. cider', 'v4. cider'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'current_node_id': 9, 'depth': 2, 'd_thres': 10000, 'answer': '___C_\n___I_\n___D_\n___E_\n___R_'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['v4. cider', 'v4. cider', 'v4. cider'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'current_node_id': 24, 'depth': 3, 'd_thres': 10000, 'answer': '___C_\n___I_\n___D_\n___E_\n___R_'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'current_node_id': 39, 'depth': 4, 'd_thres': 10000, 'answer': '___C_\n___I_\n___D_\n___E_\n___R_'}
+
+{'total_step': 4, 'env_step': 5, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'current_node_id': 54, 'depth': 5, 'd_thres': 10000, 'answer': '___C_\n___I_\n___D_\n___E_\n___R_'}
+
+{'total_step': 5, 'env_step': 6, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'current_node_id': 69, 'depth': 6, 'd_thres': 10000, 'answer': '___C_\n___I_\n___D_\n___E_\n___R_'}
+
+{'total_step': 6, 'env_step': 7, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'current_node_id': 84, 'depth': 7, 'd_thres': 10000, 'answer': '___C_\n___I_\n___D_\n___E_\n___R_'}
+
+{'total_step': 7, 'env_step': 8, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'current_node_id': 99, 'depth': 8, 'd_thres': 10000, 'answer': '___C_\n___I_\n___D_\n___E_\n___R_'}
+
+{'total_step': 8, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'current_node_id': 114, 'distance to root': 56.5, 'depth': 9, 'd_thres': 56.5, 'answer': '___C_\n___I_\n___D_\n___E_\n___R_'}
+
+{'total_step': 9, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 116, 'distance to root': 59.1, 'depth': 9, 'd_thres': 56.5, 'answer': '___C_\nHELIX\n___D_\n___E_\n___R_'}
+
+{'total_step': 10, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h3. erode'], 'info': {'r_letter': 0.28, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 118, 'distance to root': 59.4, 'depth': 9, 'd_thres': 56.5, 'answer': '___C_\n___I_\nERODE\n___E_\n___R_'}
+
+{'total_step': 11, 'env_step': 8, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 101, 'depth': 8, 'd_thres': 56.5, 'answer': '___C_\nHELIX\n___D_\n___E_\n___R_'}
+
+{'total_step': 12, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v4. cider'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 181, 'distance to root': 61.1, 'depth': 9, 'd_thres': 56.5, 'answer': '___C_\nHELIX\n___D_\n___E_\n___R_'}
+
+{'total_step': 13, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v3. elope'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 0}, 'current_node_id': 183, 'distance to root': 61.8, 'depth': 9, 'd_thres': 56.5, 'answer': '__EC_\nHELIX\n__OD_\n__PE_\n__ER_'}
+
+{'total_step': 14, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'h3. erode'], 'info': {'r_letter': 0.44, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 0}, 'current_node_id': 185, 'distance to root': 62.6, 'depth': 9, 'd_thres': 56.5, 'answer': '___C_\nHELIX\nERODE\n___E_\n___R_'}
+
+{'total_step': 15, 'env_step': 8, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h3. erode'], 'info': {'r_letter': 0.28, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 103, 'depth': 8, 'd_thres': 56.5, 'answer': '___C_\n___I_\nERODE\n___E_\n___R_'}
+
+{'total_step': 16, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h3. erode', 'v4. cider'], 'info': {'r_letter': 0.28, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 253, 'distance to root': 58.4, 'depth': 9, 'd_thres': 56.5, 'answer': '___C_\n___I_\nERODE\n___E_\n___R_'}
+
+{'total_step': 17, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h3. erode', 'v3. elope'], 'info': {'r_letter': 0.44, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 0}, 'current_node_id': 254, 'distance to root': 60.6, 'depth': 9, 'd_thres': 56.5, 'answer': '__EC_\n__LI_\nERODE\n__PE_\n__ER_'}
+
+{'total_step': 18, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h3. erode', 'h3. erode'], 'info': {'r_letter': 0.28, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 255, 'distance to root': 61.4, 'depth': 9, 'd_thres': 56.5, 'answer': '___C_\n___I_\nERODE\n___E_\n___R_'}
+
+{'total_step': 19, 'env_step': 7, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 86, 'depth': 7, 'd_thres': 56.5, 'answer': '___C_\nHELIX\n___D_\n___E_\n___R_'}
+
+{'total_step': 20, 'env_step': 8, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v4. cider'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 330, 'depth': 8, 'd_thres': 56.5, 'answer': '___C_\nHELIX\n___D_\n___E_\n___R_'}
+
+{'total_step': 21, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v4. cider', 'v4. cider'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 348, 'distance to root': 63.1, 'depth': 9, 'd_thres': 56.5, 'answer': '___C_\nHELIX\n___D_\n___E_\n___R_'}
+
+{'total_step': 22, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v4. cider', 'v3. elope'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 0}, 'current_node_id': 350, 'distance to root': 63.8, 'depth': 9, 'd_thres': 56.5, 'answer': '__EC_\nHELIX\n__OD_\n__PE_\n__ER_'}
+
+{'total_step': 23, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v4. cider', 'h3. erode'], 'info': {'r_letter': 0.44, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 0}, 'current_node_id': 352, 'distance to root': 64.6, 'depth': 9, 'd_thres': 56.5, 'answer': '___C_\nHELIX\nERODE\n___E_\n___R_'}
+
+{'total_step': 24, 'env_step': 8, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v3. elope'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 0}, 'current_node_id': 332, 'depth': 8, 'd_thres': 56.5, 'answer': '__EC_\nHELIX\n__OD_\n__PE_\n__ER_'}
+
+{'total_step': 25, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v3. elope', 'h3. erode'], 'info': {'r_letter': 0.56, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 420, 'distance to root': 64.4, 'depth': 9, 'd_thres': 56.5, 'answer': '__EC_\nHELIX\nERODE\n__PE_\n__ER_'}
+
+{'total_step': 26, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v3. elope', 'v2. heron'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 422, 'distance to root': 64.7, 'depth': 9, 'd_thres': 56.5, 'answer': '_HEC_\nHELIX\n_ROD_\n_OPE_\n_NER_'}
+
+{'total_step': 27, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v3. elope', 'v1. chess'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 425, 'distance to root': 65.2, 'depth': 9, 'd_thres': 56.5, 'answer': 'C_EC_\nHELIX\nE_OD_\nS_PE_\nS_ER_'}
+
+{'total_step': 28, 'env_step': 8, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'h3. erode'], 'info': {'r_letter': 0.44, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 0}, 'current_node_id': 334, 'depth': 8, 'd_thres': 56.5, 'answer': '___C_\nHELIX\nERODE\n___E_\n___R_'}
+
+{'total_step': 29, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'h3. erode', 'v3. elope'], 'info': {'r_letter': 0.56, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 478, 'distance to root': 64.0, 'depth': 9, 'd_thres': 56.5, 'answer': '__EC_\nHELIX\nERODE\n__PE_\n__ER_'}
+
+{'total_step': 30, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'h3. erode', 'v1. chess'], 'info': {'r_letter': 0.56, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 0}, 'current_node_id': 480, 'distance to root': 66.0, 'depth': 9, 'd_thres': 56.5, 'answer': 'C__C_\nHELIX\nERODE\nS__E_\nS__R_'}
+
+{'total_step': 31, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'h3. erode', 'v2. heron'], 'info': {'r_letter': 0.56, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 481, 'distance to root': 66.0, 'depth': 9, 'd_thres': 56.5, 'answer': '_H_C_\nHELIX\nERODE\n_O_E_\n_N_R_'}
+
+{'total_step': 32, 'env_step': 7, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h3. erode'], 'info': {'r_letter': 0.28, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 88, 'depth': 7, 'd_thres': 56.5, 'answer': '___C_\n___I_\nERODE\n___E_\n___R_'}
+
+{'total_step': 33, 'env_step': 8, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h3. erode', 'v4. cider'], 'info': {'r_letter': 0.28, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 534, 'depth': 8, 'd_thres': 56.5, 'answer': '___C_\n___I_\nERODE\n___E_\n___R_'}
+
+{'total_step': 34, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h3. erode', 'v4. cider', 'v4. cider'], 'info': {'r_letter': 0.28, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 553, 'distance to root': 57.4, 'depth': 9, 'd_thres': 56.5, 'answer': '___C_\n___I_\nERODE\n___E_\n___R_'}
+
+{'total_step': 35, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h3. erode', 'v4. cider', 'v3. elope'], 'info': {'r_letter': 0.44, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 0}, 'current_node_id': 554, 'distance to root': 59.6, 'depth': 9, 'd_thres': 56.5, 'answer': '__EC_\n__LI_\nERODE\n__PE_\n__ER_'}
+
+{'total_step': 36, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h3. erode', 'v4. cider', 'h3. erode'], 'info': {'r_letter': 0.28, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 555, 'distance to root': 60.4, 'depth': 9, 'd_thres': 56.5, 'answer': '___C_\n___I_\nERODE\n___E_\n___R_'}
+
+{'total_step': 37, 'env_step': 8, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h3. erode', 'v3. elope'], 'info': {'r_letter': 0.44, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 0}, 'current_node_id': 535, 'depth': 8, 'd_thres': 56.5, 'answer': '__EC_\n__LI_\nERODE\n__PE_\n__ER_'}
+
+{'total_step': 38, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h3. erode', 'v3. elope', 'h2. helix'], 'info': {'r_letter': 0.56, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 631, 'distance to root': 62.7, 'depth': 9, 'd_thres': 56.5, 'answer': '__EC_\nHELIX\nERODE\n__PE_\n__ER_'}
+
+{'total_step': 39, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h3. erode', 'v3. elope', 'v2. heron'], 'info': {'r_letter': 0.6, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 633, 'distance to root': 63.3, 'depth': 9, 'd_thres': 56.5, 'answer': '_HEC_\n_ELI_\nERODE\n_OPE_\n_NER_'}
+
+{'total_step': 40, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h3. erode', 'v3. elope', 'h1. piece'], 'info': {'r_letter': 0.48, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 634, 'distance to root': 63.8, 'depth': 9, 'd_thres': 56.5, 'answer': 'PIECE\n__LI_\nERODE\n__PE_\n__ER_'}
+
+{'total_step': 41, 'env_step': 8, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h3. erode', 'h3. erode'], 'info': {'r_letter': 0.28, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 536, 'depth': 8, 'd_thres': 56.5, 'answer': '___C_\n___I_\nERODE\n___E_\n___R_'}
+
+{'total_step': 42, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h3. erode', 'h3. erode', 'v4. cider'], 'info': {'r_letter': 0.28, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 671, 'distance to root': 60.4, 'depth': 9, 'd_thres': 56.5, 'answer': '___C_\n___I_\nERODE\n___E_\n___R_'}
+
+{'total_step': 43, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h3. erode', 'h3. erode', 'v3. elope'], 'info': {'r_letter': 0.44, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 0}, 'current_node_id': 672, 'distance to root': 62.6, 'depth': 9, 'd_thres': 56.5, 'answer': '__EC_\n__LI_\nERODE\n__PE_\n__ER_'}
+
+{'total_step': 44, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h3. erode', 'h3. erode', 'h3. erode'], 'info': {'r_letter': 0.28, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 673, 'distance to root': 63.4, 'depth': 9, 'd_thres': 56.5, 'answer': '___C_\n___I_\nERODE\n___E_\n___R_'}
+
+{'total_step': 45, 'env_step': 6, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 71, 'depth': 6, 'd_thres': 56.5, 'answer': '___C_\nHELIX\n___D_\n___E_\n___R_'}
+
+{'total_step': 46, 'env_step': 7, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v4. cider'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 748, 'depth': 7, 'd_thres': 56.5, 'answer': '___C_\nHELIX\n___D_\n___E_\n___R_'}
+
+{'total_step': 47, 'env_step': 8, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v4. cider', 'v4. cider'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 766, 'depth': 8, 'd_thres': 56.5, 'answer': '___C_\nHELIX\n___D_\n___E_\n___R_'}
+
+{'total_step': 48, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v4. cider', 'v4. cider', 'v4. cider'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 784, 'distance to root': 65.1, 'depth': 9, 'd_thres': 56.5, 'answer': '___C_\nHELIX\n___D_\n___E_\n___R_'}
+
+{'total_step': 49, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v4. cider', 'v4. cider', 'v3. elope'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 0}, 'current_node_id': 786, 'distance to root': 65.8, 'depth': 9, 'd_thres': 56.5, 'answer': '__EC_\nHELIX\n__OD_\n__PE_\n__ER_'}
+
+{'total_step': 50, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v4. cider', 'v4. cider', 'h3. erode'], 'info': {'r_letter': 0.44, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 0}, 'current_node_id': 788, 'distance to root': 66.6, 'depth': 9, 'd_thres': 56.5, 'answer': '___C_\nHELIX\nERODE\n___E_\n___R_'}
+
+{'total_step': 51, 'env_step': 8, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v4. cider', 'v3. elope'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 0}, 'current_node_id': 768, 'depth': 8, 'd_thres': 56.5, 'answer': '__EC_\nHELIX\n__OD_\n__PE_\n__ER_'}
+
+{'total_step': 52, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v4. cider', 'v3. elope', 'h3. erode'], 'info': {'r_letter': 0.56, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 856, 'distance to root': 66.4, 'depth': 9, 'd_thres': 56.5, 'answer': '__EC_\nHELIX\nERODE\n__PE_\n__ER_'}
+
+{'total_step': 53, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v4. cider', 'v3. elope', 'v2. heron'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 858, 'distance to root': 66.7, 'depth': 9, 'd_thres': 56.5, 'answer': '_HEC_\nHELIX\n_ROD_\n_OPE_\n_NER_'}
+
+{'total_step': 54, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v4. cider', 'v3. elope', 'v1. chess'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 861, 'distance to root': 67.2, 'depth': 9, 'd_thres': 56.5, 'answer': 'C_EC_\nHELIX\nE_OD_\nS_PE_\nS_ER_'}
+
+{'total_step': 55, 'env_step': 8, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v4. cider', 'h3. erode'], 'info': {'r_letter': 0.44, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 0}, 'current_node_id': 770, 'depth': 8, 'd_thres': 56.5, 'answer': '___C_\nHELIX\nERODE\n___E_\n___R_'}
+
+{'total_step': 56, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v4. cider', 'h3. erode', 'v3. elope'], 'info': {'r_letter': 0.56, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 914, 'distance to root': 66.0, 'depth': 9, 'd_thres': 56.5, 'answer': '__EC_\nHELIX\nERODE\n__PE_\n__ER_'}
+
+{'total_step': 57, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v4. cider', 'h3. erode', 'v1. chess'], 'info': {'r_letter': 0.56, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 0}, 'current_node_id': 916, 'distance to root': 68.0, 'depth': 9, 'd_thres': 56.5, 'answer': 'C__C_\nHELIX\nERODE\nS__E_\nS__R_'}
+
+{'total_step': 58, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v4. cider', 'h3. erode', 'v2. heron'], 'info': {'r_letter': 0.56, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 917, 'distance to root': 68.0, 'depth': 9, 'd_thres': 56.5, 'answer': '_H_C_\nHELIX\nERODE\n_O_E_\n_N_R_'}
+
+{'total_step': 59, 'env_step': 7, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v3. elope'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 0}, 'current_node_id': 750, 'depth': 7, 'd_thres': 56.5, 'answer': '__EC_\nHELIX\n__OD_\n__PE_\n__ER_'}
+
+{'total_step': 60, 'env_step': 8, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v3. elope', 'h3. erode'], 'info': {'r_letter': 0.56, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 970, 'depth': 8, 'd_thres': 56.5, 'answer': '__EC_\nHELIX\nERODE\n__PE_\n__ER_'}
+
+{'total_step': 61, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v3. elope', 'h3. erode', 'v5. exert'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 995, 'distance to root': 67.1, 'depth': 9, 'd_thres': 56.5, 'answer': '__ECE\nHELIX\nERODE\n__PER\n__ERT'}
+
+{'total_step': 62, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v3. elope', 'h3. erode', 'v2. heron'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 997, 'distance to root': 67.6, 'depth': 9, 'd_thres': 56.5, 'answer': '_HEC_\nHELIX\nERODE\n_OPE_\n_NER_'}
+
+{'total_step': 63, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v3. elope', 'h3. erode', 'h1. piece'], 'info': {'r_letter': 0.6, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 998, 'distance to root': 67.6, 'depth': 9, 'd_thres': 56.5, 'answer': 'PIECE\nHELIX\nERODE\n__PE_\n__ER_'}
+
+{'total_step': 64, 'env_step': 8, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v3. elope', 'v2. heron'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 972, 'depth': 8, 'd_thres': 56.5, 'answer': '_HEC_\nHELIX\n_ROD_\n_OPE_\n_NER_'}
+
+{'total_step': 65, 'env_step': 8, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v3. elope', 'v1. chess'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 975, 'depth': 8, 'd_thres': 56.5, 'answer': 'C_EC_\nHELIX\nE_OD_\nS_PE_\nS_ER_'}
+
+{'total_step': 66, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v3. elope', 'v1. chess', 'h3. erode'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1028, 'distance to root': 65.2, 'depth': 9, 'd_thres': 56.5, 'answer': 'C_EC_\nHELIX\nERODE\nS_PE_\nS_ER_'}
+
+{'total_step': 67, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v3. elope', 'v1. chess', 'v2. heron'], 'info': {'r_letter': 0.76, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 0, 'impossible': 2}, 'current_node_id': 1029, 'distance to root': 65.8, 'depth': 9, 'd_thres': 56.5, 'answer': 'CHEC_\nHELIX\nEROD_\nSOPE_\nSNER_'}
+
+{'total_step': 68, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'v3. elope', 'v1. chess', 'v5. exert'], 'info': {'r_letter': 0.76, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 0}, 'current_node_id': 1030, 'distance to root': 68.5, 'depth': 9, 'd_thres': 56.5, 'answer': 'C_ECE\nHELIX\nE_ODE\nS_PER\nS_ERT'}
+
+{'total_step': 69, 'env_step': 7, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'h3. erode'], 'info': {'r_letter': 0.44, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 0}, 'current_node_id': 752, 'depth': 7, 'd_thres': 56.5, 'answer': '___C_\nHELIX\nERODE\n___E_\n___R_'}
+
+{'total_step': 70, 'env_step': 8, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'h3. erode', 'v3. elope'], 'info': {'r_letter': 0.56, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1073, 'depth': 8, 'd_thres': 56.5, 'answer': '__EC_\nHELIX\nERODE\n__PE_\n__ER_'}
+
+{'total_step': 71, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'h3. erode', 'v3. elope', 'v5. exert'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1086, 'distance to root': 66.69999999999999, 'depth': 9, 'd_thres': 56.5, 'answer': '__ECE\nHELIX\nERODE\n__PER\n__ERT'}
+
+{'total_step': 72, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'h3. erode', 'v3. elope', 'v2. heron'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1088, 'distance to root': 67.19999999999999, 'depth': 9, 'd_thres': 56.5, 'answer': '_HEC_\nHELIX\nERODE\n_OPE_\n_NER_'}
+
+{'total_step': 73, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'h3. erode', 'v3. elope', 'h1. piece'], 'info': {'r_letter': 0.6, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1089, 'distance to root': 67.19999999999999, 'depth': 9, 'd_thres': 56.5, 'answer': 'PIECE\nHELIX\nERODE\n__PE_\n__ER_'}
+
+{'total_step': 74, 'env_step': 8, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'h3. erode', 'v1. chess'], 'info': {'r_letter': 0.56, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1075, 'depth': 8, 'd_thres': 56.5, 'answer': 'C__C_\nHELIX\nERODE\nS__E_\nS__R_'}
+
+{'total_step': 75, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'h3. erode', 'v1. chess', 'v3. elope'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1119, 'distance to root': 65.5, 'depth': 9, 'd_thres': 56.5, 'answer': 'C_EC_\nHELIX\nERODE\nS_PE_\nS_ER_'}
+
+{'total_step': 76, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'h3. erode', 'v1. chess', 'v2. heron'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1120, 'distance to root': 65.8, 'depth': 9, 'd_thres': 56.5, 'answer': 'CH_C_\nHELIX\nERODE\nSO_E_\nSN_R_'}
+
+{'total_step': 77, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'h3. erode', 'v1. chess', 'h1. catch'], 'info': {'r_letter': 0.56, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1121, 'distance to root': 69.0, 'depth': 9, 'd_thres': 56.5, 'answer': 'CATCH\nHELIX\nERODE\nS__E_\nS__R_'}
+
+{'total_step': 78, 'env_step': 8, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'h3. erode', 'v2. heron'], 'info': {'r_letter': 0.56, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1076, 'depth': 8, 'd_thres': 56.5, 'answer': '_H_C_\nHELIX\nERODE\n_O_E_\n_N_R_'}
+
+{'total_step': 79, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'h3. erode', 'v2. heron', 'v3. elope'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1167, 'distance to root': 66.7, 'depth': 9, 'd_thres': 56.5, 'answer': '_HEC_\nHELIX\nERODE\n_OPE_\n_NER_'}
+
+{'total_step': 80, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'h3. erode', 'v2. heron', 'v4. cider'], 'info': {'r_letter': 0.56, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1170, 'distance to root': 69.0, 'depth': 9, 'd_thres': 56.5, 'answer': '_H_C_\nHELIX\nERODE\n_O_E_\n_N_R_'}
+
+{'total_step': 81, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h2. helix', 'h3. erode', 'v2. heron', 'v5. exert'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1171, 'distance to root': 69.30000000000001, 'depth': 9, 'd_thres': 56.5, 'answer': '_H_CE\nHELIX\nERODE\n_O_ER\n_N_RT'}
+
+{'total_step': 82, 'env_step': 6, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h3. erode'], 'info': {'r_letter': 0.28, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 73, 'depth': 6, 'd_thres': 56.5, 'answer': '___C_\n___I_\nERODE\n___E_\n___R_'}
+
+{'total_step': 83, 'env_step': 7, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h3. erode', 'v4. cider'], 'info': {'r_letter': 0.28, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1200, 'depth': 7, 'd_thres': 56.5, 'answer': '___C_\n___I_\nERODE\n___E_\n___R_'}
+
+{'total_step': 84, 'env_step': 8, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h3. erode', 'v4. cider', 'v4. cider'], 'info': {'r_letter': 0.28, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1219, 'depth': 8, 'd_thres': 56.5, 'answer': '___C_\n___I_\nERODE\n___E_\n___R_'}
+
+{'total_step': 85, 'env_step': 9, 'actions': ['v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider', 'h3. erode', 'v4. cider', 'v4. cider', 'v4. cider'], 'info': {'r_letter': 0.28, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1238, 'distance to root': 56.4, 'depth': 9, 'd_thres': 56.4, 'answer': '___C_\n___I_\nERODE\n___E_\n___R_'}
+
+-----------------------
+
+best node id: 1238
+node depth: 9
+chosen step: 85
+distance to root: 56.4
+answer:
+
+___C_
+___I_
+ERODE
+___E_
+___R_
+
+accuracy: {'r_letter': 0.28, 'r_word': 0.0, 'r_game': False}
+cost time: 138.3155176639557 s
+
+---- Task Complete ----

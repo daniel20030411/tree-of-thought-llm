@@ -1,0 +1,44 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 7
+pruning = True
+date: 2024-05-10
+time: 22:52:48
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h3. essay'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': '_____\n_____\nESSAY\n_____\n_____'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['h3. essay', 'v5. dryer'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 10, 'depth': 2, 'd_thres': 10000, 'answer': '____D\n____R\nESSAY\n____E\n____R'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['h3. essay', 'v5. dryer', 'h3. essay'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 25, 'depth': 3, 'd_thres': 10000, 'answer': '____D\n____R\nESSAY\n____E\n____R'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['h3. essay', 'v5. dryer', 'h3. essay', 'h3. essay'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 39, 'depth': 4, 'd_thres': 10000, 'answer': '____D\n____R\nESSAY\n____E\n____R'}
+
+{'total_step': 4, 'env_step': 5, 'actions': ['h3. essay', 'v5. dryer', 'h3. essay', 'h3. essay', 'h3. essay'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 53, 'depth': 5, 'd_thres': 10000, 'answer': '____D\n____R\nESSAY\n____E\n____R'}
+
+{'total_step': 5, 'env_step': 6, 'actions': ['h3. essay', 'v5. dryer', 'h3. essay', 'h3. essay', 'h3. essay', 'h3. essay'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 67, 'depth': 6, 'd_thres': 10000, 'answer': '____D\n____R\nESSAY\n____E\n____R'}
+
+{'total_step': 6, 'env_step': 7, 'actions': ['h3. essay', 'v5. dryer', 'h3. essay', 'h3. essay', 'h3. essay', 'h3. essay', 'h3. essay'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 81, 'depth': 7, 'd_thres': 10000, 'answer': '____D\n____R\nESSAY\n____E\n____R'}
+
+{'total_step': 7, 'env_step': 8, 'actions': ['h3. essay', 'v5. dryer', 'h3. essay', 'h3. essay', 'h3. essay', 'h3. essay', 'h3. essay', 'h3. essay'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 95, 'depth': 8, 'd_thres': 10000, 'answer': '____D\n____R\nESSAY\n____E\n____R'}
+
+{'total_step': 8, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h3. essay', 'h3. essay', 'h3. essay', 'h3. essay', 'h3. essay', 'h3. essay', 'h3. essay'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 109, 'distance to root': 0.0, 'depth': 9, 'd_thres': 0.0, 'answer': '____D\n____R\nESSAY\n____E\n____R'}
+
+-----------------------
+
+best node id: 109
+node depth: 9
+chosen step: 8
+distance to root: 0.0
+answer:
+
+____D
+____R
+ESSAY
+____E
+____R
+
+accuracy: {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}
+cost time: 12.429643869400024 s
+
+---- Task Complete ----

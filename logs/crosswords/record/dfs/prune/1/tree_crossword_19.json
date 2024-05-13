@@ -1,0 +1,2940 @@
+[
+    {
+        "total_step": 0,
+        "env_step": 1,
+        "actions": [
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 1,
+        "distance to root": 9.4,
+        "depth": 1,
+        "d_thres": 10000,
+        "answer": "_____\n_____\n_____\nSENSE\n_____"
+    },
+    {
+        "total_step": 1,
+        "env_step": 2,
+        "actions": [
+            "h4. sense",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 16,
+        "distance to root": 18.4,
+        "depth": 2,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 2,
+        "env_step": 3,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 36,
+        "distance to root": 21.4,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 3,
+        "env_step": 4,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 53,
+        "distance to root": 24.4,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 4,
+        "env_step": 5,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 70,
+        "distance to root": 27.4,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 5,
+        "env_step": 6,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 87,
+        "distance to root": 30.4,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 6,
+        "env_step": 7,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 104,
+        "distance to root": 33.4,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 7,
+        "env_step": 8,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 121,
+        "distance to root": 36.4,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 8,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 138,
+        "distance to root": 39.4,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 9,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 139,
+        "distance to root": 39.4,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 10,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 140,
+        "distance to root": 43.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 11,
+        "env_step": 8,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 122,
+        "distance to root": 36.4,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 12,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 200,
+        "distance to root": 39.4,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 13,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 201,
+        "distance to root": 39.4,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 14,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 202,
+        "distance to root": 43.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 15,
+        "env_step": 8,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 123,
+        "distance to root": 40.8,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 16,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 262,
+        "distance to root": 46.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 17,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 263,
+        "distance to root": 46.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 18,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 264,
+        "distance to root": 46.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 19,
+        "env_step": 7,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 105,
+        "distance to root": 33.4,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 20,
+        "env_step": 8,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 306,
+        "distance to root": 36.4,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 21,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 323,
+        "distance to root": 39.4,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 22,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 324,
+        "distance to root": 39.4,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 23,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 325,
+        "distance to root": 43.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 24,
+        "env_step": 8,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 307,
+        "distance to root": 36.4,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 25,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "v5. treed",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 385,
+        "distance to root": 39.4,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 26,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "v5. treed",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 386,
+        "distance to root": 39.4,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 27,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "v5. treed",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 387,
+        "distance to root": 43.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 28,
+        "env_step": 8,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 308,
+        "distance to root": 40.8,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 29,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h5. tread",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 447,
+        "distance to root": 46.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 30,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h5. tread",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 448,
+        "distance to root": 46.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 31,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h5. tread",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 449,
+        "distance to root": 46.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 32,
+        "env_step": 7,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 106,
+        "distance to root": 37.8,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 33,
+        "env_step": 8,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 491,
+        "distance to root": 43.8,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 34,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread",
+            "h4. sense",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 502,
+        "distance to root": 49.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 35,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread",
+            "h4. sense",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 503,
+        "distance to root": 49.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 36,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread",
+            "h4. sense",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 504,
+        "distance to root": 49.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 37,
+        "env_step": 8,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 492,
+        "distance to root": 43.8,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 38,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread",
+            "h5. tread",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 546,
+        "distance to root": 49.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 39,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread",
+            "h5. tread",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 547,
+        "distance to root": 49.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 40,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread",
+            "h5. tread",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 548,
+        "distance to root": 49.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 41,
+        "env_step": 8,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 493,
+        "distance to root": 43.8,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 42,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread",
+            "v5. treed",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 590,
+        "distance to root": 49.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 43,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread",
+            "v5. treed",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 591,
+        "distance to root": 49.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 44,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread",
+            "v5. treed",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 592,
+        "distance to root": 49.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 45,
+        "env_step": 6,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 88,
+        "distance to root": 30.4,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 46,
+        "env_step": 7,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 634,
+        "distance to root": 33.4,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 47,
+        "env_step": 8,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 651,
+        "distance to root": 36.4,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 48,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 668,
+        "distance to root": 39.4,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 49,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 669,
+        "distance to root": 39.4,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 50,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 670,
+        "distance to root": 43.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 51,
+        "env_step": 8,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 652,
+        "distance to root": 36.4,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 52,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "v5. treed",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 730,
+        "distance to root": 39.4,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 53,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "v5. treed",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 731,
+        "distance to root": 39.4,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 54,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "v5. treed",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 732,
+        "distance to root": 43.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 55,
+        "env_step": 8,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 653,
+        "distance to root": 40.8,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 56,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h5. tread",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 792,
+        "distance to root": 46.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 57,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h5. tread",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 793,
+        "distance to root": 46.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 58,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h5. tread",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 794,
+        "distance to root": 46.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 59,
+        "env_step": 7,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 635,
+        "distance to root": 33.4,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 60,
+        "env_step": 8,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "v5. treed",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 836,
+        "distance to root": 36.4,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 61,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 853,
+        "distance to root": 39.4,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 62,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "v5. treed",
+            "h4. sense",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 854,
+        "distance to root": 39.4,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 63,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "v5. treed",
+            "h4. sense",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 855,
+        "distance to root": 43.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 64,
+        "env_step": 8,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "v5. treed",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 837,
+        "distance to root": 36.4,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 65,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "v5. treed",
+            "v5. treed",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 915,
+        "distance to root": 39.4,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 66,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "v5. treed",
+            "v5. treed",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 916,
+        "distance to root": 39.4,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\n____D"
+    },
+    {
+        "total_step": 67,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "v5. treed",
+            "v5. treed",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 917,
+        "distance to root": 43.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 68,
+        "env_step": 8,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "v5. treed",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 838,
+        "distance to root": 40.8,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 69,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "v5. treed",
+            "h5. tread",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 977,
+        "distance to root": 46.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 70,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "v5. treed",
+            "h5. tread",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 978,
+        "distance to root": 46.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 71,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "v5. treed",
+            "h5. tread",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 979,
+        "distance to root": 46.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 72,
+        "env_step": 7,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 636,
+        "distance to root": 37.8,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 73,
+        "env_step": 8,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h5. tread",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1021,
+        "distance to root": 43.8,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 74,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h5. tread",
+            "h4. sense",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1032,
+        "distance to root": 49.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 75,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h5. tread",
+            "h4. sense",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1033,
+        "distance to root": 49.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 76,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h5. tread",
+            "h4. sense",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1034,
+        "distance to root": 49.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 77,
+        "env_step": 8,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h5. tread",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1022,
+        "distance to root": 43.8,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 78,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h5. tread",
+            "h5. tread",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1076,
+        "distance to root": 49.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 79,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h5. tread",
+            "h5. tread",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1077,
+        "distance to root": 49.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 80,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h5. tread",
+            "h5. tread",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1078,
+        "distance to root": 49.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 81,
+        "env_step": 8,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h5. tread",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1023,
+        "distance to root": 43.8,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 82,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h5. tread",
+            "v5. treed",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1120,
+        "distance to root": 49.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 83,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h5. tread",
+            "v5. treed",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1121,
+        "distance to root": 49.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 84,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed",
+            "h5. tread",
+            "v5. treed",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1122,
+        "distance to root": 49.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 85,
+        "env_step": 6,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 89,
+        "distance to root": 34.8,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 86,
+        "env_step": 7,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1164,
+        "distance to root": 40.8,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 87,
+        "env_step": 8,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread",
+            "h4. sense",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1175,
+        "distance to root": 46.8,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 88,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1186,
+        "distance to root": 52.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 89,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1187,
+        "distance to root": 52.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 90,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread",
+            "h4. sense",
+            "h4. sense",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1188,
+        "distance to root": 52.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 91,
+        "env_step": 8,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread",
+            "h4. sense",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1176,
+        "distance to root": 46.8,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 92,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread",
+            "h4. sense",
+            "h5. tread",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1230,
+        "distance to root": 52.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 93,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread",
+            "h4. sense",
+            "h5. tread",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1231,
+        "distance to root": 52.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 94,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread",
+            "h4. sense",
+            "h5. tread",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1232,
+        "distance to root": 52.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 95,
+        "env_step": 8,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread",
+            "h4. sense",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1177,
+        "distance to root": 46.8,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 96,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread",
+            "h4. sense",
+            "v5. treed",
+            "h4. sense"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1274,
+        "distance to root": 52.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 97,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread",
+            "h4. sense",
+            "v5. treed",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1275,
+        "distance to root": 52.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 98,
+        "env_step": 9,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread",
+            "h4. sense",
+            "v5. treed",
+            "v5. treed"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1276,
+        "distance to root": 52.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "total_step": 99,
+        "env_step": 7,
+        "actions": [
+            "h4. sense",
+            "v5. treed",
+            "h4. sense",
+            "h4. sense",
+            "h4. sense",
+            "h5. tread",
+            "h5. tread"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1165,
+        "distance to root": 40.8,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD"
+    },
+    {
+        "index": 19,
+        "best node id": 140,
+        "node depth": 9,
+        "chosen step": 10,
+        "distance to root": 43.8,
+        "answer": "____T\n____R\n____E\nSENSE\nTREAD",
+        "accuracy": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "cost time": 28.259704113006592
+    }
+]

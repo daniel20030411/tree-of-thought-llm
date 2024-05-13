@@ -1,0 +1,2898 @@
+[
+    {
+        "total_step": 0,
+        "env_step": 1,
+        "actions": [
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 1,
+        "distance to root": 7.8,
+        "depth": 1,
+        "d_thres": 10000,
+        "answer": "_E___\n_R___\n_R___\n_O___\n_R___"
+    },
+    {
+        "total_step": 1,
+        "env_step": 2,
+        "actions": [
+            "v2. error",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 13,
+        "distance to root": 14.6,
+        "depth": 2,
+        "d_thres": 10000,
+        "answer": "_E___\n_R___\nFRIAR\n_O___\n_R___"
+    },
+    {
+        "total_step": 2,
+        "env_step": 3,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 33,
+        "distance to root": 22.1,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 3,
+        "env_step": 4,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 49,
+        "distance to root": 31.1,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 4,
+        "env_step": 4,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 50,
+        "distance to root": 31.1,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 5,
+        "env_step": 5,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 81,
+        "distance to root": 40.099999999999994,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 6,
+        "env_step": 5,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 82,
+        "distance to root": 40.099999999999994,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 7,
+        "env_step": 6,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 113,
+        "distance to root": 49.099999999999994,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 8,
+        "env_step": 6,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 114,
+        "distance to root": 49.099999999999994,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 9,
+        "env_step": 7,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 145,
+        "distance to root": 58.099999999999994,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 10,
+        "env_step": 7,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 146,
+        "distance to root": 58.099999999999994,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 11,
+        "env_step": 8,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 177,
+        "distance to root": 67.1,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 12,
+        "env_step": 8,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 178,
+        "distance to root": 67.1,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 13,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 209,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 14,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 210,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 15,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 211,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 16,
+        "env_step": 8,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 179,
+        "distance to root": 67.1,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 17,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 305,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 18,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 306,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 19,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 307,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 20,
+        "env_step": 7,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 147,
+        "distance to root": 58.099999999999994,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 21,
+        "env_step": 8,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 401,
+        "distance to root": 67.1,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 22,
+        "env_step": 8,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 402,
+        "distance to root": 67.1,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 23,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 433,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 24,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 434,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 25,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 435,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 26,
+        "env_step": 8,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 403,
+        "distance to root": 67.1,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 27,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 529,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 28,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 530,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 29,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 531,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 30,
+        "env_step": 6,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 115,
+        "distance to root": 49.099999999999994,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 31,
+        "env_step": 7,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 625,
+        "distance to root": 58.099999999999994,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 32,
+        "env_step": 7,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 626,
+        "distance to root": 58.099999999999994,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 33,
+        "env_step": 8,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 657,
+        "distance to root": 67.1,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 34,
+        "env_step": 8,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 658,
+        "distance to root": 67.1,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 35,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 689,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 36,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 690,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 37,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 691,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 38,
+        "env_step": 8,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 659,
+        "distance to root": 67.1,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 39,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 785,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 40,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 786,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 41,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 787,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 42,
+        "env_step": 7,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 627,
+        "distance to root": 58.099999999999994,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 43,
+        "env_step": 8,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 881,
+        "distance to root": 67.1,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 44,
+        "env_step": 8,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 882,
+        "distance to root": 67.1,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 45,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "h3. friar",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 913,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 46,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 914,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 47,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 915,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 48,
+        "env_step": 8,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 883,
+        "distance to root": 67.1,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 49,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "v1. buffo",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1009,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 50,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "v1. buffo",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1010,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 51,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "v1. buffo",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1011,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 52,
+        "env_step": 5,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 83,
+        "distance to root": 40.099999999999994,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 53,
+        "env_step": 6,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1105,
+        "distance to root": 49.099999999999994,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 54,
+        "env_step": 6,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1106,
+        "distance to root": 49.099999999999994,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 55,
+        "env_step": 7,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1137,
+        "distance to root": 58.099999999999994,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 56,
+        "env_step": 7,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1138,
+        "distance to root": 58.099999999999994,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 57,
+        "env_step": 8,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1169,
+        "distance to root": 67.1,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 58,
+        "env_step": 8,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1170,
+        "distance to root": 67.1,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 59,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1201,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 60,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1202,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 61,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1203,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 62,
+        "env_step": 8,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1171,
+        "distance to root": 67.1,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 63,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1297,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 64,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1298,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 65,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1299,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 66,
+        "env_step": 7,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1139,
+        "distance to root": 58.099999999999994,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 67,
+        "env_step": 8,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1393,
+        "distance to root": 67.1,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 68,
+        "env_step": 8,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1394,
+        "distance to root": 67.1,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 69,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1425,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 70,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1426,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 71,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1427,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 72,
+        "env_step": 8,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1395,
+        "distance to root": 67.1,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 73,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1521,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 74,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1522,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 75,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1523,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 76,
+        "env_step": 6,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1107,
+        "distance to root": 49.099999999999994,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 77,
+        "env_step": 7,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1617,
+        "distance to root": 58.099999999999994,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 78,
+        "env_step": 7,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1618,
+        "distance to root": 58.099999999999994,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 79,
+        "env_step": 8,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "h3. friar",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1649,
+        "distance to root": 67.1,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 80,
+        "env_step": 8,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1650,
+        "distance to root": 67.1,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 81,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1681,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 82,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1682,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 83,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1683,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 84,
+        "env_step": 8,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1651,
+        "distance to root": 67.1,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 85,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1777,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 86,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1778,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 87,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1779,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 88,
+        "env_step": 7,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1619,
+        "distance to root": 58.099999999999994,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 89,
+        "env_step": 8,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "v1. buffo",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1873,
+        "distance to root": 67.1,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 90,
+        "env_step": 8,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "v1. buffo",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1874,
+        "distance to root": 67.1,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 91,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "v1. buffo",
+            "h3. friar",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1905,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 92,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "v1. buffo",
+            "h3. friar",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1906,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 93,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1907,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 94,
+        "env_step": 8,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "v1. buffo",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1875,
+        "distance to root": 67.1,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 95,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "v1. buffo",
+            "v1. buffo",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 2001,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 96,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "v1. buffo",
+            "v1. buffo",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 2002,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 97,
+        "env_step": 9,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "v1. buffo",
+            "v1. buffo",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 2003,
+        "distance to root": 76.1,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 98,
+        "env_step": 4,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 51,
+        "distance to root": 31.1,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "total_step": 99,
+        "env_step": 5,
+        "actions": [
+            "v2. error",
+            "h3. friar",
+            "v1. buffo",
+            "v1. buffo",
+            "h1. bebop"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 2097,
+        "distance to root": 40.099999999999994,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___"
+    },
+    {
+        "index": 2,
+        "best node id": 49,
+        "node depth": 4,
+        "chosen step": 3,
+        "distance to root": 31.1,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___",
+        "accuracy": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "cost time": 29.403119564056396
+    }
+]

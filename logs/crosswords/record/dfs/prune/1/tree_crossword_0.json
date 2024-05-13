@@ -1,0 +1,2891 @@
+[
+    {
+        "total_step": 0,
+        "env_step": 1,
+        "actions": [
+            "v5. drier"
+        ],
+        "info": {
+            "r_letter": 0.16,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 0,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 1,
+        "distance to root": 6.9,
+        "depth": 1,
+        "d_thres": 10000,
+        "answer": "____D\n____R\n____I\n____E\n____R"
+    },
+    {
+        "total_step": 1,
+        "env_step": 2,
+        "actions": [
+            "v5. drier",
+            "h2. motor"
+        ],
+        "info": {
+            "r_letter": 0.32,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 12,
+        "distance to root": 15.200000000000001,
+        "depth": 2,
+        "d_thres": 10000,
+        "answer": "____D\nMOTOR\n____I\n____E\n____R"
+    },
+    {
+        "total_step": 2,
+        "env_step": 3,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "h1. agend"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 31,
+        "distance to root": 24.299999999999997,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "AGEND\nMOTOR\n____I\n____E\n____R"
+    },
+    {
+        "total_step": 3,
+        "env_step": 3,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 32,
+        "distance to root": 24.5,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nS___E\nS___R"
+    },
+    {
+        "total_step": 4,
+        "env_step": 4,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 51,
+        "distance to root": 31.400000000000006,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nS___E\nSNEER"
+    },
+    {
+        "total_step": 5,
+        "env_step": 5,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h1. added"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 72,
+        "distance to root": 40.800000000000004,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "ADDED\nMOTOR\nA___I\nS___E\nSNEER"
+    },
+    {
+        "total_step": 6,
+        "env_step": 5,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 74,
+        "distance to root": 41.0,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 7,
+        "env_step": 6,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 91,
+        "distance to root": 48.99999999999999,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 8,
+        "env_step": 7,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v1. amass"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 109,
+        "distance to root": 56.99999999999999,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 9,
+        "env_step": 8,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v1. amass",
+            "v1. amass"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 127,
+        "distance to root": 65.0,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 10,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v1. amass",
+            "v1. amass",
+            "v1. amass"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 145,
+        "distance to root": 73.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 11,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v1. amass",
+            "v1. amass",
+            "h1. ahead"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 147,
+        "distance to root": 74.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 12,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v1. amass",
+            "v1. amass",
+            "v5. drier"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 148,
+        "distance to root": 74.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 13,
+        "env_step": 8,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v1. amass",
+            "h1. ahead"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 129,
+        "distance to root": 66.0,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 14,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v1. amass",
+            "h1. ahead",
+            "v4. aorte"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 214,
+        "distance to root": 75.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA__RI\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 15,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v1. amass",
+            "h1. ahead",
+            "v2. houun"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 225,
+        "distance to root": 75.9,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nAU__I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 16,
+        "env_step": 8,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v1. amass",
+            "v5. drier"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 130,
+        "distance to root": 66.0,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 17,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v1. amass",
+            "v5. drier",
+            "v1. amass"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 229,
+        "distance to root": 74.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 18,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v1. amass",
+            "v5. drier",
+            "h1. ahead"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 231,
+        "distance to root": 75.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 19,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v1. amass",
+            "v5. drier",
+            "v5. drier"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 232,
+        "distance to root": 75.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 20,
+        "env_step": 7,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "h1. ahead"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 111,
+        "distance to root": 57.99999999999999,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 21,
+        "env_step": 8,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "h1. ahead",
+            "v4. aorte"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 298,
+        "distance to root": 67.5,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA__RI\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 22,
+        "env_step": 8,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "h1. ahead",
+            "v2. houun"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 309,
+        "distance to root": 67.9,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nAU__I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 23,
+        "env_step": 7,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v5. drier"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 112,
+        "distance to root": 57.99999999999999,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 24,
+        "env_step": 8,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v5. drier",
+            "v1. amass"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 313,
+        "distance to root": 66.0,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 25,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v5. drier",
+            "v1. amass",
+            "v1. amass"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 331,
+        "distance to root": 74.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 26,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v5. drier",
+            "v1. amass",
+            "h1. ahead"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 333,
+        "distance to root": 75.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 27,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v5. drier",
+            "v1. amass",
+            "v5. drier"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 334,
+        "distance to root": 75.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 28,
+        "env_step": 8,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v5. drier",
+            "h1. ahead"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 315,
+        "distance to root": 67.0,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 29,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v5. drier",
+            "h1. ahead",
+            "v4. aorte"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 400,
+        "distance to root": 76.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA__RI\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 30,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v5. drier",
+            "h1. ahead",
+            "v2. houun"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 411,
+        "distance to root": 76.9,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nAU__I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 31,
+        "env_step": 8,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v5. drier",
+            "v5. drier"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 316,
+        "distance to root": 67.0,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 32,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v5. drier",
+            "v5. drier",
+            "v1. amass"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 415,
+        "distance to root": 75.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 33,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v5. drier",
+            "v5. drier",
+            "h1. ahead"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 417,
+        "distance to root": 76.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 34,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v5. drier",
+            "v5. drier",
+            "v5. drier"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 418,
+        "distance to root": 76.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 35,
+        "env_step": 6,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "h1. ahead"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 93,
+        "distance to root": 49.99999999999999,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 36,
+        "env_step": 7,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "h1. ahead",
+            "v4. aorte"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 484,
+        "distance to root": 59.49999999999999,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA__RI\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 37,
+        "env_step": 7,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "h1. ahead",
+            "v2. houun"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 495,
+        "distance to root": 59.9,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nAU__I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 38,
+        "env_step": 6,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 94,
+        "distance to root": 49.99999999999999,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 39,
+        "env_step": 7,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "v1. amass"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 499,
+        "distance to root": 57.99999999999999,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 40,
+        "env_step": 8,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "v1. amass",
+            "v1. amass"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 517,
+        "distance to root": 66.0,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 41,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "v1. amass",
+            "v1. amass",
+            "v1. amass"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 535,
+        "distance to root": 74.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 42,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "v1. amass",
+            "v1. amass",
+            "h1. ahead"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 537,
+        "distance to root": 75.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 43,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "v1. amass",
+            "v1. amass",
+            "v5. drier"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 538,
+        "distance to root": 75.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 44,
+        "env_step": 8,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "v1. amass",
+            "h1. ahead"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 519,
+        "distance to root": 67.0,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 45,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "v1. amass",
+            "h1. ahead",
+            "v4. aorte"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 604,
+        "distance to root": 76.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA__RI\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 46,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "v1. amass",
+            "h1. ahead",
+            "v2. houun"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 615,
+        "distance to root": 76.9,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nAU__I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 47,
+        "env_step": 8,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "v1. amass",
+            "v5. drier"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 520,
+        "distance to root": 67.0,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 48,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "v1. amass",
+            "v5. drier",
+            "v1. amass"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 619,
+        "distance to root": 75.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 49,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "v1. amass",
+            "v5. drier",
+            "h1. ahead"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 621,
+        "distance to root": 76.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 50,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "v1. amass",
+            "v5. drier",
+            "v5. drier"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 622,
+        "distance to root": 76.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 51,
+        "env_step": 7,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "h1. ahead"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 501,
+        "distance to root": 58.99999999999999,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 52,
+        "env_step": 8,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "h1. ahead",
+            "v4. aorte"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 688,
+        "distance to root": 68.5,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA__RI\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 53,
+        "env_step": 8,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "h1. ahead",
+            "v2. houun"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 699,
+        "distance to root": 68.9,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nAU__I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 54,
+        "env_step": 7,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "v5. drier"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 502,
+        "distance to root": 58.99999999999999,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 55,
+        "env_step": 8,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "v5. drier",
+            "v1. amass"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 703,
+        "distance to root": 67.0,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 56,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "v5. drier",
+            "v1. amass",
+            "v1. amass"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 721,
+        "distance to root": 75.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 57,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "v5. drier",
+            "v1. amass",
+            "h1. ahead"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 723,
+        "distance to root": 76.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 58,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "v5. drier",
+            "v1. amass",
+            "v5. drier"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 724,
+        "distance to root": 76.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 59,
+        "env_step": 8,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "v5. drier",
+            "h1. ahead"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 705,
+        "distance to root": 68.0,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 60,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "v5. drier",
+            "h1. ahead",
+            "v4. aorte"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 790,
+        "distance to root": 77.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA__RI\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 61,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "v5. drier",
+            "h1. ahead",
+            "v2. houun"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 801,
+        "distance to root": 77.9,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nAU__I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 62,
+        "env_step": 8,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "v5. drier",
+            "v5. drier"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 706,
+        "distance to root": 68.0,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 63,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "v5. drier",
+            "v5. drier",
+            "v1. amass"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 805,
+        "distance to root": 76.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 64,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "v5. drier",
+            "v5. drier",
+            "h1. ahead"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 807,
+        "distance to root": 77.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 65,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "v5. drier",
+            "v5. drier",
+            "v5. drier"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 808,
+        "distance to root": 77.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 66,
+        "env_step": 5,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. scene"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 75,
+        "distance to root": 41.0,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSCENE\nSNEER"
+    },
+    {
+        "total_step": 67,
+        "env_step": 6,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. scene",
+            "h1. agend"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 2
+        },
+        "current_node_id": 877,
+        "distance to root": 50.6,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "AGEND\nMOTOR\nA___I\nSCENE\nSNEER"
+    },
+    {
+        "total_step": 68,
+        "env_step": 6,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. scene",
+            "v4. tonne"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 1
+        },
+        "current_node_id": 878,
+        "distance to root": 50.699999999999996,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "A__TD\nMOTOR\nA__NI\nSCENE\nSNEER"
+    },
+    {
+        "total_step": 69,
+        "env_step": 6,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. scene",
+            "v4. borne"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 879,
+        "distance to root": 50.79999999999999,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "A__BD\nMOTOR\nA__RI\nSCENE\nSNEER"
+    },
+    {
+        "total_step": 70,
+        "env_step": 7,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. scene",
+            "v4. borne",
+            "v4. borne"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 898,
+        "distance to root": 55.29999999999999,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "A__BD\nMOTOR\nA__RI\nSCENE\nSNEER"
+    },
+    {
+        "total_step": 71,
+        "env_step": 8,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. scene",
+            "v4. borne",
+            "v4. borne",
+            "v4. borne"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 913,
+        "distance to root": 59.79999999999999,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "A__BD\nMOTOR\nA__RI\nSCENE\nSNEER"
+    },
+    {
+        "total_step": 72,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "h5. sneer",
+            "h4. scene",
+            "v4. borne",
+            "v4. borne",
+            "v4. borne",
+            "v4. borne"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 928,
+        "distance to root": 64.3,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "A__BD\nMOTOR\nA__RI\nSCENE\nSNEER"
+    },
+    {
+        "total_step": 73,
+        "env_step": 4,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "v1. amass"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 52,
+        "distance to root": 32.5,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nS___E\nS___R"
+    },
+    {
+        "total_step": 74,
+        "env_step": 5,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "v1. amass",
+            "h5. sneer"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 960,
+        "distance to root": 39.4,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nS___E\nSNEER"
+    },
+    {
+        "total_step": 75,
+        "env_step": 6,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "v1. amass",
+            "h5. sneer",
+            "h1. added"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 981,
+        "distance to root": 48.800000000000004,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "ADDED\nMOTOR\nA___I\nS___E\nSNEER"
+    },
+    {
+        "total_step": 76,
+        "env_step": 6,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 983,
+        "distance to root": 48.99999999999999,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 77,
+        "env_step": 7,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 1000,
+        "distance to root": 56.99999999999999,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 78,
+        "env_step": 8,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v1. amass"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 1018,
+        "distance to root": 65.0,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 79,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v1. amass",
+            "v1. amass"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 1036,
+        "distance to root": 73.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 80,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v1. amass",
+            "h1. ahead"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 1038,
+        "distance to root": 74.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 81,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v1. amass",
+            "v5. drier"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 1039,
+        "distance to root": 74.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 82,
+        "env_step": 8,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "h1. ahead"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 1020,
+        "distance to root": 66.0,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 83,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "h1. ahead",
+            "v4. aorte"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1105,
+        "distance to root": 75.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA__RI\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 84,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "h1. ahead",
+            "v2. houun"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 1116,
+        "distance to root": 75.9,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nAU__I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 85,
+        "env_step": 8,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v5. drier"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 1021,
+        "distance to root": 66.0,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 86,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v5. drier",
+            "v1. amass"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 1120,
+        "distance to root": 74.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 87,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v5. drier",
+            "h1. ahead"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 1122,
+        "distance to root": 75.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 88,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v1. amass",
+            "v5. drier",
+            "v5. drier"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 1123,
+        "distance to root": 75.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 89,
+        "env_step": 7,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "h1. ahead"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 1002,
+        "distance to root": 57.99999999999999,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 90,
+        "env_step": 8,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "h1. ahead",
+            "v4. aorte"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1189,
+        "distance to root": 67.5,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA__RI\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 91,
+        "env_step": 8,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "h1. ahead",
+            "v2. houun"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 1200,
+        "distance to root": 67.9,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nAU__I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 92,
+        "env_step": 7,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 1003,
+        "distance to root": 57.99999999999999,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 93,
+        "env_step": 8,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "v1. amass"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 1204,
+        "distance to root": 66.0,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 94,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "v1. amass",
+            "v1. amass"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 1222,
+        "distance to root": 74.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 95,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "v1. amass",
+            "h1. ahead"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 1224,
+        "distance to root": 75.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 96,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "v1. amass",
+            "v5. drier"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 1225,
+        "distance to root": 75.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "A___D\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 97,
+        "env_step": 8,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "h1. ahead"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 1206,
+        "distance to root": 67.0,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA___I\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 98,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "h1. ahead",
+            "v4. aorte"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1291,
+        "distance to root": 76.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nA__RI\nSUITE\nSNEER"
+    },
+    {
+        "total_step": 99,
+        "env_step": 9,
+        "actions": [
+            "v5. drier",
+            "h2. motor",
+            "v1. amass",
+            "v1. amass",
+            "h5. sneer",
+            "h4. suite",
+            "v5. drier",
+            "h1. ahead",
+            "v2. houun"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 1302,
+        "distance to root": 76.9,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "AHEAD\nMOTOR\nAU__I\nSUITE\nSNEER"
+    },
+    {
+        "index": 0,
+        "best node id": 877,
+        "node depth": 6,
+        "chosen step": 67,
+        "distance to root": 50.6,
+        "answer": "AGEND\nMOTOR\nA___I\nSCENE\nSNEER",
+        "accuracy": {
+            "r_letter": 0.68,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "cost time": 100.4879720211029
+    }
+]

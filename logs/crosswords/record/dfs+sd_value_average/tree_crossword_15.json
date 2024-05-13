@@ -1,0 +1,2903 @@
+[
+    {
+        "total_step": 0,
+        "env_step": 1,
+        "actions": [
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 1,
+        "depth": 1,
+        "d_thres": 10000,
+        "answer": "_____\n_____\nSHAME\n_____\n_____"
+    },
+    {
+        "total_step": 1,
+        "env_step": 2,
+        "actions": [
+            "h3. shame",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 9,
+        "depth": 2,
+        "d_thres": 10000,
+        "answer": "_____\n_____\nSHAME\nNAVEL\n_____"
+    },
+    {
+        "total_step": 2,
+        "env_step": 3,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 23,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 3,
+        "env_step": 4,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 34,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 4,
+        "env_step": 5,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 57,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 5,
+        "env_step": 6,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 80,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 6,
+        "env_step": 7,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 103,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 7,
+        "env_step": 8,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 126,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 8,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 149,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 9,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 150,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 10,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 151,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 11,
+        "env_step": 8,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 127,
+        "depth": 8,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 12,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 241,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 13,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 242,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 14,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 243,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 15,
+        "env_step": 8,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 128,
+        "depth": 8,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 16,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 333,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 17,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 334,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 18,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 335,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 19,
+        "env_step": 7,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 104,
+        "depth": 7,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 20,
+        "env_step": 8,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 425,
+        "depth": 8,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 21,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h3. shame",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 448,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 22,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h3. shame",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 449,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 23,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h3. shame",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 450,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 24,
+        "env_step": 8,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 426,
+        "depth": 8,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 25,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h4. navel",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 540,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 26,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h4. navel",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 541,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 27,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h4. navel",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 542,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 28,
+        "env_step": 8,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 427,
+        "depth": 8,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 29,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 632,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 30,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 633,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 31,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 634,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 32,
+        "env_step": 7,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 105,
+        "depth": 7,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 33,
+        "env_step": 8,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 724,
+        "depth": 8,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 34,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 747,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 35,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed",
+            "h3. shame",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 748,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 36,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed",
+            "h3. shame",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 749,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 37,
+        "env_step": 8,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 725,
+        "depth": 8,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 38,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed",
+            "h4. navel",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 839,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 39,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed",
+            "h4. navel",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 840,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 40,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed",
+            "h4. navel",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 841,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 41,
+        "env_step": 8,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 726,
+        "depth": 8,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 42,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed",
+            "v4. armed",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 931,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 43,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed",
+            "v4. armed",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 932,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 44,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed",
+            "v4. armed",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 933,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 45,
+        "env_step": 6,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 81,
+        "depth": 6,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 46,
+        "env_step": 7,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1023,
+        "depth": 7,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 47,
+        "env_step": 8,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h3. shame",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1046,
+        "depth": 8,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 48,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1069,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 49,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1070,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 50,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1071,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 51,
+        "env_step": 8,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h3. shame",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1047,
+        "depth": 8,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 52,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h3. shame",
+            "h4. navel",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1161,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 53,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h3. shame",
+            "h4. navel",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1162,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 54,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h3. shame",
+            "h4. navel",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1163,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 55,
+        "env_step": 8,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h3. shame",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1048,
+        "depth": 8,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 56,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h3. shame",
+            "v4. armed",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1253,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 57,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h3. shame",
+            "v4. armed",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1254,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 58,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h3. shame",
+            "v4. armed",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1255,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 59,
+        "env_step": 7,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1024,
+        "depth": 7,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 60,
+        "env_step": 8,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h4. navel",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1345,
+        "depth": 8,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 61,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h4. navel",
+            "h3. shame",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1368,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 62,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h4. navel",
+            "h3. shame",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1369,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 63,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h4. navel",
+            "h3. shame",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1370,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 64,
+        "env_step": 8,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h4. navel",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1346,
+        "depth": 8,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 65,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h4. navel",
+            "h4. navel",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1460,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 66,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h4. navel",
+            "h4. navel",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1461,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 67,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h4. navel",
+            "h4. navel",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1462,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 68,
+        "env_step": 8,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h4. navel",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1347,
+        "depth": 8,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 69,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1552,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 70,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h4. navel",
+            "v4. armed",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1553,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 71,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "h4. navel",
+            "v4. armed",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1554,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 72,
+        "env_step": 7,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1025,
+        "depth": 7,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 73,
+        "env_step": 8,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1644,
+        "depth": 8,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 74,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1667,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 75,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1668,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 76,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1669,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 77,
+        "env_step": 8,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1645,
+        "depth": 8,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 78,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h4. navel",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1759,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 79,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h4. navel",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1760,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 80,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h4. navel",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1761,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 81,
+        "env_step": 8,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1646,
+        "depth": 8,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 82,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "v4. armed",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1851,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 83,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "v4. armed",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1852,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 84,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "v4. armed",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1853,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 85,
+        "env_step": 6,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 82,
+        "depth": 6,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 86,
+        "env_step": 7,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1943,
+        "depth": 7,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 87,
+        "env_step": 8,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1966,
+        "depth": 8,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 88,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1989,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 89,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1990,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 90,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1991,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 91,
+        "env_step": 8,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed",
+            "h3. shame",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1967,
+        "depth": 8,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 92,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed",
+            "h3. shame",
+            "h4. navel",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 2081,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 93,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed",
+            "h3. shame",
+            "h4. navel",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 2082,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 94,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed",
+            "h3. shame",
+            "h4. navel",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 2083,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 95,
+        "env_step": 8,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed",
+            "h3. shame",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1968,
+        "depth": 8,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 96,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed",
+            "h3. shame",
+            "v4. armed",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 2173,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 97,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed",
+            "h3. shame",
+            "v4. armed",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 2174,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 98,
+        "env_step": 9,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed",
+            "h3. shame",
+            "v4. armed",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 2175,
+        "distance to root": 111.60000000000001,
+        "depth": 9,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 99,
+        "env_step": 7,
+        "actions": [
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "h3. shame",
+            "h3. shame",
+            "v4. armed",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1944,
+        "depth": 7,
+        "d_thres": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "index": 15,
+        "best node id": 149,
+        "node depth": 9,
+        "chosen step": 8,
+        "distance to root": 111.60000000000001,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_",
+        "accuracy": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "cost time": 29.521588802337646
+    }
+]

@@ -1,0 +1,226 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs
+idx: 0
+pruning = True
+date: 2024-05-10
+time: 18:29:26
+
+{'total_step': 0, 'env_step': 1, 'actions': ['v4. spout'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'distance to root': 6.4, 'depth': 1, 'd_thres': 10000, 'answer': '___S_\n___P_\n___O_\n___U_\n___T_'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['v4. spout', 'v5. drier'], 'info': {'r_letter': 0.16, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 1}, 'current_node_id': 15, 'distance to root': 15.200000000000001, 'depth': 2, 'd_thres': 10000, 'answer': '___SD\n___PR\n___OI\n___UE\n___TR'}
+
+{'total_step': 2, 'env_step': 2, 'actions': ['v4. spout', 'v4. spout'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 16, 'distance to root': 15.4, 'depth': 2, 'd_thres': 10000, 'answer': '___S_\n___P_\n___O_\n___U_\n___T_'}
+
+{'total_step': 3, 'env_step': 3, 'actions': ['v4. spout', 'v4. spout', 'v5. drier'], 'info': {'r_letter': 0.16, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 1}, 'current_node_id': 27, 'distance to root': 24.200000000000003, 'depth': 3, 'd_thres': 10000, 'answer': '___SD\n___PR\n___OI\n___UE\n___TR'}
+
+{'total_step': 4, 'env_step': 3, 'actions': ['v4. spout', 'v4. spout', 'v4. spout'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 28, 'distance to root': 24.4, 'depth': 3, 'd_thres': 10000, 'answer': '___S_\n___P_\n___O_\n___U_\n___T_'}
+
+{'total_step': 5, 'env_step': 4, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v5. drier'], 'info': {'r_letter': 0.16, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 1}, 'current_node_id': 39, 'distance to root': 33.2, 'depth': 4, 'd_thres': 10000, 'answer': '___SD\n___PR\n___OI\n___UE\n___TR'}
+
+{'total_step': 6, 'env_step': 4, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 40, 'distance to root': 33.4, 'depth': 4, 'd_thres': 10000, 'answer': '___S_\n___P_\n___O_\n___U_\n___T_'}
+
+{'total_step': 7, 'env_step': 5, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v5. drier'], 'info': {'r_letter': 0.16, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 1}, 'current_node_id': 51, 'distance to root': 42.199999999999996, 'depth': 5, 'd_thres': 10000, 'answer': '___SD\n___PR\n___OI\n___UE\n___TR'}
+
+{'total_step': 8, 'env_step': 5, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 52, 'distance to root': 42.4, 'depth': 5, 'd_thres': 10000, 'answer': '___S_\n___P_\n___O_\n___U_\n___T_'}
+
+{'total_step': 9, 'env_step': 6, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v5. drier'], 'info': {'r_letter': 0.16, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 1}, 'current_node_id': 63, 'distance to root': 51.199999999999996, 'depth': 6, 'd_thres': 10000, 'answer': '___SD\n___PR\n___OI\n___UE\n___TR'}
+
+{'total_step': 10, 'env_step': 6, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 64, 'distance to root': 51.4, 'depth': 6, 'd_thres': 10000, 'answer': '___S_\n___P_\n___O_\n___U_\n___T_'}
+
+{'total_step': 11, 'env_step': 7, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v5. drier'], 'info': {'r_letter': 0.16, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 1}, 'current_node_id': 75, 'distance to root': 60.199999999999996, 'depth': 7, 'd_thres': 10000, 'answer': '___SD\n___PR\n___OI\n___UE\n___TR'}
+
+{'total_step': 12, 'env_step': 7, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 76, 'distance to root': 60.4, 'depth': 7, 'd_thres': 10000, 'answer': '___S_\n___P_\n___O_\n___U_\n___T_'}
+
+{'total_step': 13, 'env_step': 8, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v5. drier'], 'info': {'r_letter': 0.16, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 1}, 'current_node_id': 87, 'distance to root': 69.2, 'depth': 8, 'd_thres': 10000, 'answer': '___SD\n___PR\n___OI\n___UE\n___TR'}
+
+{'total_step': 14, 'env_step': 8, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 88, 'distance to root': 69.4, 'depth': 8, 'd_thres': 10000, 'answer': '___S_\n___P_\n___O_\n___U_\n___T_'}
+
+{'total_step': 15, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v5. drier'], 'info': {'r_letter': 0.16, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 1}, 'current_node_id': 99, 'distance to root': 78.2, 'depth': 9, 'd_thres': 10000, 'answer': '___SD\n___PR\n___OI\n___UE\n___TR'}
+
+{'total_step': 16, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 100, 'distance to root': 78.4, 'depth': 9, 'd_thres': 10000, 'answer': '___S_\n___P_\n___O_\n___U_\n___T_'}
+
+{'total_step': 17, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 101, 'distance to root': 78.9, 'depth': 9, 'd_thres': 10000, 'answer': 'A__S_\nM__P_\nA__O_\nS__U_\nS__T_'}
+
+{'total_step': 18, 'env_step': 8, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 89, 'distance to root': 69.9, 'depth': 8, 'd_thres': 10000, 'answer': 'A__S_\nM__P_\nA__O_\nS__U_\nS__T_'}
+
+{'total_step': 19, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 143, 'distance to root': 78.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': 'A__SD\nM__PR\nA__OI\nS__UE\nS__TR'}
+
+{'total_step': 20, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v3. guess'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 144, 'distance to root': 78.7, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GS_\nM_UP_\nA_EO_\nS_SU_\nS_ST_'}
+
+{'total_step': 21, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v1. amass'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 146, 'distance to root': 78.9, 'depth': 9, 'd_thres': 10000, 'answer': 'A__S_\nM__P_\nA__O_\nS__U_\nS__T_'}
+
+{'total_step': 22, 'env_step': 7, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 77, 'distance to root': 60.9, 'depth': 7, 'd_thres': 10000, 'answer': 'A__S_\nM__P_\nA__O_\nS__U_\nS__T_'}
+
+{'total_step': 23, 'env_step': 8, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 220, 'distance to root': 69.10000000000001, 'depth': 8, 'd_thres': 10000, 'answer': 'A__SD\nM__PR\nA__OI\nS__UE\nS__TR'}
+
+{'total_step': 24, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v3. guess'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 237, 'distance to root': 77.2, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 25, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v4. spout'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 240, 'distance to root': 78.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': 'A__SD\nM__PR\nA__OI\nS__UE\nS__TR'}
+
+{'total_step': 26, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v5. drier'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 241, 'distance to root': 78.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': 'A__SD\nM__PR\nA__OI\nS__UE\nS__TR'}
+
+{'total_step': 27, 'env_step': 8, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v3. guess'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 221, 'distance to root': 69.7, 'depth': 8, 'd_thres': 10000, 'answer': 'A_GS_\nM_UP_\nA_EO_\nS_SU_\nS_ST_'}
+
+{'total_step': 28, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v3. guess', 'v5. drier'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 318, 'distance to root': 77.7, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 29, 'env_step': 8, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v1. amass'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 223, 'distance to root': 69.9, 'depth': 8, 'd_thres': 10000, 'answer': 'A__S_\nM__P_\nA__O_\nS__U_\nS__T_'}
+
+{'total_step': 30, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v1. amass', 'v5. drier'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 352, 'distance to root': 78.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': 'A__SD\nM__PR\nA__OI\nS__UE\nS__TR'}
+
+{'total_step': 31, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v1. amass', 'v3. guess'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 353, 'distance to root': 78.7, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GS_\nM_UP_\nA_EO_\nS_SU_\nS_ST_'}
+
+{'total_step': 32, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v1. amass', 'v1. amass'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 355, 'distance to root': 78.9, 'depth': 9, 'd_thres': 10000, 'answer': 'A__S_\nM__P_\nA__O_\nS__U_\nS__T_'}
+
+{'total_step': 33, 'env_step': 6, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 65, 'distance to root': 51.9, 'depth': 6, 'd_thres': 10000, 'answer': 'A__S_\nM__P_\nA__O_\nS__U_\nS__T_'}
+
+{'total_step': 34, 'env_step': 7, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 429, 'distance to root': 60.1, 'depth': 7, 'd_thres': 10000, 'answer': 'A__SD\nM__PR\nA__OI\nS__UE\nS__TR'}
+
+{'total_step': 35, 'env_step': 8, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v3. guess'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 446, 'distance to root': 68.2, 'depth': 8, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 36, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v3. guess', 'v3. guess'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 467, 'distance to root': 74.7, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 37, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v3. guess', 'v1. amass'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 469, 'distance to root': 75.2, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 38, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v3. guess', 'v4. spout'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 470, 'distance to root': 75.2, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 39, 'env_step': 8, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v4. spout'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 449, 'distance to root': 69.10000000000001, 'depth': 8, 'd_thres': 10000, 'answer': 'A__SD\nM__PR\nA__OI\nS__UE\nS__TR'}
+
+{'total_step': 40, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v4. spout', 'v3. guess'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 528, 'distance to root': 77.2, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 41, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v4. spout', 'v4. spout'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 531, 'distance to root': 78.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': 'A__SD\nM__PR\nA__OI\nS__UE\nS__TR'}
+
+{'total_step': 42, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v4. spout', 'v5. drier'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 532, 'distance to root': 78.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': 'A__SD\nM__PR\nA__OI\nS__UE\nS__TR'}
+
+{'total_step': 43, 'env_step': 8, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v5. drier'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 450, 'distance to root': 69.10000000000001, 'depth': 8, 'd_thres': 10000, 'answer': 'A__SD\nM__PR\nA__OI\nS__UE\nS__TR'}
+
+{'total_step': 44, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v5. drier', 'v3. guess'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 609, 'distance to root': 77.2, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 45, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v5. drier', 'v4. spout'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 612, 'distance to root': 78.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': 'A__SD\nM__PR\nA__OI\nS__UE\nS__TR'}
+
+{'total_step': 46, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v5. drier', 'v5. drier'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 613, 'distance to root': 78.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': 'A__SD\nM__PR\nA__OI\nS__UE\nS__TR'}
+
+{'total_step': 47, 'env_step': 7, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v3. guess'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 430, 'distance to root': 60.699999999999996, 'depth': 7, 'd_thres': 10000, 'answer': 'A_GS_\nM_UP_\nA_EO_\nS_SU_\nS_ST_'}
+
+{'total_step': 48, 'env_step': 8, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v3. guess', 'v5. drier'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 690, 'distance to root': 68.7, 'depth': 8, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 49, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v3. guess', 'v5. drier', 'v3. guess'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 706, 'distance to root': 75.2, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 50, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v3. guess', 'v5. drier', 'v1. amass'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 708, 'distance to root': 75.7, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 51, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v3. guess', 'v5. drier', 'v4. spout'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 709, 'distance to root': 75.7, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 52, 'env_step': 7, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v1. amass'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 432, 'distance to root': 60.9, 'depth': 7, 'd_thres': 10000, 'answer': 'A__S_\nM__P_\nA__O_\nS__U_\nS__T_'}
+
+{'total_step': 53, 'env_step': 8, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v1. amass', 'v5. drier'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 769, 'distance to root': 69.10000000000001, 'depth': 8, 'd_thres': 10000, 'answer': 'A__SD\nM__PR\nA__OI\nS__UE\nS__TR'}
+
+{'total_step': 54, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v1. amass', 'v5. drier', 'v3. guess'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 786, 'distance to root': 77.2, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 55, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v1. amass', 'v5. drier', 'v4. spout'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 789, 'distance to root': 78.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': 'A__SD\nM__PR\nA__OI\nS__UE\nS__TR'}
+
+{'total_step': 56, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v1. amass', 'v5. drier', 'v5. drier'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 790, 'distance to root': 78.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': 'A__SD\nM__PR\nA__OI\nS__UE\nS__TR'}
+
+{'total_step': 57, 'env_step': 8, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v1. amass', 'v3. guess'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 770, 'distance to root': 69.7, 'depth': 8, 'd_thres': 10000, 'answer': 'A_GS_\nM_UP_\nA_EO_\nS_SU_\nS_ST_'}
+
+{'total_step': 58, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v1. amass', 'v3. guess', 'v5. drier'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 867, 'distance to root': 77.7, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 59, 'env_step': 8, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v1. amass', 'v1. amass'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 772, 'distance to root': 69.9, 'depth': 8, 'd_thres': 10000, 'answer': 'A__S_\nM__P_\nA__O_\nS__U_\nS__T_'}
+
+{'total_step': 60, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v1. amass', 'v1. amass', 'v5. drier'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 901, 'distance to root': 78.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': 'A__SD\nM__PR\nA__OI\nS__UE\nS__TR'}
+
+{'total_step': 61, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v1. amass', 'v1. amass', 'v3. guess'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 902, 'distance to root': 78.7, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GS_\nM_UP_\nA_EO_\nS_SU_\nS_ST_'}
+
+{'total_step': 62, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v1. amass', 'v1. amass', 'v1. amass'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 904, 'distance to root': 78.9, 'depth': 9, 'd_thres': 10000, 'answer': 'A__S_\nM__P_\nA__O_\nS__U_\nS__T_'}
+
+{'total_step': 63, 'env_step': 5, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 53, 'distance to root': 42.9, 'depth': 5, 'd_thres': 10000, 'answer': 'A__S_\nM__P_\nA__O_\nS__U_\nS__T_'}
+
+{'total_step': 64, 'env_step': 6, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 978, 'distance to root': 51.1, 'depth': 6, 'd_thres': 10000, 'answer': 'A__SD\nM__PR\nA__OI\nS__UE\nS__TR'}
+
+{'total_step': 65, 'env_step': 7, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v3. guess'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 995, 'distance to root': 59.199999999999996, 'depth': 7, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 66, 'env_step': 8, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v3. guess', 'v3. guess'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1016, 'distance to root': 65.7, 'depth': 8, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 67, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v3. guess', 'v3. guess', 'v3. guess'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1031, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 68, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v3. guess', 'v3. guess', 'v1. amass'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1033, 'distance to root': 72.7, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 69, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v3. guess', 'v3. guess', 'v4. spout'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1034, 'distance to root': 72.7, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 70, 'env_step': 8, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v3. guess', 'v1. amass'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1018, 'distance to root': 66.2, 'depth': 8, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 71, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v3. guess', 'v1. amass', 'v3. guess'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1091, 'distance to root': 72.7, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 72, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v3. guess', 'v1. amass', 'v1. amass'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1093, 'distance to root': 73.2, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 73, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v3. guess', 'v1. amass', 'v4. spout'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1094, 'distance to root': 73.2, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 74, 'env_step': 8, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v3. guess', 'v4. spout'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1019, 'distance to root': 66.2, 'depth': 8, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 75, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v3. guess', 'v4. spout', 'v3. guess'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1151, 'distance to root': 72.7, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 76, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v3. guess', 'v4. spout', 'v1. amass'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1153, 'distance to root': 73.2, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 77, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v3. guess', 'v4. spout', 'v4. spout'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1154, 'distance to root': 73.2, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 78, 'env_step': 7, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v4. spout'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 998, 'distance to root': 60.1, 'depth': 7, 'd_thres': 10000, 'answer': 'A__SD\nM__PR\nA__OI\nS__UE\nS__TR'}
+
+{'total_step': 79, 'env_step': 8, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v4. spout', 'v3. guess'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1212, 'distance to root': 68.2, 'depth': 8, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 80, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v4. spout', 'v3. guess', 'v3. guess'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1233, 'distance to root': 74.7, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 81, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v4. spout', 'v3. guess', 'v1. amass'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1235, 'distance to root': 75.2, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 82, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v4. spout', 'v3. guess', 'v4. spout'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1236, 'distance to root': 75.2, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 83, 'env_step': 8, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v4. spout', 'v4. spout'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1215, 'distance to root': 69.10000000000001, 'depth': 8, 'd_thres': 10000, 'answer': 'A__SD\nM__PR\nA__OI\nS__UE\nS__TR'}
+
+{'total_step': 84, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v4. spout', 'v4. spout', 'v3. guess'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1294, 'distance to root': 77.2, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 85, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v4. spout', 'v4. spout', 'v4. spout'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1297, 'distance to root': 78.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': 'A__SD\nM__PR\nA__OI\nS__UE\nS__TR'}
+
+{'total_step': 86, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v4. spout', 'v4. spout', 'v5. drier'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1298, 'distance to root': 78.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': 'A__SD\nM__PR\nA__OI\nS__UE\nS__TR'}
+
+{'total_step': 87, 'env_step': 8, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v4. spout', 'v5. drier'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1216, 'distance to root': 69.10000000000001, 'depth': 8, 'd_thres': 10000, 'answer': 'A__SD\nM__PR\nA__OI\nS__UE\nS__TR'}
+
+{'total_step': 88, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v4. spout', 'v5. drier', 'v3. guess'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1375, 'distance to root': 77.2, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 89, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v4. spout', 'v5. drier', 'v4. spout'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1378, 'distance to root': 78.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': 'A__SD\nM__PR\nA__OI\nS__UE\nS__TR'}
+
+{'total_step': 90, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v4. spout', 'v5. drier', 'v5. drier'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1379, 'distance to root': 78.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': 'A__SD\nM__PR\nA__OI\nS__UE\nS__TR'}
+
+{'total_step': 91, 'env_step': 7, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v5. drier'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 999, 'distance to root': 60.1, 'depth': 7, 'd_thres': 10000, 'answer': 'A__SD\nM__PR\nA__OI\nS__UE\nS__TR'}
+
+{'total_step': 92, 'env_step': 8, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v5. drier', 'v3. guess'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1456, 'distance to root': 68.2, 'depth': 8, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 93, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v5. drier', 'v3. guess', 'v3. guess'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1477, 'distance to root': 74.7, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 94, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v5. drier', 'v3. guess', 'v1. amass'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1479, 'distance to root': 75.2, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 95, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v5. drier', 'v3. guess', 'v4. spout'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1480, 'distance to root': 75.2, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 96, 'env_step': 8, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v5. drier', 'v4. spout'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1459, 'distance to root': 69.10000000000001, 'depth': 8, 'd_thres': 10000, 'answer': 'A__SD\nM__PR\nA__OI\nS__UE\nS__TR'}
+
+{'total_step': 97, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v5. drier', 'v4. spout', 'v3. guess'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1538, 'distance to root': 77.2, 'depth': 9, 'd_thres': 10000, 'answer': 'A_GSD\nM_UPR\nA_EOI\nS_SUE\nS_STR'}
+
+{'total_step': 98, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v5. drier', 'v4. spout', 'v4. spout'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1541, 'distance to root': 78.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': 'A__SD\nM__PR\nA__OI\nS__UE\nS__TR'}
+
+{'total_step': 99, 'env_step': 9, 'actions': ['v4. spout', 'v4. spout', 'v4. spout', 'v4. spout', 'v1. amass', 'v5. drier', 'v5. drier', 'v4. spout', 'v5. drier'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1542, 'distance to root': 78.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': 'A__SD\nM__PR\nA__OI\nS__UE\nS__TR'}
+
+-----------------------
+
+best node id: 101
+node depth: 9
+chosen step: 17
+distance to root: 78.9
+answer:
+
+A__S_
+M__P_
+A__O_
+S__U_
+S__T_
+
+accuracy: {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}
+cost time: 80.74492907524109 s
+
+---- Task Complete ----

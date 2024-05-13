@@ -1,0 +1,2940 @@
+[
+    {
+        "total_step": 0,
+        "env_step": 1,
+        "actions": [
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 1,
+        "distance to root": 8.0,
+        "depth": 1,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nU____\nS____\nH____"
+    },
+    {
+        "total_step": 1,
+        "env_step": 2,
+        "actions": [
+            "v1. crush",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 11,
+        "distance to root": 16.8,
+        "depth": 2,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nU____\nSKULK\nH____"
+    },
+    {
+        "total_step": 2,
+        "env_step": 3,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 33,
+        "distance to root": 26.4,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 3,
+        "env_step": 4,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 42,
+        "distance to root": 32.4,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 4,
+        "env_step": 5,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 56,
+        "distance to root": 38.400000000000006,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 5,
+        "env_step": 6,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 70,
+        "distance to root": 44.400000000000006,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 6,
+        "env_step": 7,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 84,
+        "distance to root": 50.400000000000006,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 7,
+        "env_step": 8,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 98,
+        "distance to root": 56.400000000000006,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 8,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 112,
+        "distance to root": 62.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 9,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 113,
+        "distance to root": 62.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 10,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 114,
+        "distance to root": 62.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 11,
+        "env_step": 8,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 99,
+        "distance to root": 56.400000000000006,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 12,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 168,
+        "distance to root": 62.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 13,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 169,
+        "distance to root": 62.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 14,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 170,
+        "distance to root": 62.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 15,
+        "env_step": 8,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 100,
+        "distance to root": 56.900000000000006,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 16,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 224,
+        "distance to root": 62.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 17,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 225,
+        "distance to root": 62.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 18,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 226,
+        "distance to root": 63.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 19,
+        "env_step": 7,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 85,
+        "distance to root": 50.400000000000006,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 20,
+        "env_step": 8,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 280,
+        "distance to root": 56.400000000000006,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 21,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 294,
+        "distance to root": 62.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 22,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h3. ulula",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 295,
+        "distance to root": 62.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 23,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h3. ulula",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 296,
+        "distance to root": 62.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 24,
+        "env_step": 8,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 281,
+        "distance to root": 56.400000000000006,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 25,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h4. skulk",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 350,
+        "distance to root": 62.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 26,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h4. skulk",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 351,
+        "distance to root": 62.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 27,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h4. skulk",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 352,
+        "distance to root": 62.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 28,
+        "env_step": 8,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 282,
+        "distance to root": 56.900000000000006,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 29,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "v1. crush",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 406,
+        "distance to root": 62.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 30,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "v1. crush",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 407,
+        "distance to root": 62.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 31,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "v1. crush",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 408,
+        "distance to root": 63.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 32,
+        "env_step": 7,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 86,
+        "distance to root": 50.900000000000006,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 33,
+        "env_step": 8,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 462,
+        "distance to root": 56.900000000000006,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 34,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush",
+            "h3. ulula",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 476,
+        "distance to root": 62.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 35,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush",
+            "h3. ulula",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 477,
+        "distance to root": 62.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 36,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush",
+            "h3. ulula",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 478,
+        "distance to root": 63.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 37,
+        "env_step": 8,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 463,
+        "distance to root": 56.900000000000006,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 38,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 532,
+        "distance to root": 62.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 39,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush",
+            "h4. skulk",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 533,
+        "distance to root": 62.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 40,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush",
+            "h4. skulk",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 534,
+        "distance to root": 63.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 41,
+        "env_step": 8,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 464,
+        "distance to root": 57.400000000000006,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 42,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush",
+            "v1. crush",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 588,
+        "distance to root": 63.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 43,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush",
+            "v1. crush",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 589,
+        "distance to root": 63.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 44,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush",
+            "v1. crush",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 590,
+        "distance to root": 63.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 45,
+        "env_step": 6,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 71,
+        "distance to root": 44.400000000000006,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 46,
+        "env_step": 7,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 644,
+        "distance to root": 50.400000000000006,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 47,
+        "env_step": 8,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 658,
+        "distance to root": 56.400000000000006,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 48,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 672,
+        "distance to root": 62.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 49,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 673,
+        "distance to root": 62.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 50,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 674,
+        "distance to root": 62.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 51,
+        "env_step": 8,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h3. ulula",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 659,
+        "distance to root": 56.400000000000006,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 52,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h3. ulula",
+            "h4. skulk",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 728,
+        "distance to root": 62.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 53,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h3. ulula",
+            "h4. skulk",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 729,
+        "distance to root": 62.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 54,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h3. ulula",
+            "h4. skulk",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 730,
+        "distance to root": 62.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 55,
+        "env_step": 8,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h3. ulula",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 660,
+        "distance to root": 56.900000000000006,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 56,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h3. ulula",
+            "v1. crush",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 784,
+        "distance to root": 62.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 57,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h3. ulula",
+            "v1. crush",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 785,
+        "distance to root": 62.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 58,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h3. ulula",
+            "v1. crush",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 786,
+        "distance to root": 63.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 59,
+        "env_step": 7,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 645,
+        "distance to root": 50.400000000000006,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 60,
+        "env_step": 8,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h4. skulk",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 840,
+        "distance to root": 56.400000000000006,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 61,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 854,
+        "distance to root": 62.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 62,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h4. skulk",
+            "h3. ulula",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 855,
+        "distance to root": 62.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 63,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h4. skulk",
+            "h3. ulula",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 856,
+        "distance to root": 62.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 64,
+        "env_step": 8,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h4. skulk",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 841,
+        "distance to root": 56.400000000000006,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 65,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h4. skulk",
+            "h4. skulk",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 910,
+        "distance to root": 62.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 66,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h4. skulk",
+            "h4. skulk",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 911,
+        "distance to root": 62.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 67,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h4. skulk",
+            "h4. skulk",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 912,
+        "distance to root": 62.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 68,
+        "env_step": 8,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h4. skulk",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 842,
+        "distance to root": 56.900000000000006,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 69,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h4. skulk",
+            "v1. crush",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 966,
+        "distance to root": 62.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 70,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h4. skulk",
+            "v1. crush",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 967,
+        "distance to root": 62.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 71,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "h4. skulk",
+            "v1. crush",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 968,
+        "distance to root": 63.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 72,
+        "env_step": 7,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 646,
+        "distance to root": 50.900000000000006,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 73,
+        "env_step": 8,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "v1. crush",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1022,
+        "distance to root": 56.900000000000006,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 74,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "v1. crush",
+            "h3. ulula",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1036,
+        "distance to root": 62.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 75,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "v1. crush",
+            "h3. ulula",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1037,
+        "distance to root": 62.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 76,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "v1. crush",
+            "h3. ulula",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1038,
+        "distance to root": 63.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 77,
+        "env_step": 8,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "v1. crush",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1023,
+        "distance to root": 56.900000000000006,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 78,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1092,
+        "distance to root": 62.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 79,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "v1. crush",
+            "h4. skulk",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1093,
+        "distance to root": 62.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 80,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "v1. crush",
+            "h4. skulk",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1094,
+        "distance to root": 63.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 81,
+        "env_step": 8,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "v1. crush",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1024,
+        "distance to root": 57.400000000000006,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 82,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "v1. crush",
+            "v1. crush",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1148,
+        "distance to root": 63.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 83,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "v1. crush",
+            "v1. crush",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1149,
+        "distance to root": 63.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 84,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk",
+            "v1. crush",
+            "v1. crush",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1150,
+        "distance to root": 63.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 85,
+        "env_step": 6,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 72,
+        "distance to root": 44.900000000000006,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 86,
+        "env_step": 7,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1204,
+        "distance to root": 50.900000000000006,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 87,
+        "env_step": 8,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush",
+            "h3. ulula",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1218,
+        "distance to root": 56.900000000000006,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 88,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1232,
+        "distance to root": 62.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 89,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush",
+            "h3. ulula",
+            "h3. ulula",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1233,
+        "distance to root": 62.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 90,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1234,
+        "distance to root": 63.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 91,
+        "env_step": 8,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush",
+            "h3. ulula",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1219,
+        "distance to root": 56.900000000000006,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 92,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush",
+            "h3. ulula",
+            "h4. skulk",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1288,
+        "distance to root": 62.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 93,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush",
+            "h3. ulula",
+            "h4. skulk",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1289,
+        "distance to root": 62.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 94,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush",
+            "h3. ulula",
+            "h4. skulk",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1290,
+        "distance to root": 63.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 95,
+        "env_step": 8,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush",
+            "h3. ulula",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1220,
+        "distance to root": 57.400000000000006,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 96,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush",
+            "h3. ulula",
+            "v1. crush",
+            "h3. ulula"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1344,
+        "distance to root": 63.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 97,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush",
+            "h3. ulula",
+            "v1. crush",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1345,
+        "distance to root": 63.400000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 98,
+        "env_step": 9,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush",
+            "h3. ulula",
+            "v1. crush",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1346,
+        "distance to root": 63.900000000000006,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "total_step": 99,
+        "env_step": 7,
+        "actions": [
+            "v1. crush",
+            "h4. skulk",
+            "h3. ulula",
+            "h3. ulula",
+            "h3. ulula",
+            "v1. crush",
+            "h4. skulk"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1205,
+        "distance to root": 50.900000000000006,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "C____\nR____\nULULA\nSKULK\nH____"
+    },
+    {
+        "index": 5,
+        "best node id": 1,
+        "node depth": 1,
+        "chosen step": 0,
+        "distance to root": 8.0,
+        "answer": "C____\nR____\nU____\nS____\nH____",
+        "accuracy": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "cost time": 28.088048219680786
+    }
+]

@@ -1,0 +1,226 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs
+idx: 11
+pruning = True
+date: 2024-05-05
+time: 23:38:52
+
+{'total_step': 0, 'env_step': 1, 'actions': ['v1. chafe'], 'info': {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'distance to root': 9.5, 'depth': 1, 'd_thres': 10000, 'answer': 'C____\nH____\nA____\nF____\nE____'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['v1. chafe', 'h1. crowd'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 7, 'distance to root': 16.3, 'depth': 2, 'd_thres': 10000, 'answer': 'CROWD\nH____\nA____\nF____\nE____'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 24, 'distance to root': 24.3, 'depth': 3, 'd_thres': 10000, 'answer': 'CROWD\nH____\nA____\nF____\nE____'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 36, 'distance to root': 32.3, 'depth': 4, 'd_thres': 10000, 'answer': 'CROWD\nH____\nA____\nF____\nE____'}
+
+{'total_step': 4, 'env_step': 5, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 48, 'distance to root': 40.3, 'depth': 5, 'd_thres': 10000, 'answer': 'CROWD\nH____\nA____\nF____\nE____'}
+
+{'total_step': 5, 'env_step': 6, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 60, 'distance to root': 48.3, 'depth': 6, 'd_thres': 10000, 'answer': 'CROWD\nH____\nA____\nF____\nE____'}
+
+{'total_step': 6, 'env_step': 7, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 72, 'distance to root': 56.3, 'depth': 7, 'd_thres': 10000, 'answer': 'CROWD\nH____\nA____\nF____\nE____'}
+
+{'total_step': 7, 'env_step': 8, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 84, 'distance to root': 64.3, 'depth': 8, 'd_thres': 10000, 'answer': 'CROWD\nH____\nA____\nF____\nE____'}
+
+{'total_step': 8, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 96, 'distance to root': 72.3, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nH____\nA____\nF____\nE____'}
+
+{'total_step': 9, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 98, 'distance to root': 73.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 10, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew'], 'info': {'r_letter': 0.2, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 0}, 'current_node_id': 100, 'distance to root': 73.3, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHE___\nAS___\nFE___\nEW___'}
+
+{'total_step': 11, 'env_step': 8, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 86, 'distance to root': 65.19999999999999, 'depth': 8, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 12, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v1. chafe'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 156, 'distance to root': 74.2, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 13, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v4. watch'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 157, 'distance to root': 74.2, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 14, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v2. resew'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 161, 'distance to root': 74.4, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHE_A_\nAS_T_\nFE_C_\nEW_H_'}
+
+{'total_step': 15, 'env_step': 8, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew'], 'info': {'r_letter': 0.2, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 0}, 'current_node_id': 88, 'distance to root': 65.3, 'depth': 8, 'd_thres': 10000, 'answer': 'CROWD\nHE___\nAS___\nFE___\nEW___'}
+
+{'total_step': 16, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew', 'v3. overt'], 'info': {'r_letter': 0.2, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 3, 'impossible': 2}, 'current_node_id': 229, 'distance to root': 74.9, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHEV__\nASE__\nFER__\nEWT__'}
+
+{'total_step': 17, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew', 'v4. watch'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 230, 'distance to root': 74.9, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHE_A_\nAS_T_\nFE_C_\nEW_H_'}
+
+{'total_step': 18, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew', 'h2. hewed'], 'info': {'r_letter': 0.2, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 231, 'distance to root': 75.1, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHEWED\nAS___\nFE___\nEW___'}
+
+{'total_step': 19, 'env_step': 7, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 74, 'distance to root': 57.199999999999996, 'depth': 7, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 20, 'env_step': 8, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v1. chafe'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 289, 'distance to root': 66.19999999999999, 'depth': 8, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 21, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v1. chafe', 'v1. chafe'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 305, 'distance to root': 75.2, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 22, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v1. chafe', 'v4. watch'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 306, 'distance to root': 75.2, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 23, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v1. chafe', 'v2. resew'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 310, 'distance to root': 75.4, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHE_A_\nAS_T_\nFE_C_\nEW_H_'}
+
+{'total_step': 24, 'env_step': 8, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v4. watch'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 290, 'distance to root': 66.19999999999999, 'depth': 8, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 25, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v4. watch', 'v1. chafe'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 375, 'distance to root': 75.2, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 26, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v4. watch', 'v4. watch'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 376, 'distance to root': 75.2, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 27, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v4. watch', 'v2. resew'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 380, 'distance to root': 75.4, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHE_A_\nAS_T_\nFE_C_\nEW_H_'}
+
+{'total_step': 28, 'env_step': 8, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v2. resew'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 294, 'distance to root': 66.4, 'depth': 8, 'd_thres': 10000, 'answer': 'CROWD\nHE_A_\nAS_T_\nFE_C_\nEW_H_'}
+
+{'total_step': 29, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v2. resew', 'v5. daunt'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 445, 'distance to root': 75.2, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHE_AA\nAS_TU\nFE_CN\nEW_HT'}
+
+{'total_step': 30, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v2. resew', 'v3. overt'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 0, 'impossible': 4}, 'current_node_id': 448, 'distance to root': 75.5, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHEVA_\nASET_\nFERC_\nEWTH_'}
+
+{'total_step': 31, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v2. resew', 'h4. fetch'], 'info': {'r_letter': 0.28, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 1}, 'current_node_id': 449, 'distance to root': 75.5, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHE_A_\nAS_T_\nFETCH\nEW_H_'}
+
+{'total_step': 32, 'env_step': 7, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew'], 'info': {'r_letter': 0.2, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 0}, 'current_node_id': 76, 'distance to root': 57.3, 'depth': 7, 'd_thres': 10000, 'answer': 'CROWD\nHE___\nAS___\nFE___\nEW___'}
+
+{'total_step': 33, 'env_step': 8, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew', 'v3. overt'], 'info': {'r_letter': 0.2, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 3, 'impossible': 2}, 'current_node_id': 488, 'distance to root': 66.9, 'depth': 8, 'd_thres': 10000, 'answer': 'CROWD\nHEV__\nASE__\nFER__\nEWT__'}
+
+{'total_step': 34, 'env_step': 8, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew', 'v4. watch'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 489, 'distance to root': 66.9, 'depth': 8, 'd_thres': 10000, 'answer': 'CROWD\nHE_A_\nAS_T_\nFE_C_\nEW_H_'}
+
+{'total_step': 35, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew', 'v4. watch', 'v5. daunt'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 505, 'distance to root': 75.7, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHE_AA\nAS_TU\nFE_CN\nEW_HT'}
+
+{'total_step': 36, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew', 'v4. watch', 'v3. overt'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 0, 'impossible': 4}, 'current_node_id': 508, 'distance to root': 76.0, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHEVA_\nASET_\nFERC_\nEWTH_'}
+
+{'total_step': 37, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew', 'v4. watch', 'h4. fetch'], 'info': {'r_letter': 0.28, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 1}, 'current_node_id': 509, 'distance to root': 76.0, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHE_A_\nAS_T_\nFETCH\nEW_H_'}
+
+{'total_step': 38, 'env_step': 8, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew', 'h2. hewed'], 'info': {'r_letter': 0.2, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 490, 'distance to root': 67.1, 'depth': 8, 'd_thres': 10000, 'answer': 'CROWD\nHEWED\nAS___\nFE___\nEW___'}
+
+{'total_step': 39, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew', 'h2. hewed', 'h3. ashes'], 'info': {'r_letter': 0.2, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 2}, 'current_node_id': 545, 'distance to root': 75.5, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHEWED\nASHES\nFE___\nEW___'}
+
+{'total_step': 40, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew', 'h2. hewed', 'h4. fetid'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 546, 'distance to root': 75.5, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHEWED\nAS___\nFETID\nEW___'}
+
+{'total_step': 41, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew', 'h2. hewed', 'v3. owing'], 'info': {'r_letter': 0.2, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 547, 'distance to root': 76.1, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHEWED\nASI__\nFEN__\nEWG__'}
+
+{'total_step': 42, 'env_step': 6, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 62, 'distance to root': 49.199999999999996, 'depth': 6, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 43, 'env_step': 7, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v1. chafe'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 583, 'distance to root': 58.199999999999996, 'depth': 7, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 44, 'env_step': 8, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v1. chafe', 'v1. chafe'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 599, 'distance to root': 67.19999999999999, 'depth': 8, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 45, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v1. chafe', 'v1. chafe', 'v1. chafe'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 615, 'distance to root': 76.2, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 46, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v1. chafe', 'v1. chafe', 'v4. watch'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 616, 'distance to root': 76.2, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 47, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v1. chafe', 'v1. chafe', 'v2. resew'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 620, 'distance to root': 76.4, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHE_A_\nAS_T_\nFE_C_\nEW_H_'}
+
+{'total_step': 48, 'env_step': 8, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v1. chafe', 'v4. watch'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 600, 'distance to root': 67.19999999999999, 'depth': 8, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 49, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v1. chafe', 'v4. watch', 'v1. chafe'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 685, 'distance to root': 76.2, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 50, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v1. chafe', 'v4. watch', 'v4. watch'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 686, 'distance to root': 76.2, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 51, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v1. chafe', 'v4. watch', 'v2. resew'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 690, 'distance to root': 76.4, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHE_A_\nAS_T_\nFE_C_\nEW_H_'}
+
+{'total_step': 52, 'env_step': 8, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v1. chafe', 'v2. resew'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 604, 'distance to root': 67.4, 'depth': 8, 'd_thres': 10000, 'answer': 'CROWD\nHE_A_\nAS_T_\nFE_C_\nEW_H_'}
+
+{'total_step': 53, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v1. chafe', 'v2. resew', 'v5. daunt'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 755, 'distance to root': 76.2, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHE_AA\nAS_TU\nFE_CN\nEW_HT'}
+
+{'total_step': 54, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v1. chafe', 'v2. resew', 'v3. overt'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 0, 'impossible': 4}, 'current_node_id': 758, 'distance to root': 76.5, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHEVA_\nASET_\nFERC_\nEWTH_'}
+
+{'total_step': 55, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v1. chafe', 'v2. resew', 'h4. fetch'], 'info': {'r_letter': 0.28, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 1}, 'current_node_id': 759, 'distance to root': 76.5, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHE_A_\nAS_T_\nFETCH\nEW_H_'}
+
+{'total_step': 56, 'env_step': 7, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v4. watch'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 584, 'distance to root': 58.199999999999996, 'depth': 7, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 57, 'env_step': 8, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v4. watch', 'v1. chafe'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 795, 'distance to root': 67.19999999999999, 'depth': 8, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 58, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v4. watch', 'v1. chafe', 'v1. chafe'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 811, 'distance to root': 76.2, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 59, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v4. watch', 'v1. chafe', 'v4. watch'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 812, 'distance to root': 76.2, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 60, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v4. watch', 'v1. chafe', 'v2. resew'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 816, 'distance to root': 76.4, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHE_A_\nAS_T_\nFE_C_\nEW_H_'}
+
+{'total_step': 61, 'env_step': 8, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v4. watch', 'v4. watch'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 796, 'distance to root': 67.19999999999999, 'depth': 8, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 62, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v4. watch', 'v4. watch', 'v1. chafe'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 881, 'distance to root': 76.2, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 63, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v4. watch', 'v4. watch', 'v4. watch'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 882, 'distance to root': 76.2, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 64, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v4. watch', 'v4. watch', 'v2. resew'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 886, 'distance to root': 76.4, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHE_A_\nAS_T_\nFE_C_\nEW_H_'}
+
+{'total_step': 65, 'env_step': 8, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v4. watch', 'v2. resew'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 800, 'distance to root': 67.4, 'depth': 8, 'd_thres': 10000, 'answer': 'CROWD\nHE_A_\nAS_T_\nFE_C_\nEW_H_'}
+
+{'total_step': 66, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v4. watch', 'v2. resew', 'v5. daunt'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 951, 'distance to root': 76.2, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHE_AA\nAS_TU\nFE_CN\nEW_HT'}
+
+{'total_step': 67, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v4. watch', 'v2. resew', 'v3. overt'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 0, 'impossible': 4}, 'current_node_id': 954, 'distance to root': 76.5, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHEVA_\nASET_\nFERC_\nEWTH_'}
+
+{'total_step': 68, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v4. watch', 'v2. resew', 'h4. fetch'], 'info': {'r_letter': 0.28, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 1}, 'current_node_id': 955, 'distance to root': 76.5, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHE_A_\nAS_T_\nFETCH\nEW_H_'}
+
+{'total_step': 69, 'env_step': 7, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v2. resew'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 588, 'distance to root': 58.4, 'depth': 7, 'd_thres': 10000, 'answer': 'CROWD\nHE_A_\nAS_T_\nFE_C_\nEW_H_'}
+
+{'total_step': 70, 'env_step': 8, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v2. resew', 'v5. daunt'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 991, 'distance to root': 67.19999999999999, 'depth': 8, 'd_thres': 10000, 'answer': 'CROWD\nHE_AA\nAS_TU\nFE_CN\nEW_HT'}
+
+{'total_step': 71, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v2. resew', 'v5. daunt', 'v3. obeah'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1013, 'distance to root': 74.4, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHEBAA\nASETU\nFEACN\nEWHHT'}
+
+{'total_step': 72, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v2. resew', 'v5. daunt', 'v5. daunt'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1015, 'distance to root': 76.2, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHE_AA\nAS_TU\nFE_CN\nEW_HT'}
+
+{'total_step': 73, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v2. resew', 'v5. daunt', 'v3. overt'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 2, 'impossible': 4}, 'current_node_id': 1021, 'distance to root': 76.8, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHEVAA\nASETU\nFERCN\nEWTHT'}
+
+{'total_step': 74, 'env_step': 8, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v2. resew', 'v3. overt'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 0, 'impossible': 4}, 'current_node_id': 994, 'distance to root': 67.5, 'depth': 8, 'd_thres': 10000, 'answer': 'CROWD\nHEVA_\nASET_\nFERC_\nEWTH_'}
+
+{'total_step': 75, 'env_step': 8, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v2. resew', 'h4. fetch'], 'info': {'r_letter': 0.28, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 1}, 'current_node_id': 995, 'distance to root': 67.5, 'depth': 8, 'd_thres': 10000, 'answer': 'CROWD\nHE_A_\nAS_T_\nFETCH\nEW_H_'}
+
+{'total_step': 76, 'env_step': 6, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew'], 'info': {'r_letter': 0.2, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 0}, 'current_node_id': 64, 'distance to root': 49.3, 'depth': 6, 'd_thres': 10000, 'answer': 'CROWD\nHE___\nAS___\nFE___\nEW___'}
+
+{'total_step': 77, 'env_step': 7, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew', 'v3. overt'], 'info': {'r_letter': 0.2, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1052, 'distance to root': 58.9, 'depth': 7, 'd_thres': 10000, 'answer': 'CROWD\nHEV__\nASE__\nFER__\nEWT__'}
+
+{'total_step': 78, 'env_step': 7, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew', 'v4. watch'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1053, 'distance to root': 58.9, 'depth': 7, 'd_thres': 10000, 'answer': 'CROWD\nHE_A_\nAS_T_\nFE_C_\nEW_H_'}
+
+{'total_step': 79, 'env_step': 8, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew', 'v4. watch', 'v5. daunt'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1069, 'distance to root': 67.69999999999999, 'depth': 8, 'd_thres': 10000, 'answer': 'CROWD\nHE_AA\nAS_TU\nFE_CN\nEW_HT'}
+
+{'total_step': 80, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew', 'v4. watch', 'v5. daunt', 'v3. obeah'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1091, 'distance to root': 74.9, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHEBAA\nASETU\nFEACN\nEWHHT'}
+
+{'total_step': 81, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew', 'v4. watch', 'v5. daunt', 'v5. daunt'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1093, 'distance to root': 76.7, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHE_AA\nAS_TU\nFE_CN\nEW_HT'}
+
+{'total_step': 82, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew', 'v4. watch', 'v5. daunt', 'v3. overt'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 2, 'impossible': 4}, 'current_node_id': 1099, 'distance to root': 77.3, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHEVAA\nASETU\nFERCN\nEWTHT'}
+
+{'total_step': 83, 'env_step': 8, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew', 'v4. watch', 'v3. overt'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 0, 'impossible': 4}, 'current_node_id': 1072, 'distance to root': 68.0, 'depth': 8, 'd_thres': 10000, 'answer': 'CROWD\nHEVA_\nASET_\nFERC_\nEWTH_'}
+
+{'total_step': 84, 'env_step': 8, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew', 'v4. watch', 'h4. fetch'], 'info': {'r_letter': 0.28, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 1}, 'current_node_id': 1073, 'distance to root': 68.0, 'depth': 8, 'd_thres': 10000, 'answer': 'CROWD\nHE_A_\nAS_T_\nFETCH\nEW_H_'}
+
+{'total_step': 85, 'env_step': 7, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew', 'h2. hewed'], 'info': {'r_letter': 0.2, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1054, 'distance to root': 59.099999999999994, 'depth': 7, 'd_thres': 10000, 'answer': 'CROWD\nHEWED\nAS___\nFE___\nEW___'}
+
+{'total_step': 86, 'env_step': 8, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew', 'h2. hewed', 'h3. ashes'], 'info': {'r_letter': 0.2, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1127, 'distance to root': 67.5, 'depth': 8, 'd_thres': 10000, 'answer': 'CROWD\nHEWED\nASHES\nFE___\nEW___'}
+
+{'total_step': 87, 'env_step': 8, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew', 'h2. hewed', 'h4. fetid'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1128, 'distance to root': 67.5, 'depth': 8, 'd_thres': 10000, 'answer': 'CROWD\nHEWED\nAS___\nFETID\nEW___'}
+
+{'total_step': 88, 'env_step': 8, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew', 'h2. hewed', 'v3. owing'], 'info': {'r_letter': 0.2, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1129, 'distance to root': 68.1, 'depth': 8, 'd_thres': 10000, 'answer': 'CROWD\nHEWED\nASI__\nFEN__\nEWG__'}
+
+{'total_step': 89, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew', 'h2. hewed', 'v3. owing', 'v3. owing'], 'info': {'r_letter': 0.2, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1148, 'distance to root': 75.1, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHEWED\nASI__\nFEN__\nEWG__'}
+
+{'total_step': 90, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew', 'h2. hewed', 'v3. owing', 'h3. aside'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 1}, 'current_node_id': 1150, 'distance to root': 76.9, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHEWED\nASIDE\nFEN__\nEWG__'}
+
+{'total_step': 91, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew', 'h2. hewed', 'v3. owing', 'v4. wedge'], 'info': {'r_letter': 0.2, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 3}, 'current_node_id': 1156, 'distance to root': 77.9, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHEWED\nASID_\nFENG_\nEWGE_'}
+
+{'total_step': 92, 'env_step': 5, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v4. watch'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 50, 'distance to root': 41.2, 'depth': 5, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 93, 'env_step': 6, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v1. chafe'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1182, 'distance to root': 50.199999999999996, 'depth': 6, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 94, 'env_step': 7, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v1. chafe', 'v1. chafe'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1198, 'distance to root': 59.199999999999996, 'depth': 7, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 95, 'env_step': 8, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v1. chafe', 'v1. chafe', 'v1. chafe'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1214, 'distance to root': 68.19999999999999, 'depth': 8, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 96, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v1. chafe'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1230, 'distance to root': 77.2, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 97, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v4. watch'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1231, 'distance to root': 77.2, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+{'total_step': 98, 'env_step': 9, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v1. chafe', 'v1. chafe', 'v1. chafe', 'v2. resew'], 'info': {'r_letter': 0.24, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1235, 'distance to root': 77.4, 'depth': 9, 'd_thres': 10000, 'answer': 'CROWD\nHE_A_\nAS_T_\nFE_C_\nEW_H_'}
+
+{'total_step': 99, 'env_step': 8, 'actions': ['v1. chafe', 'h1. crowd', 'v1. chafe', 'v1. chafe', 'v4. watch', 'v1. chafe', 'v1. chafe', 'v4. watch'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1215, 'distance to root': 68.19999999999999, 'depth': 8, 'd_thres': 10000, 'answer': 'CROWD\nH__A_\nA__T_\nF__C_\nE__H_'}
+
+-----------------------
+
+best node id: 1
+node depth: 1
+chosen step: 0
+distance to root: 9.5
+answer:
+
+C____
+H____
+A____
+F____
+E____
+
+accuracy: {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}
+cost time: 143.5590260028839 s
+
+---- Task Complete ----

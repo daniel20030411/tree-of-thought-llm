@@ -1,0 +1,226 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs
+idx: 17
+pruning = True
+date: 2024-05-10
+time: 18:29:26
+
+{'total_step': 0, 'env_step': 1, 'actions': ['v3. craze'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'distance to root': 9.0, 'depth': 1, 'd_thres': 10000, 'answer': '__C__\n__R__\n__A__\n__Z__\n__E__'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['v3. craze', 'v1. idiot'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 10, 'distance to root': 17.6, 'depth': 2, 'd_thres': 10000, 'answer': 'I_C__\nD_R__\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 29, 'distance to root': 26.2, 'depth': 3, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 48, 'distance to root': 35.6, 'depth': 4, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 4, 'env_step': 4, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 52, 'distance to root': 35.7, 'depth': 4, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 5, 'env_step': 5, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 76, 'distance to root': 45.1, 'depth': 5, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 6, 'env_step': 5, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 80, 'distance to root': 45.2, 'depth': 5, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 7, 'env_step': 6, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 104, 'distance to root': 54.6, 'depth': 6, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 8, 'env_step': 6, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 108, 'distance to root': 54.7, 'depth': 6, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 9, 'env_step': 7, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 132, 'distance to root': 64.1, 'depth': 7, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 10, 'env_step': 7, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 136, 'distance to root': 64.2, 'depth': 7, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 11, 'env_step': 8, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 160, 'distance to root': 73.6, 'depth': 8, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 12, 'env_step': 8, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 164, 'distance to root': 73.7, 'depth': 8, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 13, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 188, 'distance to root': 83.1, 'depth': 9, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 14, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 192, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 15, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 193, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 16, 'env_step': 8, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 165, 'distance to root': 73.7, 'depth': 8, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 17, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 272, 'distance to root': 83.1, 'depth': 9, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 18, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 276, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 19, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 277, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 20, 'env_step': 7, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 137, 'distance to root': 64.2, 'depth': 7, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 21, 'env_step': 8, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 356, 'distance to root': 73.6, 'depth': 8, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 22, 'env_step': 8, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 360, 'distance to root': 73.7, 'depth': 8, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 23, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 384, 'distance to root': 83.1, 'depth': 9, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 24, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 388, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 25, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 389, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 26, 'env_step': 8, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 361, 'distance to root': 73.7, 'depth': 8, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 27, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v3. craze', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 468, 'distance to root': 83.1, 'depth': 9, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 28, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v3. craze', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 472, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 29, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v3. craze', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 473, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 30, 'env_step': 6, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 109, 'distance to root': 54.7, 'depth': 6, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 31, 'env_step': 7, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 552, 'distance to root': 64.1, 'depth': 7, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 32, 'env_step': 7, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 556, 'distance to root': 64.2, 'depth': 7, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 33, 'env_step': 8, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 580, 'distance to root': 73.6, 'depth': 8, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 34, 'env_step': 8, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 584, 'distance to root': 73.7, 'depth': 8, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 35, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v1. idiot', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 608, 'distance to root': 83.1, 'depth': 9, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 36, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v1. idiot', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 612, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 37, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v1. idiot', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 613, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 38, 'env_step': 8, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 585, 'distance to root': 73.7, 'depth': 8, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 39, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v3. craze', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 692, 'distance to root': 83.1, 'depth': 9, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 40, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v3. craze', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 696, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 41, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v3. craze', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 697, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 42, 'env_step': 7, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 557, 'distance to root': 64.2, 'depth': 7, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 43, 'env_step': 8, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v3. craze', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 776, 'distance to root': 73.6, 'depth': 8, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 44, 'env_step': 8, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v3. craze', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 780, 'distance to root': 73.7, 'depth': 8, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 45, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v3. craze', 'v1. idiot', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 804, 'distance to root': 83.1, 'depth': 9, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 46, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v3. craze', 'v1. idiot', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 808, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 47, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v3. craze', 'v1. idiot', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 809, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 48, 'env_step': 8, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v3. craze', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 781, 'distance to root': 73.7, 'depth': 8, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 49, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v3. craze', 'v3. craze', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 888, 'distance to root': 83.1, 'depth': 9, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 50, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v3. craze', 'v3. craze', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 892, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 51, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v3. craze', 'v3. craze', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 893, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 52, 'env_step': 5, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 81, 'distance to root': 45.2, 'depth': 5, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 53, 'env_step': 6, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 972, 'distance to root': 54.6, 'depth': 6, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 54, 'env_step': 6, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 976, 'distance to root': 54.7, 'depth': 6, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 55, 'env_step': 7, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1000, 'distance to root': 64.1, 'depth': 7, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 56, 'env_step': 7, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1004, 'distance to root': 64.2, 'depth': 7, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 57, 'env_step': 8, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v1. idiot', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1028, 'distance to root': 73.6, 'depth': 8, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 58, 'env_step': 8, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v1. idiot', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1032, 'distance to root': 73.7, 'depth': 8, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 59, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1056, 'distance to root': 83.1, 'depth': 9, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 60, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1060, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 61, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v1. idiot', 'v1. idiot', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1061, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 62, 'env_step': 8, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v1. idiot', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1033, 'distance to root': 73.7, 'depth': 8, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 63, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1140, 'distance to root': 83.1, 'depth': 9, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 64, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1144, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 65, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v1. idiot', 'v3. craze', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1145, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 66, 'env_step': 7, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1005, 'distance to root': 64.2, 'depth': 7, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 67, 'env_step': 8, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v3. craze', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1224, 'distance to root': 73.6, 'depth': 8, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 68, 'env_step': 8, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v3. craze', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1228, 'distance to root': 73.7, 'depth': 8, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 69, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1252, 'distance to root': 83.1, 'depth': 9, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 70, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1256, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 71, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1257, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 72, 'env_step': 8, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v3. craze', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1229, 'distance to root': 73.7, 'depth': 8, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 73, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v3. craze', 'v3. craze', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1336, 'distance to root': 83.1, 'depth': 9, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 74, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v3. craze', 'v3. craze', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1340, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 75, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v1. idiot', 'v3. craze', 'v3. craze', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1341, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 76, 'env_step': 6, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 977, 'distance to root': 54.7, 'depth': 6, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 77, 'env_step': 7, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v3. craze', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1420, 'distance to root': 64.1, 'depth': 7, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 78, 'env_step': 7, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v3. craze', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1424, 'distance to root': 64.2, 'depth': 7, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 79, 'env_step': 8, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v3. craze', 'v1. idiot', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1448, 'distance to root': 73.6, 'depth': 8, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 80, 'env_step': 8, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v3. craze', 'v1. idiot', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1452, 'distance to root': 73.7, 'depth': 8, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 81, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v3. craze', 'v1. idiot', 'v1. idiot', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1476, 'distance to root': 83.1, 'depth': 9, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 82, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v3. craze', 'v1. idiot', 'v1. idiot', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1480, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 83, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v3. craze', 'v1. idiot', 'v1. idiot', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1481, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 84, 'env_step': 8, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v3. craze', 'v1. idiot', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1453, 'distance to root': 73.7, 'depth': 8, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 85, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v3. craze', 'v1. idiot', 'v3. craze', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1560, 'distance to root': 83.1, 'depth': 9, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 86, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v3. craze', 'v1. idiot', 'v3. craze', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1564, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 87, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v3. craze', 'v1. idiot', 'v3. craze', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1565, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 88, 'env_step': 7, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v3. craze', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1425, 'distance to root': 64.2, 'depth': 7, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 89, 'env_step': 8, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v3. craze', 'v3. craze', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1644, 'distance to root': 73.6, 'depth': 8, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 90, 'env_step': 8, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v3. craze', 'v3. craze', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1648, 'distance to root': 73.7, 'depth': 8, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 91, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v3. craze', 'v3. craze', 'v1. idiot', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1672, 'distance to root': 83.1, 'depth': 9, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 92, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v3. craze', 'v3. craze', 'v1. idiot', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1676, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 93, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v3. craze', 'v3. craze', 'v1. idiot', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1677, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 94, 'env_step': 8, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v3. craze', 'v3. craze', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1649, 'distance to root': 73.7, 'depth': 8, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 95, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v3. craze', 'v3. craze', 'v3. craze', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1756, 'distance to root': 83.1, 'depth': 9, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+{'total_step': 96, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v3. craze', 'v3. craze', 'v3. craze', 'v1. idiot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1760, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 97, 'env_step': 9, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v1. idiot', 'v3. craze', 'v3. craze', 'v3. craze', 'v3. craze', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1761, 'distance to root': 83.19999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 98, 'env_step': 4, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v3. craze'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 53, 'distance to root': 35.7, 'depth': 4, 'd_thres': 10000, 'answer': 'I_C__\nDIRGE\nI_A__\nO_Z__\nT_E__'}
+
+{'total_step': 99, 'env_step': 5, 'actions': ['v3. craze', 'v1. idiot', 'h2. dirge', 'v3. craze', 'v4. egger'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 1840, 'distance to root': 45.1, 'depth': 5, 'd_thres': 10000, 'answer': 'I_CE_\nDIRGE\nI_AG_\nO_ZE_\nT_ER_'}
+
+-----------------------
+
+best node id: 48
+node depth: 4
+chosen step: 3
+distance to root: 35.6
+answer:
+
+I_CE_
+DIRGE
+I_AG_
+O_ZE_
+T_ER_
+
+accuracy: {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}
+cost time: 38.5984890460968 s
+
+---- Task Complete ----

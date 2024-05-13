@@ -1,0 +1,26 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs
+idx: 4
+pruning = True
+date: 2024-05-05
+time: 23:38:52
+
+-----------------------
+
+best node id: 57
+node depth: 5
+chosen step: 6
+distance to root: 42.800000000000004
+answer:
+
+CANIS
+__O_H
+RAMIE
+PRONE
+__S_N
+
+accuracy: {'r_letter': 0.72, 'r_word': 0.4, 'r_game': False}
+cost time: 2.1225600242614746 s
+
+---- Task Complete ----

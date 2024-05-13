@@ -1,0 +1,64 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 8
+pruning = True
+date: 2024-05-10
+time: 02:10:41
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h1. disco'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': 'DISCO\n_____\n_____\n_____\n_____'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['h1. disco', 'h3. clear'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 7, 'depth': 2, 'd_thres': 10000, 'answer': 'DISCO\n_____\nCLEAR\n_____\n_____'}
+
+{'total_step': 2, 'env_step': 2, 'actions': ['h1. disco', 'h5. order'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 8, 'depth': 2, 'd_thres': 10000, 'answer': 'DISCO\n_____\n_____\n_____\nORDER'}
+
+{'total_step': 3, 'env_step': 3, 'actions': ['h1. disco', 'h5. order', 'h1. disco'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 21, 'depth': 3, 'd_thres': 10000, 'answer': 'DISCO\n_____\n_____\n_____\nORDER'}
+
+{'total_step': 4, 'env_step': 4, 'actions': ['h1. disco', 'h5. order', 'h1. disco', 'h1. disco'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 32, 'depth': 4, 'd_thres': 10000, 'answer': 'DISCO\n_____\n_____\n_____\nORDER'}
+
+{'total_step': 5, 'env_step': 5, 'actions': ['h1. disco', 'h5. order', 'h1. disco', 'h1. disco', 'h1. disco'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 43, 'depth': 5, 'd_thres': 10000, 'answer': 'DISCO\n_____\n_____\n_____\nORDER'}
+
+{'total_step': 6, 'env_step': 6, 'actions': ['h1. disco', 'h5. order', 'h1. disco', 'h1. disco', 'h1. disco', 'h1. disco'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 54, 'depth': 6, 'd_thres': 10000, 'answer': 'DISCO\n_____\n_____\n_____\nORDER'}
+
+{'total_step': 7, 'env_step': 7, 'actions': ['h1. disco', 'h5. order', 'h1. disco', 'h1. disco', 'h1. disco', 'h1. disco', 'h1. disco'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 65, 'depth': 7, 'd_thres': 10000, 'answer': 'DISCO\n_____\n_____\n_____\nORDER'}
+
+{'total_step': 8, 'env_step': 8, 'actions': ['h1. disco', 'h5. order', 'h1. disco', 'h1. disco', 'h1. disco', 'h1. disco', 'h1. disco', 'h1. disco'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 76, 'depth': 8, 'd_thres': 10000, 'answer': 'DISCO\n_____\n_____\n_____\nORDER'}
+
+{'total_step': 9, 'env_step': 9, 'actions': ['h1. disco', 'h5. order', 'h1. disco', 'h1. disco', 'h1. disco', 'h1. disco', 'h1. disco', 'h1. disco', 'h1. disco'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 87, 'distance to root': 96.39999999999999, 'depth': 9, 'd_thres': 96.39999999999999, 'answer': 'DISCO\n_____\n_____\n_____\nORDER'}
+
+{'total_step': 10, 'env_step': 9, 'actions': ['h1. disco', 'h5. order', 'h1. disco', 'h1. disco', 'h1. disco', 'h1. disco', 'h1. disco', 'h1. disco', 'h5. order'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 88, 'distance to root': 96.39999999999999, 'depth': 9, 'd_thres': 96.39999999999999, 'answer': 'DISCO\n_____\n_____\n_____\nORDER'}
+
+{'total_step': 11, 'env_step': 9, 'actions': ['h1. disco', 'h5. order', 'h1. disco', 'h1. disco', 'h1. disco', 'h1. disco', 'h1. disco', 'h1. disco', 'h3. clear'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 7, 'maybe': 1, 'impossible': 0}, 'current_node_id': 89, 'distance to root': 92.49999999999999, 'depth': 9, 'd_thres': 92.49999999999999, 'answer': 'DISCO\n_____\nCLEAR\n_____\nORDER'}
+
+{'total_step': 12, 'env_step': 8, 'actions': ['h1. disco', 'h5. order', 'h1. disco', 'h1. disco', 'h1. disco', 'h1. disco', 'h1. disco', 'h5. order'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 77, 'depth': 8, 'd_thres': 92.49999999999999, 'answer': 'DISCO\n_____\n_____\n_____\nORDER'}
+
+{'total_step': 13, 'env_step': 9, 'actions': ['h1. disco', 'h5. order', 'h1. disco', 'h1. disco', 'h1. disco', 'h1. disco', 'h1. disco', 'h5. order', 'h1. disco'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 127, 'distance to root': 96.39999999999999, 'depth': 9, 'd_thres': 92.49999999999999, 'answer': 'DISCO\n_____\n_____\n_____\nORDER'}
+
+{'total_step': 14, 'env_step': 9, 'actions': ['h1. disco', 'h5. order', 'h1. disco', 'h1. disco', 'h1. disco', 'h1. disco', 'h1. disco', 'h5. order', 'h5. order'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 128, 'distance to root': 96.39999999999999, 'depth': 9, 'd_thres': 92.49999999999999, 'answer': 'DISCO\n_____\n_____\n_____\nORDER'}
+
+{'total_step': 15, 'env_step': 9, 'actions': ['h1. disco', 'h5. order', 'h1. disco', 'h1. disco', 'h1. disco', 'h1. disco', 'h1. disco', 'h5. order', 'h3. clear'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 7, 'maybe': 1, 'impossible': 0}, 'current_node_id': 129, 'distance to root': 92.49999999999999, 'depth': 9, 'd_thres': 92.49999999999999, 'answer': 'DISCO\n_____\nCLEAR\n_____\nORDER'}
+
+{'total_step': 16, 'env_step': 8, 'actions': ['h1. disco', 'h5. order', 'h1. disco', 'h1. disco', 'h1. disco', 'h1. disco', 'h1. disco', 'h3. clear'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 7, 'maybe': 1, 'impossible': 0}, 'current_node_id': 78, 'depth': 8, 'd_thres': 92.49999999999999, 'answer': 'DISCO\n_____\nCLEAR\n_____\nORDER'}
+
+{'total_step': 17, 'env_step': 9, 'actions': ['h1. disco', 'h5. order', 'h1. disco', 'h1. disco', 'h1. disco', 'h1. disco', 'h1. disco', 'h3. clear', 'h2. crown'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 3}, 'current_node_id': 170, 'distance to root': 94.49969999999999, 'depth': 9, 'd_thres': 92.49999999999999, 'answer': 'DISCO\nCROWN\nCLEAR\n_____\nORDER'}
+
+{'total_step': 18, 'env_step': 9, 'actions': ['h1. disco', 'h5. order', 'h1. disco', 'h1. disco', 'h1. disco', 'h1. disco', 'h1. disco', 'h3. clear', 'h4. vicar'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 171, 'distance to root': 92.3, 'depth': 9, 'd_thres': 92.3, 'answer': 'DISCO\n_____\nCLEAR\nVICAR\nORDER'}
+
+-----------------------
+
+best node id: 171
+node depth: 9
+chosen step: 18
+distance to root: 92.3
+answer:
+
+DISCO
+_____
+CLEAR
+VICAR
+ORDER
+
+accuracy: {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}
+cost time: 110.57463335990906 s
+
+---- Task Complete ----

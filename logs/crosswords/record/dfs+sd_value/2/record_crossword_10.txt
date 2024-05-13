@@ -1,0 +1,68 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 10
+pruning = True
+date: 2024-05-10
+time: 19:54:47
+
+{'total_step': 0, 'env_step': 1, 'actions': ['v5. would'], 'info': {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': '____W\n____O\n____U\n____L\n____D'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['v5. would', 'v1. bevel'], 'info': {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 14, 'depth': 2, 'd_thres': 10000, 'answer': 'B___W\nE___O\nV___U\nE___L\nL___D'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['v5. would', 'v1. bevel', 'v4. thong'], 'info': {'r_letter': 0.16, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 27, 'depth': 3, 'd_thres': 10000, 'answer': 'B__TW\nE__HO\nV__OU\nE__NL\nL__GD'}
+
+{'total_step': 3, 'env_step': 3, 'actions': ['v5. would', 'v1. bevel', 'v3. scurf'], 'info': {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 1}, 'current_node_id': 31, 'depth': 3, 'd_thres': 10000, 'answer': 'B_S_W\nE_C_O\nV_U_U\nE_R_L\nL_F_D'}
+
+{'total_step': 4, 'env_step': 3, 'actions': ['v5. would', 'v1. bevel', 'v4. sling'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 32, 'depth': 3, 'd_thres': 10000, 'answer': 'B__SW\nE__LO\nV__IU\nE__NL\nL__GD'}
+
+{'total_step': 5, 'env_step': 4, 'actions': ['v5. would', 'v1. bevel', 'v4. sling', 'v3. plume'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 47, 'depth': 4, 'd_thres': 10000, 'answer': 'B_PSW\nE_LLO\nV_UIU\nE_MNL\nL_EGD'}
+
+{'total_step': 6, 'env_step': 4, 'actions': ['v5. would', 'v1. bevel', 'v4. sling', 'v2. flail'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 3}, 'current_node_id': 50, 'depth': 4, 'd_thres': 10000, 'answer': 'BF_SW\nEL_LO\nVA_IU\nEI_NL\nLL_GD'}
+
+{'total_step': 7, 'env_step': 4, 'actions': ['v5. would', 'v1. bevel', 'v4. sling', 'v3. plugs'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 55, 'depth': 4, 'd_thres': 10000, 'answer': 'B_PSW\nE_LLO\nV_UIU\nE_GNL\nL_SGD'}
+
+{'total_step': 8, 'env_step': 5, 'actions': ['v5. would', 'v1. bevel', 'v4. sling', 'v3. plugs', 'v2. scour'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 5, 'maybe': 1, 'impossible': 4}, 'current_node_id': 76, 'depth': 5, 'd_thres': 10000, 'answer': 'BSPSW\nECLLO\nVOUIU\nEUGNL\nLRSGD'}
+
+{'total_step': 9, 'env_step': 2, 'actions': ['v5. would', 'v2. flail'], 'info': {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 16, 'depth': 2, 'd_thres': 10000, 'answer': '_F__W\n_L__O\n_A__U\n_I__L\n_L__D'}
+
+{'total_step': 10, 'env_step': 3, 'actions': ['v5. would', 'v2. flail', 'v1. bevel'], 'info': {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 77, 'depth': 3, 'd_thres': 10000, 'answer': 'BF__W\nEL__O\nVA__U\nEI__L\nLL__D'}
+
+{'total_step': 11, 'env_step': 4, 'actions': ['v5. would', 'v2. flail', 'v1. bevel', 'v4. thong'], 'info': {'r_letter': 0.16, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 95, 'depth': 4, 'd_thres': 10000, 'answer': 'BF_TW\nEL_HO\nVA_OU\nEI_NL\nLL_GD'}
+
+{'total_step': 12, 'env_step': 4, 'actions': ['v5. would', 'v2. flail', 'v1. bevel', 'v4. shaft'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 107, 'depth': 4, 'd_thres': 10000, 'answer': 'BF_SW\nEL_HO\nVA_AU\nEI_FL\nLL_TD'}
+
+{'total_step': 13, 'env_step': 4, 'actions': ['v5. would', 'v2. flail', 'v1. bevel', 'h5. lloid'], 'info': {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 1}, 'current_node_id': 109, 'depth': 4, 'd_thres': 10000, 'answer': 'BF__W\nEL__O\nVA__U\nEI__L\nLLOID'}
+
+{'total_step': 14, 'env_step': 3, 'actions': ['v5. would', 'v2. flail', 'h5. blend'], 'info': {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 78, 'depth': 3, 'd_thres': 10000, 'answer': '_F__W\n_L__O\n_A__U\n_I__L\nBLEND'}
+
+{'total_step': 15, 'env_step': 4, 'actions': ['v5. would', 'v2. flail', 'h5. blend', 'h5. blend'], 'info': {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 121, 'depth': 4, 'd_thres': 10000, 'answer': '_F__W\n_L__O\n_A__U\n_I__L\nBLEND'}
+
+{'total_step': 16, 'env_step': 5, 'actions': ['v5. would', 'v2. flail', 'h5. blend', 'h5. blend', 'h5. blend'], 'info': {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 138, 'depth': 5, 'd_thres': 10000, 'answer': '_F__W\n_L__O\n_A__U\n_I__L\nBLEND'}
+
+{'total_step': 17, 'env_step': 6, 'actions': ['v5. would', 'v2. flail', 'h5. blend', 'h5. blend', 'h5. blend', 'h5. blend'], 'info': {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 155, 'depth': 6, 'd_thres': 10000, 'answer': '_F__W\n_L__O\n_A__U\n_I__L\nBLEND'}
+
+{'total_step': 18, 'env_step': 7, 'actions': ['v5. would', 'v2. flail', 'h5. blend', 'h5. blend', 'h5. blend', 'h5. blend', 'h5. blend'], 'info': {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 172, 'depth': 7, 'd_thres': 10000, 'answer': '_F__W\n_L__O\n_A__U\n_I__L\nBLEND'}
+
+{'total_step': 19, 'env_step': 8, 'actions': ['v5. would', 'v2. flail', 'h5. blend', 'h5. blend', 'h5. blend', 'h5. blend', 'h5. blend', 'h5. blend'], 'info': {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 189, 'depth': 8, 'd_thres': 10000, 'answer': '_F__W\n_L__O\n_A__U\n_I__L\nBLEND'}
+
+{'total_step': 20, 'env_step': 9, 'actions': ['v5. would', 'v2. flail', 'h5. blend', 'h5. blend', 'h5. blend', 'h5. blend', 'h5. blend', 'h5. blend', 'h5. blend'], 'info': {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 206, 'distance to root': 0.0, 'depth': 9, 'd_thres': 0.0, 'answer': '_F__W\n_L__O\n_A__U\n_I__L\nBLEND'}
+
+-----------------------
+
+best node id: 206
+node depth: 9
+chosen step: 20
+distance to root: 0.0
+answer:
+
+_F__W
+_L__O
+_A__U
+_I__L
+BLEND
+
+accuracy: {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}
+cost time: 151.58506083488464 s
+
+---- Task Complete ----

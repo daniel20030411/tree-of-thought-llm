@@ -1,0 +1,2882 @@
+[
+    {
+        "total_step": 0,
+        "env_step": 1,
+        "actions": [
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 1,
+        "distance to root": 8.3,
+        "depth": 1,
+        "d_thres": 10000,
+        "answer": "_____\n_____\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 1,
+        "env_step": 2,
+        "actions": [
+            "h4. raise",
+            "h2. alarm"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 10,
+        "distance to root": 14.8,
+        "depth": 2,
+        "d_thres": 10000,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 2,
+        "env_step": 3,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 26,
+        "distance to root": 24.400000000000002,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "_____\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 3,
+        "env_step": 4,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h5. eider",
+            "h1. shade"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 39,
+        "distance to root": 33.5,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "SHADE\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 4,
+        "env_step": 5,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h5. eider",
+            "h1. shade",
+            "v4. drise"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 50,
+        "distance to root": 43.3,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "SHADE\nALARM\n___I_\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 5,
+        "env_step": 4,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h5. eider",
+            "h1. maple"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 41,
+        "distance to root": 34.0,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "MAPLE\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 6,
+        "env_step": 5,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h5. eider",
+            "h1. maple",
+            "h3. gecko"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 58,
+        "distance to root": 43.5,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "MAPLE\nALARM\nGECKO\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 7,
+        "env_step": 4,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h5. eider",
+            "h1. glade"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 43,
+        "distance to root": 34.2,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "GLADE\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 8,
+        "env_step": 5,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h5. eider",
+            "h1. glade",
+            "h3. gecko"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 2,
+            "impossible": 3
+        },
+        "current_node_id": 67,
+        "distance to root": 44.0,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "GLADE\nALARM\nGECKO\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 9,
+        "env_step": 5,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h5. eider",
+            "h1. glade",
+            "v5. emeer"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 68,
+        "distance to root": 44.0,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "GLADE\nALARM\n____E\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 10,
+        "env_step": 3,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h1. grove"
+        ],
+        "info": {
+            "r_letter": 0.32,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 27,
+        "distance to root": 24.6,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "GROVE\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 11,
+        "env_step": 3,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h1. maple"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 29,
+        "distance to root": 24.6,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "MAPLE\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 12,
+        "env_step": 2,
+        "actions": [
+            "h4. raise",
+            "v1. glare"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 11,
+        "distance to root": 15.3,
+        "depth": 2,
+        "d_thres": 10000,
+        "answer": "G____\nL____\nA____\nRAISE\nE____"
+    },
+    {
+        "total_step": 13,
+        "env_step": 3,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "h1. grove"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 71,
+        "distance to root": 23.4,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "GROVE\nL____\nA____\nRAISE\nE____"
+    },
+    {
+        "total_step": 14,
+        "env_step": 3,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 73,
+        "distance to root": 23.700000000000003,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nE_D__"
+    },
+    {
+        "total_step": 15,
+        "env_step": 4,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 84,
+        "distance to root": 32.1,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 16,
+        "env_step": 5,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 99,
+        "distance to root": 37.1,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 17,
+        "env_step": 6,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 111,
+        "distance to root": 42.099999999999994,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 18,
+        "env_step": 7,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 123,
+        "distance to root": 47.099999999999994,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 19,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "h4. raise",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 135,
+        "distance to root": 52.099999999999994,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 20,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "h4. raise",
+            "h4. raise",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 147,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 21,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "h4. raise",
+            "h4. raise",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 148,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 22,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "h4. raise",
+            "h4. raise",
+            "v1. glare"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 149,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 23,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "h4. raise",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 136,
+        "distance to root": 52.099999999999994,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 24,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "h4. raise",
+            "h5. eider",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 195,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 25,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "h4. raise",
+            "h5. eider",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 196,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 26,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "h4. raise",
+            "h5. eider",
+            "v1. glare"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 197,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 27,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "h4. raise",
+            "v1. glare"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 137,
+        "distance to root": 52.099999999999994,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 28,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "h4. raise",
+            "v1. glare",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 243,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 29,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "h4. raise",
+            "v1. glare",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 244,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 30,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "h4. raise",
+            "v1. glare",
+            "v1. glare"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 245,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 31,
+        "env_step": 7,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 124,
+        "distance to root": 47.099999999999994,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 32,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "h5. eider",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 291,
+        "distance to root": 52.099999999999994,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 33,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 303,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 34,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 304,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 35,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "h5. eider",
+            "h4. raise",
+            "v1. glare"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 305,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 36,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "h5. eider",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 292,
+        "distance to root": 52.099999999999994,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 37,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "h5. eider",
+            "h5. eider",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 351,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 38,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "h5. eider",
+            "h5. eider",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 352,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 39,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "h5. eider",
+            "h5. eider",
+            "v1. glare"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 353,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 40,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "h5. eider",
+            "v1. glare"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 293,
+        "distance to root": 52.099999999999994,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 41,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "h5. eider",
+            "v1. glare",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 399,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 42,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "h5. eider",
+            "v1. glare",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 400,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 43,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "h5. eider",
+            "v1. glare",
+            "v1. glare"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 401,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 44,
+        "env_step": 7,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "v1. glare"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 125,
+        "distance to root": 47.099999999999994,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 45,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "v1. glare",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 447,
+        "distance to root": 52.099999999999994,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 46,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "v1. glare",
+            "h4. raise",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 459,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 47,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "v1. glare",
+            "h4. raise",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 460,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 48,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "v1. glare",
+            "h4. raise",
+            "v1. glare"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 461,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 49,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "v1. glare",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 448,
+        "distance to root": 52.099999999999994,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 50,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "v1. glare",
+            "h5. eider",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 507,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 51,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "v1. glare",
+            "h5. eider",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 508,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 52,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "v1. glare",
+            "h5. eider",
+            "v1. glare"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 509,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 53,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "v1. glare",
+            "v1. glare"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 449,
+        "distance to root": 52.099999999999994,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 54,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "v1. glare",
+            "v1. glare",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 555,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 55,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "v1. glare",
+            "v1. glare",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 556,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 56,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "v1. glare",
+            "v1. glare",
+            "v1. glare"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 557,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 57,
+        "env_step": 6,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 112,
+        "distance to root": 42.099999999999994,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 58,
+        "env_step": 7,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 603,
+        "distance to root": 47.099999999999994,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 59,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 615,
+        "distance to root": 52.099999999999994,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 60,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 627,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 61,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 628,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 62,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise",
+            "v1. glare"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 629,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 63,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 616,
+        "distance to root": 52.099999999999994,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 64,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 675,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 65,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 676,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 66,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "v1. glare"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 677,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 67,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "h4. raise",
+            "v1. glare"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 617,
+        "distance to root": 52.099999999999994,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 68,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "h4. raise",
+            "v1. glare",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 723,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 69,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "h4. raise",
+            "v1. glare",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 724,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 70,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "h4. raise",
+            "v1. glare",
+            "v1. glare"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 725,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 71,
+        "env_step": 7,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 604,
+        "distance to root": 47.099999999999994,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 72,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "h5. eider",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 771,
+        "distance to root": 52.099999999999994,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 73,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "h5. eider",
+            "h4. raise",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 783,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 74,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 784,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 75,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "h5. eider",
+            "h4. raise",
+            "v1. glare"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 785,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 76,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "h5. eider",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 772,
+        "distance to root": 52.099999999999994,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 77,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "h5. eider",
+            "h5. eider",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 831,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 78,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "h5. eider",
+            "h5. eider",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 832,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 79,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "h5. eider",
+            "h5. eider",
+            "v1. glare"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 833,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 80,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "h5. eider",
+            "v1. glare"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 773,
+        "distance to root": 52.099999999999994,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 81,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "h5. eider",
+            "v1. glare",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 879,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 82,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "h5. eider",
+            "v1. glare",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 880,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 83,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "h5. eider",
+            "v1. glare",
+            "v1. glare"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 881,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 84,
+        "env_step": 7,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "v1. glare"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 605,
+        "distance to root": 47.099999999999994,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 85,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "v1. glare",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 927,
+        "distance to root": 52.099999999999994,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 86,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "v1. glare",
+            "h4. raise",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 939,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 87,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "v1. glare",
+            "h4. raise",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 940,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 88,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "v1. glare",
+            "h4. raise",
+            "v1. glare"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 941,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 89,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "v1. glare",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 928,
+        "distance to root": 52.099999999999994,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 90,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "v1. glare",
+            "h5. eider",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 987,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 91,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "v1. glare",
+            "h5. eider",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 988,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 92,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "v1. glare",
+            "h5. eider",
+            "v1. glare"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 989,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 93,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "v1. glare",
+            "v1. glare"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 929,
+        "distance to root": 52.099999999999994,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 94,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "v1. glare",
+            "v1. glare",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1035,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 95,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "v1. glare",
+            "v1. glare",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1036,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 96,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "h5. eider",
+            "v1. glare",
+            "v1. glare",
+            "v1. glare"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1037,
+        "distance to root": 57.099999999999994,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 97,
+        "env_step": 6,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "v1. glare"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 113,
+        "distance to root": 42.099999999999994,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 98,
+        "env_step": 7,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "v1. glare",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1083,
+        "distance to root": 47.099999999999994,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 99,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "v1. glare",
+            "v3. aroid",
+            "h5. eider",
+            "h4. raise",
+            "v1. glare",
+            "h4. raise",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1095,
+        "distance to root": 52.099999999999994,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER"
+    },
+    {
+        "index": 12,
+        "best node id": 68,
+        "node depth": 5,
+        "chosen step": 9,
+        "distance to root": 44.0,
+        "answer": "GLADE\nALARM\n____E\nRAISE\nEIDER",
+        "accuracy": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "cost time": 143.13348126411438
+    }
+]

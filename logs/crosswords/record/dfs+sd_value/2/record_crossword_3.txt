@@ -1,0 +1,44 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 3
+pruning = True
+date: 2024-05-10
+time: 22:52:48
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h4. prone'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': '_____\n_____\n_____\nPRONE\n_____'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['h4. prone', 'h1. canis'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 10, 'depth': 2, 'd_thres': 10000, 'answer': 'CANIS\n_____\n_____\nPRONE\n_____'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['h4. prone', 'h1. canis', 'v5. sheen'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 23, 'depth': 3, 'd_thres': 10000, 'answer': 'CANIS\n____H\n____E\nPRONE\n____N'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['h4. prone', 'h1. canis', 'v5. sheen', 'v4. iceni'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 32, 'depth': 4, 'd_thres': 10000, 'answer': 'CANIS\n___CH\n___EE\nPRONE\n___IN'}
+
+{'total_step': 4, 'env_step': 5, 'actions': ['h4. prone', 'h1. canis', 'v5. sheen', 'v4. iceni', 'v5. sheen'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 42, 'depth': 5, 'd_thres': 10000, 'answer': 'CANIS\n___CH\n___EE\nPRONE\n___IN'}
+
+{'total_step': 5, 'env_step': 6, 'actions': ['h4. prone', 'h1. canis', 'v5. sheen', 'v4. iceni', 'v5. sheen', 'v5. sheen'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 59, 'depth': 6, 'd_thres': 10000, 'answer': 'CANIS\n___CH\n___EE\nPRONE\n___IN'}
+
+{'total_step': 6, 'env_step': 7, 'actions': ['h4. prone', 'h1. canis', 'v5. sheen', 'v4. iceni', 'v5. sheen', 'v5. sheen', 'v5. sheen'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 76, 'depth': 7, 'd_thres': 10000, 'answer': 'CANIS\n___CH\n___EE\nPRONE\n___IN'}
+
+{'total_step': 7, 'env_step': 8, 'actions': ['h4. prone', 'h1. canis', 'v5. sheen', 'v4. iceni', 'v5. sheen', 'v5. sheen', 'v5. sheen', 'v5. sheen'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 93, 'depth': 8, 'd_thres': 10000, 'answer': 'CANIS\n___CH\n___EE\nPRONE\n___IN'}
+
+{'total_step': 8, 'env_step': 9, 'actions': ['h4. prone', 'h1. canis', 'v5. sheen', 'v4. iceni', 'v5. sheen', 'v5. sheen', 'v5. sheen', 'v5. sheen', 'v5. sheen'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 110, 'distance to root': 0.0, 'depth': 9, 'd_thres': 0.0, 'answer': 'CANIS\n___CH\n___EE\nPRONE\n___IN'}
+
+-----------------------
+
+best node id: 110
+node depth: 9
+chosen step: 8
+distance to root: 0.0
+answer:
+
+CANIS
+___CH
+___EE
+PRONE
+___IN
+
+accuracy: {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}
+cost time: 41.02998161315918 s
+
+---- Task Complete ----

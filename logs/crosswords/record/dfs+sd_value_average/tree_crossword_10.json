@@ -1,0 +1,2897 @@
+[
+    {
+        "total_step": 0,
+        "env_step": 1,
+        "actions": [
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 0,
+            "maybe": 0,
+            "impossible": 1
+        },
+        "current_node_id": 1,
+        "depth": 1,
+        "d_thres": 10000,
+        "answer": "____W\n____O\n____U\n____L\n____D"
+    },
+    {
+        "total_step": 1,
+        "env_step": 1,
+        "actions": [
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 2,
+        "depth": 1,
+        "d_thres": 10000,
+        "answer": "_____\n_____\nINNER\n_____\n_____"
+    },
+    {
+        "total_step": 2,
+        "env_step": 2,
+        "actions": [
+            "h3. inner",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 8,
+        "depth": 2,
+        "d_thres": 10000,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 3,
+        "env_step": 3,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 21,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 4,
+        "env_step": 4,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 40,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 5,
+        "env_step": 5,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 59,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 6,
+        "env_step": 6,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 78,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 7,
+        "env_step": 7,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 97,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 8,
+        "env_step": 8,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 116,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 9,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 135,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 126.79999999999998,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 10,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 136,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 126.79999999999998,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 11,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 137,
+        "distance to root": 126.69999999999999,
+        "depth": 9,
+        "d_thres": 126.69999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 12,
+        "env_step": 8,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 117,
+        "depth": 8,
+        "d_thres": 126.69999999999999,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 13,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 221,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 126.69999999999999,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 14,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 222,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 126.69999999999999,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 15,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 223,
+        "distance to root": 126.69999999999999,
+        "depth": 9,
+        "d_thres": 126.69999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 16,
+        "env_step": 8,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 118,
+        "depth": 8,
+        "d_thres": 126.69999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 17,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 307,
+        "distance to root": 126.59999999999998,
+        "depth": 9,
+        "d_thres": 126.59999999999998,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 18,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 308,
+        "distance to root": 126.59999999999998,
+        "depth": 9,
+        "d_thres": 126.59999999999998,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 19,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 309,
+        "distance to root": 126.59999999999998,
+        "depth": 9,
+        "d_thres": 126.59999999999998,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 20,
+        "env_step": 7,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 98,
+        "depth": 7,
+        "d_thres": 126.59999999999998,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 21,
+        "env_step": 8,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 423,
+        "depth": 8,
+        "d_thres": 126.59999999999998,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 22,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 442,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 126.59999999999998,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 23,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 443,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 126.59999999999998,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 24,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 444,
+        "distance to root": 126.69999999999999,
+        "depth": 9,
+        "d_thres": 126.59999999999998,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 25,
+        "env_step": 8,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 424,
+        "depth": 8,
+        "d_thres": 126.59999999999998,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 26,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h5. merge",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 528,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 126.59999999999998,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 27,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h5. merge",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 529,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 126.59999999999998,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 28,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h5. merge",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 530,
+        "distance to root": 126.69999999999999,
+        "depth": 9,
+        "d_thres": 126.59999999999998,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 29,
+        "env_step": 8,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 425,
+        "depth": 8,
+        "d_thres": 126.59999999999998,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 30,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h2. print",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 614,
+        "distance to root": 126.59999999999998,
+        "depth": 9,
+        "d_thres": 126.59999999999998,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 31,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h2. print",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 615,
+        "distance to root": 126.59999999999998,
+        "depth": 9,
+        "d_thres": 126.59999999999998,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 32,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h2. print",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 616,
+        "distance to root": 126.59999999999998,
+        "depth": 9,
+        "d_thres": 126.59999999999998,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 33,
+        "env_step": 7,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 99,
+        "depth": 7,
+        "d_thres": 126.59999999999998,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 34,
+        "env_step": 8,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 730,
+        "depth": 8,
+        "d_thres": 126.59999999999998,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 35,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print",
+            "h2. print",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 759,
+        "distance to root": 126.49999999999999,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 36,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print",
+            "h2. print",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 760,
+        "distance to root": 126.49999999999999,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 37,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print",
+            "h2. print",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 761,
+        "distance to root": 126.49999999999999,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 38,
+        "env_step": 8,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 731,
+        "depth": 8,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 39,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print",
+            "h3. inner",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 875,
+        "distance to root": 126.49999999999999,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 40,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print",
+            "h3. inner",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 876,
+        "distance to root": 126.49999999999999,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 41,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print",
+            "h3. inner",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 877,
+        "distance to root": 126.49999999999999,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 42,
+        "env_step": 8,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 732,
+        "depth": 8,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 43,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print",
+            "h5. merge",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 991,
+        "distance to root": 126.49999999999999,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 44,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print",
+            "h5. merge",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 992,
+        "distance to root": 126.49999999999999,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 45,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print",
+            "h5. merge",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 993,
+        "distance to root": 126.49999999999999,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 46,
+        "env_step": 6,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 79,
+        "depth": 6,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 47,
+        "env_step": 7,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1107,
+        "depth": 7,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 48,
+        "env_step": 8,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1126,
+        "depth": 8,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 49,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1145,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 50,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1146,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 51,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1147,
+        "distance to root": 126.69999999999999,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 52,
+        "env_step": 8,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1127,
+        "depth": 8,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 53,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h5. merge",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1231,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 54,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h5. merge",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1232,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 55,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h5. merge",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1233,
+        "distance to root": 126.69999999999999,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 56,
+        "env_step": 8,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1128,
+        "depth": 8,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 57,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h2. print",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1317,
+        "distance to root": 126.59999999999998,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 58,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h2. print",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1318,
+        "distance to root": 126.59999999999998,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 59,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h2. print",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1319,
+        "distance to root": 126.59999999999998,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 60,
+        "env_step": 7,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1108,
+        "depth": 7,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 61,
+        "env_step": 8,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h5. merge",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1433,
+        "depth": 8,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 62,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1452,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 63,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h5. merge",
+            "h3. inner",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1453,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 64,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h5. merge",
+            "h3. inner",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1454,
+        "distance to root": 126.69999999999999,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 65,
+        "env_step": 8,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h5. merge",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1434,
+        "depth": 8,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 66,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h5. merge",
+            "h5. merge",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1538,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 67,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h5. merge",
+            "h5. merge",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1539,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 68,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h5. merge",
+            "h5. merge",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1540,
+        "distance to root": 126.69999999999999,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 69,
+        "env_step": 8,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h5. merge",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1435,
+        "depth": 8,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 70,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h5. merge",
+            "h2. print",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1624,
+        "distance to root": 126.59999999999998,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 71,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h5. merge",
+            "h2. print",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1625,
+        "distance to root": 126.59999999999998,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 72,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h5. merge",
+            "h2. print",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1626,
+        "distance to root": 126.59999999999998,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 73,
+        "env_step": 7,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1109,
+        "depth": 7,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 74,
+        "env_step": 8,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h2. print",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1740,
+        "depth": 8,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 75,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h2. print",
+            "h2. print",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1769,
+        "distance to root": 126.49999999999999,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 76,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h2. print",
+            "h2. print",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1770,
+        "distance to root": 126.49999999999999,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 77,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h2. print",
+            "h2. print",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1771,
+        "distance to root": 126.49999999999999,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 78,
+        "env_step": 8,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h2. print",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1741,
+        "depth": 8,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 79,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h2. print",
+            "h3. inner",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1885,
+        "distance to root": 126.49999999999999,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 80,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h2. print",
+            "h3. inner",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1886,
+        "distance to root": 126.49999999999999,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 81,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h2. print",
+            "h3. inner",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1887,
+        "distance to root": 126.49999999999999,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 82,
+        "env_step": 8,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h2. print",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1742,
+        "depth": 8,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 83,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h2. print",
+            "h5. merge",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 2001,
+        "distance to root": 126.49999999999999,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 84,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h2. print",
+            "h5. merge",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 2002,
+        "distance to root": 126.49999999999999,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 85,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h5. merge",
+            "h2. print",
+            "h5. merge",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 2003,
+        "distance to root": 126.49999999999999,
+        "depth": 9,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 86,
+        "env_step": 6,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 80,
+        "depth": 6,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 87,
+        "env_step": 7,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 2117,
+        "depth": 7,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 88,
+        "env_step": 8,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print",
+            "h2. print",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 2146,
+        "depth": 8,
+        "d_thres": 126.49999999999999,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 89,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print",
+            "h2. print",
+            "h2. print",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 2175,
+        "distance to root": 126.39999999999998,
+        "depth": 9,
+        "d_thres": 126.39999999999998,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 90,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print",
+            "h2. print",
+            "h2. print",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 2176,
+        "distance to root": 126.39999999999998,
+        "depth": 9,
+        "d_thres": 126.39999999999998,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 91,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print",
+            "h2. print",
+            "h2. print",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 2177,
+        "distance to root": 126.39999999999998,
+        "depth": 9,
+        "d_thres": 126.39999999999998,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 92,
+        "env_step": 8,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print",
+            "h2. print",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 2147,
+        "depth": 8,
+        "d_thres": 126.39999999999998,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 93,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print",
+            "h2. print",
+            "h3. inner",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 2291,
+        "distance to root": 126.39999999999998,
+        "depth": 9,
+        "d_thres": 126.39999999999998,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 94,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print",
+            "h2. print",
+            "h3. inner",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 2292,
+        "distance to root": 126.39999999999998,
+        "depth": 9,
+        "d_thres": 126.39999999999998,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 95,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print",
+            "h2. print",
+            "h3. inner",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 2293,
+        "distance to root": 126.39999999999998,
+        "depth": 9,
+        "d_thres": 126.39999999999998,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 96,
+        "env_step": 8,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print",
+            "h2. print",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 2148,
+        "depth": 8,
+        "d_thres": 126.39999999999998,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 97,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print",
+            "h2. print",
+            "h5. merge",
+            "h2. print"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 2407,
+        "distance to root": 126.39999999999998,
+        "depth": 9,
+        "d_thres": 126.39999999999998,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 98,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print",
+            "h2. print",
+            "h5. merge",
+            "h3. inner"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 2408,
+        "distance to root": 126.39999999999998,
+        "depth": 9,
+        "d_thres": 126.39999999999998,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "total_step": 99,
+        "env_step": 9,
+        "actions": [
+            "h3. inner",
+            "h5. merge",
+            "h3. inner",
+            "h3. inner",
+            "h3. inner",
+            "h2. print",
+            "h2. print",
+            "h5. merge",
+            "h5. merge"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 2409,
+        "distance to root": 126.39999999999998,
+        "depth": 9,
+        "d_thres": 126.39999999999998,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE"
+    },
+    {
+        "index": 10,
+        "best node id": 2175,
+        "node depth": 9,
+        "chosen step": 89,
+        "distance to root": 126.39999999999998,
+        "answer": "_____\nPRINT\nINNER\n_____\nMERGE",
+        "accuracy": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "cost time": 42.03254556655884
+    }
+]

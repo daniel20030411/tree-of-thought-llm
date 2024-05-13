@@ -1,0 +1,282 @@
+[
+    {
+        "index": 0,
+        "best node id": 81,
+        "node depth": 9,
+        "chosen step": 8,
+        "distance to root": 19.0,
+        "answer": "AGEND\nMOTOR\n____I\n____E\n____R",
+        "accuracy": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "cost time": 28.129560708999634
+    },
+    {
+        "index": 1,
+        "best node id": 79,
+        "node depth": 9,
+        "chosen step": 8,
+        "distance to root": 0.0,
+        "answer": "___FY\n___IE\n___LA\nSEDER\n___RN",
+        "accuracy": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "cost time": 37.49734616279602
+    },
+    {
+        "index": 2,
+        "best node id": 206,
+        "node depth": 9,
+        "chosen step": 8,
+        "distance to root": 0.0,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___",
+        "accuracy": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "cost time": 26.86709713935852
+    },
+    {
+        "index": 3,
+        "best node id": 100,
+        "node depth": 9,
+        "chosen step": 14,
+        "distance to root": 0.0,
+        "answer": "CANIS\n____H\n____E\nPRONE\n____N",
+        "accuracy": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "cost time": 44.52383327484131
+    },
+    {
+        "index": 4,
+        "best node id": 134,
+        "node depth": 9,
+        "chosen step": 8,
+        "distance to root": 0.0,
+        "answer": "_H___\n_E___\nERODE\n_O___\n_N___",
+        "accuracy": {
+            "r_letter": 0.32,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "cost time": 10.88515591621399
+    },
+    {
+        "index": 5,
+        "best node id": 150,
+        "node depth": 9,
+        "chosen step": 16,
+        "distance to root": 0.0,
+        "answer": "_____\nPENNY\n_____\nSKULK\n_____",
+        "accuracy": {
+            "r_letter": 0.08,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "cost time": 47.38714551925659
+    },
+    {
+        "index": 6,
+        "best node id": 183,
+        "node depth": 9,
+        "chosen step": 9,
+        "distance to root": 0.0,
+        "answer": "C___G\nR___R\nO___E\nA___E\nKARST",
+        "accuracy": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "cost time": 43.887312173843384
+    },
+    {
+        "index": 7,
+        "best node id": 156,
+        "node depth": 9,
+        "chosen step": 8,
+        "distance to root": 0.0,
+        "answer": "___L_\n___E_\n___A_\n___V_\n___E_",
+        "accuracy": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "cost time": 7.539788484573364
+    },
+    {
+        "index": 8,
+        "best node id": 103,
+        "node depth": 9,
+        "chosen step": 11,
+        "distance to root": 0.0,
+        "answer": "DISCO\nUNHAT\nOVERT\nMANSE\nORDER",
+        "accuracy": {
+            "r_letter": 1.0,
+            "r_word": 1.0,
+            "r_game": true
+        },
+        "cost time": 75.72375631332397
+    },
+    {
+        "index": 9,
+        "best node id": 294,
+        "node depth": 9,
+        "chosen step": 56,
+        "distance to root": 0.0,
+        "answer": "ERUCT\nVENUE\nALARM\nDRUNK\nENTER",
+        "accuracy": {
+            "r_letter": 0.76,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "cost time": 245.67692303657532
+    },
+    {
+        "index": 10,
+        "best node id": 137,
+        "node depth": 9,
+        "chosen step": 8,
+        "distance to root": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND",
+        "accuracy": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "cost time": 27.786169052124023
+    },
+    {
+        "index": 11,
+        "best node id": 168,
+        "node depth": 9,
+        "chosen step": 12,
+        "distance to root": 0.0,
+        "answer": "__S__\n__M__\nSIOUX\nTOTEM\n__E__",
+        "accuracy": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "cost time": 95.20626854896545
+    },
+    {
+        "index": 12,
+        "best node id": 171,
+        "node depth": 9,
+        "chosen step": 15,
+        "distance to root": 19.0,
+        "answer": "____E\nALARM\n____E\nRAISE\nEIDER",
+        "accuracy": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "cost time": 108.79445886611938
+    },
+    {
+        "index": 13,
+        "best node id": 127,
+        "node depth": 9,
+        "chosen step": 14,
+        "distance to root": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__",
+        "accuracy": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "cost time": 30.52893853187561
+    },
+    {
+        "index": 14,
+        "best node id": 185,
+        "node depth": 9,
+        "chosen step": 15,
+        "distance to root": 0.0,
+        "answer": "_A___\n_V___\nLOWER\nRINSE\n_D___",
+        "accuracy": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "cost time": 122.467538356781
+    },
+    {
+        "index": 15,
+        "best node id": 189,
+        "node depth": 9,
+        "chosen step": 8,
+        "distance to root": 0.0,
+        "answer": "K____\nI____\nA____\nNAVEL\nG____",
+        "accuracy": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "cost time": 14.662478923797607
+    },
+    {
+        "index": 16,
+        "best node id": 136,
+        "node depth": 9,
+        "chosen step": 9,
+        "distance to root": 0.0,
+        "answer": "_____\nOVINE\n_____\nINNER\nREALM",
+        "accuracy": {
+            "r_letter": 0.32,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "cost time": 46.34597992897034
+    },
+    {
+        "index": 17,
+        "best node id": 160,
+        "node depth": 9,
+        "chosen step": 14,
+        "distance to root": 0.0,
+        "answer": "YUMIA\n_SA_C\nMUNCH\n_RI_O\n_PA_O",
+        "accuracy": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "cost time": 131.9312310218811
+    },
+    {
+        "index": 18,
+        "best node id": 1097,
+        "node depth": 9,
+        "chosen step": 66,
+        "distance to root": 80.0,
+        "answer": "____T\n____E\nKOREA\n____R\n____Y",
+        "accuracy": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "cost time": 23.248689889907837
+    },
+    {
+        "index": 19,
+        "best node id": 194,
+        "node depth": 9,
+        "chosen step": 30,
+        "distance to root": 0.0,
+        "answer": "PRINT\n_I_AR\n_C_SE\nSENSE\nTREAD",
+        "accuracy": {
+            "r_letter": 0.84,
+            "r_word": 0.6,
+            "r_game": false
+        },
+        "cost time": 112.28658676147461
+    }
+]

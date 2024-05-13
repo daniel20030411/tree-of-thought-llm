@@ -1,0 +1,226 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs
+idx: 9
+pruning = True
+date: 2024-05-10
+time: 18:29:26
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h2. place'], 'info': {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'distance to root': 6.8, 'depth': 1, 'd_thres': 10000, 'answer': '_____\nPLACE\n_____\n_____\n_____'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['h2. place', 'h5. enter'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 14, 'distance to root': 14.2, 'depth': 2, 'd_thres': 10000, 'answer': '_____\nPLACE\n_____\n_____\nENTER'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['h2. place', 'h5. enter', 'h3. alarm'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 2}, 'current_node_id': 34, 'distance to root': 21.1, 'depth': 3, 'd_thres': 10000, 'answer': '_____\nPLACE\nALARM\n_____\nENTER'}
+
+{'total_step': 3, 'env_step': 3, 'actions': ['h2. place', 'h5. enter', 'h1. eruct'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 6, 'maybe': 1, 'impossible': 1}, 'current_node_id': 38, 'distance to root': 22.8, 'depth': 3, 'd_thres': 10000, 'answer': 'ERUCT\nPLACE\n_____\n_____\nENTER'}
+
+{'total_step': 4, 'env_step': 3, 'actions': ['h2. place', 'h5. enter', 'v3. faint'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 39, 'distance to root': 23.7, 'depth': 3, 'd_thres': 10000, 'answer': '__F__\nPLACE\n__I__\n__N__\nENTER'}
+
+{'total_step': 5, 'env_step': 2, 'actions': ['h2. place', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 17, 'distance to root': 15.3, 'depth': 2, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 6, 'env_step': 3, 'actions': ['h2. place', 'h3. alert', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 58, 'distance to root': 24.3, 'depth': 3, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 7, 'env_step': 4, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 69, 'distance to root': 33.3, 'depth': 4, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 8, 'env_step': 5, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 80, 'distance to root': 42.3, 'depth': 5, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 9, 'env_step': 6, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 91, 'distance to root': 51.3, 'depth': 6, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 10, 'env_step': 7, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 102, 'distance to root': 60.3, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 11, 'env_step': 8, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 113, 'distance to root': 69.3, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 12, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 124, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 13, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 125, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 14, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h5. enter'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 126, 'distance to root': 78.39999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\nENTER'}
+
+{'total_step': 15, 'env_step': 8, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 114, 'distance to root': 69.3, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 16, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 157, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 17, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 158, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 18, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h5. enter'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 159, 'distance to root': 78.39999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\nENTER'}
+
+{'total_step': 19, 'env_step': 8, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h5. enter'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 115, 'distance to root': 69.4, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\nENTER'}
+
+{'total_step': 20, 'env_step': 7, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 103, 'distance to root': 60.3, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 21, 'env_step': 8, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 190, 'distance to root': 69.3, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 22, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 201, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 23, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 202, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 24, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h5. enter'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 203, 'distance to root': 78.39999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\nENTER'}
+
+{'total_step': 25, 'env_step': 8, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 191, 'distance to root': 69.3, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 26, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 234, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 27, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 235, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 28, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h5. enter'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 236, 'distance to root': 78.39999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\nENTER'}
+
+{'total_step': 29, 'env_step': 8, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h5. enter'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 192, 'distance to root': 69.4, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\nENTER'}
+
+{'total_step': 30, 'env_step': 7, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h2. place', 'h5. enter'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 104, 'distance to root': 60.4, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\nENTER'}
+
+{'total_step': 31, 'env_step': 6, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 92, 'distance to root': 51.3, 'depth': 6, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 32, 'env_step': 7, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 267, 'distance to root': 60.3, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 33, 'env_step': 8, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 278, 'distance to root': 69.3, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 34, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 289, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 35, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 290, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 36, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h5. enter'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 291, 'distance to root': 78.39999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\nENTER'}
+
+{'total_step': 37, 'env_step': 8, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 279, 'distance to root': 69.3, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 38, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h3. alert', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 322, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 39, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h3. alert', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 323, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 40, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h3. alert', 'h5. enter'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 324, 'distance to root': 78.39999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\nENTER'}
+
+{'total_step': 41, 'env_step': 8, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h5. enter'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 280, 'distance to root': 69.4, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\nENTER'}
+
+{'total_step': 42, 'env_step': 7, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 268, 'distance to root': 60.3, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 43, 'env_step': 8, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 355, 'distance to root': 69.3, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 44, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h2. place', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 366, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 45, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h2. place', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 367, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 46, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h2. place', 'h5. enter'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 368, 'distance to root': 78.39999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\nENTER'}
+
+{'total_step': 47, 'env_step': 8, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 356, 'distance to root': 69.3, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 48, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h3. alert', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 399, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 49, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h3. alert', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 400, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 50, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h3. alert', 'h5. enter'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 401, 'distance to root': 78.39999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\nENTER'}
+
+{'total_step': 51, 'env_step': 8, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h5. enter'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 357, 'distance to root': 69.4, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\nENTER'}
+
+{'total_step': 52, 'env_step': 7, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h3. alert', 'h5. enter'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 269, 'distance to root': 60.4, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\nENTER'}
+
+{'total_step': 53, 'env_step': 6, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h5. enter'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 93, 'distance to root': 51.4, 'depth': 6, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\nENTER'}
+
+{'total_step': 54, 'env_step': 5, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 81, 'distance to root': 42.3, 'depth': 5, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 55, 'env_step': 6, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 432, 'distance to root': 51.3, 'depth': 6, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 56, 'env_step': 7, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 443, 'distance to root': 60.3, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 57, 'env_step': 8, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 454, 'distance to root': 69.3, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 58, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 465, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 59, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 466, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 60, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h2. place', 'h5. enter'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 467, 'distance to root': 78.39999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\nENTER'}
+
+{'total_step': 61, 'env_step': 8, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 455, 'distance to root': 69.3, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 62, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 498, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 63, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 499, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 64, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h5. enter'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 500, 'distance to root': 78.39999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\nENTER'}
+
+{'total_step': 65, 'env_step': 8, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h5. enter'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 456, 'distance to root': 69.4, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\nENTER'}
+
+{'total_step': 66, 'env_step': 7, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 444, 'distance to root': 60.3, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 67, 'env_step': 8, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h3. alert', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 531, 'distance to root': 69.3, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 68, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h3. alert', 'h2. place', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 542, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 69, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h3. alert', 'h2. place', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 543, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 70, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h3. alert', 'h2. place', 'h5. enter'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 544, 'distance to root': 78.39999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\nENTER'}
+
+{'total_step': 71, 'env_step': 8, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h3. alert', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 532, 'distance to root': 69.3, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 72, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h3. alert', 'h3. alert', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 575, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 73, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h3. alert', 'h3. alert', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 576, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 74, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h3. alert', 'h3. alert', 'h5. enter'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 577, 'distance to root': 78.39999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\nENTER'}
+
+{'total_step': 75, 'env_step': 8, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h3. alert', 'h5. enter'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 533, 'distance to root': 69.4, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\nENTER'}
+
+{'total_step': 76, 'env_step': 7, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h2. place', 'h5. enter'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 445, 'distance to root': 60.4, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\nENTER'}
+
+{'total_step': 77, 'env_step': 6, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 433, 'distance to root': 51.3, 'depth': 6, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 78, 'env_step': 7, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 608, 'distance to root': 60.3, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 79, 'env_step': 8, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h2. place', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 619, 'distance to root': 69.3, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 80, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h2. place', 'h2. place', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 630, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 81, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 631, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 82, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h2. place', 'h2. place', 'h5. enter'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 632, 'distance to root': 78.39999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\nENTER'}
+
+{'total_step': 83, 'env_step': 8, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h2. place', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 620, 'distance to root': 69.3, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 84, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h2. place', 'h3. alert', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 663, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 85, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h2. place', 'h3. alert', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 664, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 86, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h2. place', 'h3. alert', 'h5. enter'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 665, 'distance to root': 78.39999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\nENTER'}
+
+{'total_step': 87, 'env_step': 8, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h2. place', 'h5. enter'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 621, 'distance to root': 69.4, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\nENTER'}
+
+{'total_step': 88, 'env_step': 7, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 609, 'distance to root': 60.3, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 89, 'env_step': 8, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h3. alert', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 696, 'distance to root': 69.3, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 90, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h3. alert', 'h2. place', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 707, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 91, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h3. alert', 'h2. place', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 708, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 92, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h3. alert', 'h2. place', 'h5. enter'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 709, 'distance to root': 78.39999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\nENTER'}
+
+{'total_step': 93, 'env_step': 8, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h3. alert', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 697, 'distance to root': 69.3, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 94, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h3. alert', 'h3. alert', 'h2. place'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 740, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 95, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h3. alert', 'h3. alert', 'h3. alert'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 741, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\n_____'}
+
+{'total_step': 96, 'env_step': 9, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h3. alert', 'h3. alert', 'h5. enter'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 742, 'distance to root': 78.39999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\nENTER'}
+
+{'total_step': 97, 'env_step': 8, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h3. alert', 'h5. enter'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 698, 'distance to root': 69.4, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\nENTER'}
+
+{'total_step': 98, 'env_step': 7, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h3. alert', 'h5. enter'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 610, 'distance to root': 60.4, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\nENTER'}
+
+{'total_step': 99, 'env_step': 6, 'actions': ['h2. place', 'h3. alert', 'h2. place', 'h2. place', 'h3. alert', 'h5. enter'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 434, 'distance to root': 51.4, 'depth': 6, 'd_thres': 10000, 'answer': '_____\nPLACE\nALERT\n_____\nENTER'}
+
+-----------------------
+
+best node id: 38
+node depth: 3
+chosen step: 3
+distance to root: 22.8
+answer:
+
+ERUCT
+PLACE
+_____
+_____
+ENTER
+
+accuracy: {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}
+cost time: 69.31815671920776 s
+
+---- Task Complete ----

@@ -1,0 +1,16 @@
+[
+    {
+        "index": 4,
+        "best node id": 57,
+        "node depth": 5,
+        "chosen step": 6,
+        "distance to root": 42.800000000000004,
+        "answer": "CANIS\n__O_H\nRAMIE\nPRONE\n__S_N",
+        "accuracy": {
+            "r_letter": 0.72,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "cost time": 2.1225600242614746
+    }
+]

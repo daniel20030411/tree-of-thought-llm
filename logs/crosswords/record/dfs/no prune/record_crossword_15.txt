@@ -1,0 +1,26 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs
+idx: 15
+pruning = False
+date: 2024-05-06
+time: 02:32:47
+
+-----------------------
+
+best node id: 37
+node depth: 3
+chosen step: 2
+distance to root: 19.0
+answer:
+
+_LA__
+_EM__
+UVULA
+_ES__
+_LE__
+
+accuracy: {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}
+cost time: 2.9363956451416016 s
+
+---- Task Complete ----

@@ -1,0 +1,226 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs
+idx: 0
+pruning = True
+date: 2024-05-10
+time: 19:31:01
+
+{'total_step': 0, 'env_step': 1, 'actions': ['v5. drier'], 'info': {'r_letter': 0.16, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 0, 'maybe': 0, 'impossible': 1}, 'current_node_id': 1, 'distance to root': 6.9, 'depth': 1, 'd_thres': 10000, 'answer': '____D\n____R\n____I\n____E\n____R'}
+
+{'total_step': 1, 'env_step': 1, 'actions': ['h2. motor'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 2, 'distance to root': 7.199999999999999, 'depth': 1, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\n_____'}
+
+{'total_step': 2, 'env_step': 2, 'actions': ['h2. motor', 'v5. drier'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 1}, 'current_node_id': 12, 'distance to root': 14.099999999999998, 'depth': 2, 'd_thres': 10000, 'answer': '____D\nMOTOR\n____I\n____E\n____R'}
+
+{'total_step': 3, 'env_step': 2, 'actions': ['h2. motor', 'h5. taunt'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 13, 'distance to root': 15.0, 'depth': 2, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 4, 'env_step': 3, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 25, 'distance to root': 23.0, 'depth': 3, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 5, 'env_step': 4, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 51, 'distance to root': 31.0, 'depth': 4, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 6, 'env_step': 5, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 77, 'distance to root': 39.0, 'depth': 5, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 7, 'env_step': 6, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 103, 'distance to root': 47.0, 'depth': 6, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 8, 'env_step': 7, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 129, 'distance to root': 55.0, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 9, 'env_step': 8, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 155, 'distance to root': 63.0, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 10, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 181, 'distance to root': 71.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 11, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 182, 'distance to root': 71.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 12, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 184, 'distance to root': 72.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 13, 'env_step': 8, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 156, 'distance to root': 63.0, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 14, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h2. motor'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 279, 'distance to root': 71.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 15, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h5. taunt'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 280, 'distance to root': 71.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 16, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 282, 'distance to root': 72.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 17, 'env_step': 8, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 158, 'distance to root': 64.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 18, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy', 'h2. motor'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 377, 'distance to root': 73.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 19, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 378, 'distance to root': 73.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 20, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy', 'h5. taunt'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 379, 'distance to root': 73.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 21, 'env_step': 7, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 130, 'distance to root': 55.0, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 22, 'env_step': 8, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h2. motor'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 457, 'distance to root': 63.0, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 23, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 483, 'distance to root': 71.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 24, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h2. motor', 'h5. taunt'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 484, 'distance to root': 71.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 25, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h2. motor', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 486, 'distance to root': 72.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 26, 'env_step': 8, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h5. taunt'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 458, 'distance to root': 63.0, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 27, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h5. taunt', 'h2. motor'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 581, 'distance to root': 71.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 28, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h5. taunt', 'h5. taunt'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 582, 'distance to root': 71.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 29, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h5. taunt', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 584, 'distance to root': 72.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 30, 'env_step': 8, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 460, 'distance to root': 64.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 31, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h3. fancy', 'h2. motor'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 679, 'distance to root': 73.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 32, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h3. fancy', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 680, 'distance to root': 73.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 33, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h3. fancy', 'h5. taunt'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 681, 'distance to root': 73.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 34, 'env_step': 7, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 132, 'distance to root': 56.099999999999994, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 35, 'env_step': 8, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy', 'h2. motor'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 759, 'distance to root': 65.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 36, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy', 'h2. motor', 'h2. motor'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 779, 'distance to root': 74.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 37, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy', 'h2. motor', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 780, 'distance to root': 74.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 38, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy', 'h2. motor', 'h5. taunt'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 781, 'distance to root': 74.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 39, 'env_step': 8, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 760, 'distance to root': 65.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 40, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy', 'h3. fancy', 'h2. motor'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 859, 'distance to root': 74.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 41, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy', 'h3. fancy', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 860, 'distance to root': 74.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 42, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy', 'h3. fancy', 'h5. taunt'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 861, 'distance to root': 74.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 43, 'env_step': 8, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy', 'h5. taunt'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 761, 'distance to root': 65.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 44, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy', 'h5. taunt', 'h2. motor'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 939, 'distance to root': 74.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 45, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy', 'h5. taunt', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 940, 'distance to root': 74.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 46, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy', 'h5. taunt', 'h5. taunt'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 941, 'distance to root': 74.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 47, 'env_step': 6, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 104, 'distance to root': 47.0, 'depth': 6, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 48, 'env_step': 7, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h2. motor'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1019, 'distance to root': 55.0, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 49, 'env_step': 8, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1045, 'distance to root': 63.0, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 50, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1071, 'distance to root': 71.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 51, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h5. taunt'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1072, 'distance to root': 71.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 52, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1074, 'distance to root': 72.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 53, 'env_step': 8, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h2. motor', 'h5. taunt'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1046, 'distance to root': 63.0, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 54, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h2. motor', 'h5. taunt', 'h2. motor'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1169, 'distance to root': 71.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 55, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h2. motor', 'h5. taunt', 'h5. taunt'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1170, 'distance to root': 71.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 56, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h2. motor', 'h5. taunt', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1172, 'distance to root': 72.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 57, 'env_step': 8, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h2. motor', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1048, 'distance to root': 64.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 58, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h2. motor', 'h3. fancy', 'h2. motor'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1267, 'distance to root': 73.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 59, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h2. motor', 'h3. fancy', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1268, 'distance to root': 73.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 60, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h2. motor', 'h3. fancy', 'h5. taunt'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1269, 'distance to root': 73.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 61, 'env_step': 7, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h5. taunt'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1020, 'distance to root': 55.0, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 62, 'env_step': 8, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h5. taunt', 'h2. motor'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1347, 'distance to root': 63.0, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 63, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h5. taunt', 'h2. motor', 'h2. motor'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1373, 'distance to root': 71.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 64, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h5. taunt', 'h2. motor', 'h5. taunt'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1374, 'distance to root': 71.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 65, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h5. taunt', 'h2. motor', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1376, 'distance to root': 72.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 66, 'env_step': 8, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h5. taunt', 'h5. taunt'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1348, 'distance to root': 63.0, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 67, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h5. taunt', 'h5. taunt', 'h2. motor'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1471, 'distance to root': 71.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 68, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h5. taunt', 'h5. taunt', 'h5. taunt'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1472, 'distance to root': 71.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\nTAUNT'}
+
+{'total_step': 69, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h5. taunt', 'h5. taunt', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1474, 'distance to root': 72.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 70, 'env_step': 8, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h5. taunt', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1350, 'distance to root': 64.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 71, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h5. taunt', 'h3. fancy', 'h2. motor'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1569, 'distance to root': 73.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 72, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h5. taunt', 'h3. fancy', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1570, 'distance to root': 73.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 73, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h5. taunt', 'h3. fancy', 'h5. taunt'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1571, 'distance to root': 73.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 74, 'env_step': 7, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1022, 'distance to root': 56.099999999999994, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 75, 'env_step': 8, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h3. fancy', 'h2. motor'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1649, 'distance to root': 65.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 76, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h3. fancy', 'h2. motor', 'h2. motor'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1669, 'distance to root': 74.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 77, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h3. fancy', 'h2. motor', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1670, 'distance to root': 74.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 78, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h3. fancy', 'h2. motor', 'h5. taunt'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1671, 'distance to root': 74.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 79, 'env_step': 8, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h3. fancy', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1650, 'distance to root': 65.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 80, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h3. fancy', 'h3. fancy', 'h2. motor'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1749, 'distance to root': 74.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 81, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h3. fancy', 'h3. fancy', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1750, 'distance to root': 74.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 82, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h3. fancy', 'h3. fancy', 'h5. taunt'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1751, 'distance to root': 74.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 83, 'env_step': 8, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h3. fancy', 'h5. taunt'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1651, 'distance to root': 65.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 84, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h3. fancy', 'h5. taunt', 'h2. motor'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1829, 'distance to root': 74.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 85, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h3. fancy', 'h5. taunt', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1830, 'distance to root': 74.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 86, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h5. taunt', 'h3. fancy', 'h5. taunt', 'h5. taunt'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1831, 'distance to root': 74.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 87, 'env_step': 6, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 106, 'distance to root': 48.099999999999994, 'depth': 6, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 88, 'env_step': 7, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy', 'h2. motor'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1909, 'distance to root': 57.099999999999994, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 89, 'env_step': 8, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy', 'h2. motor', 'h2. motor'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1929, 'distance to root': 66.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 90, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy', 'h2. motor', 'h2. motor', 'h2. motor'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1949, 'distance to root': 75.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 91, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy', 'h2. motor', 'h2. motor', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1950, 'distance to root': 75.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 92, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy', 'h2. motor', 'h2. motor', 'h5. taunt'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1951, 'distance to root': 75.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 93, 'env_step': 8, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy', 'h2. motor', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1930, 'distance to root': 66.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 94, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy', 'h2. motor', 'h3. fancy', 'h2. motor'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 2029, 'distance to root': 75.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 95, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy', 'h2. motor', 'h3. fancy', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 2030, 'distance to root': 75.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 96, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy', 'h2. motor', 'h3. fancy', 'h5. taunt'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 2031, 'distance to root': 75.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 97, 'env_step': 8, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy', 'h2. motor', 'h5. taunt'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 1931, 'distance to root': 66.1, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 98, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy', 'h2. motor', 'h5. taunt', 'h2. motor'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 2109, 'distance to root': 75.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+{'total_step': 99, 'env_step': 9, 'actions': ['h2. motor', 'h5. taunt', 'h2. motor', 'h2. motor', 'h2. motor', 'h3. fancy', 'h2. motor', 'h5. taunt', 'h3. fancy'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 2110, 'distance to root': 75.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nMOTOR\nFANCY\n_____\nTAUNT'}
+
+-----------------------
+
+best node id: 2
+node depth: 1
+chosen step: 1
+distance to root: 7.199999999999999
+answer:
+
+_____
+MOTOR
+_____
+_____
+_____
+
+accuracy: {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}
+cost time: 42.85404181480408 s
+
+---- Task Complete ----

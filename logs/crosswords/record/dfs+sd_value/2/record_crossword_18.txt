@@ -1,0 +1,44 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 18
+pruning = True
+date: 2024-05-10
+time: 19:54:47
+
+{'total_step': 0, 'env_step': 1, 'actions': ['v3. stola'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': '__S__\n__T__\n__O__\n__L__\n__A__'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['v3. stola', 'v4. idler'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 8, 'depth': 2, 'd_thres': 10000, 'answer': '__SI_\n__TD_\n__OL_\n__LE_\n__AR_'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['v3. stola', 'v4. idler', 'v3. stola'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 35, 'depth': 3, 'd_thres': 10000, 'answer': '__SI_\n__TD_\n__OL_\n__LE_\n__AR_'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['v3. stola', 'v4. idler', 'v3. stola', 'v3. stola'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 55, 'depth': 4, 'd_thres': 10000, 'answer': '__SI_\n__TD_\n__OL_\n__LE_\n__AR_'}
+
+{'total_step': 4, 'env_step': 5, 'actions': ['v3. stola', 'v4. idler', 'v3. stola', 'v3. stola', 'v3. stola'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 75, 'depth': 5, 'd_thres': 10000, 'answer': '__SI_\n__TD_\n__OL_\n__LE_\n__AR_'}
+
+{'total_step': 5, 'env_step': 6, 'actions': ['v3. stola', 'v4. idler', 'v3. stola', 'v3. stola', 'v3. stola', 'v3. stola'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 95, 'depth': 6, 'd_thres': 10000, 'answer': '__SI_\n__TD_\n__OL_\n__LE_\n__AR_'}
+
+{'total_step': 6, 'env_step': 7, 'actions': ['v3. stola', 'v4. idler', 'v3. stola', 'v3. stola', 'v3. stola', 'v3. stola', 'v3. stola'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 115, 'depth': 7, 'd_thres': 10000, 'answer': '__SI_\n__TD_\n__OL_\n__LE_\n__AR_'}
+
+{'total_step': 7, 'env_step': 8, 'actions': ['v3. stola', 'v4. idler', 'v3. stola', 'v3. stola', 'v3. stola', 'v3. stola', 'v3. stola', 'v3. stola'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 135, 'depth': 8, 'd_thres': 10000, 'answer': '__SI_\n__TD_\n__OL_\n__LE_\n__AR_'}
+
+{'total_step': 8, 'env_step': 9, 'actions': ['v3. stola', 'v4. idler', 'v3. stola', 'v3. stola', 'v3. stola', 'v3. stola', 'v3. stola', 'v3. stola', 'v3. stola'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 155, 'distance to root': 0.0, 'depth': 9, 'd_thres': 0.0, 'answer': '__SI_\n__TD_\n__OL_\n__LE_\n__AR_'}
+
+-----------------------
+
+best node id: 155
+node depth: 9
+chosen step: 8
+distance to root: 0.0
+answer:
+
+__SI_
+__TD_
+__OL_
+__LE_
+__AR_
+
+accuracy: {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}
+cost time: 22.184507846832275 s
+
+---- Task Complete ----

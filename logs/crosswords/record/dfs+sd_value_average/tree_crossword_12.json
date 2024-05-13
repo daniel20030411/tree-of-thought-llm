@@ -1,0 +1,2805 @@
+[
+    {
+        "total_step": 0,
+        "env_step": 1,
+        "actions": [
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 1,
+        "depth": 1,
+        "d_thres": 10000,
+        "answer": "_____\n_____\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 1,
+        "env_step": 2,
+        "actions": [
+            "h4. raise",
+            "h2. alarm"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 10,
+        "depth": 2,
+        "d_thres": 10000,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 2,
+        "env_step": 3,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 24,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "_____\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 3,
+        "env_step": 4,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h5. eider",
+            "h3. iguan"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 1
+        },
+        "current_node_id": 47,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "_____\nALARM\nIGUAN\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 4,
+        "env_step": 4,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h5. eider",
+            "h1. woody"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 1
+        },
+        "current_node_id": 49,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "WOODY\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 5,
+        "env_step": 4,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h5. eider",
+            "h1. woods"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 51,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "WOODS\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 6,
+        "env_step": 3,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 26,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 7,
+        "env_step": 4,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 57,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "_____\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 8,
+        "env_step": 5,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h5. eider",
+            "h3. iguan"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 1
+        },
+        "current_node_id": 80,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "_____\nALARM\nIGUAN\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 9,
+        "env_step": 5,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h5. eider",
+            "h1. woody"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 1
+        },
+        "current_node_id": 82,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "WOODY\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 10,
+        "env_step": 5,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h5. eider",
+            "h1. woods"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 84,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "WOODS\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 11,
+        "env_step": 4,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 59,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 12,
+        "env_step": 5,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 90,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "_____\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 13,
+        "env_step": 6,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h5. eider",
+            "h3. iguan"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 1
+        },
+        "current_node_id": 113,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "_____\nALARM\nIGUAN\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 14,
+        "env_step": 6,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h5. eider",
+            "h1. woody"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 1
+        },
+        "current_node_id": 115,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "WOODY\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 15,
+        "env_step": 6,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h5. eider",
+            "h1. woods"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 117,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "WOODS\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 16,
+        "env_step": 5,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 92,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 17,
+        "env_step": 6,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 123,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "_____\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 18,
+        "env_step": 7,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h5. eider",
+            "h3. iguan"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 1
+        },
+        "current_node_id": 146,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "_____\nALARM\nIGUAN\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 19,
+        "env_step": 7,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h5. eider",
+            "h1. woody"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 1
+        },
+        "current_node_id": 148,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "WOODY\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 20,
+        "env_step": 7,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h5. eider",
+            "h1. woods"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 150,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "WOODS\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 21,
+        "env_step": 6,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 125,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 22,
+        "env_step": 7,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 156,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "_____\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 23,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h5. eider",
+            "h3. iguan"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 1
+        },
+        "current_node_id": 179,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "_____\nALARM\nIGUAN\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 24,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h5. eider",
+            "h1. woody"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 1
+        },
+        "current_node_id": 181,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "WOODY\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 25,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h5. eider",
+            "h1. woods"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 183,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "WOODS\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 26,
+        "env_step": 7,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 158,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 27,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 189,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "_____\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 28,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h5. eider",
+            "h3. iguan"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 1
+        },
+        "current_node_id": 212,
+        "distance to root": 120.89989999999999,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\nIGUAN\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 29,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h5. eider",
+            "h1. woody"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 1
+        },
+        "current_node_id": 214,
+        "distance to root": 124.69989999999999,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "WOODY\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 30,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h5. eider",
+            "h1. woods"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 216,
+        "distance to root": 124.69999999999999,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "WOODS\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 31,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 191,
+        "depth": 8,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 32,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 222,
+        "distance to root": 124.79999999999998,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 33,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 224,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 34,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 225,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 35,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 192,
+        "depth": 8,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 36,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 295,
+        "distance to root": 124.79999999999998,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 37,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 297,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 38,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 298,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 39,
+        "env_step": 7,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 159,
+        "depth": 7,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 40,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 368,
+        "depth": 8,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 41,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h5. eider",
+            "h3. iguan"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 1
+        },
+        "current_node_id": 391,
+        "distance to root": 120.89989999999999,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\nIGUAN\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 42,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h5. eider",
+            "h1. woody"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 1
+        },
+        "current_node_id": 393,
+        "distance to root": 124.69989999999999,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "WOODY\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 43,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h5. eider",
+            "h1. woods"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 395,
+        "distance to root": 124.69999999999999,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "WOODS\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 44,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 370,
+        "depth": 8,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 45,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 401,
+        "distance to root": 124.79999999999998,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 46,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 403,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 47,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 404,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 48,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 371,
+        "depth": 8,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 49,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h4. raise",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 474,
+        "distance to root": 124.79999999999998,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 50,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h4. raise",
+            "h2. alarm"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 476,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 51,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h4. raise",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 477,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 52,
+        "env_step": 6,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 126,
+        "depth": 6,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 53,
+        "env_step": 7,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 547,
+        "depth": 7,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 54,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h5. eider",
+            "h3. iguan"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 1
+        },
+        "current_node_id": 570,
+        "depth": 8,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\nIGUAN\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 55,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h5. eider",
+            "h1. woody"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 1
+        },
+        "current_node_id": 572,
+        "depth": 8,
+        "d_thres": 120.89989999999999,
+        "answer": "WOODY\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 56,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h5. eider",
+            "h1. woods"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 574,
+        "depth": 8,
+        "d_thres": 120.89989999999999,
+        "answer": "WOODS\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 57,
+        "env_step": 7,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 549,
+        "depth": 7,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 58,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 580,
+        "depth": 8,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 59,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm",
+            "h5. eider",
+            "h3. iguan"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 1
+        },
+        "current_node_id": 603,
+        "distance to root": 120.89989999999999,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\nIGUAN\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 60,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm",
+            "h5. eider",
+            "h1. woody"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 1
+        },
+        "current_node_id": 605,
+        "distance to root": 124.69989999999999,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "WOODY\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 61,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm",
+            "h5. eider",
+            "h1. woods"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 607,
+        "distance to root": 124.69999999999999,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "WOODS\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 62,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 582,
+        "depth": 8,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 63,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 613,
+        "distance to root": 124.79999999999998,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 64,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 615,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 65,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 616,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 66,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 583,
+        "depth": 8,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 67,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm",
+            "h4. raise",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 686,
+        "distance to root": 124.79999999999998,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 68,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 688,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 69,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm",
+            "h4. raise",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 689,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 70,
+        "env_step": 7,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 550,
+        "depth": 7,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 71,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h4. raise",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 759,
+        "depth": 8,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 72,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h4. raise",
+            "h5. eider",
+            "h3. iguan"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 1
+        },
+        "current_node_id": 782,
+        "distance to root": 120.89989999999999,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\nIGUAN\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 73,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h4. raise",
+            "h5. eider",
+            "h1. woody"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 1
+        },
+        "current_node_id": 784,
+        "distance to root": 124.69989999999999,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "WOODY\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 74,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h4. raise",
+            "h5. eider",
+            "h1. woods"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 786,
+        "distance to root": 124.69999999999999,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "WOODS\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 75,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h4. raise",
+            "h2. alarm"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 761,
+        "depth": 8,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 76,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h4. raise",
+            "h2. alarm",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 792,
+        "distance to root": 124.79999999999998,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 77,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 794,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 78,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h4. raise",
+            "h2. alarm",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 795,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 79,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h4. raise",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 762,
+        "depth": 8,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 80,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h4. raise",
+            "h4. raise",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 865,
+        "distance to root": 124.79999999999998,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 81,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h4. raise",
+            "h4. raise",
+            "h2. alarm"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 867,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 82,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h4. raise",
+            "h4. raise",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 868,
+        "distance to root": 126.79999999999998,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 83,
+        "env_step": 5,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 93,
+        "depth": 5,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 84,
+        "env_step": 6,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 938,
+        "depth": 6,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 85,
+        "env_step": 7,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h5. eider",
+            "h3. iguan"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 1
+        },
+        "current_node_id": 961,
+        "depth": 7,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\nIGUAN\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 86,
+        "env_step": 7,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h5. eider",
+            "h1. woody"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 1
+        },
+        "current_node_id": 963,
+        "depth": 7,
+        "d_thres": 120.89989999999999,
+        "answer": "WOODY\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 87,
+        "env_step": 7,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h5. eider",
+            "h1. woods"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 965,
+        "depth": 7,
+        "d_thres": 120.89989999999999,
+        "answer": "WOODS\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 88,
+        "env_step": 6,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 940,
+        "depth": 6,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 89,
+        "env_step": 7,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 971,
+        "depth": 7,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 90,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm",
+            "h5. eider",
+            "h3. iguan"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 1
+        },
+        "current_node_id": 994,
+        "depth": 8,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\nIGUAN\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 91,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm",
+            "h5. eider",
+            "h1. woody"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 1
+        },
+        "current_node_id": 996,
+        "depth": 8,
+        "d_thres": 120.89989999999999,
+        "answer": "WOODY\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 92,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm",
+            "h5. eider",
+            "h1. woods"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 998,
+        "depth": 8,
+        "d_thres": 120.89989999999999,
+        "answer": "WOODS\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 93,
+        "env_step": 7,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 973,
+        "depth": 7,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 94,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1004,
+        "depth": 8,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 95,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h5. eider",
+            "h3. iguan"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 1
+        },
+        "current_node_id": 1027,
+        "distance to root": 120.89989999999999,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\nIGUAN\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 96,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h5. eider",
+            "h1. woody"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 1
+        },
+        "current_node_id": 1029,
+        "distance to root": 124.69989999999999,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "WOODY\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 97,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h5. eider",
+            "h1. woods"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1031,
+        "distance to root": 124.69999999999999,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "WOODS\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "total_step": 98,
+        "env_step": 8,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1006,
+        "depth": 8,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\n_____"
+    },
+    {
+        "total_step": 99,
+        "env_step": 9,
+        "actions": [
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h4. raise",
+            "h2. alarm",
+            "h2. alarm",
+            "h2. alarm",
+            "h5. eider"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1037,
+        "distance to root": 124.79999999999998,
+        "depth": 9,
+        "d_thres": 120.89989999999999,
+        "answer": "_____\nALARM\n_____\nRAISE\nEIDER"
+    },
+    {
+        "index": 12,
+        "best node id": 212,
+        "node depth": 9,
+        "chosen step": 28,
+        "distance to root": 120.89989999999999,
+        "answer": "_____\nALARM\nIGUAN\nRAISE\nEIDER",
+        "accuracy": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "cost time": 73.75355768203735
+    }
+]

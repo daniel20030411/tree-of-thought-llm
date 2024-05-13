@@ -36,8 +36,8 @@ class MiniCrosswordsEnv:
             self.steps = steps
         return self.render()
     
-
-    def prompt_status(self):
+    # TODO: old DFS
+    def prompt_status_dfs(self):
         count = {'sure': 0, 'maybe': 0, 'impossible': 0}
         for ans, data, status in zip(self.ans, self.data, self.status):
             # if status != 0: continue
@@ -54,9 +54,89 @@ class MiniCrosswordsEnv:
             # print(res)
             # print()
             res = res.split('\n')[-1].strip()
+            print(f'\n-------------------\n\nans: {ans}\ndata: {data}\nres: {res}\n\n-------------------\n')
             if res in count: count[res] += 1
         # print(count)
         return count
+    
+    def prompt_status(self, action):    # dfs_value
+        count = {'sure': 0, 'maybe': 0, 'impossible': 0}
+        score = 0.0
+        action = re.sub(r'(h[1-5]|v[1-5])\. ', '', action)
+        for ans, data, status in zip(self.ans, self.data, self.status):
+            # if status != 0: continue
+            if ans.count('_') >= 4: continue
+            ans = ' '.join(ans.lower())
+            line = f'{data}: {ans}'
+            prompt = value_prompt.format(input=line)
+            if prompt in self.prompt_status_cache:
+                res = self.prompt_status_cache[prompt]
+            else:
+                res = gpt(prompt)[0]
+                self.prompt_status_cache[prompt] = res
+            # print(line)
+            # print(res)
+            # print()
+            res = res.split('\n')[-1].strip()
+            candidate = ans.replace(" ", "")
+
+            if candidate == action:
+                print
+                if res == 'sure':
+                    score = 20
+                elif res == 'maybe':
+                    score = 1
+                elif res == 'impossible':
+                    score = 0.001
+                else:
+                    score = 0
+            if res in count: count[res] += 1
+
+            print(f'\n-------------------\n\ncandidate: {candidate}\naction: {action}\nans: {ans}\ndata: {data}\nres: {res}\nscore: {score}\n\n-------------------\n')
+        # print(count)
+        return [count, score]
+    
+    def prompt_status_average(self, action):    # dfs_value_average
+        count = {'sure': 0, 'maybe': 0, 'impossible': 0}
+        score = 0.0
+        action = re.sub(r'(h[1-5]|v[1-5])\. ', '', action)
+        for ans, data, status in zip(self.ans, self.data, self.status):
+            # if status != 0: continue
+            if ans.count('_') >= 4: continue
+            ans = ' '.join(ans.lower())
+            line = f'{data}: {ans}'
+            prompt = value_prompt.format(input=line)
+            if prompt in self.prompt_status_cache:
+                res = self.prompt_status_cache[prompt]
+            else:
+                res = gpt(prompt)[0]
+                self.prompt_status_cache[prompt] = res
+            # print(line)
+            # print(res)
+            # print()
+            res = res.split('\n')[-1].strip()
+            candidate = ans.replace(" ", "")
+
+            if res == 'sure':
+                count['sure'] += 1
+                score += 20
+                
+            elif res == 'maybe':
+                count['maybe'] += 1
+                score += 1
+                
+            elif res == 'impossible':
+                count['impossible'] += 1
+                score += 0.001
+                
+            else:
+                score += 0
+
+            print(f'\n-------------------\n\ncandidate: {candidate}\naction: {action}\nans: {ans}\ndata: {data}\nres: {res}\ncount: {count}\nscore: {score}\n\n-------------------\n')
+        # print(count)
+        score /= 10
+        print(f'\naverage score: {score}\n')
+        return [count, score]
     
     def render_gt_board(self):
         s = "GT Board:\n"

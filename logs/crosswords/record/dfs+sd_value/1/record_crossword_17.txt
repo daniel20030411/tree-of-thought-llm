@@ -1,0 +1,56 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 17
+pruning = True
+date: 2024-05-10
+time: 22:52:48
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h3. munch'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': '_____\n_____\nMUNCH\n_____\n_____'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['h3. munch', 'v2. usurp'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 18, 'depth': 2, 'd_thres': 10000, 'answer': '_U___\n_S___\nMUNCH\n_R___\n_P___'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['h3. munch', 'v2. usurp', 'v5. achoo'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 39, 'depth': 3, 'd_thres': 10000, 'answer': '_U__A\n_S__C\nMUNCH\n_R__O\n_P__O'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['h3. munch', 'v2. usurp', 'v5. achoo', 'v3. mania'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 52, 'depth': 4, 'd_thres': 10000, 'answer': '_UM_A\n_SA_C\nMUNCH\n_RI_O\n_PA_O'}
+
+{'total_step': 4, 'env_step': 5, 'actions': ['h3. munch', 'v2. usurp', 'v5. achoo', 'v3. mania', 'v4. cucko'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 77, 'depth': 5, 'd_thres': 10000, 'answer': '_UMCA\n_SAUC\nMUNCH\n_RIKO\n_PAOO'}
+
+{'total_step': 5, 'env_step': 6, 'actions': ['h3. munch', 'v2. usurp', 'v5. achoo', 'v3. mania', 'v4. cucko', 'v1. dimbo'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 3}, 'current_node_id': 98, 'depth': 6, 'd_thres': 10000, 'answer': 'DUMCA\nISAUC\nMUNCH\nBRIKO\nOPAOO'}
+
+{'total_step': 6, 'env_step': 5, 'actions': ['h3. munch', 'v2. usurp', 'v5. achoo', 'v3. mania', 'v1. dummy'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 79, 'depth': 5, 'd_thres': 10000, 'answer': 'DUM_A\nUSA_C\nMUNCH\nMRI_O\nYPA_O'}
+
+{'total_step': 7, 'env_step': 6, 'actions': ['h3. munch', 'v2. usurp', 'v5. achoo', 'v3. mania', 'v1. dummy', 'v4. arcer'], 'info': {'r_letter': 0.56, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 2}, 'current_node_id': 107, 'depth': 6, 'd_thres': 10000, 'answer': 'DUMAA\nUSARC\nMUNCH\nMRIEO\nYPARO'}
+
+{'total_step': 8, 'env_step': 6, 'actions': ['h3. munch', 'v2. usurp', 'v5. achoo', 'v3. mania', 'v1. dummy', 'v4. incut'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 2}, 'current_node_id': 110, 'depth': 6, 'd_thres': 10000, 'answer': 'DUMIA\nUSANC\nMUNCH\nMRIUO\nYPATO'}
+
+{'total_step': 9, 'env_step': 6, 'actions': ['h3. munch', 'v2. usurp', 'v5. achoo', 'v3. mania', 'v1. dummy', 'v4. urcus'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 1}, 'current_node_id': 111, 'depth': 6, 'd_thres': 10000, 'answer': 'DUMUA\nUSARC\nMUNCH\nMRIUO\nYPASO'}
+
+{'total_step': 10, 'env_step': 5, 'actions': ['h3. munch', 'v2. usurp', 'v5. achoo', 'v3. mania', 'h1. yumia'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 84, 'depth': 5, 'd_thres': 10000, 'answer': 'YUMIA\n_SA_C\nMUNCH\n_RI_O\n_PA_O'}
+
+{'total_step': 11, 'env_step': 6, 'actions': ['h3. munch', 'v2. usurp', 'v5. achoo', 'v3. mania', 'h1. yumia', 'h1. yumia'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 115, 'depth': 6, 'd_thres': 10000, 'answer': 'YUMIA\n_SA_C\nMUNCH\n_RI_O\n_PA_O'}
+
+{'total_step': 12, 'env_step': 7, 'actions': ['h3. munch', 'v2. usurp', 'v5. achoo', 'v3. mania', 'h1. yumia', 'h1. yumia', 'h1. yumia'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 130, 'depth': 7, 'd_thres': 10000, 'answer': 'YUMIA\n_SA_C\nMUNCH\n_RI_O\n_PA_O'}
+
+{'total_step': 13, 'env_step': 8, 'actions': ['h3. munch', 'v2. usurp', 'v5. achoo', 'v3. mania', 'h1. yumia', 'h1. yumia', 'h1. yumia', 'h1. yumia'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 145, 'depth': 8, 'd_thres': 10000, 'answer': 'YUMIA\n_SA_C\nMUNCH\n_RI_O\n_PA_O'}
+
+{'total_step': 14, 'env_step': 9, 'actions': ['h3. munch', 'v2. usurp', 'v5. achoo', 'v3. mania', 'h1. yumia', 'h1. yumia', 'h1. yumia', 'h1. yumia', 'h1. yumia'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 160, 'distance to root': 0.0, 'depth': 9, 'd_thres': 0.0, 'answer': 'YUMIA\n_SA_C\nMUNCH\n_RI_O\n_PA_O'}
+
+-----------------------
+
+best node id: 160
+node depth: 9
+chosen step: 14
+distance to root: 0.0
+answer:
+
+YUMIA
+_SA_C
+MUNCH
+_RI_O
+_PA_O
+
+accuracy: {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}
+cost time: 131.9312310218811 s
+
+---- Task Complete ----

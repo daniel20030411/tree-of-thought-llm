@@ -1,0 +1,44 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 5
+pruning = True
+date: 2024-05-06
+time: 00:25:52
+
+{'total_step': 0, 'env_step': 1, 'actions': ['v2. hello'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': '_H___\n_E___\n_L___\n_L___\n_O___'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['v2. hello', 'v5. eater'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 14, 'depth': 2, 'd_thres': 10000, 'answer': '_H__E\n_E__A\n_L__T\n_L__E\n_O__R'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['v2. hello', 'v5. eater', 'v1. crush'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 0}, 'current_node_id': 27, 'depth': 3, 'd_thres': 10000, 'answer': 'CH__E\nRE__A\nUL__T\nSL__E\nHO__R'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['v2. hello', 'v5. eater', 'v1. crush', 'h5. honor'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 0}, 'current_node_id': 40, 'depth': 4, 'd_thres': 10000, 'answer': 'CH__E\nRE__A\nUL__T\nSL__E\nHONOR'}
+
+{'total_step': 4, 'env_step': 5, 'actions': ['v2. hello', 'v5. eater', 'v1. crush', 'h5. honor', 'h4. slide'], 'info': {'r_letter': 0.64, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 66, 'depth': 5, 'd_thres': 10000, 'answer': 'CH__E\nRE__A\nUL__T\nSLIDE\nHONOR'}
+
+{'total_step': 5, 'env_step': 6, 'actions': ['v2. hello', 'v5. eater', 'v1. crush', 'h5. honor', 'h4. slide', 'h1. chose'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 84, 'depth': 6, 'd_thres': 10000, 'answer': 'CHOSE\nRE__A\nUL__T\nSLIDE\nHONOR'}
+
+{'total_step': 6, 'env_step': 7, 'actions': ['v2. hello', 'v5. eater', 'v1. crush', 'h5. honor', 'h4. slide', 'h1. chose', 'v1. crush'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 96, 'depth': 7, 'd_thres': 10000, 'answer': 'CHOSE\nRE__A\nUL__T\nSLIDE\nHONOR'}
+
+{'total_step': 7, 'env_step': 8, 'actions': ['v2. hello', 'v5. eater', 'v1. crush', 'h5. honor', 'h4. slide', 'h1. chose', 'v1. crush', 'v1. crush'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 106, 'depth': 8, 'd_thres': 10000, 'answer': 'CHOSE\nRE__A\nUL__T\nSLIDE\nHONOR'}
+
+{'total_step': 8, 'env_step': 9, 'actions': ['v2. hello', 'v5. eater', 'v1. crush', 'h5. honor', 'h4. slide', 'h1. chose', 'v1. crush', 'v1. crush', 'v1. crush'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 116, 'distance to root': 77.4, 'depth': 9, 'd_thres': 77.4, 'answer': 'CHOSE\nRE__A\nUL__T\nSLIDE\nHONOR'}
+
+-----------------------
+
+best node id: 116
+node depth: 9
+chosen step: 8
+distance to root: 77.4
+answer:
+
+CHOSE
+RE__A
+UL__T
+SLIDE
+HONOR
+
+accuracy: {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}
+cost time: 49.756659746170044 s
+
+---- Task Complete ----

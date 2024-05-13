@@ -1,0 +1,54 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 13
+pruning = True
+date: 2024-05-10
+time: 19:54:47
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h5. barge'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': '_____\n_____\n_____\n_____\nBARGE'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['h5. barge', 'h2. quill'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 15, 'depth': 2, 'd_thres': 10000, 'answer': '_____\nQUILL\n_____\n_____\nBARGE'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['h5. barge', 'h2. quill', 'h3. uvula'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 37, 'depth': 3, 'd_thres': 10000, 'answer': '_____\nQUILL\nUVULA\n_____\nBARGE'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['h5. barge', 'h2. quill', 'h3. uvula', 'h1. grove'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 2}, 'current_node_id': 65, 'depth': 4, 'd_thres': 10000, 'answer': 'GROVE\nQUILL\nUVULA\n_____\nBARGE'}
+
+{'total_step': 4, 'env_step': 4, 'actions': ['h5. barge', 'h2. quill', 'h3. uvula', 'h3. uvula'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 67, 'depth': 4, 'd_thres': 10000, 'answer': '_____\nQUILL\nUVULA\n_____\nBARGE'}
+
+{'total_step': 5, 'env_step': 5, 'actions': ['h5. barge', 'h2. quill', 'h3. uvula', 'h3. uvula', 'h1. grove'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 2}, 'current_node_id': 84, 'depth': 5, 'd_thres': 10000, 'answer': 'GROVE\nQUILL\nUVULA\n_____\nBARGE'}
+
+{'total_step': 6, 'env_step': 5, 'actions': ['h5. barge', 'h2. quill', 'h3. uvula', 'h3. uvula', 'h3. uvula'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 86, 'depth': 5, 'd_thres': 10000, 'answer': '_____\nQUILL\nUVULA\n_____\nBARGE'}
+
+{'total_step': 7, 'env_step': 6, 'actions': ['h5. barge', 'h2. quill', 'h3. uvula', 'h3. uvula', 'h3. uvula', 'h1. grove'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 2}, 'current_node_id': 103, 'depth': 6, 'd_thres': 10000, 'answer': 'GROVE\nQUILL\nUVULA\n_____\nBARGE'}
+
+{'total_step': 8, 'env_step': 6, 'actions': ['h5. barge', 'h2. quill', 'h3. uvula', 'h3. uvula', 'h3. uvula', 'h3. uvula'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 105, 'depth': 6, 'd_thres': 10000, 'answer': '_____\nQUILL\nUVULA\n_____\nBARGE'}
+
+{'total_step': 9, 'env_step': 7, 'actions': ['h5. barge', 'h2. quill', 'h3. uvula', 'h3. uvula', 'h3. uvula', 'h3. uvula', 'h1. grove'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 2}, 'current_node_id': 122, 'depth': 7, 'd_thres': 10000, 'answer': 'GROVE\nQUILL\nUVULA\n_____\nBARGE'}
+
+{'total_step': 10, 'env_step': 7, 'actions': ['h5. barge', 'h2. quill', 'h3. uvula', 'h3. uvula', 'h3. uvula', 'h3. uvula', 'h3. uvula'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 124, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nQUILL\nUVULA\n_____\nBARGE'}
+
+{'total_step': 11, 'env_step': 8, 'actions': ['h5. barge', 'h2. quill', 'h3. uvula', 'h3. uvula', 'h3. uvula', 'h3. uvula', 'h3. uvula', 'h1. grove'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 2}, 'current_node_id': 141, 'depth': 8, 'd_thres': 10000, 'answer': 'GROVE\nQUILL\nUVULA\n_____\nBARGE'}
+
+{'total_step': 12, 'env_step': 8, 'actions': ['h5. barge', 'h2. quill', 'h3. uvula', 'h3. uvula', 'h3. uvula', 'h3. uvula', 'h3. uvula', 'h3. uvula'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 143, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nQUILL\nUVULA\n_____\nBARGE'}
+
+{'total_step': 13, 'env_step': 9, 'actions': ['h5. barge', 'h2. quill', 'h3. uvula', 'h3. uvula', 'h3. uvula', 'h3. uvula', 'h3. uvula', 'h3. uvula', 'h1. grove'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 2}, 'current_node_id': 160, 'distance to root': 0.0, 'depth': 9, 'd_thres': 0.0, 'answer': 'GROVE\nQUILL\nUVULA\n_____\nBARGE'}
+
+-----------------------
+
+best node id: 160
+node depth: 9
+chosen step: 13
+distance to root: 0.0
+answer:
+
+GROVE
+QUILL
+UVULA
+_____
+BARGE
+
+accuracy: {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}
+cost time: 46.50082802772522 s
+
+---- Task Complete ----

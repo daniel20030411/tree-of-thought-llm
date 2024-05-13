@@ -1,0 +1,82 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 7
+pruning = True
+date: 2024-05-06
+time: 00:25:52
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h3. essay'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 0, 'maybe': 0, 'impossible': 1}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': '_____\n_____\nESSAY\n_____\n_____'}
+
+{'total_step': 1, 'env_step': 1, 'actions': ['v4. leave'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 2, 'depth': 1, 'd_thres': 10000, 'answer': '___L_\n___E_\n___A_\n___V_\n___E_'}
+
+{'total_step': 2, 'env_step': 2, 'actions': ['v4. leave', 'h3. essay'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 1}, 'current_node_id': 12, 'depth': 2, 'd_thres': 10000, 'answer': '___L_\n___E_\nESSAY\n___V_\n___E_'}
+
+{'total_step': 3, 'env_step': 2, 'actions': ['v4. leave', 'v1. crest'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 13, 'depth': 2, 'd_thres': 10000, 'answer': 'C__L_\nR__E_\nE__A_\nS__V_\nT__E_'}
+
+{'total_step': 4, 'env_step': 3, 'actions': ['v4. leave', 'v1. crest', 'h4. sieve'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 32, 'depth': 3, 'd_thres': 10000, 'answer': 'C__L_\nR__E_\nE__A_\nSIEVE\nT__E_'}
+
+{'total_step': 5, 'env_step': 4, 'actions': ['v4. leave', 'v1. crest', 'h4. sieve', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 1}, 'current_node_id': 46, 'depth': 4, 'd_thres': 10000, 'answer': 'C__L_\nR__E_\nESSAY\nSIEVE\nT__E_'}
+
+{'total_step': 6, 'env_step': 4, 'actions': ['v4. leave', 'v1. crest', 'h4. sieve', 'v5. dryer'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 1, 'impossible': 0}, 'current_node_id': 49, 'depth': 4, 'd_thres': 10000, 'answer': 'C__LD\nR__ER\nE__AY\nSIEVE\nT__ER'}
+
+{'total_step': 7, 'env_step': 5, 'actions': ['v4. leave', 'v1. crest', 'h4. sieve', 'v5. dryer', 'h3. essay'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 58, 'depth': 5, 'd_thres': 10000, 'answer': 'C__LD\nR__ER\nESSAY\nSIEVE\nT__ER'}
+
+{'total_step': 8, 'env_step': 5, 'actions': ['v4. leave', 'v1. crest', 'h4. sieve', 'v5. dryer', 'h2. rover'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 59, 'depth': 5, 'd_thres': 10000, 'answer': 'C__LD\nROVER\nE__AY\nSIEVE\nT__ER'}
+
+{'total_step': 9, 'env_step': 6, 'actions': ['v4. leave', 'v1. crest', 'h4. sieve', 'v5. dryer', 'h2. rover', 'h3. essay'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 72, 'depth': 6, 'd_thres': 10000, 'answer': 'C__LD\nROVER\nESSAY\nSIEVE\nT__ER'}
+
+{'total_step': 10, 'env_step': 6, 'actions': ['v4. leave', 'v1. crest', 'h4. sieve', 'v5. dryer', 'h2. rover', 'h1. child'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 8, 'maybe': 1, 'impossible': 1}, 'current_node_id': 75, 'depth': 6, 'd_thres': 10000, 'answer': 'CHILD\nROVER\nE__AY\nSIEVE\nT__ER'}
+
+{'total_step': 11, 'env_step': 6, 'actions': ['v4. leave', 'v1. crest', 'h4. sieve', 'v5. dryer', 'h2. rover', 'h1. could'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 76, 'depth': 6, 'd_thres': 10000, 'answer': 'COULD\nROVER\nE__AY\nSIEVE\nT__ER'}
+
+{'total_step': 12, 'env_step': 7, 'actions': ['v4. leave', 'v1. crest', 'h4. sieve', 'v5. dryer', 'h2. rover', 'h1. could', 'h3. essay'], 'info': {'r_letter': 0.84, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 9, 'maybe': 0, 'impossible': 1}, 'current_node_id': 82, 'depth': 7, 'd_thres': 10000, 'answer': 'COULD\nROVER\nESSAY\nSIEVE\nT__ER'}
+
+{'total_step': 13, 'env_step': 7, 'actions': ['v4. leave', 'v1. crest', 'h4. sieve', 'v5. dryer', 'h2. rover', 'h1. could', 'h5. tiger'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 8, 'maybe': 0, 'impossible': 2}, 'current_node_id': 83, 'depth': 7, 'd_thres': 10000, 'answer': 'COULD\nROVER\nE__AY\nSIEVE\nTIGER'}
+
+{'total_step': 14, 'env_step': 7, 'actions': ['v4. leave', 'v1. crest', 'h4. sieve', 'v5. dryer', 'h2. rover', 'h1. could', 'v1. crest'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 84, 'depth': 7, 'd_thres': 10000, 'answer': 'COULD\nROVER\nE__AY\nSIEVE\nT__ER'}
+
+{'total_step': 15, 'env_step': 8, 'actions': ['v4. leave', 'v1. crest', 'h4. sieve', 'v5. dryer', 'h2. rover', 'h1. could', 'v1. crest', 'h3. essay'], 'info': {'r_letter': 0.84, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 9, 'maybe': 0, 'impossible': 1}, 'current_node_id': 91, 'depth': 8, 'd_thres': 10000, 'answer': 'COULD\nROVER\nESSAY\nSIEVE\nT__ER'}
+
+{'total_step': 16, 'env_step': 8, 'actions': ['v4. leave', 'v1. crest', 'h4. sieve', 'v5. dryer', 'h2. rover', 'h1. could', 'v1. crest', 'h5. tiger'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 8, 'maybe': 0, 'impossible': 2}, 'current_node_id': 92, 'depth': 8, 'd_thres': 10000, 'answer': 'COULD\nROVER\nE__AY\nSIEVE\nTIGER'}
+
+{'total_step': 17, 'env_step': 8, 'actions': ['v4. leave', 'v1. crest', 'h4. sieve', 'v5. dryer', 'h2. rover', 'h1. could', 'v1. crest', 'v1. crest'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 93, 'depth': 8, 'd_thres': 10000, 'answer': 'COULD\nROVER\nE__AY\nSIEVE\nT__ER'}
+
+{'total_step': 18, 'env_step': 9, 'actions': ['v4. leave', 'v1. crest', 'h4. sieve', 'v5. dryer', 'h2. rover', 'h1. could', 'v1. crest', 'v1. crest', 'h3. essay'], 'info': {'r_letter': 0.84, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 9, 'maybe': 0, 'impossible': 1}, 'current_node_id': 100, 'distance to root': 71.39999999999999, 'depth': 9, 'd_thres': 71.39999999999999, 'answer': 'COULD\nROVER\nESSAY\nSIEVE\nT__ER'}
+
+{'total_step': 19, 'env_step': 9, 'actions': ['v4. leave', 'v1. crest', 'h4. sieve', 'v5. dryer', 'h2. rover', 'h1. could', 'v1. crest', 'v1. crest', 'h5. tiger'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 8, 'maybe': 0, 'impossible': 2}, 'current_node_id': 101, 'distance to root': 72.3, 'depth': 9, 'd_thres': 71.39999999999999, 'answer': 'COULD\nROVER\nE__AY\nSIEVE\nTIGER'}
+
+{'total_step': 20, 'env_step': 9, 'actions': ['v4. leave', 'v1. crest', 'h4. sieve', 'v5. dryer', 'h2. rover', 'h1. could', 'v1. crest', 'v1. crest', 'v1. crest'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 102, 'distance to root': 72.6, 'depth': 9, 'd_thres': 71.39999999999999, 'answer': 'COULD\nROVER\nE__AY\nSIEVE\nT__ER'}
+
+{'total_step': 21, 'env_step': 5, 'actions': ['v4. leave', 'v1. crest', 'h4. sieve', 'v5. dryer', 'h1. child'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 60, 'depth': 5, 'd_thres': 71.39999999999999, 'answer': 'CHILD\nR__ER\nE__AY\nSIEVE\nT__ER'}
+
+{'total_step': 22, 'env_step': 4, 'actions': ['v4. leave', 'v1. crest', 'h4. sieve', 'v5. drier'], 'info': {'r_letter': 0.64, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 0}, 'current_node_id': 50, 'depth': 4, 'd_thres': 71.39999999999999, 'answer': 'C__LD\nR__ER\nE__AI\nSIEVE\nT__ER'}
+
+{'total_step': 23, 'env_step': 5, 'actions': ['v4. leave', 'v1. crest', 'h4. sieve', 'v5. drier', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 0}, 'current_node_id': 118, 'depth': 5, 'd_thres': 71.39999999999999, 'answer': 'C__LD\nR__ER\nE__AI\nSIEVE\nT__ER'}
+
+{'total_step': 24, 'env_step': 6, 'actions': ['v4. leave', 'v1. crest', 'h4. sieve', 'v5. drier', 'v4. leave', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 0}, 'current_node_id': 131, 'depth': 6, 'd_thres': 71.39999999999999, 'answer': 'C__LD\nR__ER\nE__AI\nSIEVE\nT__ER'}
+
+{'total_step': 25, 'env_step': 7, 'actions': ['v4. leave', 'v1. crest', 'h4. sieve', 'v5. drier', 'v4. leave', 'v4. leave', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 0}, 'current_node_id': 144, 'depth': 7, 'd_thres': 71.39999999999999, 'answer': 'C__LD\nR__ER\nE__AI\nSIEVE\nT__ER'}
+
+{'total_step': 26, 'env_step': 8, 'actions': ['v4. leave', 'v1. crest', 'h4. sieve', 'v5. drier', 'v4. leave', 'v4. leave', 'v4. leave', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 0}, 'current_node_id': 157, 'depth': 8, 'd_thres': 71.39999999999999, 'answer': 'C__LD\nR__ER\nE__AI\nSIEVE\nT__ER'}
+
+{'total_step': 27, 'env_step': 9, 'actions': ['v4. leave', 'v1. crest', 'h4. sieve', 'v5. drier', 'v4. leave', 'v4. leave', 'v4. leave', 'v4. leave', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 0}, 'current_node_id': 170, 'distance to root': 65.1, 'depth': 9, 'd_thres': 65.1, 'answer': 'C__LD\nR__ER\nE__AI\nSIEVE\nT__ER'}
+
+-----------------------
+
+best node id: 170
+node depth: 9
+chosen step: 27
+distance to root: 65.1
+answer:
+
+C__LD
+R__ER
+E__AI
+SIEVE
+T__ER
+
+accuracy: {'r_letter': 0.64, 'r_word': 0.3, 'r_game': False}
+cost time: 72.48099899291992 s
+
+---- Task Complete ----

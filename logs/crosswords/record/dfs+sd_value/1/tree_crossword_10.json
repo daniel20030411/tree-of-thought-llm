@@ -1,0 +1,2903 @@
+[
+    {
+        "total_step": 0,
+        "env_step": 1,
+        "actions": [
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 0,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 1,
+        "depth": 1,
+        "d_thres": 10000,
+        "answer": "____W\n____O\n____U\n____L\n____D"
+    },
+    {
+        "total_step": 1,
+        "env_step": 2,
+        "actions": [
+            "v5. would",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 18,
+        "depth": 2,
+        "d_thres": 10000,
+        "answer": "____W\n____O\n____U\n____L\nBLEND"
+    },
+    {
+        "total_step": 2,
+        "env_step": 3,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 35,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 3,
+        "env_step": 4,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 42,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 4,
+        "env_step": 5,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 61,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 5,
+        "env_step": 6,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 80,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 6,
+        "env_step": 7,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 99,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 7,
+        "env_step": 8,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 118,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 8,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 137,
+        "distance to root": 19.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 9,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 138,
+        "distance to root": 19.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 10,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 139,
+        "distance to root": 38.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 11,
+        "env_step": 8,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 119,
+        "depth": 8,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 12,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 213,
+        "distance to root": 19.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 13,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 214,
+        "distance to root": 19.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 14,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 215,
+        "distance to root": 38.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 15,
+        "env_step": 8,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 120,
+        "depth": 8,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 16,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v5. would",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 289,
+        "distance to root": 38.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 17,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v5. would",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 290,
+        "distance to root": 38.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 18,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v5. would",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 291,
+        "distance to root": 57.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 19,
+        "env_step": 7,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 100,
+        "depth": 7,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 20,
+        "env_step": 8,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 365,
+        "depth": 8,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 21,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 384,
+        "distance to root": 19.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 22,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 385,
+        "distance to root": 19.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 23,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 386,
+        "distance to root": 38.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 24,
+        "env_step": 8,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 366,
+        "depth": 8,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 25,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v2. flail",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 460,
+        "distance to root": 19.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 26,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v2. flail",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 461,
+        "distance to root": 19.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 27,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v2. flail",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 462,
+        "distance to root": 38.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 28,
+        "env_step": 8,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 367,
+        "depth": 8,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 29,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v5. would",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 536,
+        "distance to root": 38.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 30,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v5. would",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 537,
+        "distance to root": 38.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 31,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v5. would",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 538,
+        "distance to root": 57.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 32,
+        "env_step": 7,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 101,
+        "depth": 7,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 33,
+        "env_step": 8,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v5. would",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 612,
+        "depth": 8,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 34,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v5. would",
+            "h5. blend",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 631,
+        "distance to root": 38.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 35,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v5. would",
+            "h5. blend",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 632,
+        "distance to root": 38.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 36,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v5. would",
+            "h5. blend",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 633,
+        "distance to root": 57.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 37,
+        "env_step": 8,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v5. would",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 613,
+        "depth": 8,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 38,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v5. would",
+            "v2. flail",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 707,
+        "distance to root": 38.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 39,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v5. would",
+            "v2. flail",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 708,
+        "distance to root": 38.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 40,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v5. would",
+            "v2. flail",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 709,
+        "distance to root": 57.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 41,
+        "env_step": 8,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v5. would",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 614,
+        "depth": 8,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 42,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v5. would",
+            "v5. would",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 783,
+        "distance to root": 57.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 43,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v5. would",
+            "v5. would",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 784,
+        "distance to root": 57.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 44,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend",
+            "v5. would",
+            "v5. would",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 785,
+        "distance to root": 76.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 45,
+        "env_step": 6,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 81,
+        "depth": 6,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 46,
+        "env_step": 7,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 859,
+        "depth": 7,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 47,
+        "env_step": 8,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 878,
+        "depth": 8,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 48,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 897,
+        "distance to root": 19.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 49,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 898,
+        "distance to root": 19.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 50,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 899,
+        "distance to root": 38.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 51,
+        "env_step": 8,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 879,
+        "depth": 8,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 52,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 973,
+        "distance to root": 19.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 53,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "v2. flail",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 974,
+        "distance to root": 19.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 54,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "v2. flail",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 975,
+        "distance to root": 38.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 55,
+        "env_step": 8,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 880,
+        "depth": 8,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 56,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "v5. would",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1049,
+        "distance to root": 38.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 57,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "v5. would",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1050,
+        "distance to root": 38.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 58,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "v5. would",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1051,
+        "distance to root": 57.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 59,
+        "env_step": 7,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 860,
+        "depth": 7,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 60,
+        "env_step": 8,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v2. flail",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1125,
+        "depth": 8,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 61,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1144,
+        "distance to root": 19.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 62,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v2. flail",
+            "h5. blend",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1145,
+        "distance to root": 19.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 63,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v2. flail",
+            "h5. blend",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1146,
+        "distance to root": 38.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 64,
+        "env_step": 8,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v2. flail",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1126,
+        "depth": 8,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 65,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v2. flail",
+            "v2. flail",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1220,
+        "distance to root": 19.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 66,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v2. flail",
+            "v2. flail",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1221,
+        "distance to root": 19.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 67,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v2. flail",
+            "v2. flail",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1222,
+        "distance to root": 38.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 68,
+        "env_step": 8,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v2. flail",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1127,
+        "depth": 8,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 69,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v2. flail",
+            "v5. would",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1296,
+        "distance to root": 38.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 70,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v2. flail",
+            "v5. would",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1297,
+        "distance to root": 38.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 71,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v2. flail",
+            "v5. would",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1298,
+        "distance to root": 57.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 72,
+        "env_step": 7,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 861,
+        "depth": 7,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 73,
+        "env_step": 8,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v5. would",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1372,
+        "depth": 8,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 74,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v5. would",
+            "h5. blend",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1391,
+        "distance to root": 38.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 75,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v5. would",
+            "h5. blend",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1392,
+        "distance to root": 38.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 76,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v5. would",
+            "h5. blend",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1393,
+        "distance to root": 57.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 77,
+        "env_step": 8,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v5. would",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1373,
+        "depth": 8,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 78,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v5. would",
+            "v2. flail",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1467,
+        "distance to root": 38.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 79,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v5. would",
+            "v2. flail",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1468,
+        "distance to root": 38.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 80,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v5. would",
+            "v2. flail",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1469,
+        "distance to root": 57.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 81,
+        "env_step": 8,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v5. would",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1374,
+        "depth": 8,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 82,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v5. would",
+            "v5. would",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1543,
+        "distance to root": 57.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 83,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v5. would",
+            "v5. would",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1544,
+        "distance to root": 57.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 84,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail",
+            "v5. would",
+            "v5. would",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1545,
+        "distance to root": 76.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 85,
+        "env_step": 6,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 82,
+        "depth": 6,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 86,
+        "env_step": 7,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v5. would",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1619,
+        "depth": 7,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 87,
+        "env_step": 8,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v5. would",
+            "h5. blend",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1638,
+        "depth": 8,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 88,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v5. would",
+            "h5. blend",
+            "h5. blend",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1657,
+        "distance to root": 38.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 89,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v5. would",
+            "h5. blend",
+            "h5. blend",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1658,
+        "distance to root": 38.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 90,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v5. would",
+            "h5. blend",
+            "h5. blend",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1659,
+        "distance to root": 57.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 91,
+        "env_step": 8,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v5. would",
+            "h5. blend",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1639,
+        "depth": 8,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 92,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1733,
+        "distance to root": 38.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 93,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1734,
+        "distance to root": 38.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 94,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1735,
+        "distance to root": 57.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 95,
+        "env_step": 8,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v5. would",
+            "h5. blend",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1640,
+        "depth": 8,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 96,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v5. would",
+            "h5. blend",
+            "v5. would",
+            "h5. blend"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1809,
+        "distance to root": 57.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 97,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v5. would",
+            "h5. blend",
+            "v5. would",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1810,
+        "distance to root": 57.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 98,
+        "env_step": 9,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v5. would",
+            "h5. blend",
+            "v5. would",
+            "v5. would"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1811,
+        "distance to root": 76.0,
+        "depth": 9,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "total_step": 99,
+        "env_step": 7,
+        "actions": [
+            "v5. would",
+            "h5. blend",
+            "v2. flail",
+            "h5. blend",
+            "h5. blend",
+            "v5. would",
+            "v2. flail"
+        ],
+        "info": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1620,
+        "depth": 7,
+        "d_thres": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND"
+    },
+    {
+        "index": 10,
+        "best node id": 137,
+        "node depth": 9,
+        "chosen step": 8,
+        "distance to root": 19.0,
+        "answer": "_F__W\n_L__O\n_A__U\n_I__L\nBLEND",
+        "accuracy": {
+            "r_letter": 0.04,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "cost time": 27.786169052124023
+    }
+]

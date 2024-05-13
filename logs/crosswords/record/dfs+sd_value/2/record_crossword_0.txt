@@ -1,0 +1,44 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 0
+pruning = True
+date: 2024-05-10
+time: 19:54:47
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h2. motor'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\n_____'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['h2. motor', 'v5. drier'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 11, 'depth': 2, 'd_thres': 10000, 'answer': '____D\nMOTOR\n____I\n____E\n____R'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['h2. motor', 'v5. drier', 'v1. amass'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 37, 'depth': 3, 'd_thres': 10000, 'answer': 'A___D\nMOTOR\nA___I\nS___E\nS___R'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['h2. motor', 'v5. drier', 'v1. amass', 'h1. ahead'], 'info': {'r_letter': 0.52, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 52, 'depth': 4, 'd_thres': 10000, 'answer': 'AHEAD\nMOTOR\nA___I\nS___E\nS___R'}
+
+{'total_step': 4, 'env_step': 5, 'actions': ['h2. motor', 'v5. drier', 'v1. amass', 'h1. ahead', 'h5. sneer'], 'info': {'r_letter': 0.6, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 70, 'depth': 5, 'd_thres': 10000, 'answer': 'AHEAD\nMOTOR\nA___I\nS___E\nSNEER'}
+
+{'total_step': 5, 'env_step': 6, 'actions': ['h2. motor', 'v5. drier', 'v1. amass', 'h1. ahead', 'h5. sneer', 'v5. drier'], 'info': {'r_letter': 0.6, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 93, 'depth': 6, 'd_thres': 10000, 'answer': 'AHEAD\nMOTOR\nA___I\nS___E\nSNEER'}
+
+{'total_step': 6, 'env_step': 7, 'actions': ['h2. motor', 'v5. drier', 'v1. amass', 'h1. ahead', 'h5. sneer', 'v5. drier', 'v5. drier'], 'info': {'r_letter': 0.6, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 120, 'depth': 7, 'd_thres': 10000, 'answer': 'AHEAD\nMOTOR\nA___I\nS___E\nSNEER'}
+
+{'total_step': 7, 'env_step': 8, 'actions': ['h2. motor', 'v5. drier', 'v1. amass', 'h1. ahead', 'h5. sneer', 'v5. drier', 'v5. drier', 'v5. drier'], 'info': {'r_letter': 0.6, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 147, 'depth': 8, 'd_thres': 10000, 'answer': 'AHEAD\nMOTOR\nA___I\nS___E\nSNEER'}
+
+{'total_step': 8, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v1. amass', 'h1. ahead', 'h5. sneer', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier'], 'info': {'r_letter': 0.6, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 174, 'distance to root': 19.0, 'depth': 9, 'd_thres': 19.0, 'answer': 'AHEAD\nMOTOR\nA___I\nS___E\nSNEER'}
+
+-----------------------
+
+best node id: 174
+node depth: 9
+chosen step: 8
+distance to root: 19.0
+answer:
+
+AHEAD
+MOTOR
+A___I
+S___E
+SNEER
+
+accuracy: {'r_letter': 0.6, 'r_word': 0.2, 'r_game': False}
+cost time: 45.73645615577698 s
+
+---- Task Complete ----

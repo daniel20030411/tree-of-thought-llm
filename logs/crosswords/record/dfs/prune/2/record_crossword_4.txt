@@ -1,0 +1,226 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs
+idx: 4
+pruning = True
+date: 2024-05-10
+time: 18:29:26
+
+{'total_step': 0, 'env_step': 1, 'actions': ['v3. elope'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'distance to root': 8.6, 'depth': 1, 'd_thres': 10000, 'answer': '__E__\n__L__\n__O__\n__P__\n__E__'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['v3. elope', 'h3. erode'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 12, 'distance to root': 16.1, 'depth': 2, 'd_thres': 10000, 'answer': '__E__\n__L__\nERODE\n__P__\n__E__'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['v3. elope', 'h3. erode', 'v4. cider'], 'info': {'r_letter': 0.44, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 31, 'distance to root': 23.299999999999997, 'depth': 3, 'd_thres': 10000, 'answer': '__EC_\n__LI_\nERODE\n__PE_\n__ER_'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'v2. heron'], 'info': {'r_letter': 0.6, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 0}, 'current_node_id': 45, 'distance to root': 31.200000000000003, 'depth': 4, 'd_thres': 10000, 'answer': '_HEC_\n_ELI_\nERODE\n_OPE_\n_NER_'}
+
+{'total_step': 4, 'env_step': 5, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'v2. heron', 'h2. helix'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 63, 'distance to root': 40.699999999999996, 'depth': 5, 'd_thres': 10000, 'answer': '_HEC_\nHELIX\nERODE\n_OPE_\n_NER_'}
+
+{'total_step': 5, 'env_step': 6, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'v2. heron', 'h2. helix', 'v4. cider'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 67, 'distance to root': 45.699999999999996, 'depth': 6, 'd_thres': 10000, 'answer': '_HEC_\nHELIX\nERODE\n_OPE_\n_NER_'}
+
+{'total_step': 6, 'env_step': 7, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'v2. heron', 'h2. helix', 'v4. cider', 'v4. cider'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 77, 'distance to root': 50.7, 'depth': 7, 'd_thres': 10000, 'answer': '_HEC_\nHELIX\nERODE\n_OPE_\n_NER_'}
+
+{'total_step': 7, 'env_step': 8, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'v2. heron', 'h2. helix', 'v4. cider', 'v4. cider', 'v4. cider'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 87, 'distance to root': 55.7, 'depth': 8, 'd_thres': 10000, 'answer': '_HEC_\nHELIX\nERODE\n_OPE_\n_NER_'}
+
+{'total_step': 8, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'v2. heron', 'h2. helix', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 97, 'distance to root': 60.7, 'depth': 9, 'd_thres': 10000, 'answer': '_HEC_\nHELIX\nERODE\n_OPE_\n_NER_'}
+
+{'total_step': 9, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'v2. heron', 'h2. helix', 'v4. cider', 'v4. cider', 'v4. cider', 'v1. chess'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 1, 'impossible': 2}, 'current_node_id': 99, 'distance to root': 64.7, 'depth': 9, 'd_thres': 10000, 'answer': 'CHEC_\nHELIX\nERODE\nSOPE_\nSNER_'}
+
+{'total_step': 10, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'v2. heron', 'h2. helix', 'v4. cider', 'v4. cider', 'v4. cider', 'v5. exert'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 101, 'distance to root': 65.3, 'depth': 9, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\n_OPER\n_NERT'}
+
+{'total_step': 11, 'env_step': 8, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'v2. heron', 'h2. helix', 'v4. cider', 'v4. cider', 'v1. chess'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 1, 'impossible': 2}, 'current_node_id': 89, 'distance to root': 59.7, 'depth': 8, 'd_thres': 10000, 'answer': 'CHEC_\nHELIX\nERODE\nSOPE_\nSNER_'}
+
+{'total_step': 12, 'env_step': 8, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'v2. heron', 'h2. helix', 'v4. cider', 'v4. cider', 'v5. exert'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 91, 'distance to root': 60.300000000000004, 'depth': 8, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\n_OPER\n_NERT'}
+
+{'total_step': 13, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'v2. heron', 'h2. helix', 'v4. cider', 'v4. cider', 'v5. exert', 'h5. inert'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 125, 'distance to root': 69.8, 'depth': 9, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\n_OPER\nINERT'}
+
+{'total_step': 14, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'v2. heron', 'h2. helix', 'v4. cider', 'v4. cider', 'v5. exert', 'h1. rhece'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 128, 'distance to root': 70.1, 'depth': 9, 'd_thres': 10000, 'answer': 'RHECE\nHELIX\nERODE\n_OPER\n_NERT'}
+
+{'total_step': 15, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'v2. heron', 'h2. helix', 'v4. cider', 'v4. cider', 'v5. exert', 'h4. doper'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 129, 'distance to root': 70.1, 'depth': 9, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\nDOPER\n_NERT'}
+
+{'total_step': 16, 'env_step': 7, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'v2. heron', 'h2. helix', 'v4. cider', 'v1. chess'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 1, 'impossible': 2}, 'current_node_id': 79, 'distance to root': 54.7, 'depth': 7, 'd_thres': 10000, 'answer': 'CHEC_\nHELIX\nERODE\nSOPE_\nSNER_'}
+
+{'total_step': 17, 'env_step': 7, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'v2. heron', 'h2. helix', 'v4. cider', 'v5. exert'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 81, 'distance to root': 55.300000000000004, 'depth': 7, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\n_OPER\n_NERT'}
+
+{'total_step': 18, 'env_step': 8, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'v2. heron', 'h2. helix', 'v4. cider', 'v5. exert', 'h5. inert'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 136, 'distance to root': 64.8, 'depth': 8, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\n_OPER\nINERT'}
+
+{'total_step': 19, 'env_step': 8, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'v2. heron', 'h2. helix', 'v4. cider', 'v5. exert', 'h1. rhece'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 139, 'distance to root': 65.1, 'depth': 8, 'd_thres': 10000, 'answer': 'RHECE\nHELIX\nERODE\n_OPER\n_NERT'}
+
+{'total_step': 20, 'env_step': 8, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'v2. heron', 'h2. helix', 'v4. cider', 'v5. exert', 'h4. doper'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 140, 'distance to root': 65.1, 'depth': 8, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\nDOPER\n_NERT'}
+
+{'total_step': 21, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'v2. heron', 'h2. helix', 'v4. cider', 'v5. exert', 'h4. doper', 'v4. cider'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 142, 'distance to root': 74.1, 'depth': 9, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\nDOPER\n_NERT'}
+
+{'total_step': 22, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'v2. heron', 'h2. helix', 'v4. cider', 'v5. exert', 'h4. doper', 'h5. inert'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 143, 'distance to root': 74.9, 'depth': 9, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\nDOPER\nINERT'}
+
+{'total_step': 23, 'env_step': 6, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'v2. heron', 'h2. helix', 'v1. chess'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 1, 'impossible': 2}, 'current_node_id': 69, 'distance to root': 49.7, 'depth': 6, 'd_thres': 10000, 'answer': 'CHEC_\nHELIX\nERODE\nSOPE_\nSNER_'}
+
+{'total_step': 24, 'env_step': 6, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'v2. heron', 'h2. helix', 'v5. exert'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 71, 'distance to root': 50.300000000000004, 'depth': 6, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\n_OPER\n_NERT'}
+
+{'total_step': 25, 'env_step': 7, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'v2. heron', 'h2. helix', 'v5. exert', 'h5. inert'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 151, 'distance to root': 59.800000000000004, 'depth': 7, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\n_OPER\nINERT'}
+
+{'total_step': 26, 'env_step': 7, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'v2. heron', 'h2. helix', 'v5. exert', 'h1. rhece'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 154, 'distance to root': 60.1, 'depth': 7, 'd_thres': 10000, 'answer': 'RHECE\nHELIX\nERODE\n_OPER\n_NERT'}
+
+{'total_step': 27, 'env_step': 7, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'v2. heron', 'h2. helix', 'v5. exert', 'h4. doper'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 155, 'distance to root': 60.1, 'depth': 7, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\nDOPER\n_NERT'}
+
+{'total_step': 28, 'env_step': 8, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'v2. heron', 'h2. helix', 'v5. exert', 'h4. doper', 'v4. cider'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 157, 'distance to root': 69.1, 'depth': 8, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\nDOPER\n_NERT'}
+
+{'total_step': 29, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'v2. heron', 'h2. helix', 'v5. exert', 'h4. doper', 'v4. cider', 'v4. cider'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 161, 'distance to root': 78.1, 'depth': 9, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\nDOPER\n_NERT'}
+
+{'total_step': 30, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'v2. heron', 'h2. helix', 'v5. exert', 'h4. doper', 'v4. cider', 'h5. inert'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 162, 'distance to root': 78.9, 'depth': 9, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\nDOPER\nINERT'}
+
+{'total_step': 31, 'env_step': 8, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'v2. heron', 'h2. helix', 'v5. exert', 'h4. doper', 'h5. inert'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 158, 'distance to root': 69.9, 'depth': 8, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\nDOPER\nINERT'}
+
+{'total_step': 32, 'env_step': 5, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'v2. heron', 'h4. dopey'], 'info': {'r_letter': 0.6, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 1}, 'current_node_id': 65, 'distance to root': 41.00000000000001, 'depth': 5, 'd_thres': 10000, 'answer': '_HEC_\n_ELI_\nERODE\nDOPEY\n_NER_'}
+
+{'total_step': 33, 'env_step': 4, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix'], 'info': {'r_letter': 0.56, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 46, 'distance to root': 31.4, 'depth': 4, 'd_thres': 10000, 'answer': '__EC_\nHELIX\nERODE\n__PE_\n__ER_'}
+
+{'total_step': 34, 'env_step': 5, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v2. heron'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 170, 'distance to root': 39.3, 'depth': 5, 'd_thres': 10000, 'answer': '_HEC_\nHELIX\nERODE\n_OPE_\n_NER_'}
+
+{'total_step': 35, 'env_step': 6, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v2. heron', 'v4. cider'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 182, 'distance to root': 44.300000000000004, 'depth': 6, 'd_thres': 10000, 'answer': '_HEC_\nHELIX\nERODE\n_OPE_\n_NER_'}
+
+{'total_step': 36, 'env_step': 7, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v2. heron', 'v4. cider', 'v4. cider'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 192, 'distance to root': 49.300000000000004, 'depth': 7, 'd_thres': 10000, 'answer': '_HEC_\nHELIX\nERODE\n_OPE_\n_NER_'}
+
+{'total_step': 37, 'env_step': 8, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v2. heron', 'v4. cider', 'v4. cider', 'v4. cider'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 202, 'distance to root': 54.300000000000004, 'depth': 8, 'd_thres': 10000, 'answer': '_HEC_\nHELIX\nERODE\n_OPE_\n_NER_'}
+
+{'total_step': 38, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v2. heron', 'v4. cider', 'v4. cider', 'v4. cider', 'v4. cider'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 212, 'distance to root': 59.300000000000004, 'depth': 9, 'd_thres': 10000, 'answer': '_HEC_\nHELIX\nERODE\n_OPE_\n_NER_'}
+
+{'total_step': 39, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v2. heron', 'v4. cider', 'v4. cider', 'v4. cider', 'v1. chess'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 1, 'impossible': 2}, 'current_node_id': 214, 'distance to root': 63.300000000000004, 'depth': 9, 'd_thres': 10000, 'answer': 'CHEC_\nHELIX\nERODE\nSOPE_\nSNER_'}
+
+{'total_step': 40, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v2. heron', 'v4. cider', 'v4. cider', 'v4. cider', 'v5. exert'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 216, 'distance to root': 63.900000000000006, 'depth': 9, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\n_OPER\n_NERT'}
+
+{'total_step': 41, 'env_step': 8, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v2. heron', 'v4. cider', 'v4. cider', 'v1. chess'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 1, 'impossible': 2}, 'current_node_id': 204, 'distance to root': 58.300000000000004, 'depth': 8, 'd_thres': 10000, 'answer': 'CHEC_\nHELIX\nERODE\nSOPE_\nSNER_'}
+
+{'total_step': 42, 'env_step': 8, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v2. heron', 'v4. cider', 'v4. cider', 'v5. exert'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 206, 'distance to root': 58.900000000000006, 'depth': 8, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\n_OPER\n_NERT'}
+
+{'total_step': 43, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v2. heron', 'v4. cider', 'v4. cider', 'v5. exert', 'h5. inert'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 240, 'distance to root': 68.4, 'depth': 9, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\n_OPER\nINERT'}
+
+{'total_step': 44, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v2. heron', 'v4. cider', 'v4. cider', 'v5. exert', 'h1. rhece'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 243, 'distance to root': 68.7, 'depth': 9, 'd_thres': 10000, 'answer': 'RHECE\nHELIX\nERODE\n_OPER\n_NERT'}
+
+{'total_step': 45, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v2. heron', 'v4. cider', 'v4. cider', 'v5. exert', 'h4. doper'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 244, 'distance to root': 68.7, 'depth': 9, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\nDOPER\n_NERT'}
+
+{'total_step': 46, 'env_step': 7, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v2. heron', 'v4. cider', 'v1. chess'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 1, 'impossible': 2}, 'current_node_id': 194, 'distance to root': 53.300000000000004, 'depth': 7, 'd_thres': 10000, 'answer': 'CHEC_\nHELIX\nERODE\nSOPE_\nSNER_'}
+
+{'total_step': 47, 'env_step': 7, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v2. heron', 'v4. cider', 'v5. exert'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 196, 'distance to root': 53.900000000000006, 'depth': 7, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\n_OPER\n_NERT'}
+
+{'total_step': 48, 'env_step': 8, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v2. heron', 'v4. cider', 'v5. exert', 'h5. inert'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 251, 'distance to root': 63.400000000000006, 'depth': 8, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\n_OPER\nINERT'}
+
+{'total_step': 49, 'env_step': 8, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v2. heron', 'v4. cider', 'v5. exert', 'h1. rhece'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 254, 'distance to root': 63.7, 'depth': 8, 'd_thres': 10000, 'answer': 'RHECE\nHELIX\nERODE\n_OPER\n_NERT'}
+
+{'total_step': 50, 'env_step': 8, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v2. heron', 'v4. cider', 'v5. exert', 'h4. doper'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 255, 'distance to root': 63.7, 'depth': 8, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\nDOPER\n_NERT'}
+
+{'total_step': 51, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v2. heron', 'v4. cider', 'v5. exert', 'h4. doper', 'v4. cider'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 257, 'distance to root': 72.69999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\nDOPER\n_NERT'}
+
+{'total_step': 52, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v2. heron', 'v4. cider', 'v5. exert', 'h4. doper', 'h5. inert'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 258, 'distance to root': 73.5, 'depth': 9, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\nDOPER\nINERT'}
+
+{'total_step': 53, 'env_step': 6, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v2. heron', 'v1. chess'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 1, 'impossible': 2}, 'current_node_id': 184, 'distance to root': 48.300000000000004, 'depth': 6, 'd_thres': 10000, 'answer': 'CHEC_\nHELIX\nERODE\nSOPE_\nSNER_'}
+
+{'total_step': 54, 'env_step': 6, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v2. heron', 'v5. exert'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 186, 'distance to root': 48.900000000000006, 'depth': 6, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\n_OPER\n_NERT'}
+
+{'total_step': 55, 'env_step': 7, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v2. heron', 'v5. exert', 'h5. inert'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 266, 'distance to root': 58.400000000000006, 'depth': 7, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\n_OPER\nINERT'}
+
+{'total_step': 56, 'env_step': 7, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v2. heron', 'v5. exert', 'h1. rhece'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 269, 'distance to root': 58.7, 'depth': 7, 'd_thres': 10000, 'answer': 'RHECE\nHELIX\nERODE\n_OPER\n_NERT'}
+
+{'total_step': 57, 'env_step': 7, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v2. heron', 'v5. exert', 'h4. doper'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 270, 'distance to root': 58.7, 'depth': 7, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\nDOPER\n_NERT'}
+
+{'total_step': 58, 'env_step': 8, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v2. heron', 'v5. exert', 'h4. doper', 'v4. cider'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 272, 'distance to root': 67.7, 'depth': 8, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\nDOPER\n_NERT'}
+
+{'total_step': 59, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v2. heron', 'v5. exert', 'h4. doper', 'v4. cider', 'v4. cider'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 276, 'distance to root': 76.69999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\nDOPER\n_NERT'}
+
+{'total_step': 60, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v2. heron', 'v5. exert', 'h4. doper', 'v4. cider', 'h5. inert'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 277, 'distance to root': 77.5, 'depth': 9, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\nDOPER\nINERT'}
+
+{'total_step': 61, 'env_step': 8, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v2. heron', 'v5. exert', 'h4. doper', 'h5. inert'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 273, 'distance to root': 68.5, 'depth': 8, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\nDOPER\nINERT'}
+
+{'total_step': 62, 'env_step': 5, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v1. chess'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 171, 'distance to root': 40.4, 'depth': 5, 'd_thres': 10000, 'answer': 'C_EC_\nHELIX\nERODE\nS_PE_\nS_ER_'}
+
+{'total_step': 63, 'env_step': 6, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v1. chess', 'v2. heron'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 1, 'impossible': 2}, 'current_node_id': 284, 'distance to root': 47.9, 'depth': 6, 'd_thres': 10000, 'answer': 'CHEC_\nHELIX\nERODE\nSOPE_\nSNER_'}
+
+{'total_step': 64, 'env_step': 6, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'v1. chess', 'h5. sterl'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 1}, 'current_node_id': 290, 'distance to root': 49.900000000000006, 'depth': 6, 'd_thres': 10000, 'answer': 'C_EC_\nHELIX\nERODE\nS_PE_\nSTERL'}
+
+{'total_step': 65, 'env_step': 5, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h2. helix', 'h1. piece'], 'info': {'r_letter': 0.6, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 2}, 'current_node_id': 172, 'distance to root': 40.4, 'depth': 5, 'd_thres': 10000, 'answer': 'PIECE\nHELIX\nERODE\n__PE_\n__ER_'}
+
+{'total_step': 66, 'env_step': 4, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode'], 'info': {'r_letter': 0.44, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 48, 'distance to root': 32.3, 'depth': 4, 'd_thres': 10000, 'answer': '__EC_\n__LI_\nERODE\n__PE_\n__ER_'}
+
+{'total_step': 67, 'env_step': 5, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'v2. heron'], 'info': {'r_letter': 0.6, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 0}, 'current_node_id': 295, 'distance to root': 40.199999999999996, 'depth': 5, 'd_thres': 10000, 'answer': '_HEC_\n_ELI_\nERODE\n_OPE_\n_NER_'}
+
+{'total_step': 68, 'env_step': 6, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'v2. heron', 'h2. helix'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 313, 'distance to root': 49.7, 'depth': 6, 'd_thres': 10000, 'answer': '_HEC_\nHELIX\nERODE\n_OPE_\n_NER_'}
+
+{'total_step': 69, 'env_step': 7, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'v2. heron', 'h2. helix', 'v4. cider'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 317, 'distance to root': 54.7, 'depth': 7, 'd_thres': 10000, 'answer': '_HEC_\nHELIX\nERODE\n_OPE_\n_NER_'}
+
+{'total_step': 70, 'env_step': 8, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'v2. heron', 'h2. helix', 'v4. cider', 'v4. cider'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 327, 'distance to root': 59.7, 'depth': 8, 'd_thres': 10000, 'answer': '_HEC_\nHELIX\nERODE\n_OPE_\n_NER_'}
+
+{'total_step': 71, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'v2. heron', 'h2. helix', 'v4. cider', 'v4. cider', 'v4. cider'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 337, 'distance to root': 64.7, 'depth': 9, 'd_thres': 10000, 'answer': '_HEC_\nHELIX\nERODE\n_OPE_\n_NER_'}
+
+{'total_step': 72, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'v2. heron', 'h2. helix', 'v4. cider', 'v4. cider', 'v1. chess'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 1, 'impossible': 2}, 'current_node_id': 339, 'distance to root': 68.7, 'depth': 9, 'd_thres': 10000, 'answer': 'CHEC_\nHELIX\nERODE\nSOPE_\nSNER_'}
+
+{'total_step': 73, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'v2. heron', 'h2. helix', 'v4. cider', 'v4. cider', 'v5. exert'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 341, 'distance to root': 69.3, 'depth': 9, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\n_OPER\n_NERT'}
+
+{'total_step': 74, 'env_step': 8, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'v2. heron', 'h2. helix', 'v4. cider', 'v1. chess'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 1, 'impossible': 2}, 'current_node_id': 329, 'distance to root': 63.7, 'depth': 8, 'd_thres': 10000, 'answer': 'CHEC_\nHELIX\nERODE\nSOPE_\nSNER_'}
+
+{'total_step': 75, 'env_step': 8, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'v2. heron', 'h2. helix', 'v4. cider', 'v5. exert'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 331, 'distance to root': 64.3, 'depth': 8, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\n_OPER\n_NERT'}
+
+{'total_step': 76, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'v2. heron', 'h2. helix', 'v4. cider', 'v5. exert', 'h5. inert'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 365, 'distance to root': 73.8, 'depth': 9, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\n_OPER\nINERT'}
+
+{'total_step': 77, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'v2. heron', 'h2. helix', 'v4. cider', 'v5. exert', 'h1. rhece'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 368, 'distance to root': 74.1, 'depth': 9, 'd_thres': 10000, 'answer': 'RHECE\nHELIX\nERODE\n_OPER\n_NERT'}
+
+{'total_step': 78, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'v2. heron', 'h2. helix', 'v4. cider', 'v5. exert', 'h4. doper'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 369, 'distance to root': 74.1, 'depth': 9, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\nDOPER\n_NERT'}
+
+{'total_step': 79, 'env_step': 7, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'v2. heron', 'h2. helix', 'v1. chess'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 1, 'impossible': 2}, 'current_node_id': 319, 'distance to root': 58.7, 'depth': 7, 'd_thres': 10000, 'answer': 'CHEC_\nHELIX\nERODE\nSOPE_\nSNER_'}
+
+{'total_step': 80, 'env_step': 7, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'v2. heron', 'h2. helix', 'v5. exert'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 321, 'distance to root': 59.300000000000004, 'depth': 7, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\n_OPER\n_NERT'}
+
+{'total_step': 81, 'env_step': 8, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'v2. heron', 'h2. helix', 'v5. exert', 'h5. inert'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 376, 'distance to root': 68.8, 'depth': 8, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\n_OPER\nINERT'}
+
+{'total_step': 82, 'env_step': 8, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'v2. heron', 'h2. helix', 'v5. exert', 'h1. rhece'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 379, 'distance to root': 69.1, 'depth': 8, 'd_thres': 10000, 'answer': 'RHECE\nHELIX\nERODE\n_OPER\n_NERT'}
+
+{'total_step': 83, 'env_step': 8, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'v2. heron', 'h2. helix', 'v5. exert', 'h4. doper'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 380, 'distance to root': 69.1, 'depth': 8, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\nDOPER\n_NERT'}
+
+{'total_step': 84, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'v2. heron', 'h2. helix', 'v5. exert', 'h4. doper', 'v4. cider'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 382, 'distance to root': 78.1, 'depth': 9, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\nDOPER\n_NERT'}
+
+{'total_step': 85, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'v2. heron', 'h2. helix', 'v5. exert', 'h4. doper', 'h5. inert'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 383, 'distance to root': 78.9, 'depth': 9, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\nDOPER\nINERT'}
+
+{'total_step': 86, 'env_step': 6, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'v2. heron', 'h4. dopey'], 'info': {'r_letter': 0.6, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 1}, 'current_node_id': 315, 'distance to root': 50.00000000000001, 'depth': 6, 'd_thres': 10000, 'answer': '_HEC_\n_ELI_\nERODE\nDOPEY\n_NER_'}
+
+{'total_step': 87, 'env_step': 5, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'h2. helix'], 'info': {'r_letter': 0.56, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 296, 'distance to root': 40.4, 'depth': 5, 'd_thres': 10000, 'answer': '__EC_\nHELIX\nERODE\n__PE_\n__ER_'}
+
+{'total_step': 88, 'env_step': 6, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'h2. helix', 'v2. heron'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 391, 'distance to root': 48.300000000000004, 'depth': 6, 'd_thres': 10000, 'answer': '_HEC_\nHELIX\nERODE\n_OPE_\n_NER_'}
+
+{'total_step': 89, 'env_step': 7, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'h2. helix', 'v2. heron', 'v4. cider'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 403, 'distance to root': 53.300000000000004, 'depth': 7, 'd_thres': 10000, 'answer': '_HEC_\nHELIX\nERODE\n_OPE_\n_NER_'}
+
+{'total_step': 90, 'env_step': 8, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'h2. helix', 'v2. heron', 'v4. cider', 'v4. cider'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 413, 'distance to root': 58.300000000000004, 'depth': 8, 'd_thres': 10000, 'answer': '_HEC_\nHELIX\nERODE\n_OPE_\n_NER_'}
+
+{'total_step': 91, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'h2. helix', 'v2. heron', 'v4. cider', 'v4. cider', 'v4. cider'], 'info': {'r_letter': 0.68, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 423, 'distance to root': 63.300000000000004, 'depth': 9, 'd_thres': 10000, 'answer': '_HEC_\nHELIX\nERODE\n_OPE_\n_NER_'}
+
+{'total_step': 92, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'h2. helix', 'v2. heron', 'v4. cider', 'v4. cider', 'v1. chess'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 1, 'impossible': 2}, 'current_node_id': 425, 'distance to root': 67.3, 'depth': 9, 'd_thres': 10000, 'answer': 'CHEC_\nHELIX\nERODE\nSOPE_\nSNER_'}
+
+{'total_step': 93, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'h2. helix', 'v2. heron', 'v4. cider', 'v4. cider', 'v5. exert'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 427, 'distance to root': 67.9, 'depth': 9, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\n_OPER\n_NERT'}
+
+{'total_step': 94, 'env_step': 8, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'h2. helix', 'v2. heron', 'v4. cider', 'v1. chess'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 1, 'impossible': 2}, 'current_node_id': 415, 'distance to root': 62.300000000000004, 'depth': 8, 'd_thres': 10000, 'answer': 'CHEC_\nHELIX\nERODE\nSOPE_\nSNER_'}
+
+{'total_step': 95, 'env_step': 8, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'h2. helix', 'v2. heron', 'v4. cider', 'v5. exert'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 417, 'distance to root': 62.900000000000006, 'depth': 8, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\n_OPER\n_NERT'}
+
+{'total_step': 96, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'h2. helix', 'v2. heron', 'v4. cider', 'v5. exert', 'h5. inert'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 451, 'distance to root': 72.4, 'depth': 9, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\n_OPER\nINERT'}
+
+{'total_step': 97, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'h2. helix', 'v2. heron', 'v4. cider', 'v5. exert', 'h1. rhece'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 454, 'distance to root': 72.69999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'RHECE\nHELIX\nERODE\n_OPER\n_NERT'}
+
+{'total_step': 98, 'env_step': 9, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'h2. helix', 'v2. heron', 'v4. cider', 'v5. exert', 'h4. doper'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 455, 'distance to root': 72.69999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_HECE\nHELIX\nERODE\nDOPER\n_NERT'}
+
+{'total_step': 99, 'env_step': 7, 'actions': ['v3. elope', 'h3. erode', 'v4. cider', 'h3. erode', 'h2. helix', 'v2. heron', 'v1. chess'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 1, 'impossible': 2}, 'current_node_id': 405, 'distance to root': 57.300000000000004, 'depth': 7, 'd_thres': 10000, 'answer': 'CHEC_\nHELIX\nERODE\nSOPE_\nSNER_'}
+
+-----------------------
+
+best node id: 99
+node depth: 9
+chosen step: 9
+distance to root: 64.7
+answer:
+
+CHEC_
+HELIX
+ERODE
+SOPE_
+SNER_
+
+accuracy: {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}
+cost time: 113.39436054229736 s
+
+---- Task Complete ----

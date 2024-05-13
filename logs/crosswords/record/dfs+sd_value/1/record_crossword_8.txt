@@ -1,0 +1,50 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 8
+pruning = True
+date: 2024-05-09
+time: 20:28:54
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h4. manse'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': '_____\n_____\n_____\nMANSE\n_____'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['h4. manse', 'h5. order'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 16, 'depth': 2, 'd_thres': 10000, 'answer': '_____\n_____\n_____\nMANSE\nORDER'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['h4. manse', 'h5. order', 'v1. duomo'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 34, 'depth': 3, 'd_thres': 10000, 'answer': 'D____\nU____\nO____\nMANSE\nORDER'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['h4. manse', 'h5. order', 'v1. duomo', 'v2. invar'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 47, 'depth': 4, 'd_thres': 10000, 'answer': 'DI___\nUN___\nOV___\nMANSE\nORDER'}
+
+{'total_step': 4, 'env_step': 5, 'actions': ['h4. manse', 'h5. order', 'v1. duomo', 'v2. invar', 'h3. overt'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 62, 'depth': 5, 'd_thres': 10000, 'answer': 'DI___\nUN___\nOVERT\nMANSE\nORDER'}
+
+{'total_step': 5, 'env_step': 6, 'actions': ['h4. manse', 'h5. order', 'v1. duomo', 'v2. invar', 'h3. overt', 'v5. otter'], 'info': {'r_letter': 0.84, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 77, 'depth': 6, 'd_thres': 10000, 'answer': 'DI__O\nUN__T\nOVERT\nMANSE\nORDER'}
+
+{'total_step': 6, 'env_step': 7, 'actions': ['h4. manse', 'h5. order', 'v1. duomo', 'v2. invar', 'h3. overt', 'v5. otter', 'h1. disco'], 'info': {'r_letter': 0.92, 'r_word': 0.7, 'r_game': False}, 'count': {'sure': 9, 'maybe': 1, 'impossible': 0}, 'current_node_id': 84, 'depth': 7, 'd_thres': 10000, 'answer': 'DISCO\nUN__T\nOVERT\nMANSE\nORDER'}
+
+{'total_step': 7, 'env_step': 8, 'actions': ['h4. manse', 'h5. order', 'v1. duomo', 'v2. invar', 'h3. overt', 'v5. otter', 'h1. disco', 'h2. unhat'], 'info': {'r_letter': 1.0, 'r_word': 1.0, 'r_game': True}, 'count': {'sure': 9, 'maybe': 0, 'impossible': 1}, 'current_node_id': 92, 'depth': 8, 'd_thres': 10000, 'answer': 'DISCO\nUNHAT\nOVERT\nMANSE\nORDER'}
+
+{'total_step': 8, 'env_step': 8, 'actions': ['h4. manse', 'h5. order', 'v1. duomo', 'v2. invar', 'h3. overt', 'v5. otter', 'h1. disco', 'v4. curse'], 'info': {'r_letter': 0.92, 'r_word': 0.7, 'r_game': False}, 'count': {'sure': 9, 'maybe': 0, 'impossible': 1}, 'current_node_id': 93, 'depth': 8, 'd_thres': 10000, 'answer': 'DISCO\nUN_UT\nOVERT\nMANSE\nORDER'}
+
+{'total_step': 9, 'env_step': 7, 'actions': ['h4. manse', 'h5. order', 'v1. duomo', 'v2. invar', 'h3. overt', 'v5. otter', 'v2. invar'], 'info': {'r_letter': 0.84, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 86, 'depth': 7, 'd_thres': 10000, 'answer': 'DI__O\nUN__T\nOVERT\nMANSE\nORDER'}
+
+{'total_step': 10, 'env_step': 8, 'actions': ['h4. manse', 'h5. order', 'v1. duomo', 'v2. invar', 'h3. overt', 'v5. otter', 'v2. invar', 'h1. disco'], 'info': {'r_letter': 0.92, 'r_word': 0.7, 'r_game': False}, 'count': {'sure': 9, 'maybe': 1, 'impossible': 0}, 'current_node_id': 95, 'depth': 8, 'd_thres': 10000, 'answer': 'DISCO\nUN__T\nOVERT\nMANSE\nORDER'}
+
+{'total_step': 11, 'env_step': 9, 'actions': ['h4. manse', 'h5. order', 'v1. duomo', 'v2. invar', 'h3. overt', 'v5. otter', 'v2. invar', 'h1. disco', 'h2. unhat'], 'info': {'r_letter': 1.0, 'r_word': 1.0, 'r_game': True}, 'count': {'sure': 9, 'maybe': 0, 'impossible': 1}, 'current_node_id': 103, 'distance to root': 0.0, 'depth': 9, 'd_thres': 0.0, 'answer': 'DISCO\nUNHAT\nOVERT\nMANSE\nORDER'}
+
+-----------------------
+
+best node id: 103
+node depth: 9
+chosen step: 11
+distance to root: 0.0
+answer:
+
+DISCO
+UNHAT
+OVERT
+MANSE
+ORDER
+
+accuracy: {'r_letter': 1.0, 'r_word': 1.0, 'r_game': True}
+cost time: 75.72375631332397 s
+
+---- Task Complete ----

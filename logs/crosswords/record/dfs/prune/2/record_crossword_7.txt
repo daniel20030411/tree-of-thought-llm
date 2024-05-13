@@ -1,0 +1,226 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs
+idx: 7
+pruning = True
+date: 2024-05-10
+time: 18:29:26
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h3. essay'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'distance to root': 9.0, 'depth': 1, 'd_thres': 10000, 'answer': '_____\n_____\nESSAY\n_____\n_____'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['h3. essay', 'v5. dryer'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 7, 'distance to root': 16.8, 'depth': 2, 'd_thres': 10000, 'answer': '____D\n____R\nESSAY\n____E\n____R'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 20, 'distance to root': 25.6, 'depth': 3, 'd_thres': 10000, 'answer': '____D\n____R\nESSAY\nSIEVE\n____R'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 37, 'distance to root': 34.0, 'depth': 4, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 4, 'env_step': 5, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 53, 'distance to root': 42.0, 'depth': 5, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 5, 'env_step': 6, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 64, 'distance to root': 50.0, 'depth': 6, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 6, 'env_step': 7, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 75, 'distance to root': 58.0, 'depth': 7, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 7, 'env_step': 8, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'h3. essay', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 86, 'distance to root': 66.0, 'depth': 8, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 8, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'h3. essay', 'h3. essay', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 97, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 9, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'h3. essay', 'h3. essay', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 98, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 10, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'h3. essay', 'h3. essay', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 99, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 11, 'env_step': 8, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'h3. essay', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 87, 'distance to root': 66.0, 'depth': 8, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 12, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'h3. essay', 'h4. sieve', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 141, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 13, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'h3. essay', 'h4. sieve', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 142, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 14, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'h3. essay', 'h4. sieve', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 143, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 15, 'env_step': 8, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'h3. essay', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 88, 'distance to root': 66.0, 'depth': 8, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 16, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'h3. essay', 'v4. leave', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 185, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 17, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'h3. essay', 'v4. leave', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 186, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 18, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'h3. essay', 'v4. leave', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 187, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 19, 'env_step': 7, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 76, 'distance to root': 58.0, 'depth': 7, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 20, 'env_step': 8, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'h4. sieve', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 229, 'distance to root': 66.0, 'depth': 8, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 21, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'h4. sieve', 'h3. essay', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 240, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 22, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'h4. sieve', 'h3. essay', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 241, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 23, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'h4. sieve', 'h3. essay', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 242, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 24, 'env_step': 8, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'h4. sieve', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 230, 'distance to root': 66.0, 'depth': 8, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 25, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'h4. sieve', 'h4. sieve', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 284, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 26, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'h4. sieve', 'h4. sieve', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 285, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 27, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'h4. sieve', 'h4. sieve', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 286, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 28, 'env_step': 8, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'h4. sieve', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 231, 'distance to root': 66.0, 'depth': 8, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 29, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'h4. sieve', 'v4. leave', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 328, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 30, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'h4. sieve', 'v4. leave', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 329, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 31, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'h4. sieve', 'v4. leave', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 330, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 32, 'env_step': 7, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 77, 'distance to root': 58.0, 'depth': 7, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 33, 'env_step': 8, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'v4. leave', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 372, 'distance to root': 66.0, 'depth': 8, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 34, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'v4. leave', 'h3. essay', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 383, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 35, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'v4. leave', 'h3. essay', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 384, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 36, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'v4. leave', 'h3. essay', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 385, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 37, 'env_step': 8, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'v4. leave', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 373, 'distance to root': 66.0, 'depth': 8, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 38, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'v4. leave', 'h4. sieve', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 427, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 39, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'v4. leave', 'h4. sieve', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 428, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 40, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'v4. leave', 'h4. sieve', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 429, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 41, 'env_step': 8, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'v4. leave', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 374, 'distance to root': 66.0, 'depth': 8, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 42, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'v4. leave', 'v4. leave', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 471, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 43, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'v4. leave', 'v4. leave', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 472, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 44, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay', 'v4. leave', 'v4. leave', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 473, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 45, 'env_step': 6, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 65, 'distance to root': 50.0, 'depth': 6, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 46, 'env_step': 7, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 515, 'distance to root': 58.0, 'depth': 7, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 47, 'env_step': 8, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'h3. essay', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 526, 'distance to root': 66.0, 'depth': 8, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 48, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'h3. essay', 'h3. essay', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 537, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 49, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'h3. essay', 'h3. essay', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 538, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 50, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'h3. essay', 'h3. essay', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 539, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 51, 'env_step': 8, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'h3. essay', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 527, 'distance to root': 66.0, 'depth': 8, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 52, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'h3. essay', 'h4. sieve', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 581, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 53, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'h3. essay', 'h4. sieve', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 582, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 54, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'h3. essay', 'h4. sieve', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 583, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 55, 'env_step': 8, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'h3. essay', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 528, 'distance to root': 66.0, 'depth': 8, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 56, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'h3. essay', 'v4. leave', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 625, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 57, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'h3. essay', 'v4. leave', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 626, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 58, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'h3. essay', 'v4. leave', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 627, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 59, 'env_step': 7, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 516, 'distance to root': 58.0, 'depth': 7, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 60, 'env_step': 8, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'h4. sieve', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 669, 'distance to root': 66.0, 'depth': 8, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 61, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'h4. sieve', 'h3. essay', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 680, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 62, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'h4. sieve', 'h3. essay', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 681, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 63, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'h4. sieve', 'h3. essay', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 682, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 64, 'env_step': 8, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'h4. sieve', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 670, 'distance to root': 66.0, 'depth': 8, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 65, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'h4. sieve', 'h4. sieve', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 724, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 66, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'h4. sieve', 'h4. sieve', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 725, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 67, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'h4. sieve', 'h4. sieve', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 726, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 68, 'env_step': 8, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'h4. sieve', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 671, 'distance to root': 66.0, 'depth': 8, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 69, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'h4. sieve', 'v4. leave', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 768, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 70, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'h4. sieve', 'v4. leave', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 769, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 71, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'h4. sieve', 'v4. leave', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 770, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 72, 'env_step': 7, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 517, 'distance to root': 58.0, 'depth': 7, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 73, 'env_step': 8, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'v4. leave', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 812, 'distance to root': 66.0, 'depth': 8, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 74, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'v4. leave', 'h3. essay', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 823, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 75, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 824, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 76, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'v4. leave', 'h3. essay', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 825, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 77, 'env_step': 8, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'v4. leave', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 813, 'distance to root': 66.0, 'depth': 8, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 78, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'v4. leave', 'h4. sieve', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 867, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 79, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'v4. leave', 'h4. sieve', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 868, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 80, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'v4. leave', 'h4. sieve', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 869, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 81, 'env_step': 8, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'v4. leave', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 814, 'distance to root': 66.0, 'depth': 8, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 82, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'v4. leave', 'v4. leave', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 911, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 83, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'v4. leave', 'v4. leave', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 912, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 84, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'h4. sieve', 'v4. leave', 'v4. leave', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 913, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 85, 'env_step': 6, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 66, 'distance to root': 50.0, 'depth': 6, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 86, 'env_step': 7, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'v4. leave', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 955, 'distance to root': 58.0, 'depth': 7, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 87, 'env_step': 8, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'v4. leave', 'h3. essay', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 966, 'distance to root': 66.0, 'depth': 8, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 88, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'v4. leave', 'h3. essay', 'h3. essay', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 977, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 89, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'v4. leave', 'h3. essay', 'h3. essay', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 978, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 90, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'v4. leave', 'h3. essay', 'h3. essay', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 979, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 91, 'env_step': 8, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'v4. leave', 'h3. essay', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 967, 'distance to root': 66.0, 'depth': 8, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 92, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'v4. leave', 'h3. essay', 'h4. sieve', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1021, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 93, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'v4. leave', 'h3. essay', 'h4. sieve', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1022, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 94, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'v4. leave', 'h3. essay', 'h4. sieve', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1023, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 95, 'env_step': 8, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'v4. leave', 'h3. essay', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 968, 'distance to root': 66.0, 'depth': 8, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 96, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'v4. leave', 'h3. essay', 'v4. leave', 'h3. essay'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1065, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 97, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'v4. leave', 'h3. essay', 'v4. leave', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1066, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 98, 'env_step': 9, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'v4. leave', 'h3. essay', 'v4. leave', 'v4. leave'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1067, 'distance to root': 74.0, 'depth': 9, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+{'total_step': 99, 'env_step': 7, 'actions': ['h3. essay', 'v5. dryer', 'h4. sieve', 'v4. leave', 'h3. essay', 'v4. leave', 'h4. sieve'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 956, 'distance to root': 58.0, 'depth': 7, 'd_thres': 10000, 'answer': '___LD\n___ER\nESSAY\nSIEVE\n___ER'}
+
+-----------------------
+
+best node id: 37
+node depth: 4
+chosen step: 3
+distance to root: 34.0
+answer:
+
+___LD
+___ER
+ESSAY
+SIEVE
+___ER
+
+accuracy: {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}
+cost time: 30.500032424926758 s
+
+---- Task Complete ----

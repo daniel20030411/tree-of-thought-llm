@@ -1,0 +1,226 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs
+idx: 18
+pruning = True
+date: 2024-05-10
+time: 19:31:01
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h3. corea'], 'info': {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 0, 'maybe': 1, 'impossible': 0}, 'current_node_id': 1, 'distance to root': 9.5, 'depth': 1, 'd_thres': 10000, 'answer': '_____\n_____\nCOREA\n_____\n_____'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['h3. corea', 'v5. teary'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 1, 'impossible': 0}, 'current_node_id': 6, 'distance to root': 17.8, 'depth': 2, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\n____Y'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['h3. corea', 'v5. teary', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 19, 'distance to root': 26.6, 'depth': 3, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 34, 'distance to root': 35.6, 'depth': 4, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 4, 'env_step': 5, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 51, 'distance to root': 44.6, 'depth': 5, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 5, 'env_step': 6, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 68, 'distance to root': 53.599999999999994, 'depth': 6, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 6, 'env_step': 7, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 85, 'distance to root': 62.599999999999994, 'depth': 7, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 7, 'env_step': 8, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'h3. corea', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 102, 'distance to root': 71.6, 'depth': 8, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 8, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'h3. corea', 'h3. corea', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 119, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 9, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'h3. corea', 'h3. corea', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 120, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 10, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'h3. corea', 'h3. corea', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 121, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 11, 'env_step': 8, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'h3. corea', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 103, 'distance to root': 71.6, 'depth': 8, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 12, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'h3. corea', 'h5. unary', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 187, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 13, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'h3. corea', 'h5. unary', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 188, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 14, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'h3. corea', 'h5. unary', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 189, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 15, 'env_step': 8, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'h3. corea', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 104, 'distance to root': 71.6, 'depth': 8, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 16, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'h3. corea', 'v5. teary', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 255, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 17, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'h3. corea', 'v5. teary', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 256, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 18, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'h3. corea', 'v5. teary', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 257, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 19, 'env_step': 7, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 86, 'distance to root': 62.599999999999994, 'depth': 7, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 20, 'env_step': 8, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'h5. unary', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 323, 'distance to root': 71.6, 'depth': 8, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 21, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'h5. unary', 'h3. corea', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 340, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 22, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'h5. unary', 'h3. corea', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 341, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 23, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'h5. unary', 'h3. corea', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 342, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 24, 'env_step': 8, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'h5. unary', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 324, 'distance to root': 71.6, 'depth': 8, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 25, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'h5. unary', 'h5. unary', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 408, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 26, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'h5. unary', 'h5. unary', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 409, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 27, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'h5. unary', 'h5. unary', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 410, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 28, 'env_step': 8, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'h5. unary', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 325, 'distance to root': 71.6, 'depth': 8, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 29, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'h5. unary', 'v5. teary', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 476, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 30, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'h5. unary', 'v5. teary', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 477, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 31, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'h5. unary', 'v5. teary', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 478, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 32, 'env_step': 7, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 87, 'distance to root': 62.599999999999994, 'depth': 7, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 33, 'env_step': 8, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'v5. teary', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 544, 'distance to root': 71.6, 'depth': 8, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 34, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'v5. teary', 'h3. corea', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 561, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 35, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'v5. teary', 'h3. corea', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 562, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 36, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'v5. teary', 'h3. corea', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 563, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 37, 'env_step': 8, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'v5. teary', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 545, 'distance to root': 71.6, 'depth': 8, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 38, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'v5. teary', 'h5. unary', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 629, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 39, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'v5. teary', 'h5. unary', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 630, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 40, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'v5. teary', 'h5. unary', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 631, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 41, 'env_step': 8, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'v5. teary', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 546, 'distance to root': 71.6, 'depth': 8, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 42, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'v5. teary', 'v5. teary', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 697, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 43, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'v5. teary', 'v5. teary', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 698, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 44, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea', 'v5. teary', 'v5. teary', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 699, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 45, 'env_step': 6, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 69, 'distance to root': 53.599999999999994, 'depth': 6, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 46, 'env_step': 7, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 765, 'distance to root': 62.599999999999994, 'depth': 7, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 47, 'env_step': 8, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'h3. corea', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 782, 'distance to root': 71.6, 'depth': 8, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 48, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'h3. corea', 'h3. corea', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 799, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 49, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 800, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 50, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'h3. corea', 'h3. corea', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 801, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 51, 'env_step': 8, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'h3. corea', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 783, 'distance to root': 71.6, 'depth': 8, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 52, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'h3. corea', 'h5. unary', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 867, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 53, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'h3. corea', 'h5. unary', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 868, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 54, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'h3. corea', 'h5. unary', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 869, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 55, 'env_step': 8, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'h3. corea', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 784, 'distance to root': 71.6, 'depth': 8, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 56, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'h3. corea', 'v5. teary', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 935, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 57, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'h3. corea', 'v5. teary', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 936, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 58, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'h3. corea', 'v5. teary', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 937, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 59, 'env_step': 7, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 766, 'distance to root': 62.599999999999994, 'depth': 7, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 60, 'env_step': 8, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'h5. unary', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1003, 'distance to root': 71.6, 'depth': 8, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 61, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'h5. unary', 'h3. corea', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1020, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 62, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'h5. unary', 'h3. corea', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1021, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 63, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'h5. unary', 'h3. corea', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1022, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 64, 'env_step': 8, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'h5. unary', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1004, 'distance to root': 71.6, 'depth': 8, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 65, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'h5. unary', 'h5. unary', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1088, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 66, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'h5. unary', 'h5. unary', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1089, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 67, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'h5. unary', 'h5. unary', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1090, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 68, 'env_step': 8, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'h5. unary', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1005, 'distance to root': 71.6, 'depth': 8, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 69, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'h5. unary', 'v5. teary', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1156, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 70, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'h5. unary', 'v5. teary', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1157, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 71, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'h5. unary', 'v5. teary', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1158, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 72, 'env_step': 7, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 767, 'distance to root': 62.599999999999994, 'depth': 7, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 73, 'env_step': 8, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'v5. teary', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1224, 'distance to root': 71.6, 'depth': 8, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 74, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'v5. teary', 'h3. corea', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1241, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 75, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'v5. teary', 'h3. corea', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1242, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 76, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'v5. teary', 'h3. corea', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1243, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 77, 'env_step': 8, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'v5. teary', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1225, 'distance to root': 71.6, 'depth': 8, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 78, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'v5. teary', 'h5. unary', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1309, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 79, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'v5. teary', 'h5. unary', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1310, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 80, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'v5. teary', 'h5. unary', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1311, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 81, 'env_step': 8, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'v5. teary', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1226, 'distance to root': 71.6, 'depth': 8, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 82, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'v5. teary', 'v5. teary', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1377, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 83, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'v5. teary', 'v5. teary', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1378, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 84, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'h5. unary', 'v5. teary', 'v5. teary', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1379, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 85, 'env_step': 6, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 70, 'distance to root': 53.599999999999994, 'depth': 6, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 86, 'env_step': 7, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'v5. teary', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1445, 'distance to root': 62.599999999999994, 'depth': 7, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 87, 'env_step': 8, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'v5. teary', 'h3. corea', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1462, 'distance to root': 71.6, 'depth': 8, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 88, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'v5. teary', 'h3. corea', 'h3. corea', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1479, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 89, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'v5. teary', 'h3. corea', 'h3. corea', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1480, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 90, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'v5. teary', 'h3. corea', 'h3. corea', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1481, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 91, 'env_step': 8, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'v5. teary', 'h3. corea', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1463, 'distance to root': 71.6, 'depth': 8, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 92, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'v5. teary', 'h3. corea', 'h5. unary', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1547, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 93, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'v5. teary', 'h3. corea', 'h5. unary', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1548, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 94, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'v5. teary', 'h3. corea', 'h5. unary', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1549, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 95, 'env_step': 8, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'v5. teary', 'h3. corea', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1464, 'distance to root': 71.6, 'depth': 8, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 96, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'v5. teary', 'h3. corea', 'v5. teary', 'h3. corea'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1615, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 97, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'v5. teary', 'h3. corea', 'v5. teary', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1616, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 98, 'env_step': 9, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'v5. teary', 'h3. corea', 'v5. teary', 'v5. teary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1617, 'distance to root': 80.6, 'depth': 9, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+{'total_step': 99, 'env_step': 7, 'actions': ['h3. corea', 'v5. teary', 'h5. unary', 'h3. corea', 'h3. corea', 'v5. teary', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1446, 'distance to root': 62.599999999999994, 'depth': 7, 'd_thres': 10000, 'answer': '____T\n____E\nCOREA\n____R\nUNARY'}
+
+-----------------------
+
+best node id: 19
+node depth: 3
+chosen step: 2
+distance to root: 26.6
+answer:
+
+____T
+____E
+COREA
+____R
+UNARY
+
+accuracy: {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}
+cost time: 26.547560214996338 s
+
+---- Task Complete ----

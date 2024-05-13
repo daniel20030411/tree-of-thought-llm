@@ -1,0 +1,226 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs
+idx: 8
+pruning = False
+date: 2024-05-06
+time: 02:32:47
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h4. manse'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'distance to root': 9.1, 'depth': 1, 'd_thres': 10000, 'answer': '_____\n_____\n_____\nMANSE\n_____'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['h4. manse', 'v2. invar'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 12, 'distance to root': 17.799999999999997, 'depth': 2, 'd_thres': 10000, 'answer': '_I___\n_N___\n_V___\nMANSE\n_R___'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['h4. manse', 'v2. invar', 'h3. overt'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 31, 'distance to root': 25.9, 'depth': 3, 'd_thres': 10000, 'answer': '_I___\n_N___\nOVERT\nMANSE\n_R___'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 48, 'distance to root': 33.1, 'depth': 4, 'd_thres': 10000, 'answer': '_I_M_\n_N_A_\nOVERT\nMANSE\n_R_H_'}
+
+{'total_step': 4, 'env_step': 5, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v1. duomo'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 60, 'distance to root': 41.9, 'depth': 5, 'd_thres': 10000, 'answer': 'DI_M_\nUN_A_\nOVERT\nMANSE\nOR_H_'}
+
+{'total_step': 5, 'env_step': 6, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v1. duomo', 'v5. otter'], 'info': {'r_letter': 0.8, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 72, 'distance to root': 49.6, 'depth': 6, 'd_thres': 10000, 'answer': 'DI_MO\nUN_AT\nOVERT\nMANSE\nOR_HR'}
+
+{'total_step': 6, 'env_step': 7, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v1. duomo', 'v5. otter', 'h2. unhat'], 'info': {'r_letter': 0.84, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 81, 'distance to root': 59.00000000000001, 'depth': 7, 'd_thres': 10000, 'answer': 'DI_MO\nUNHAT\nOVERT\nMANSE\nOR_HR'}
+
+{'total_step': 7, 'env_step': 8, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v1. duomo', 'v5. otter', 'h2. unhat', 'v3. shent'], 'info': {'r_letter': 0.88, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 8, 'maybe': 0, 'impossible': 2}, 'current_node_id': 94, 'distance to root': 68.89999999999999, 'depth': 8, 'd_thres': 10000, 'answer': 'DISMO\nUNHAT\nOVERT\nMANSE\nORTHR'}
+
+{'total_step': 8, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v1. duomo', 'v5. otter', 'h2. unhat', 'v3. shent', 'h4. manse'], 'info': {'r_letter': 0.88, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 8, 'maybe': 0, 'impossible': 2}, 'current_node_id': 97, 'distance to root': 77.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'DISMO\nUNHAT\nOVERT\nMANSE\nORTHR'}
+
+{'total_step': 9, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v1. duomo', 'v5. otter', 'h2. unhat', 'v3. shent', 'h5. orthr'], 'info': {'r_letter': 0.88, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 8, 'maybe': 0, 'impossible': 2}, 'current_node_id': 102, 'distance to root': 78.8, 'depth': 9, 'd_thres': 10000, 'answer': 'DISMO\nUNHAT\nOVERT\nMANSE\nORTHR'}
+
+{'total_step': 10, 'env_step': 7, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v1. duomo', 'v5. otter', 'v3. shend'], 'info': {'r_letter': 0.92, 'r_word': 0.7, 'r_game': False}, 'count': {'sure': 9, 'maybe': 0, 'impossible': 1}, 'current_node_id': 87, 'distance to root': 59.50000000000001, 'depth': 7, 'd_thres': 10000, 'answer': 'DISMO\nUNHAT\nOVERT\nMANSE\nORDHR'}
+
+{'total_step': 11, 'env_step': 8, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v1. duomo', 'v5. otter', 'v3. shend', 'v1. duomo'], 'info': {'r_letter': 0.92, 'r_word': 0.7, 'r_game': False}, 'count': {'sure': 9, 'maybe': 0, 'impossible': 1}, 'current_node_id': 121, 'distance to root': 68.5, 'depth': 8, 'd_thres': 10000, 'answer': 'DISMO\nUNHAT\nOVERT\nMANSE\nORDHR'}
+
+{'total_step': 12, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v1. duomo', 'v5. otter', 'v3. shend', 'v1. duomo', 'v1. duomo'], 'info': {'r_letter': 0.92, 'r_word': 0.7, 'r_game': False}, 'count': {'sure': 9, 'maybe': 0, 'impossible': 1}, 'current_node_id': 131, 'distance to root': 77.49999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'DISMO\nUNHAT\nOVERT\nMANSE\nORDHR'}
+
+{'total_step': 13, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v1. duomo', 'v5. otter', 'v3. shend', 'v1. duomo', 'v2. invar'], 'info': {'r_letter': 0.92, 'r_word': 0.7, 'r_game': False}, 'count': {'sure': 9, 'maybe': 0, 'impossible': 1}, 'current_node_id': 132, 'distance to root': 77.49999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'DISMO\nUNHAT\nOVERT\nMANSE\nORDHR'}
+
+{'total_step': 14, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v1. duomo', 'v5. otter', 'v3. shend', 'v1. duomo', 'v3. shend'], 'info': {'r_letter': 0.92, 'r_word': 0.7, 'r_game': False}, 'count': {'sure': 9, 'maybe': 0, 'impossible': 1}, 'current_node_id': 133, 'distance to root': 77.49999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'DISMO\nUNHAT\nOVERT\nMANSE\nORDHR'}
+
+{'total_step': 15, 'env_step': 8, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v1. duomo', 'v5. otter', 'v3. shend', 'v2. invar'], 'info': {'r_letter': 0.92, 'r_word': 0.7, 'r_game': False}, 'count': {'sure': 9, 'maybe': 0, 'impossible': 1}, 'current_node_id': 122, 'distance to root': 68.5, 'depth': 8, 'd_thres': 10000, 'answer': 'DISMO\nUNHAT\nOVERT\nMANSE\nORDHR'}
+
+{'total_step': 16, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v1. duomo', 'v5. otter', 'v3. shend', 'v2. invar', 'v1. duomo'], 'info': {'r_letter': 0.92, 'r_word': 0.7, 'r_game': False}, 'count': {'sure': 9, 'maybe': 0, 'impossible': 1}, 'current_node_id': 171, 'distance to root': 77.49999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'DISMO\nUNHAT\nOVERT\nMANSE\nORDHR'}
+
+{'total_step': 17, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v1. duomo', 'v5. otter', 'v3. shend', 'v2. invar', 'v2. invar'], 'info': {'r_letter': 0.92, 'r_word': 0.7, 'r_game': False}, 'count': {'sure': 9, 'maybe': 0, 'impossible': 1}, 'current_node_id': 172, 'distance to root': 77.49999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'DISMO\nUNHAT\nOVERT\nMANSE\nORDHR'}
+
+{'total_step': 18, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v1. duomo', 'v5. otter', 'v3. shend', 'v2. invar', 'v3. shend'], 'info': {'r_letter': 0.92, 'r_word': 0.7, 'r_game': False}, 'count': {'sure': 9, 'maybe': 0, 'impossible': 1}, 'current_node_id': 173, 'distance to root': 77.49999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'DISMO\nUNHAT\nOVERT\nMANSE\nORDHR'}
+
+{'total_step': 19, 'env_step': 8, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v1. duomo', 'v5. otter', 'v3. shend', 'v3. shend'], 'info': {'r_letter': 0.92, 'r_word': 0.7, 'r_game': False}, 'count': {'sure': 9, 'maybe': 0, 'impossible': 1}, 'current_node_id': 123, 'distance to root': 68.5, 'depth': 8, 'd_thres': 10000, 'answer': 'DISMO\nUNHAT\nOVERT\nMANSE\nORDHR'}
+
+{'total_step': 20, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v1. duomo', 'v5. otter', 'v3. shend', 'v3. shend', 'v1. duomo'], 'info': {'r_letter': 0.92, 'r_word': 0.7, 'r_game': False}, 'count': {'sure': 9, 'maybe': 0, 'impossible': 1}, 'current_node_id': 211, 'distance to root': 77.49999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'DISMO\nUNHAT\nOVERT\nMANSE\nORDHR'}
+
+{'total_step': 21, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v1. duomo', 'v5. otter', 'v3. shend', 'v3. shend', 'v2. invar'], 'info': {'r_letter': 0.92, 'r_word': 0.7, 'r_game': False}, 'count': {'sure': 9, 'maybe': 0, 'impossible': 1}, 'current_node_id': 212, 'distance to root': 77.49999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'DISMO\nUNHAT\nOVERT\nMANSE\nORDHR'}
+
+{'total_step': 22, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v1. duomo', 'v5. otter', 'v3. shend', 'v3. shend', 'v3. shend'], 'info': {'r_letter': 0.92, 'r_word': 0.7, 'r_game': False}, 'count': {'sure': 9, 'maybe': 0, 'impossible': 1}, 'current_node_id': 213, 'distance to root': 77.49999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'DISMO\nUNHAT\nOVERT\nMANSE\nORDHR'}
+
+{'total_step': 23, 'env_step': 6, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v1. duomo', 'h2. unhat'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 75, 'distance to root': 51.1, 'depth': 6, 'd_thres': 10000, 'answer': 'DI_M_\nUNHAT\nOVERT\nMANSE\nOR_H_'}
+
+{'total_step': 24, 'env_step': 7, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v1. duomo', 'h2. unhat', 'v5. otter'], 'info': {'r_letter': 0.84, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 249, 'distance to root': 57.699999999999996, 'depth': 7, 'd_thres': 10000, 'answer': 'DI_MO\nUNHAT\nOVERT\nMANSE\nOR_HR'}
+
+{'total_step': 25, 'env_step': 8, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v1. duomo', 'h2. unhat', 'v5. otter', 'v3. shent'], 'info': {'r_letter': 0.88, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 8, 'maybe': 0, 'impossible': 2}, 'current_node_id': 262, 'distance to root': 67.6, 'depth': 8, 'd_thres': 10000, 'answer': 'DISMO\nUNHAT\nOVERT\nMANSE\nORTHR'}
+
+{'total_step': 26, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v1. duomo', 'h2. unhat', 'v5. otter', 'v3. shent', 'h4. manse'], 'info': {'r_letter': 0.88, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 8, 'maybe': 0, 'impossible': 2}, 'current_node_id': 265, 'distance to root': 76.6, 'depth': 9, 'd_thres': 10000, 'answer': 'DISMO\nUNHAT\nOVERT\nMANSE\nORTHR'}
+
+{'total_step': 27, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v1. duomo', 'h2. unhat', 'v5. otter', 'v3. shent', 'h5. orthr'], 'info': {'r_letter': 0.88, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 8, 'maybe': 0, 'impossible': 2}, 'current_node_id': 270, 'distance to root': 77.49999999999999, 'depth': 9, 'd_thres': 10000, 'answer': 'DISMO\nUNHAT\nOVERT\nMANSE\nORTHR'}
+
+{'total_step': 28, 'env_step': 7, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v1. duomo', 'h2. unhat', 'v3. shend'], 'info': {'r_letter': 0.84, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 254, 'distance to root': 60.9, 'depth': 7, 'd_thres': 10000, 'answer': 'DISM_\nUNHAT\nOVERT\nMANSE\nORDH_'}
+
+{'total_step': 29, 'env_step': 8, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v1. duomo', 'h2. unhat', 'v3. shend', 'v5. otter'], 'info': {'r_letter': 0.92, 'r_word': 0.7, 'r_game': False}, 'count': {'sure': 9, 'maybe': 0, 'impossible': 1}, 'current_node_id': 287, 'distance to root': 68.1, 'depth': 8, 'd_thres': 10000, 'answer': 'DISMO\nUNHAT\nOVERT\nMANSE\nORDHR'}
+
+{'total_step': 30, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v1. duomo', 'h2. unhat', 'v3. shend', 'v5. otter', 'v3. shend'], 'info': {'r_letter': 0.92, 'r_word': 0.7, 'r_game': False}, 'count': {'sure': 9, 'maybe': 0, 'impossible': 1}, 'current_node_id': 291, 'distance to root': 75.6, 'depth': 9, 'd_thres': 10000, 'answer': 'DISMO\nUNHAT\nOVERT\nMANSE\nORDHR'}
+
+{'total_step': 31, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v1. duomo', 'h2. unhat', 'v3. shend', 'v5. otter', 'v1. duomo'], 'info': {'r_letter': 0.92, 'r_word': 0.7, 'r_game': False}, 'count': {'sure': 9, 'maybe': 0, 'impossible': 1}, 'current_node_id': 293, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': 'DISMO\nUNHAT\nOVERT\nMANSE\nORDHR'}
+
+{'total_step': 32, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v1. duomo', 'h2. unhat', 'v3. shend', 'v5. otter', 'v2. invar'], 'info': {'r_letter': 0.92, 'r_word': 0.7, 'r_game': False}, 'count': {'sure': 9, 'maybe': 0, 'impossible': 1}, 'current_node_id': 294, 'distance to root': 77.1, 'depth': 9, 'd_thres': 10000, 'answer': 'DISMO\nUNHAT\nOVERT\nMANSE\nORDHR'}
+
+{'total_step': 33, 'env_step': 5, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 62, 'distance to root': 41.9, 'depth': 5, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 34, 'env_step': 6, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 310, 'distance to root': 49.9, 'depth': 6, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 35, 'env_step': 7, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'h3. overt'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 326, 'distance to root': 57.9, 'depth': 7, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 36, 'env_step': 8, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'h3. overt', 'h3. overt'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 342, 'distance to root': 65.89999999999999, 'depth': 8, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 37, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'h3. overt', 'h3. overt', 'h3. overt'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 358, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 38, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'h3. overt', 'h3. overt', 'h4. manse'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 359, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 39, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'h3. overt', 'h3. overt', 'v2. invar'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 360, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 40, 'env_step': 8, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'h3. overt', 'h4. manse'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 343, 'distance to root': 65.89999999999999, 'depth': 8, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 41, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'h3. overt', 'h4. manse', 'h3. overt'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 422, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 42, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'h3. overt', 'h4. manse', 'h4. manse'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 423, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 43, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'h3. overt', 'h4. manse', 'v2. invar'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 424, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 44, 'env_step': 8, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'h3. overt', 'v2. invar'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 344, 'distance to root': 65.89999999999999, 'depth': 8, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 45, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'h3. overt', 'v2. invar', 'h3. overt'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 486, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 46, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'h3. overt', 'v2. invar', 'h4. manse'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 487, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 47, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'h3. overt', 'v2. invar', 'v2. invar'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 488, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 48, 'env_step': 7, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'h4. manse'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 327, 'distance to root': 57.9, 'depth': 7, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 49, 'env_step': 8, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'h4. manse', 'h3. overt'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 550, 'distance to root': 65.89999999999999, 'depth': 8, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 50, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'h4. manse', 'h3. overt', 'h3. overt'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 566, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 51, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'h4. manse', 'h3. overt', 'h4. manse'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 567, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 52, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'h4. manse', 'h3. overt', 'v2. invar'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 568, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 53, 'env_step': 8, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'h4. manse', 'h4. manse'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 551, 'distance to root': 65.89999999999999, 'depth': 8, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 54, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'h4. manse', 'h4. manse', 'h3. overt'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 630, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 55, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'h4. manse', 'h4. manse', 'h4. manse'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 631, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 56, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'h4. manse', 'h4. manse', 'v2. invar'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 632, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 57, 'env_step': 8, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'h4. manse', 'v2. invar'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 552, 'distance to root': 65.89999999999999, 'depth': 8, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 58, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'h4. manse', 'v2. invar', 'h3. overt'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 694, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 59, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'h4. manse', 'v2. invar', 'h4. manse'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 695, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 60, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'h4. manse', 'v2. invar', 'v2. invar'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 696, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 61, 'env_step': 7, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'v2. invar'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 328, 'distance to root': 57.9, 'depth': 7, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 62, 'env_step': 8, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'v2. invar', 'h3. overt'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 758, 'distance to root': 65.89999999999999, 'depth': 8, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 63, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'v2. invar', 'h3. overt', 'h3. overt'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 774, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 64, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'v2. invar', 'h3. overt', 'h4. manse'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 775, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 65, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'v2. invar', 'h3. overt', 'v2. invar'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 776, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 66, 'env_step': 8, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'v2. invar', 'h4. manse'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 759, 'distance to root': 65.89999999999999, 'depth': 8, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 67, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'v2. invar', 'h4. manse', 'h3. overt'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 838, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 68, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'v2. invar', 'h4. manse', 'h4. manse'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 839, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 69, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'v2. invar', 'h4. manse', 'v2. invar'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 840, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 70, 'env_step': 8, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'v2. invar', 'v2. invar'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 760, 'distance to root': 65.89999999999999, 'depth': 8, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 71, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'v2. invar', 'v2. invar', 'h3. overt'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 902, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 72, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'v2. invar', 'v2. invar', 'h4. manse'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 903, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 73, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h3. overt', 'v2. invar', 'v2. invar', 'v2. invar'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 904, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 74, 'env_step': 6, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h4. manse'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 311, 'distance to root': 49.9, 'depth': 6, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 75, 'env_step': 7, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h4. manse', 'h3. overt'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 966, 'distance to root': 57.9, 'depth': 7, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 76, 'env_step': 8, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h4. manse', 'h3. overt', 'h3. overt'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 982, 'distance to root': 65.89999999999999, 'depth': 8, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 77, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h4. manse', 'h3. overt', 'h3. overt', 'h3. overt'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 998, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 78, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h4. manse', 'h3. overt', 'h3. overt', 'h4. manse'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 999, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 79, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h4. manse', 'h3. overt', 'h3. overt', 'v2. invar'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1000, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 80, 'env_step': 8, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h4. manse', 'h3. overt', 'h4. manse'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 983, 'distance to root': 65.89999999999999, 'depth': 8, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 81, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h4. manse', 'h3. overt', 'h4. manse', 'h3. overt'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1062, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 82, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h4. manse', 'h3. overt', 'h4. manse', 'h4. manse'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1063, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 83, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h4. manse', 'h3. overt', 'h4. manse', 'v2. invar'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1064, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 84, 'env_step': 8, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h4. manse', 'h3. overt', 'v2. invar'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 984, 'distance to root': 65.89999999999999, 'depth': 8, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 85, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h4. manse', 'h3. overt', 'v2. invar', 'h3. overt'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1126, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 86, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h4. manse', 'h3. overt', 'v2. invar', 'h4. manse'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1127, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 87, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h4. manse', 'h3. overt', 'v2. invar', 'v2. invar'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1128, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 88, 'env_step': 7, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h4. manse', 'h4. manse'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 967, 'distance to root': 57.9, 'depth': 7, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 89, 'env_step': 8, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h4. manse', 'h4. manse', 'h3. overt'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1190, 'distance to root': 65.89999999999999, 'depth': 8, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 90, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h4. manse', 'h4. manse', 'h3. overt', 'h3. overt'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1206, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 91, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h4. manse', 'h4. manse', 'h3. overt', 'h4. manse'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1207, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 92, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h4. manse', 'h4. manse', 'h3. overt', 'v2. invar'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1208, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 93, 'env_step': 8, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h4. manse', 'h4. manse', 'h4. manse'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1191, 'distance to root': 65.89999999999999, 'depth': 8, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 94, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h4. manse', 'h4. manse', 'h4. manse', 'h3. overt'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1270, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 95, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h4. manse', 'h4. manse', 'h4. manse', 'h4. manse'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1271, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 96, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h4. manse', 'h4. manse', 'h4. manse', 'v2. invar'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1272, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 97, 'env_step': 8, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h4. manse', 'h4. manse', 'v2. invar'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1192, 'distance to root': 65.89999999999999, 'depth': 8, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 98, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h4. manse', 'h4. manse', 'v2. invar', 'h3. overt'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1334, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+{'total_step': 99, 'env_step': 9, 'actions': ['h4. manse', 'v2. invar', 'h3. overt', 'v4. marsh', 'v5. otter', 'h4. manse', 'h4. manse', 'v2. invar', 'h4. manse'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1335, 'distance to root': 73.89999999999999, 'depth': 9, 'd_thres': 10000, 'answer': '_I_MO\n_N_AT\nOVERT\nMANSE\n_R_HR'}
+
+-----------------------
+
+best node id: 87
+node depth: 7
+chosen step: 10
+distance to root: 59.50000000000001
+answer:
+
+DISMO
+UNHAT
+OVERT
+MANSE
+ORDHR
+
+accuracy: {'r_letter': 0.92, 'r_word': 0.7, 'r_game': False}
+cost time: 86.33073568344116 s
+
+---- Task Complete ----

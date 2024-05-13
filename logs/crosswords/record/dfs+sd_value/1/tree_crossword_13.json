@@ -1,0 +1,2846 @@
+[
+    {
+        "total_step": 0,
+        "env_step": 1,
+        "actions": [
+            "v3. amuse"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 1,
+        "depth": 1,
+        "d_thres": 10000,
+        "answer": "__A__\n__M__\n__U__\n__S__\n__E__"
+    },
+    {
+        "total_step": 1,
+        "env_step": 2,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 10,
+        "depth": 2,
+        "d_thres": 10000,
+        "answer": "__A__\n__M__\nUVULA\n__S__\n__E__"
+    },
+    {
+        "total_step": 2,
+        "env_step": 3,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 28,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 3,
+        "env_step": 4,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 46,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 4,
+        "env_step": 4,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 47,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 5,
+        "env_step": 5,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 62,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 6,
+        "env_step": 5,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 63,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 7,
+        "env_step": 6,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 78,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 8,
+        "env_step": 6,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 79,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 9,
+        "env_step": 7,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 94,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 10,
+        "env_step": 7,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 95,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 11,
+        "env_step": 8,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 110,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 12,
+        "env_step": 8,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 111,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 13,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 126,
+        "distance to root": 19.999,
+        "depth": 9,
+        "d_thres": 19.999,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 14,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 127,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 15,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 128,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 16,
+        "env_step": 8,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 112,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 17,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 174,
+        "distance to root": 19.999,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 18,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 175,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 19,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 176,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 20,
+        "env_step": 7,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 96,
+        "depth": 7,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 21,
+        "env_step": 8,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 222,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 22,
+        "env_step": 8,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 223,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 23,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 238,
+        "distance to root": 19.999,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 24,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 239,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 25,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 240,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 26,
+        "env_step": 8,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 224,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 27,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 286,
+        "distance to root": 19.999,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 28,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 287,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 29,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 288,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 30,
+        "env_step": 6,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 80,
+        "depth": 6,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 31,
+        "env_step": 7,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 334,
+        "depth": 7,
+        "d_thres": 0.0,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 32,
+        "env_step": 7,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 335,
+        "depth": 7,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 33,
+        "env_step": 8,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 350,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 34,
+        "env_step": 8,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 351,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 35,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 366,
+        "distance to root": 19.999,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 36,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 367,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 37,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 368,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 38,
+        "env_step": 8,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 352,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 39,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 414,
+        "distance to root": 19.999,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 40,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 415,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 41,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 416,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 42,
+        "env_step": 7,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 336,
+        "depth": 7,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 43,
+        "env_step": 8,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 462,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 44,
+        "env_step": 8,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 463,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 45,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "h3. uvula",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 478,
+        "distance to root": 19.999,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 46,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 479,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 47,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "h3. uvula",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 480,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 48,
+        "env_step": 8,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 464,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 49,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "v2. level",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 526,
+        "distance to root": 19.999,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 50,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "v2. level",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 527,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 51,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "v2. level",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 528,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 52,
+        "env_step": 5,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 64,
+        "depth": 5,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 53,
+        "env_step": 6,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 574,
+        "depth": 6,
+        "d_thres": 0.0,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 54,
+        "env_step": 6,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 575,
+        "depth": 6,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 55,
+        "env_step": 7,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 590,
+        "depth": 7,
+        "d_thres": 0.0,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 56,
+        "env_step": 7,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 591,
+        "depth": 7,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 57,
+        "env_step": 8,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 606,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 58,
+        "env_step": 8,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 607,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 59,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 622,
+        "distance to root": 19.999,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 60,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 623,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 61,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 624,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 62,
+        "env_step": 8,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 608,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 63,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 670,
+        "distance to root": 19.999,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 64,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 671,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 65,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 672,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 66,
+        "env_step": 7,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 592,
+        "depth": 7,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 67,
+        "env_step": 8,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 718,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 68,
+        "env_step": 8,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 719,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 69,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 734,
+        "distance to root": 19.999,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 70,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 735,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 71,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 736,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 72,
+        "env_step": 8,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 720,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 73,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 782,
+        "distance to root": 19.999,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 74,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 783,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 75,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 784,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 76,
+        "env_step": 6,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 576,
+        "depth": 6,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 77,
+        "env_step": 7,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 830,
+        "depth": 7,
+        "d_thres": 0.0,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 78,
+        "env_step": 7,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 831,
+        "depth": 7,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 79,
+        "env_step": 8,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "h3. uvula",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 846,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 80,
+        "env_step": 8,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 847,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 81,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 862,
+        "distance to root": 19.999,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 82,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 863,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 83,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 864,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 84,
+        "env_step": 8,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "h3. uvula",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 848,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 85,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 910,
+        "distance to root": 19.999,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 86,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 911,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 87,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 912,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 88,
+        "env_step": 7,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 832,
+        "depth": 7,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 89,
+        "env_step": 8,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "v2. level",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 958,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 90,
+        "env_step": 8,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "v2. level",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 959,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 91,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "v2. level",
+            "h3. uvula",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 974,
+        "distance to root": 19.999,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 92,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "v2. level",
+            "h3. uvula",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 975,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 93,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "v2. level",
+            "h3. uvula",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 976,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 94,
+        "env_step": 8,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "v2. level",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 960,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 95,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "v2. level",
+            "v2. level",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 1022,
+        "distance to root": 19.999,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 96,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "v2. level",
+            "v2. level",
+            "h3. uvula"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1023,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 97,
+        "env_step": 9,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "v2. level",
+            "v2. level",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1024,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 98,
+        "env_step": 4,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "v2. level"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 48,
+        "depth": 4,
+        "d_thres": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "total_step": 99,
+        "env_step": 5,
+        "actions": [
+            "v3. amuse",
+            "h3. uvula",
+            "v2. level",
+            "v2. level",
+            "h1. plant"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 6,
+            "impossible": 1
+        },
+        "current_node_id": 1070,
+        "depth": 5,
+        "d_thres": 0.0,
+        "answer": "PLANT\n_EM__\nUVULA\n_ES__\n_LE__"
+    },
+    {
+        "index": 13,
+        "best node id": 127,
+        "node depth": 9,
+        "chosen step": 14,
+        "distance to root": 0.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__",
+        "accuracy": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "cost time": 30.52893853187561
+    }
+]

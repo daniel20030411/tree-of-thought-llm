@@ -1,0 +1,226 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs
+idx: 11
+pruning = True
+date: 2024-05-10
+time: 18:29:26
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h4. totem'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'distance to root': 7.5, 'depth': 1, 'd_thres': 10000, 'answer': '_____\n_____\n_____\nTOTEM\n_____'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['h4. totem', 'v5. enemy'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 16, 'distance to root': 13.8, 'depth': 2, 'd_thres': 10000, 'answer': '____E\n____N\n____E\nTOTEM\n____Y'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 44, 'distance to root': 22.2, 'depth': 3, 'd_thres': 10000, 'answer': 'HORDE\n____N\n____E\nTOTEM\n____Y'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'h2. glean'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 56, 'distance to root': 32.0, 'depth': 4, 'd_thres': 10000, 'answer': 'HORDE\nGLEAN\n____E\nTOTEM\n____Y'}
+
+{'total_step': 4, 'env_step': 4, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'h5. dairy'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 58, 'distance to root': 32.0, 'depth': 4, 'd_thres': 10000, 'answer': 'HORDE\n____N\n____E\nTOTEM\nDAIRY'}
+
+{'total_step': 5, 'env_step': 5, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'h5. dairy', 'v5. enemy'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 62, 'distance to root': 41.0, 'depth': 5, 'd_thres': 10000, 'answer': 'HORDE\n____N\n____E\nTOTEM\nDAIRY'}
+
+{'total_step': 6, 'env_step': 6, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'h5. dairy', 'v5. enemy', 'v5. enemy'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 79, 'distance to root': 50.0, 'depth': 6, 'd_thres': 10000, 'answer': 'HORDE\n____N\n____E\nTOTEM\nDAIRY'}
+
+{'total_step': 7, 'env_step': 7, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'h5. dairy', 'v5. enemy', 'v5. enemy', 'v5. enemy'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 96, 'distance to root': 58.99999999999999, 'depth': 7, 'd_thres': 10000, 'answer': 'HORDE\n____N\n____E\nTOTEM\nDAIRY'}
+
+{'total_step': 8, 'env_step': 8, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'h5. dairy', 'v5. enemy', 'v5. enemy', 'v5. enemy', 'v5. enemy'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 113, 'distance to root': 68.0, 'depth': 8, 'd_thres': 10000, 'answer': 'HORDE\n____N\n____E\nTOTEM\nDAIRY'}
+
+{'total_step': 9, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'h5. dairy', 'v5. enemy', 'v5. enemy', 'v5. enemy', 'v5. enemy', 'v5. enemy'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 130, 'distance to root': 77.0, 'depth': 9, 'd_thres': 10000, 'answer': 'HORDE\n____N\n____E\nTOTEM\nDAIRY'}
+
+{'total_step': 10, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'h5. dairy', 'v5. enemy', 'v5. enemy', 'v5. enemy', 'v5. enemy', 'h2. glean'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 6, 'impossible': 0}, 'current_node_id': 133, 'distance to root': 77.4, 'depth': 9, 'd_thres': 10000, 'answer': 'HORDE\nGLEAN\n____E\nTOTEM\nDAIRY'}
+
+{'total_step': 11, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'h5. dairy', 'v5. enemy', 'v5. enemy', 'v5. enemy', 'v5. enemy', 'v4. dater'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 1}, 'current_node_id': 135, 'distance to root': 77.60000000000001, 'depth': 9, 'd_thres': 10000, 'answer': 'HORDE\n___AN\n___TE\nTOTEM\nDAIRY'}
+
+{'total_step': 12, 'env_step': 8, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'h5. dairy', 'v5. enemy', 'v5. enemy', 'v5. enemy', 'h2. glean'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 6, 'impossible': 0}, 'current_node_id': 116, 'distance to root': 68.4, 'depth': 8, 'd_thres': 10000, 'answer': 'HORDE\nGLEAN\n____E\nTOTEM\nDAIRY'}
+
+{'total_step': 13, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'h5. dairy', 'v5. enemy', 'v5. enemy', 'v5. enemy', 'h2. glean', 'h3. osage'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 3}, 'current_node_id': 180, 'distance to root': 78.0, 'depth': 9, 'd_thres': 10000, 'answer': 'HORDE\nGLEAN\nOSAGE\nTOTEM\nDAIRY'}
+
+{'total_step': 14, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'h5. dairy', 'v5. enemy', 'v5. enemy', 'v5. enemy', 'h2. glean', 'v4. daser'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 6, 'impossible': 1}, 'current_node_id': 185, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': 'HORDE\nGLEAN\n___SE\nTOTEM\nDAIRY'}
+
+{'total_step': 15, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'h5. dairy', 'v5. enemy', 'v5. enemy', 'v5. enemy', 'h2. glean', 'v3. refti'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 6, 'impossible': 1}, 'current_node_id': 187, 'distance to root': 78.3, 'depth': 9, 'd_thres': 10000, 'answer': 'HORDE\nGLEAN\n__F_E\nTOTEM\nDAIRY'}
+
+{'total_step': 16, 'env_step': 8, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'h5. dairy', 'v5. enemy', 'v5. enemy', 'v5. enemy', 'v4. dater'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 1}, 'current_node_id': 118, 'distance to root': 68.6, 'depth': 8, 'd_thres': 10000, 'answer': 'HORDE\n___AN\n___TE\nTOTEM\nDAIRY'}
+
+{'total_step': 17, 'env_step': 7, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'h5. dairy', 'v5. enemy', 'v5. enemy', 'h2. glean'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 6, 'impossible': 0}, 'current_node_id': 99, 'distance to root': 59.4, 'depth': 7, 'd_thres': 10000, 'answer': 'HORDE\nGLEAN\n____E\nTOTEM\nDAIRY'}
+
+{'total_step': 18, 'env_step': 8, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'h5. dairy', 'v5. enemy', 'v5. enemy', 'h2. glean', 'h3. osage'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 3}, 'current_node_id': 193, 'distance to root': 69.0, 'depth': 8, 'd_thres': 10000, 'answer': 'HORDE\nGLEAN\nOSAGE\nTOTEM\nDAIRY'}
+
+{'total_step': 19, 'env_step': 8, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'h5. dairy', 'v5. enemy', 'v5. enemy', 'h2. glean', 'v4. daser'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 6, 'impossible': 1}, 'current_node_id': 198, 'distance to root': 69.29999999999998, 'depth': 8, 'd_thres': 10000, 'answer': 'HORDE\nGLEAN\n___SE\nTOTEM\nDAIRY'}
+
+{'total_step': 20, 'env_step': 8, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'h5. dairy', 'v5. enemy', 'v5. enemy', 'h2. glean', 'v3. refti'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 6, 'impossible': 1}, 'current_node_id': 200, 'distance to root': 69.29999999999998, 'depth': 8, 'd_thres': 10000, 'answer': 'HORDE\nGLEAN\n__F_E\nTOTEM\nDAIRY'}
+
+{'total_step': 21, 'env_step': 7, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'h5. dairy', 'v5. enemy', 'v5. enemy', 'v4. dater'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 1}, 'current_node_id': 101, 'distance to root': 59.6, 'depth': 7, 'd_thres': 10000, 'answer': 'HORDE\n___AN\n___TE\nTOTEM\nDAIRY'}
+
+{'total_step': 22, 'env_step': 6, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'h5. dairy', 'v5. enemy', 'h2. glean'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 6, 'impossible': 0}, 'current_node_id': 82, 'distance to root': 50.4, 'depth': 6, 'd_thres': 10000, 'answer': 'HORDE\nGLEAN\n____E\nTOTEM\nDAIRY'}
+
+{'total_step': 23, 'env_step': 7, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'h5. dairy', 'v5. enemy', 'h2. glean', 'h3. osage'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 3}, 'current_node_id': 206, 'distance to root': 59.99999999999999, 'depth': 7, 'd_thres': 10000, 'answer': 'HORDE\nGLEAN\nOSAGE\nTOTEM\nDAIRY'}
+
+{'total_step': 24, 'env_step': 7, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'h5. dairy', 'v5. enemy', 'h2. glean', 'v4. daser'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 6, 'impossible': 1}, 'current_node_id': 211, 'distance to root': 60.3, 'depth': 7, 'd_thres': 10000, 'answer': 'HORDE\nGLEAN\n___SE\nTOTEM\nDAIRY'}
+
+{'total_step': 25, 'env_step': 7, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'h5. dairy', 'v5. enemy', 'h2. glean', 'v3. refti'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 6, 'impossible': 1}, 'current_node_id': 213, 'distance to root': 60.3, 'depth': 7, 'd_thres': 10000, 'answer': 'HORDE\nGLEAN\n__F_E\nTOTEM\nDAIRY'}
+
+{'total_step': 26, 'env_step': 6, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'h5. dairy', 'v5. enemy', 'v4. dater'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 1}, 'current_node_id': 84, 'distance to root': 50.6, 'depth': 6, 'd_thres': 10000, 'answer': 'HORDE\n___AN\n___TE\nTOTEM\nDAIRY'}
+
+{'total_step': 27, 'env_step': 5, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'h5. dairy', 'h2. glean'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 6, 'impossible': 0}, 'current_node_id': 65, 'distance to root': 41.4, 'depth': 5, 'd_thres': 10000, 'answer': 'HORDE\nGLEAN\n____E\nTOTEM\nDAIRY'}
+
+{'total_step': 28, 'env_step': 6, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'h5. dairy', 'h2. glean', 'h3. osage'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 3}, 'current_node_id': 219, 'distance to root': 51.0, 'depth': 6, 'd_thres': 10000, 'answer': 'HORDE\nGLEAN\nOSAGE\nTOTEM\nDAIRY'}
+
+{'total_step': 29, 'env_step': 6, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'h5. dairy', 'h2. glean', 'v4. daser'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 6, 'impossible': 1}, 'current_node_id': 224, 'distance to root': 51.3, 'depth': 6, 'd_thres': 10000, 'answer': 'HORDE\nGLEAN\n___SE\nTOTEM\nDAIRY'}
+
+{'total_step': 30, 'env_step': 6, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'h5. dairy', 'h2. glean', 'v3. refti'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 6, 'impossible': 1}, 'current_node_id': 226, 'distance to root': 51.3, 'depth': 6, 'd_thres': 10000, 'answer': 'HORDE\nGLEAN\n__F_E\nTOTEM\nDAIRY'}
+
+{'total_step': 31, 'env_step': 5, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'h5. dairy', 'v4. dater'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 1}, 'current_node_id': 67, 'distance to root': 41.599999999999994, 'depth': 5, 'd_thres': 10000, 'answer': 'HORDE\n___AN\n___TE\nTOTEM\nDAIRY'}
+
+{'total_step': 32, 'env_step': 4, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'v1. heats'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 59, 'distance to root': 32.0, 'depth': 4, 'd_thres': 10000, 'answer': 'HORDE\nE___N\nA___E\nTOTEM\nS___Y'}
+
+{'total_step': 33, 'env_step': 5, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'v1. heats', 'v3. routs'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 1}, 'current_node_id': 238, 'distance to root': 41.8, 'depth': 5, 'd_thres': 10000, 'answer': 'HORDE\nE_O_N\nA_U_E\nTOTEM\nS_S_Y'}
+
+{'total_step': 34, 'env_step': 5, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'v1. heats', 'h5. silly'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 241, 'distance to root': 41.8, 'depth': 5, 'd_thres': 10000, 'answer': 'HORDE\nE___N\nA___E\nTOTEM\nSILLY'}
+
+{'total_step': 35, 'env_step': 6, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'v1. heats', 'h5. silly', 'h3. apahe'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 250, 'distance to root': 51.6, 'depth': 6, 'd_thres': 10000, 'answer': 'HORDE\nE___N\nAPAHE\nTOTEM\nSILLY'}
+
+{'total_step': 36, 'env_step': 7, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'v1. heats', 'h5. silly', 'h3. apahe', 'h2. eaten'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 1}, 'current_node_id': 256, 'distance to root': 61.0, 'depth': 7, 'd_thres': 10000, 'answer': 'HORDE\nEATEN\nAPAHE\nTOTEM\nSILLY'}
+
+{'total_step': 37, 'env_step': 7, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'v1. heats', 'h5. silly', 'h3. apahe', 'v4. dihel'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 1}, 'current_node_id': 262, 'distance to root': 61.5, 'depth': 7, 'd_thres': 10000, 'answer': 'HORDE\nE__IN\nAPAHE\nTOTEM\nSILLY'}
+
+{'total_step': 38, 'env_step': 6, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'v1. heats', 'h5. silly', 'h3. apace'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 252, 'distance to root': 51.7, 'depth': 6, 'd_thres': 10000, 'answer': 'HORDE\nE___N\nAPACE\nTOTEM\nSILLY'}
+
+{'total_step': 39, 'env_step': 7, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'v1. heats', 'h5. silly', 'h3. apace', 'h2. eaten'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 1}, 'current_node_id': 267, 'distance to root': 61.5, 'depth': 7, 'd_thres': 10000, 'answer': 'HORDE\nEATEN\nAPACE\nTOTEM\nSILLY'}
+
+{'total_step': 40, 'env_step': 7, 'actions': ['h4. totem', 'v5. enemy', 'h1. horde', 'v1. heats', 'h5. silly', 'h3. apace', 'v2. oxpoi'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 1}, 'current_node_id': 269, 'distance to root': 61.6, 'depth': 7, 'd_thres': 10000, 'answer': 'HORDE\nEX__N\nAPACE\nTOTEM\nSILLY'}
+
+{'total_step': 41, 'env_step': 3, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 45, 'distance to root': 22.3, 'depth': 3, 'd_thres': 10000, 'answer': '_R__E\n_E__N\n_S__E\nTOTEM\n_W__Y'}
+
+{'total_step': 42, 'env_step': 4, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 275, 'distance to root': 31.1, 'depth': 4, 'd_thres': 10000, 'answer': '_R__E\n_E__N\nOSAGE\nTOTEM\n_W__Y'}
+
+{'total_step': 43, 'env_step': 5, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 289, 'distance to root': 39.8, 'depth': 5, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 44, 'env_step': 6, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 307, 'distance to root': 44.8, 'depth': 6, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 45, 'env_step': 7, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v2. resow'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 323, 'distance to root': 49.8, 'depth': 7, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 46, 'env_step': 8, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v2. resow', 'v2. resow'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 339, 'distance to root': 54.8, 'depth': 8, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 47, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v2. resow', 'v2. resow', 'v2. resow'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 355, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 48, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v2. resow', 'v2. resow', 'v4. pager'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 356, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 49, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v2. resow', 'v2. resow', 'v5. enemy'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 357, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 50, 'env_step': 8, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v2. resow', 'v4. pager'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 340, 'distance to root': 54.8, 'depth': 8, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 51, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v2. resow', 'v4. pager', 'v2. resow'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 419, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 52, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v2. resow', 'v4. pager', 'v4. pager'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 420, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 53, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v2. resow', 'v4. pager', 'v5. enemy'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 421, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 54, 'env_step': 8, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v2. resow', 'v5. enemy'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 341, 'distance to root': 54.8, 'depth': 8, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 55, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v2. resow', 'v5. enemy', 'v2. resow'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 483, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 56, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v2. resow', 'v5. enemy', 'v4. pager'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 484, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 57, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v2. resow', 'v5. enemy', 'v5. enemy'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 485, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 58, 'env_step': 7, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v4. pager'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 324, 'distance to root': 49.8, 'depth': 7, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 59, 'env_step': 8, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v4. pager', 'v2. resow'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 547, 'distance to root': 54.8, 'depth': 8, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 60, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v4. pager', 'v2. resow', 'v2. resow'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 563, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 61, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v4. pager', 'v2. resow', 'v4. pager'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 564, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 62, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v4. pager', 'v2. resow', 'v5. enemy'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 565, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 63, 'env_step': 8, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v4. pager', 'v4. pager'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 548, 'distance to root': 54.8, 'depth': 8, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 64, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v4. pager', 'v4. pager', 'v2. resow'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 627, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 65, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v4. pager', 'v4. pager', 'v4. pager'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 628, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 66, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v4. pager', 'v4. pager', 'v5. enemy'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 629, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 67, 'env_step': 8, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v4. pager', 'v5. enemy'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 549, 'distance to root': 54.8, 'depth': 8, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 68, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v4. pager', 'v5. enemy', 'v2. resow'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 691, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 69, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v4. pager', 'v5. enemy', 'v4. pager'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 692, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 70, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v4. pager', 'v5. enemy', 'v5. enemy'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 693, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 71, 'env_step': 7, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v5. enemy'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 325, 'distance to root': 49.8, 'depth': 7, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 72, 'env_step': 8, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v5. enemy', 'v2. resow'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 755, 'distance to root': 54.8, 'depth': 8, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 73, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v5. enemy', 'v2. resow', 'v2. resow'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 771, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 74, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v5. enemy', 'v2. resow', 'v4. pager'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 772, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 75, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v5. enemy', 'v2. resow', 'v5. enemy'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 773, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 76, 'env_step': 8, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v5. enemy', 'v4. pager'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 756, 'distance to root': 54.8, 'depth': 8, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 77, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v5. enemy', 'v4. pager', 'v2. resow'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 835, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 78, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v5. enemy', 'v4. pager', 'v4. pager'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 836, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 79, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v5. enemy', 'v4. pager', 'v5. enemy'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 837, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 80, 'env_step': 8, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v5. enemy', 'v5. enemy'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 757, 'distance to root': 54.8, 'depth': 8, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 81, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v5. enemy', 'v5. enemy', 'v2. resow'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 899, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 82, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v5. enemy', 'v5. enemy', 'v4. pager'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 900, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 83, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v2. resow', 'v5. enemy', 'v5. enemy', 'v5. enemy'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 901, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 84, 'env_step': 6, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v4. pager'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 308, 'distance to root': 44.8, 'depth': 6, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 85, 'env_step': 7, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v4. pager', 'v2. resow'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 963, 'distance to root': 49.8, 'depth': 7, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 86, 'env_step': 8, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v4. pager', 'v2. resow', 'v2. resow'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 979, 'distance to root': 54.8, 'depth': 8, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 87, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v4. pager', 'v2. resow', 'v2. resow', 'v2. resow'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 995, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 88, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v4. pager', 'v2. resow', 'v2. resow', 'v4. pager'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 996, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 89, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v4. pager', 'v2. resow', 'v2. resow', 'v5. enemy'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 997, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 90, 'env_step': 8, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v4. pager', 'v2. resow', 'v4. pager'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 980, 'distance to root': 54.8, 'depth': 8, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 91, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v4. pager', 'v2. resow', 'v4. pager', 'v2. resow'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1059, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 92, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v4. pager', 'v2. resow', 'v4. pager', 'v4. pager'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1060, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 93, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v4. pager', 'v2. resow', 'v4. pager', 'v5. enemy'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1061, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 94, 'env_step': 8, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v4. pager', 'v2. resow', 'v5. enemy'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 981, 'distance to root': 54.8, 'depth': 8, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 95, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v4. pager', 'v2. resow', 'v5. enemy', 'v2. resow'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1123, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 96, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v4. pager', 'v2. resow', 'v5. enemy', 'v4. pager'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1124, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 97, 'env_step': 9, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v4. pager', 'v2. resow', 'v5. enemy', 'v5. enemy'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1125, 'distance to root': 59.8, 'depth': 9, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 98, 'env_step': 7, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v4. pager', 'v4. pager'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 964, 'distance to root': 49.8, 'depth': 7, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+{'total_step': 99, 'env_step': 8, 'actions': ['h4. totem', 'v5. enemy', 'v2. resow', 'h3. osage', 'v4. pager', 'v4. pager', 'v4. pager', 'v2. resow'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1187, 'distance to root': 54.8, 'depth': 8, 'd_thres': 10000, 'answer': '_R_PE\n_E_AN\nOSAGE\nTOTEM\n_W_RY'}
+
+-----------------------
+
+best node id: 289
+node depth: 5
+chosen step: 43
+distance to root: 39.8
+answer:
+
+_R_PE
+_E_AN
+OSAGE
+TOTEM
+_W_RY
+
+accuracy: {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}
+cost time: 186.4366970062256 s
+
+---- Task Complete ----

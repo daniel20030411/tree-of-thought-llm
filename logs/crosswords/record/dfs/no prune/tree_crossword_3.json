@@ -1,0 +1,16 @@
+[
+    {
+        "index": 3,
+        "best node id": 27,
+        "node depth": 3,
+        "chosen step": 2,
+        "distance to root": 22.3,
+        "answer": "BE___\nUR___\nFRIAR\nFO___\nOR___",
+        "accuracy": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "cost time": 2.599669933319092
+    }
+]

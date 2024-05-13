@@ -1,0 +1,2903 @@
+[
+    {
+        "total_step": 0,
+        "env_step": 1,
+        "actions": [
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 1,
+        "depth": 1,
+        "d_thres": 10000,
+        "answer": "_____\n_____\nFRIAR\n_____\n_____"
+    },
+    {
+        "total_step": 1,
+        "env_step": 2,
+        "actions": [
+            "h3. friar",
+            "h5. argol"
+        ],
+        "info": {
+            "r_letter": 0.32,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 9,
+        "depth": 2,
+        "d_thres": 10000,
+        "answer": "_____\n_____\nFRIAR\n_____\nARGOL"
+    },
+    {
+        "total_step": 2,
+        "env_step": 3,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 26,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "__B__\n__E__\nFRIAR\n__N__\nARGOL"
+    },
+    {
+        "total_step": 3,
+        "env_step": 4,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 39,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 4,
+        "env_step": 5,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 58,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 5,
+        "env_step": 6,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 68,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 6,
+        "env_step": 7,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 78,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 7,
+        "env_step": 8,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "v3. being",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 88,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 8,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "v3. being",
+            "v3. being",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 98,
+        "distance to root": 64.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 9,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "v3. being",
+            "v3. being",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 99,
+        "distance to root": 65.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 10,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "v3. being",
+            "v3. being",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 100,
+        "distance to root": 66.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 11,
+        "env_step": 8,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "v3. being",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 89,
+        "depth": 8,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 12,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "v3. being",
+            "v2. error",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 138,
+        "distance to root": 65.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 13,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "v3. being",
+            "v2. error",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 139,
+        "distance to root": 66.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 14,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "v3. being",
+            "v2. error",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 140,
+        "distance to root": 67.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 15,
+        "env_step": 8,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "v3. being",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 90,
+        "depth": 8,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 16,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "v3. being",
+            "h3. friar",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 178,
+        "distance to root": 66.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 17,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "v3. being",
+            "h3. friar",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 179,
+        "distance to root": 67.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 18,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "v3. being",
+            "h3. friar",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 180,
+        "distance to root": 68.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 19,
+        "env_step": 7,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 79,
+        "depth": 7,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 20,
+        "env_step": 8,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "v2. error",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 218,
+        "depth": 8,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 21,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 228,
+        "distance to root": 65.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 22,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 229,
+        "distance to root": 66.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 23,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 230,
+        "distance to root": 67.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 24,
+        "env_step": 8,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "v2. error",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 219,
+        "depth": 8,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 25,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "v2. error",
+            "v2. error",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 268,
+        "distance to root": 66.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 26,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "v2. error",
+            "v2. error",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 269,
+        "distance to root": 67.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 27,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "v2. error",
+            "v2. error",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 270,
+        "distance to root": 68.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 28,
+        "env_step": 8,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "v2. error",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 220,
+        "depth": 8,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 29,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "v2. error",
+            "h3. friar",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 308,
+        "distance to root": 67.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 30,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "v2. error",
+            "h3. friar",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 309,
+        "distance to root": 68.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 31,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "v2. error",
+            "h3. friar",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 310,
+        "distance to root": 69.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 32,
+        "env_step": 7,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 80,
+        "depth": 7,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 33,
+        "env_step": 8,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "h3. friar",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 348,
+        "depth": 8,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 34,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "h3. friar",
+            "v3. being",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 358,
+        "distance to root": 66.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 35,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "h3. friar",
+            "v3. being",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 359,
+        "distance to root": 67.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 36,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "h3. friar",
+            "v3. being",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 360,
+        "distance to root": 68.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 37,
+        "env_step": 8,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "h3. friar",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 349,
+        "depth": 8,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 38,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "h3. friar",
+            "v2. error",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 398,
+        "distance to root": 67.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 39,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "h3. friar",
+            "v2. error",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 399,
+        "distance to root": 68.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 40,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "h3. friar",
+            "v2. error",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 400,
+        "distance to root": 69.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 41,
+        "env_step": 8,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "h3. friar",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 350,
+        "depth": 8,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 42,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "h3. friar",
+            "h3. friar",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 438,
+        "distance to root": 68.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 43,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "h3. friar",
+            "h3. friar",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 439,
+        "distance to root": 69.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 44,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 440,
+        "distance to root": 70.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 45,
+        "env_step": 6,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 69,
+        "depth": 6,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 46,
+        "env_step": 7,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 478,
+        "depth": 7,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 47,
+        "env_step": 8,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 488,
+        "depth": 8,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 48,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 498,
+        "distance to root": 65.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 49,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 499,
+        "distance to root": 66.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 50,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v3. being",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 500,
+        "distance to root": 67.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 51,
+        "env_step": 8,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 489,
+        "depth": 8,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 52,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 538,
+        "distance to root": 66.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 53,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 539,
+        "distance to root": 67.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 54,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 540,
+        "distance to root": 68.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 55,
+        "env_step": 8,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 490,
+        "depth": 8,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 56,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "h3. friar",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 578,
+        "distance to root": 67.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 57,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "h3. friar",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 579,
+        "distance to root": 68.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 58,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "h3. friar",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 580,
+        "distance to root": 69.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 59,
+        "env_step": 7,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 479,
+        "depth": 7,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 60,
+        "env_step": 8,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "v2. error",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 618,
+        "depth": 8,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 61,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "v2. error",
+            "v3. being",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 628,
+        "distance to root": 66.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 62,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "v2. error",
+            "v3. being",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 629,
+        "distance to root": 67.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 63,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "v2. error",
+            "v3. being",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 630,
+        "distance to root": 68.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 64,
+        "env_step": 8,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "v2. error",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 619,
+        "depth": 8,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 65,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "v2. error",
+            "v2. error",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 668,
+        "distance to root": 67.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 66,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "v2. error",
+            "v2. error",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 669,
+        "distance to root": 68.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 67,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "v2. error",
+            "v2. error",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 670,
+        "distance to root": 69.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 68,
+        "env_step": 8,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "v2. error",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 620,
+        "depth": 8,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 69,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "v2. error",
+            "h3. friar",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 708,
+        "distance to root": 68.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 70,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "v2. error",
+            "h3. friar",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 709,
+        "distance to root": 69.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 71,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "v2. error",
+            "h3. friar",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 710,
+        "distance to root": 70.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 72,
+        "env_step": 7,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 480,
+        "depth": 7,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 73,
+        "env_step": 8,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "h3. friar",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 748,
+        "depth": 8,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 74,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "h3. friar",
+            "v3. being",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 758,
+        "distance to root": 67.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 75,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "h3. friar",
+            "v3. being",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 759,
+        "distance to root": 68.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 76,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "h3. friar",
+            "v3. being",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 760,
+        "distance to root": 69.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 77,
+        "env_step": 8,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "h3. friar",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 749,
+        "depth": 8,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 78,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "h3. friar",
+            "v2. error",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 798,
+        "distance to root": 68.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 79,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "h3. friar",
+            "v2. error",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 799,
+        "distance to root": 69.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 80,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "h3. friar",
+            "v2. error",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 800,
+        "distance to root": 70.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 81,
+        "env_step": 8,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "h3. friar",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 750,
+        "depth": 8,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 82,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "h3. friar",
+            "h3. friar",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 838,
+        "distance to root": 69.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 83,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "h3. friar",
+            "h3. friar",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 839,
+        "distance to root": 70.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 84,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "v2. error",
+            "h3. friar",
+            "h3. friar",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 840,
+        "distance to root": 71.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 85,
+        "env_step": 6,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 70,
+        "depth": 6,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 86,
+        "env_step": 7,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "h3. friar",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 878,
+        "depth": 7,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 87,
+        "env_step": 8,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "h3. friar",
+            "v3. being",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 888,
+        "depth": 8,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 88,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "h3. friar",
+            "v3. being",
+            "v3. being",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 898,
+        "distance to root": 66.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 89,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "h3. friar",
+            "v3. being",
+            "v3. being",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 899,
+        "distance to root": 67.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 90,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "h3. friar",
+            "v3. being",
+            "v3. being",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 900,
+        "distance to root": 68.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 91,
+        "env_step": 8,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "h3. friar",
+            "v3. being",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 889,
+        "depth": 8,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 92,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "h3. friar",
+            "v3. being",
+            "v2. error",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 938,
+        "distance to root": 67.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 93,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "h3. friar",
+            "v3. being",
+            "v2. error",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 939,
+        "distance to root": 68.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 94,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "h3. friar",
+            "v3. being",
+            "v2. error",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 940,
+        "distance to root": 69.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 95,
+        "env_step": 8,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "h3. friar",
+            "v3. being",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 890,
+        "depth": 8,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 96,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "h3. friar",
+            "v3. being",
+            "h3. friar",
+            "v3. being"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 978,
+        "distance to root": 68.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 97,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "h3. friar",
+            "v3. being",
+            "h3. friar",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 979,
+        "distance to root": 69.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 98,
+        "env_step": 9,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "h3. friar",
+            "v3. being",
+            "h3. friar",
+            "h3. friar"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 980,
+        "distance to root": 70.3,
+        "depth": 9,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "total_step": 99,
+        "env_step": 7,
+        "actions": [
+            "h3. friar",
+            "h5. argol",
+            "v3. being",
+            "v2. error",
+            "v3. being",
+            "h3. friar",
+            "v2. error"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 879,
+        "depth": 7,
+        "d_thres": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL"
+    },
+    {
+        "index": 2,
+        "best node id": 98,
+        "node depth": 9,
+        "chosen step": 8,
+        "distance to root": 64.3,
+        "answer": "_EB__\n_RE__\nFRIAR\n_ON__\nARGOL",
+        "accuracy": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "cost time": 33.869059801101685
+    }
+]

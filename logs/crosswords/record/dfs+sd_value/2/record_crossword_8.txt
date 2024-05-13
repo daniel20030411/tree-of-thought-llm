@@ -1,0 +1,70 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 8
+pruning = True
+date: 2024-05-10
+time: 19:54:47
+
+{'total_step': 0, 'env_step': 1, 'actions': ['v1. duomo'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': 'D____\nU____\nO____\nM____\nO____'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['v1. duomo', 'h5. order'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 17, 'depth': 2, 'd_thres': 10000, 'answer': 'D____\nU____\nO____\nM____\nORDER'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['v1. duomo', 'h5. order', 'v5. otter'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 7, 'maybe': 0, 'impossible': 0}, 'current_node_id': 27, 'depth': 3, 'd_thres': 10000, 'answer': 'D___O\nU___T\nO___T\nM___E\nORDER'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['v1. duomo', 'h5. order', 'v5. otter', 'h3. overt'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 36, 'depth': 4, 'd_thres': 10000, 'answer': 'D___O\nU___T\nOVERT\nM___E\nORDER'}
+
+{'total_step': 4, 'env_step': 5, 'actions': ['v1. duomo', 'h5. order', 'v5. otter', 'h3. overt', 'h1. disco'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 54, 'depth': 5, 'd_thres': 10000, 'answer': 'DISCO\nU___T\nOVERT\nM___E\nORDER'}
+
+{'total_step': 5, 'env_step': 6, 'actions': ['v1. duomo', 'h5. order', 'v5. otter', 'h3. overt', 'h1. disco', 'v2. invar'], 'info': {'r_letter': 0.84, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 68, 'depth': 6, 'd_thres': 10000, 'answer': 'DISCO\nUN__T\nOVERT\nMA__E\nORDER'}
+
+{'total_step': 6, 'env_step': 7, 'actions': ['v1. duomo', 'h5. order', 'v5. otter', 'h3. overt', 'h1. disco', 'v2. invar', 'h2. unhat'], 'info': {'r_letter': 0.92, 'r_word': 0.7, 'r_game': False}, 'count': {'sure': 9, 'maybe': 1, 'impossible': 0}, 'current_node_id': 75, 'depth': 7, 'd_thres': 10000, 'answer': 'DISCO\nUNHAT\nOVERT\nMA__E\nORDER'}
+
+{'total_step': 7, 'env_step': 7, 'actions': ['v1. duomo', 'h5. order', 'v5. otter', 'h3. overt', 'h1. disco', 'v2. invar', 'h4. manse'], 'info': {'r_letter': 0.92, 'r_word': 0.7, 'r_game': False}, 'count': {'sure': 9, 'maybe': 1, 'impossible': 0}, 'current_node_id': 76, 'depth': 7, 'd_thres': 10000, 'answer': 'DISCO\nUN__T\nOVERT\nMANSE\nORDER'}
+
+{'total_step': 8, 'env_step': 7, 'actions': ['v1. duomo', 'h5. order', 'v5. otter', 'h3. overt', 'h1. disco', 'v2. invar', 'v4. carve'], 'info': {'r_letter': 0.88, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 78, 'depth': 7, 'd_thres': 10000, 'answer': 'DISCO\nUN_AT\nOVERT\nMA_VE\nORDER'}
+
+{'total_step': 9, 'env_step': 6, 'actions': ['v1. duomo', 'h5. order', 'v5. otter', 'h3. overt', 'h1. disco', 'v4. carve'], 'info': {'r_letter': 0.8, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 70, 'depth': 6, 'd_thres': 10000, 'answer': 'DISCO\nU__AT\nOVERT\nM__VE\nORDER'}
+
+{'total_step': 10, 'env_step': 6, 'actions': ['v1. duomo', 'h5. order', 'v5. otter', 'h3. overt', 'h1. disco', 'h2. uneat'], 'info': {'r_letter': 0.84, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 2}, 'current_node_id': 71, 'depth': 6, 'd_thres': 10000, 'answer': 'DISCO\nUNEAT\nOVERT\nM___E\nORDER'}
+
+{'total_step': 11, 'env_step': 5, 'actions': ['v1. duomo', 'h5. order', 'v5. otter', 'h3. overt', 'h4. manse'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 56, 'depth': 5, 'd_thres': 10000, 'answer': 'D___O\nU___T\nOVERT\nMANSE\nORDER'}
+
+{'total_step': 12, 'env_step': 6, 'actions': ['v1. duomo', 'h5. order', 'v5. otter', 'h3. overt', 'h4. manse', 'v2. invar'], 'info': {'r_letter': 0.84, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 79, 'depth': 6, 'd_thres': 10000, 'answer': 'DI__O\nUN__T\nOVERT\nMANSE\nORDER'}
+
+{'total_step': 13, 'env_step': 7, 'actions': ['v1. duomo', 'h5. order', 'v5. otter', 'h3. overt', 'h4. manse', 'v2. invar', 'h1. disco'], 'info': {'r_letter': 0.92, 'r_word': 0.7, 'r_game': False}, 'count': {'sure': 9, 'maybe': 1, 'impossible': 0}, 'current_node_id': 85, 'depth': 7, 'd_thres': 10000, 'answer': 'DISCO\nUN__T\nOVERT\nMANSE\nORDER'}
+
+{'total_step': 14, 'env_step': 6, 'actions': ['v1. duomo', 'h5. order', 'v5. otter', 'h3. overt', 'h4. manse', 'h1. disco'], 'info': {'r_letter': 0.88, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 9, 'maybe': 1, 'impossible': 0}, 'current_node_id': 81, 'depth': 6, 'd_thres': 10000, 'answer': 'DISCO\nU___T\nOVERT\nMANSE\nORDER'}
+
+{'total_step': 15, 'env_step': 6, 'actions': ['v1. duomo', 'h5. order', 'v5. otter', 'h3. overt', 'h4. manse', 'h2. unhat'], 'info': {'r_letter': 0.88, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 82, 'depth': 6, 'd_thres': 10000, 'answer': 'D___O\nUNHAT\nOVERT\nMANSE\nORDER'}
+
+{'total_step': 16, 'env_step': 5, 'actions': ['v1. duomo', 'h5. order', 'v5. otter', 'h3. overt', 'h2. unhat'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 58, 'depth': 5, 'd_thres': 10000, 'answer': 'D___O\nUNHAT\nOVERT\nM___E\nORDER'}
+
+{'total_step': 17, 'env_step': 6, 'actions': ['v1. duomo', 'h5. order', 'v5. otter', 'h3. overt', 'h2. unhat', 'v2. invar'], 'info': {'r_letter': 0.84, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 9, 'maybe': 1, 'impossible': 0}, 'current_node_id': 90, 'depth': 6, 'd_thres': 10000, 'answer': 'DI__O\nUNHAT\nOVERT\nMA__E\nORDER'}
+
+{'total_step': 18, 'env_step': 7, 'actions': ['v1. duomo', 'h5. order', 'v5. otter', 'h3. overt', 'h2. unhat', 'v2. invar', 'h1. disco'], 'info': {'r_letter': 0.92, 'r_word': 0.7, 'r_game': False}, 'count': {'sure': 9, 'maybe': 1, 'impossible': 0}, 'current_node_id': 98, 'depth': 7, 'd_thres': 10000, 'answer': 'DISCO\nUNHAT\nOVERT\nMA__E\nORDER'}
+
+{'total_step': 19, 'env_step': 7, 'actions': ['v1. duomo', 'h5. order', 'v5. otter', 'h3. overt', 'h2. unhat', 'v2. invar', 'h4. manse'], 'info': {'r_letter': 0.92, 'r_word': 0.7, 'r_game': False}, 'count': {'sure': 8, 'maybe': 2, 'impossible': 0}, 'current_node_id': 101, 'depth': 7, 'd_thres': 10000, 'answer': 'DI__O\nUNHAT\nOVERT\nMANSE\nORDER'}
+
+{'total_step': 20, 'env_step': 8, 'actions': ['v1. duomo', 'h5. order', 'v5. otter', 'h3. overt', 'h2. unhat', 'v2. invar', 'h4. manse', 'h1. disco'], 'info': {'r_letter': 1.0, 'r_word': 1.0, 'r_game': True}, 'count': {'sure': 9, 'maybe': 1, 'impossible': 0}, 'current_node_id': 104, 'depth': 8, 'd_thres': 10000, 'answer': 'DISCO\nUNHAT\nOVERT\nMANSE\nORDER'}
+
+{'total_step': 21, 'env_step': 9, 'actions': ['v1. duomo', 'h5. order', 'v5. otter', 'h3. overt', 'h2. unhat', 'v2. invar', 'h4. manse', 'h1. disco', 'v1. duomo'], 'info': {'r_letter': 1.0, 'r_word': 1.0, 'r_game': True}, 'count': {'sure': 9, 'maybe': 1, 'impossible': 0}, 'current_node_id': 108, 'distance to root': 0.0, 'depth': 9, 'd_thres': 0.0, 'answer': 'DISCO\nUNHAT\nOVERT\nMANSE\nORDER'}
+
+-----------------------
+
+best node id: 108
+node depth: 9
+chosen step: 21
+distance to root: 0.0
+answer:
+
+DISCO
+UNHAT
+OVERT
+MANSE
+ORDER
+
+accuracy: {'r_letter': 1.0, 'r_word': 1.0, 'r_game': True}
+cost time: 132.37375831604004 s
+
+---- Task Complete ----

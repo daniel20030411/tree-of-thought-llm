@@ -1,0 +1,56 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 5
+pruning = True
+date: 2024-05-10
+time: 02:10:41
+
+{'total_step': 0, 'env_step': 1, 'actions': ['v2. hello'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': '_H___\n_E___\n_L___\n_L___\n_O___'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['v2. hello', 'v5. eater'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 12, 'depth': 2, 'd_thres': 10000, 'answer': '_H__E\n_E__A\n_L__T\n_L__E\n_O__R'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['v2. hello', 'v5. eater', 'v3. iblis'], 'info': {'r_letter': 0.56, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 2}, 'current_node_id': 29, 'depth': 3, 'd_thres': 10000, 'answer': '_HI_E\n_EB_A\n_LL_T\n_LI_E\n_OS_R'}
+
+{'total_step': 3, 'env_step': 3, 'actions': ['v2. hello', 'v5. eater', 'v1. crush'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 0}, 'current_node_id': 30, 'depth': 3, 'd_thres': 10000, 'answer': 'CH__E\nRE__A\nUL__T\nSL__E\nHO__R'}
+
+{'total_step': 4, 'env_step': 4, 'actions': ['v2. hello', 'v5. eater', 'v1. crush', 'v3. iblis'], 'info': {'r_letter': 0.76, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 2}, 'current_node_id': 41, 'depth': 4, 'd_thres': 10000, 'answer': 'CHI_E\nREB_A\nULL_T\nSLI_E\nHOS_R'}
+
+{'total_step': 5, 'env_step': 4, 'actions': ['v2. hello', 'v5. eater', 'v1. crush', 'v4. sieve'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 42, 'depth': 4, 'd_thres': 10000, 'answer': 'CH_SE\nRE_IA\nUL_ET\nSL_VE\nHO_ER'}
+
+{'total_step': 6, 'env_step': 5, 'actions': ['v2. hello', 'v5. eater', 'v1. crush', 'v4. sieve', 'v3. iblis'], 'info': {'r_letter': 0.96, 'r_word': 0.8, 'r_game': False}, 'count': {'sure': 5, 'maybe': 1, 'impossible': 4}, 'current_node_id': 62, 'depth': 5, 'd_thres': 10000, 'answer': 'CHISE\nREBIA\nULLET\nSLIVE\nHOSER'}
+
+{'total_step': 7, 'env_step': 5, 'actions': ['v2. hello', 'v5. eater', 'v1. crush', 'v4. sieve', 'v1. crush'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 64, 'depth': 5, 'd_thres': 10000, 'answer': 'CH_SE\nRE_IA\nUL_ET\nSL_VE\nHO_ER'}
+
+{'total_step': 8, 'env_step': 6, 'actions': ['v2. hello', 'v5. eater', 'v1. crush', 'v4. sieve', 'v1. crush', 'v3. iblis'], 'info': {'r_letter': 0.96, 'r_word': 0.8, 'r_game': False}, 'count': {'sure': 5, 'maybe': 1, 'impossible': 4}, 'current_node_id': 81, 'depth': 6, 'd_thres': 10000, 'answer': 'CHISE\nREBIA\nULLET\nSLIVE\nHOSER'}
+
+{'total_step': 9, 'env_step': 6, 'actions': ['v2. hello', 'v5. eater', 'v1. crush', 'v4. sieve', 'v1. crush', 'v1. crush'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 83, 'depth': 6, 'd_thres': 10000, 'answer': 'CH_SE\nRE_IA\nUL_ET\nSL_VE\nHO_ER'}
+
+{'total_step': 10, 'env_step': 7, 'actions': ['v2. hello', 'v5. eater', 'v1. crush', 'v4. sieve', 'v1. crush', 'v1. crush', 'v3. iblis'], 'info': {'r_letter': 0.96, 'r_word': 0.8, 'r_game': False}, 'count': {'sure': 5, 'maybe': 1, 'impossible': 4}, 'current_node_id': 100, 'depth': 7, 'd_thres': 10000, 'answer': 'CHISE\nREBIA\nULLET\nSLIVE\nHOSER'}
+
+{'total_step': 11, 'env_step': 7, 'actions': ['v2. hello', 'v5. eater', 'v1. crush', 'v4. sieve', 'v1. crush', 'v1. crush', 'v1. crush'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 102, 'depth': 7, 'd_thres': 10000, 'answer': 'CH_SE\nRE_IA\nUL_ET\nSL_VE\nHO_ER'}
+
+{'total_step': 12, 'env_step': 8, 'actions': ['v2. hello', 'v5. eater', 'v1. crush', 'v4. sieve', 'v1. crush', 'v1. crush', 'v1. crush', 'v3. iblis'], 'info': {'r_letter': 0.96, 'r_word': 0.8, 'r_game': False}, 'count': {'sure': 5, 'maybe': 1, 'impossible': 4}, 'current_node_id': 119, 'depth': 8, 'd_thres': 10000, 'answer': 'CHISE\nREBIA\nULLET\nSLIVE\nHOSER'}
+
+{'total_step': 13, 'env_step': 8, 'actions': ['v2. hello', 'v5. eater', 'v1. crush', 'v4. sieve', 'v1. crush', 'v1. crush', 'v1. crush', 'v1. crush'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 121, 'depth': 8, 'd_thres': 10000, 'answer': 'CH_SE\nRE_IA\nUL_ET\nSL_VE\nHO_ER'}
+
+{'total_step': 14, 'env_step': 9, 'actions': ['v2. hello', 'v5. eater', 'v1. crush', 'v4. sieve', 'v1. crush', 'v1. crush', 'v1. crush', 'v1. crush', 'v3. iblis'], 'info': {'r_letter': 0.96, 'r_word': 0.8, 'r_game': False}, 'count': {'sure': 5, 'maybe': 1, 'impossible': 4}, 'current_node_id': 138, 'distance to root': 104.89959999999999, 'depth': 9, 'd_thres': 104.89959999999999, 'answer': 'CHISE\nREBIA\nULLET\nSLIVE\nHOSER'}
+
+-----------------------
+
+best node id: 138
+node depth: 9
+chosen step: 14
+distance to root: 104.89959999999999
+answer:
+
+CHISE
+REBIA
+ULLET
+SLIVE
+HOSER
+
+accuracy: {'r_letter': 0.96, 'r_word': 0.8, 'r_game': False}
+cost time: 81.1333749294281 s
+
+---- Task Complete ----

@@ -1,0 +1,52 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 11
+pruning = True
+date: 2024-05-09
+time: 20:28:54
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h4. totem'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': '_____\n_____\n_____\nTOTEM\n_____'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['h4. totem', 'h3. sioux'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 6, 'depth': 2, 'd_thres': 10000, 'answer': '_____\n_____\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['h4. totem', 'h3. sioux', 'h1. crowd'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 1}, 'current_node_id': 27, 'depth': 3, 'd_thres': 10000, 'answer': 'CROWD\n_____\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 3, 'env_step': 3, 'actions': ['h4. totem', 'h3. sioux', 'h2. shift'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 28, 'depth': 3, 'd_thres': 10000, 'answer': '_____\nSHIFT\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 4, 'env_step': 4, 'actions': ['h4. totem', 'h3. sioux', 'h2. shift', 'h1. horde'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 1, 'impossible': 3}, 'current_node_id': 52, 'depth': 4, 'd_thres': 10000, 'answer': 'HORDE\nSHIFT\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 5, 'env_step': 4, 'actions': ['h4. totem', 'h3. sioux', 'h2. shift', 'h1. swarm'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 0, 'impossible': 5}, 'current_node_id': 54, 'depth': 4, 'd_thres': 10000, 'answer': 'SWARM\nSHIFT\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 6, 'env_step': 3, 'actions': ['h4. totem', 'h3. sioux', 'v3. smote'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 30, 'depth': 3, 'd_thres': 10000, 'answer': '__S__\n__M__\nSIOUX\nTOTEM\n__E__'}
+
+{'total_step': 7, 'env_step': 4, 'actions': ['h4. totem', 'h3. sioux', 'v3. smote', 'h3. sioux'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 63, 'depth': 4, 'd_thres': 10000, 'answer': '__S__\n__M__\nSIOUX\nTOTEM\n__E__'}
+
+{'total_step': 8, 'env_step': 5, 'actions': ['h4. totem', 'h3. sioux', 'v3. smote', 'h3. sioux', 'h3. sioux'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 84, 'depth': 5, 'd_thres': 10000, 'answer': '__S__\n__M__\nSIOUX\nTOTEM\n__E__'}
+
+{'total_step': 9, 'env_step': 6, 'actions': ['h4. totem', 'h3. sioux', 'v3. smote', 'h3. sioux', 'h3. sioux', 'h3. sioux'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 105, 'depth': 6, 'd_thres': 10000, 'answer': '__S__\n__M__\nSIOUX\nTOTEM\n__E__'}
+
+{'total_step': 10, 'env_step': 7, 'actions': ['h4. totem', 'h3. sioux', 'v3. smote', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 126, 'depth': 7, 'd_thres': 10000, 'answer': '__S__\n__M__\nSIOUX\nTOTEM\n__E__'}
+
+{'total_step': 11, 'env_step': 8, 'actions': ['h4. totem', 'h3. sioux', 'v3. smote', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 147, 'depth': 8, 'd_thres': 10000, 'answer': '__S__\n__M__\nSIOUX\nTOTEM\n__E__'}
+
+{'total_step': 12, 'env_step': 9, 'actions': ['h4. totem', 'h3. sioux', 'v3. smote', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 168, 'distance to root': 0.0, 'depth': 9, 'd_thres': 0.0, 'answer': '__S__\n__M__\nSIOUX\nTOTEM\n__E__'}
+
+-----------------------
+
+best node id: 168
+node depth: 9
+chosen step: 12
+distance to root: 0.0
+answer:
+
+__S__
+__M__
+SIOUX
+TOTEM
+__E__
+
+accuracy: {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}
+cost time: 95.20626854896545 s
+
+---- Task Complete ----

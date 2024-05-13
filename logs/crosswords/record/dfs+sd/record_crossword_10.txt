@@ -1,0 +1,68 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 10
+pruning = True
+date: 2024-05-06
+time: 00:25:52
+
+{'total_step': 0, 'env_step': 1, 'actions': ['v5. would'], 'info': {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 0, 'maybe': 0, 'impossible': 1}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': '____W\n____O\n____U\n____L\n____D'}
+
+{'total_step': 1, 'env_step': 1, 'actions': ['h2. print'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 2, 'depth': 1, 'd_thres': 10000, 'answer': '_____\nPRINT\n_____\n_____\n_____'}
+
+{'total_step': 2, 'env_step': 2, 'actions': ['h2. print', 'h3. inner'], 'info': {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 1}, 'current_node_id': 10, 'depth': 2, 'd_thres': 10000, 'answer': '_____\nPRINT\nINNER\n_____\n_____'}
+
+{'total_step': 3, 'env_step': 2, 'actions': ['h2. print', 'h5. merge'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 1}, 'current_node_id': 11, 'depth': 2, 'd_thres': 10000, 'answer': '_____\nPRINT\n_____\n_____\nMERGE'}
+
+{'total_step': 4, 'env_step': 2, 'actions': ['h2. print', 'v1. spica'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 1}, 'current_node_id': 23, 'depth': 2, 'd_thres': 10000, 'answer': 'S____\nPRINT\nI____\nC____\nA____'}
+
+{'total_step': 5, 'env_step': 1, 'actions': ['h3. inner'], 'info': {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 3, 'depth': 1, 'd_thres': 10000, 'answer': '_____\n_____\nINNER\n_____\n_____'}
+
+{'total_step': 6, 'env_step': 2, 'actions': ['h3. inner', 'h2. print'], 'info': {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 1}, 'current_node_id': 30, 'depth': 2, 'd_thres': 10000, 'answer': '_____\nPRINT\nINNER\n_____\n_____'}
+
+{'total_step': 7, 'env_step': 2, 'actions': ['h3. inner', 'h5. merge'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 31, 'depth': 2, 'd_thres': 10000, 'answer': '_____\n_____\nINNER\n_____\nMERGE'}
+
+{'total_step': 8, 'env_step': 3, 'actions': ['h3. inner', 'h5. merge', 'h2. print'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 46, 'depth': 3, 'd_thres': 10000, 'answer': '_____\nPRINT\nINNER\n_____\nMERGE'}
+
+{'total_step': 9, 'env_step': 3, 'actions': ['h3. inner', 'h5. merge', 'h3. inner'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 47, 'depth': 3, 'd_thres': 10000, 'answer': '_____\n_____\nINNER\n_____\nMERGE'}
+
+{'total_step': 10, 'env_step': 4, 'actions': ['h3. inner', 'h5. merge', 'h3. inner', 'h2. print'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 68, 'depth': 4, 'd_thres': 10000, 'answer': '_____\nPRINT\nINNER\n_____\nMERGE'}
+
+{'total_step': 11, 'env_step': 4, 'actions': ['h3. inner', 'h5. merge', 'h3. inner', 'h3. inner'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 69, 'depth': 4, 'd_thres': 10000, 'answer': '_____\n_____\nINNER\n_____\nMERGE'}
+
+{'total_step': 12, 'env_step': 5, 'actions': ['h3. inner', 'h5. merge', 'h3. inner', 'h3. inner', 'h2. print'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 90, 'depth': 5, 'd_thres': 10000, 'answer': '_____\nPRINT\nINNER\n_____\nMERGE'}
+
+{'total_step': 13, 'env_step': 5, 'actions': ['h3. inner', 'h5. merge', 'h3. inner', 'h3. inner', 'h3. inner'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 91, 'depth': 5, 'd_thres': 10000, 'answer': '_____\n_____\nINNER\n_____\nMERGE'}
+
+{'total_step': 14, 'env_step': 6, 'actions': ['h3. inner', 'h5. merge', 'h3. inner', 'h3. inner', 'h3. inner', 'h2. print'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 112, 'depth': 6, 'd_thres': 10000, 'answer': '_____\nPRINT\nINNER\n_____\nMERGE'}
+
+{'total_step': 15, 'env_step': 6, 'actions': ['h3. inner', 'h5. merge', 'h3. inner', 'h3. inner', 'h3. inner', 'h3. inner'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 113, 'depth': 6, 'd_thres': 10000, 'answer': '_____\n_____\nINNER\n_____\nMERGE'}
+
+{'total_step': 16, 'env_step': 7, 'actions': ['h3. inner', 'h5. merge', 'h3. inner', 'h3. inner', 'h3. inner', 'h3. inner', 'h2. print'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 134, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nPRINT\nINNER\n_____\nMERGE'}
+
+{'total_step': 17, 'env_step': 7, 'actions': ['h3. inner', 'h5. merge', 'h3. inner', 'h3. inner', 'h3. inner', 'h3. inner', 'h3. inner'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 135, 'depth': 7, 'd_thres': 10000, 'answer': '_____\n_____\nINNER\n_____\nMERGE'}
+
+{'total_step': 18, 'env_step': 8, 'actions': ['h3. inner', 'h5. merge', 'h3. inner', 'h3. inner', 'h3. inner', 'h3. inner', 'h3. inner', 'h2. print'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 156, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nPRINT\nINNER\n_____\nMERGE'}
+
+{'total_step': 19, 'env_step': 8, 'actions': ['h3. inner', 'h5. merge', 'h3. inner', 'h3. inner', 'h3. inner', 'h3. inner', 'h3. inner', 'h3. inner'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 157, 'depth': 8, 'd_thres': 10000, 'answer': '_____\n_____\nINNER\n_____\nMERGE'}
+
+{'total_step': 20, 'env_step': 9, 'actions': ['h3. inner', 'h5. merge', 'h3. inner', 'h3. inner', 'h3. inner', 'h3. inner', 'h3. inner', 'h3. inner', 'h2. print'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 178, 'distance to root': 79.3, 'depth': 9, 'd_thres': 79.3, 'answer': '_____\nPRINT\nINNER\n_____\nMERGE'}
+
+-----------------------
+
+best node id: 178
+node depth: 9
+chosen step: 20
+distance to root: 79.3
+answer:
+
+_____
+PRINT
+INNER
+_____
+MERGE
+
+accuracy: {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}
+cost time: 54.581976652145386 s
+
+---- Task Complete ----

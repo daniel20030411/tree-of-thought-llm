@@ -1,0 +1,2813 @@
+[
+    {
+        "total_step": 0,
+        "env_step": 1,
+        "actions": [
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 1,
+        "depth": 1,
+        "d_thres": 10000,
+        "answer": "_____\n_____\n_____\nSEDER\n_____"
+    },
+    {
+        "total_step": 1,
+        "env_step": 2,
+        "actions": [
+            "h4. seder",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 15,
+        "depth": 2,
+        "d_thres": 10000,
+        "answer": "____Y\n____E\n____A\nSEDER\n____N"
+    },
+    {
+        "total_step": 2,
+        "env_step": 3,
+        "actions": [
+            "h4. seder",
+            "v5. yearn",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 23,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "___FY\n___IE\n___LA\nSEDER\n___RN"
+    },
+    {
+        "total_step": 3,
+        "env_step": 3,
+        "actions": [
+            "h4. seder",
+            "v5. yearn",
+            "v3. evade"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 25,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "__E_Y\n__V_E\n__A_A\nSEDER\n__E_N"
+    },
+    {
+        "total_step": 4,
+        "env_step": 4,
+        "actions": [
+            "h4. seder",
+            "v5. yearn",
+            "v3. evade",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 33,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\n__E_N"
+    },
+    {
+        "total_step": 5,
+        "env_step": 5,
+        "actions": [
+            "h4. seder",
+            "v5. yearn",
+            "v3. evade",
+            "h3. igala",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 38,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "__EFY\n__VIE\nIGALA\nSEDER\n__ERN"
+    },
+    {
+        "total_step": 6,
+        "env_step": 5,
+        "actions": [
+            "h4. seder",
+            "v5. yearn",
+            "v3. evade",
+            "h3. igala",
+            "v1. arise"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 39,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "A_E_Y\nR_V_E\nIGALA\nSEDER\nE_E_N"
+    },
+    {
+        "total_step": 7,
+        "env_step": 6,
+        "actions": [
+            "h4. seder",
+            "v5. yearn",
+            "v3. evade",
+            "h3. igala",
+            "v1. arise",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.88,
+            "r_word": 0.6,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 68,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "A_EFY\nR_VIE\nIGALA\nSEDER\nE_ERN"
+    },
+    {
+        "total_step": 8,
+        "env_step": 6,
+        "actions": [
+            "h4. seder",
+            "v5. yearn",
+            "v3. evade",
+            "h3. igala",
+            "v1. arise",
+            "v4. riley"
+        ],
+        "info": {
+            "r_letter": 0.8,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 3,
+            "impossible": 1
+        },
+        "current_node_id": 75,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "A_ERY\nR_VIE\nIGALA\nSEDER\nE_EYN"
+    },
+    {
+        "total_step": 9,
+        "env_step": 6,
+        "actions": [
+            "h4. seder",
+            "v5. yearn",
+            "v3. evade",
+            "h3. igala",
+            "v1. arise",
+            "v4. filee"
+        ],
+        "info": {
+            "r_letter": 0.84,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 76,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "A_EFY\nR_VIE\nIGALA\nSEDER\nE_EEN"
+    },
+    {
+        "total_step": 10,
+        "env_step": 5,
+        "actions": [
+            "h4. seder",
+            "v5. yearn",
+            "v3. evade",
+            "h3. igala",
+            "h5. queen"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 3,
+            "impossible": 1
+        },
+        "current_node_id": 40,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\nQUEEN"
+    },
+    {
+        "total_step": 11,
+        "env_step": 3,
+        "actions": [
+            "h4. seder",
+            "v5. yearn",
+            "h1. dusty"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 27,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "DUSTY\n____E\n____A\nSEDER\n____N"
+    },
+    {
+        "total_step": 12,
+        "env_step": 2,
+        "actions": [
+            "h4. seder",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 16,
+        "depth": 2,
+        "d_thres": 10000,
+        "answer": "___F_\n___I_\n___L_\nSEDER\n___R_"
+    },
+    {
+        "total_step": 13,
+        "env_step": 3,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 85,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "___FY\n___IE\n___LA\nSEDER\n___RN"
+    },
+    {
+        "total_step": 14,
+        "env_step": 3,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "v3. evade"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 88,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "__EF_\n__VI_\n__AL_\nSEDER\n__ER_"
+    },
+    {
+        "total_step": 15,
+        "env_step": 4,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "v3. evade",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 102,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\n__ERN"
+    },
+    {
+        "total_step": 16,
+        "env_step": 5,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "v3. evade",
+            "v5. yearn",
+            "h5. stern"
+        ],
+        "info": {
+            "r_letter": 0.72,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 5,
+            "impossible": 1
+        },
+        "current_node_id": 110,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nSTERN"
+    },
+    {
+        "total_step": 17,
+        "env_step": 5,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "v3. evade",
+            "v5. yearn",
+            "h1. beefy"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 113,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "BEEFY\n__VIE\n__ALA\nSEDER\n__ERN"
+    },
+    {
+        "total_step": 18,
+        "env_step": 5,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "v3. evade",
+            "v5. yearn",
+            "h3. alala"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 1
+        },
+        "current_node_id": 120,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "__EFY\n__VIE\nALALA\nSEDER\n__ERN"
+    },
+    {
+        "total_step": 19,
+        "env_step": 4,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "v3. evade",
+            "h3. igala"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 109,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "__EF_\n__VI_\nIGALA\nSEDER\n__ER_"
+    },
+    {
+        "total_step": 20,
+        "env_step": 5,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "v3. evade",
+            "h3. igala",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 126,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "__EFY\n__VIE\nIGALA\nSEDER\n__ERN"
+    },
+    {
+        "total_step": 21,
+        "env_step": 3,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 95,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "___F_\n___I_\n___L_\nSEDER\nETERN"
+    },
+    {
+        "total_step": 22,
+        "env_step": 4,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 135,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "__EF_\n__VI_\n__AL_\nSEDER\nETERN"
+    },
+    {
+        "total_step": 23,
+        "env_step": 5,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 145,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 24,
+        "env_step": 6,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 150,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 25,
+        "env_step": 7,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v3. evade"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 164,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 26,
+        "env_step": 8,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v3. evade",
+            "v3. evade"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 178,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 27,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v3. evade",
+            "v3. evade",
+            "v3. evade"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 192,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 28,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v3. evade",
+            "v3. evade",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 193,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 29,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v3. evade",
+            "v3. evade",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 194,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 30,
+        "env_step": 8,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v3. evade",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 179,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 31,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v3. evade",
+            "v4. filer",
+            "v3. evade"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 248,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 32,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v3. evade",
+            "v4. filer",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 249,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 33,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v3. evade",
+            "v4. filer",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 250,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 34,
+        "env_step": 8,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v3. evade",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 180,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 35,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 304,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 36,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 305,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 37,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v3. evade",
+            "v5. yearn",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 306,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 38,
+        "env_step": 7,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 165,
+        "depth": 7,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 39,
+        "env_step": 8,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v4. filer",
+            "v3. evade"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 360,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 40,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v4. filer",
+            "v3. evade",
+            "v3. evade"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 374,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 41,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v4. filer",
+            "v3. evade",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 375,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 42,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v4. filer",
+            "v3. evade",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 376,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 43,
+        "env_step": 8,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v4. filer",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 361,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 44,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v4. filer",
+            "v4. filer",
+            "v3. evade"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 430,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 45,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v4. filer",
+            "v4. filer",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 431,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 46,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v4. filer",
+            "v4. filer",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 432,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 47,
+        "env_step": 8,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v4. filer",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 362,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 48,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v4. filer",
+            "v5. yearn",
+            "v3. evade"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 486,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 49,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v4. filer",
+            "v5. yearn",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 487,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 50,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v4. filer",
+            "v5. yearn",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 488,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 51,
+        "env_step": 7,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 166,
+        "depth": 7,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 52,
+        "env_step": 8,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 542,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 53,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v3. evade"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 556,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 54,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 557,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 55,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 558,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 56,
+        "env_step": 8,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 543,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 57,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v3. evade"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 612,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 58,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 613,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 59,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 614,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 60,
+        "env_step": 8,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v5. yearn",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 544,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 61,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v5. yearn",
+            "v5. yearn",
+            "v3. evade"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 668,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 62,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v5. yearn",
+            "v5. yearn",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 669,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 63,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade",
+            "v5. yearn",
+            "v5. yearn",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 670,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 64,
+        "env_step": 6,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 151,
+        "depth": 6,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 65,
+        "env_step": 7,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v3. evade"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 724,
+        "depth": 7,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 66,
+        "env_step": 8,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v3. evade",
+            "v3. evade"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 738,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 67,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v3. evade",
+            "v3. evade",
+            "v3. evade"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 752,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 68,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v3. evade",
+            "v3. evade",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 753,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 69,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v3. evade",
+            "v3. evade",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 754,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 70,
+        "env_step": 8,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v3. evade",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 739,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 71,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v3. evade",
+            "v4. filer",
+            "v3. evade"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 808,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 72,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v3. evade",
+            "v4. filer",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 809,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 73,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v3. evade",
+            "v4. filer",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 810,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 74,
+        "env_step": 8,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v3. evade",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 740,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 75,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v3. evade",
+            "v5. yearn",
+            "v3. evade"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 864,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 76,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 865,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 77,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v3. evade",
+            "v5. yearn",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 866,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 78,
+        "env_step": 7,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 725,
+        "depth": 7,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 79,
+        "env_step": 8,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v4. filer",
+            "v3. evade"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 920,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 80,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v4. filer",
+            "v3. evade",
+            "v3. evade"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 934,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 81,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v4. filer",
+            "v3. evade",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 935,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 82,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v4. filer",
+            "v3. evade",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 936,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 83,
+        "env_step": 8,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v4. filer",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 921,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 84,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v4. filer",
+            "v4. filer",
+            "v3. evade"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 990,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 85,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v4. filer",
+            "v4. filer",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 991,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 86,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v4. filer",
+            "v4. filer",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 992,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 87,
+        "env_step": 8,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v4. filer",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 922,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 88,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v4. filer",
+            "v5. yearn",
+            "v3. evade"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1046,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 89,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v4. filer",
+            "v5. yearn",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1047,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 90,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v4. filer",
+            "v5. yearn",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1048,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 91,
+        "env_step": 7,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 726,
+        "depth": 7,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 92,
+        "env_step": 8,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v5. yearn",
+            "v3. evade"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1102,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 93,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v5. yearn",
+            "v3. evade",
+            "v3. evade"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1116,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 94,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v5. yearn",
+            "v3. evade",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1117,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 95,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v5. yearn",
+            "v3. evade",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1118,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 96,
+        "env_step": 8,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v5. yearn",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1103,
+        "depth": 8,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 97,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v5. yearn",
+            "v4. filer",
+            "v3. evade"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1172,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 98,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v5. yearn",
+            "v4. filer",
+            "v4. filer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1173,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "total_step": 99,
+        "env_step": 9,
+        "actions": [
+            "h4. seder",
+            "v4. filer",
+            "h5. etern",
+            "v3. evade",
+            "v5. yearn",
+            "v4. filer",
+            "v5. yearn",
+            "v4. filer",
+            "v5. yearn"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1174,
+        "distance to root": 75.2,
+        "depth": 9,
+        "d_thres": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN"
+    },
+    {
+        "index": 1,
+        "best node id": 192,
+        "node depth": 9,
+        "chosen step": 27,
+        "distance to root": 75.2,
+        "answer": "__EFY\n__VIE\n__ALA\nSEDER\nETERN",
+        "accuracy": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "cost time": 136.4469063282013
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "index": 16,
+        "best node id": 17,
+        "node depth": 3,
+        "chosen step": 2,
+        "distance to root": 25.4,
+        "answer": "___A_\nINTRO\n___M_\nNAVEL\n___D_",
+        "accuracy": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "cost time": 2.362974166870117
+    }
+]

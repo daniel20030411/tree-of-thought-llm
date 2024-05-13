@@ -1,0 +1,44 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 8
+pruning = True
+date: 2024-05-06
+time: 00:25:52
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h1. salsa'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': 'SALSA\n_____\n_____\n_____\n_____'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['h1. salsa', 'h2. crown'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 11, 'depth': 2, 'd_thres': 10000, 'answer': 'SALSA\nCROWN\n_____\n_____\n_____'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['h1. salsa', 'h2. crown', 'h2. crown'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 15, 'depth': 3, 'd_thres': 10000, 'answer': 'SALSA\nCROWN\n_____\n_____\n_____'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['h1. salsa', 'h2. crown', 'h2. crown', 'h2. crown'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 29, 'depth': 4, 'd_thres': 10000, 'answer': 'SALSA\nCROWN\n_____\n_____\n_____'}
+
+{'total_step': 4, 'env_step': 5, 'actions': ['h1. salsa', 'h2. crown', 'h2. crown', 'h2. crown', 'h2. crown'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 43, 'depth': 5, 'd_thres': 10000, 'answer': 'SALSA\nCROWN\n_____\n_____\n_____'}
+
+{'total_step': 5, 'env_step': 6, 'actions': ['h1. salsa', 'h2. crown', 'h2. crown', 'h2. crown', 'h2. crown', 'h2. crown'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 57, 'depth': 6, 'd_thres': 10000, 'answer': 'SALSA\nCROWN\n_____\n_____\n_____'}
+
+{'total_step': 6, 'env_step': 7, 'actions': ['h1. salsa', 'h2. crown', 'h2. crown', 'h2. crown', 'h2. crown', 'h2. crown', 'h2. crown'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 71, 'depth': 7, 'd_thres': 10000, 'answer': 'SALSA\nCROWN\n_____\n_____\n_____'}
+
+{'total_step': 7, 'env_step': 8, 'actions': ['h1. salsa', 'h2. crown', 'h2. crown', 'h2. crown', 'h2. crown', 'h2. crown', 'h2. crown', 'h2. crown'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 85, 'depth': 8, 'd_thres': 10000, 'answer': 'SALSA\nCROWN\n_____\n_____\n_____'}
+
+{'total_step': 8, 'env_step': 9, 'actions': ['h1. salsa', 'h2. crown', 'h2. crown', 'h2. crown', 'h2. crown', 'h2. crown', 'h2. crown', 'h2. crown', 'h2. crown'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 99, 'distance to root': 75.2, 'depth': 9, 'd_thres': 75.2, 'answer': 'SALSA\nCROWN\n_____\n_____\n_____'}
+
+-----------------------
+
+best node id: 99
+node depth: 9
+chosen step: 8
+distance to root: 75.2
+answer:
+
+SALSA
+CROWN
+_____
+_____
+_____
+
+accuracy: {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}
+cost time: 18.994856119155884 s
+
+---- Task Complete ----

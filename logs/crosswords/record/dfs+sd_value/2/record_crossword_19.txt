@@ -1,0 +1,44 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 19
+pruning = True
+date: 2024-05-10
+time: 19:54:47
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h4. sense'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': '_____\n_____\n_____\nSENSE\n_____'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['h4. sense', 'h5. tread'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 14, 'depth': 2, 'd_thres': 10000, 'answer': '_____\n_____\n_____\nSENSE\nTREAD'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 36, 'depth': 3, 'd_thres': 10000, 'answer': '_R___\n_I___\n_C___\nSENSE\nTREAD'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 55, 'depth': 4, 'd_thres': 10000, 'answer': '_R___\n_I___\n_C___\nSENSE\nTREAD'}
+
+{'total_step': 4, 'env_step': 5, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 71, 'depth': 5, 'd_thres': 10000, 'answer': '_R___\n_I___\n_C___\nSENSE\nTREAD'}
+
+{'total_step': 5, 'env_step': 6, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 87, 'depth': 6, 'd_thres': 10000, 'answer': '_R___\n_I___\n_C___\nSENSE\nTREAD'}
+
+{'total_step': 6, 'env_step': 7, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 103, 'depth': 7, 'd_thres': 10000, 'answer': '_R___\n_I___\n_C___\nSENSE\nTREAD'}
+
+{'total_step': 7, 'env_step': 8, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 119, 'depth': 8, 'd_thres': 10000, 'answer': '_R___\n_I___\n_C___\nSENSE\nTREAD'}
+
+{'total_step': 8, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 135, 'distance to root': 0.0, 'depth': 9, 'd_thres': 0.0, 'answer': '_R___\n_I___\n_C___\nSENSE\nTREAD'}
+
+-----------------------
+
+best node id: 135
+node depth: 9
+chosen step: 8
+distance to root: 0.0
+answer:
+
+_R___
+_I___
+_C___
+SENSE
+TREAD
+
+accuracy: {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}
+cost time: 27.33934783935547 s
+
+---- Task Complete ----

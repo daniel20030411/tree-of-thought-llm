@@ -1,0 +1,2938 @@
+[
+    {
+        "total_step": 0,
+        "env_step": 1,
+        "actions": [
+            "v3. stola"
+        ],
+        "info": {
+            "r_letter": 0.08,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 1,
+        "distance to root": 8.3,
+        "depth": 1,
+        "d_thres": 10000,
+        "answer": "__S__\n__T__\n__O__\n__L__\n__A__"
+    },
+    {
+        "total_step": 1,
+        "env_step": 2,
+        "actions": [
+            "v3. stola",
+            "v4. idler"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 10,
+        "distance to root": 16.200000000000003,
+        "depth": 2,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 2,
+        "env_step": 3,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 42,
+        "distance to root": 23.200000000000003,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 3,
+        "env_step": 4,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 63,
+        "distance to root": 30.2,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 4,
+        "env_step": 5,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 84,
+        "distance to root": 37.2,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 5,
+        "env_step": 6,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 105,
+        "distance to root": 44.2,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 6,
+        "env_step": 7,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 126,
+        "distance to root": 51.2,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 7,
+        "env_step": 8,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 147,
+        "distance to root": 58.2,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 8,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 168,
+        "distance to root": 65.2,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 9,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 169,
+        "distance to root": 65.2,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 10,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 171,
+        "distance to root": 67.7,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\nUNARY"
+    },
+    {
+        "total_step": 11,
+        "env_step": 8,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 148,
+        "distance to root": 58.2,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 12,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v3. stola"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 255,
+        "distance to root": 65.2,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 13,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v4. idler"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 256,
+        "distance to root": 65.2,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 14,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "h5. unary"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 258,
+        "distance to root": 67.7,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\nUNARY"
+    },
+    {
+        "total_step": 15,
+        "env_step": 8,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 150,
+        "distance to root": 60.7,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\nUNARY"
+    },
+    {
+        "total_step": 16,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "v5. teary"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 342,
+        "distance to root": 69.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SIT\n__TDE\n__OLA\n__LER\nUNARY"
+    },
+    {
+        "total_step": 17,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "h4. filer"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 352,
+        "distance to root": 70.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\nFILER\nUNARY"
+    },
+    {
+        "total_step": 18,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "h4. sales"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 1
+        },
+        "current_node_id": 353,
+        "distance to root": 70.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\nSALES\nUNARY"
+    },
+    {
+        "total_step": 19,
+        "env_step": 7,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 127,
+        "distance to root": 51.2,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 20,
+        "env_step": 8,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v3. stola"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 406,
+        "distance to root": 58.2,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 21,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 427,
+        "distance to root": 65.2,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 22,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v4. idler"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 428,
+        "distance to root": 65.2,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 23,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "h5. unary"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 430,
+        "distance to root": 67.7,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\nUNARY"
+    },
+    {
+        "total_step": 24,
+        "env_step": 8,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v4. idler"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 407,
+        "distance to root": 58.2,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 25,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v4. idler",
+            "v3. stola"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 514,
+        "distance to root": 65.2,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 26,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v4. idler",
+            "v4. idler"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 515,
+        "distance to root": 65.2,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 27,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v4. idler",
+            "h5. unary"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 517,
+        "distance to root": 67.7,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\nUNARY"
+    },
+    {
+        "total_step": 28,
+        "env_step": 8,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "h5. unary"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 409,
+        "distance to root": 60.7,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\nUNARY"
+    },
+    {
+        "total_step": 29,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "h5. unary",
+            "v5. teary"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 601,
+        "distance to root": 69.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SIT\n__TDE\n__OLA\n__LER\nUNARY"
+    },
+    {
+        "total_step": 30,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "h5. unary",
+            "h4. filer"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 611,
+        "distance to root": 70.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\nFILER\nUNARY"
+    },
+    {
+        "total_step": 31,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "h5. unary",
+            "h4. sales"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 1
+        },
+        "current_node_id": 612,
+        "distance to root": 70.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\nSALES\nUNARY"
+    },
+    {
+        "total_step": 32,
+        "env_step": 7,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 129,
+        "distance to root": 53.7,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\nUNARY"
+    },
+    {
+        "total_step": 33,
+        "env_step": 8,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "v5. teary"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 665,
+        "distance to root": 62.599999999999994,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "__SIT\n__TDE\n__OLA\n__LER\nUNARY"
+    },
+    {
+        "total_step": 34,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "v5. teary",
+            "v3. stola"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 691,
+        "distance to root": 71.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SIT\n__TDE\n__OLA\n__LER\nUNARY"
+    },
+    {
+        "total_step": 35,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "v5. teary",
+            "v4. idler"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 692,
+        "distance to root": 71.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SIT\n__TDE\n__OLA\n__LER\nUNARY"
+    },
+    {
+        "total_step": 36,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "v5. teary",
+            "v5. teary"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 693,
+        "distance to root": 71.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SIT\n__TDE\n__OLA\n__LER\nUNARY"
+    },
+    {
+        "total_step": 37,
+        "env_step": 8,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "h4. filer"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 675,
+        "distance to root": 63.5,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\nFILER\nUNARY"
+    },
+    {
+        "total_step": 38,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "h4. filer",
+            "v5. teary"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 765,
+        "distance to root": 71.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SIT\n__TDE\n__OLA\nFILER\nUNARY"
+    },
+    {
+        "total_step": 39,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "h4. filer",
+            "h3. choli"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 778,
+        "distance to root": 73.4,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\nCHOLI\nFILER\nUNARY"
+    },
+    {
+        "total_step": 40,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "h4. filer",
+            "h3. cholu"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 1
+        },
+        "current_node_id": 782,
+        "distance to root": 73.4,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\nCHOLU\nFILER\nUNARY"
+    },
+    {
+        "total_step": 41,
+        "env_step": 8,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "h4. sales"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 1
+        },
+        "current_node_id": 676,
+        "distance to root": 63.5,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\nSALES\nUNARY"
+    },
+    {
+        "total_step": 42,
+        "env_step": 6,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 106,
+        "distance to root": 44.2,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 43,
+        "env_step": 7,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v3. stola"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 825,
+        "distance to root": 51.2,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 44,
+        "env_step": 8,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 846,
+        "distance to root": 58.2,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 45,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 867,
+        "distance to root": 65.2,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 46,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 868,
+        "distance to root": 65.2,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 47,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 870,
+        "distance to root": 67.7,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\nUNARY"
+    },
+    {
+        "total_step": 48,
+        "env_step": 8,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v4. idler"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 847,
+        "distance to root": 58.2,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 49,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v4. idler",
+            "v3. stola"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 954,
+        "distance to root": 65.2,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 50,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v4. idler",
+            "v4. idler"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 955,
+        "distance to root": 65.2,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 51,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v4. idler",
+            "h5. unary"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 957,
+        "distance to root": 67.7,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\nUNARY"
+    },
+    {
+        "total_step": 52,
+        "env_step": 8,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "h5. unary"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 849,
+        "distance to root": 60.7,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\nUNARY"
+    },
+    {
+        "total_step": 53,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "h5. unary",
+            "v5. teary"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1041,
+        "distance to root": 69.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SIT\n__TDE\n__OLA\n__LER\nUNARY"
+    },
+    {
+        "total_step": 54,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "h5. unary",
+            "h4. filer"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1051,
+        "distance to root": 70.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\nFILER\nUNARY"
+    },
+    {
+        "total_step": 55,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "h5. unary",
+            "h4. sales"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 1
+        },
+        "current_node_id": 1052,
+        "distance to root": 70.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\nSALES\nUNARY"
+    },
+    {
+        "total_step": 56,
+        "env_step": 7,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v4. idler"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 826,
+        "distance to root": 51.2,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 57,
+        "env_step": 8,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v4. idler",
+            "v3. stola"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1105,
+        "distance to root": 58.2,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 58,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1126,
+        "distance to root": 65.2,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 59,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v4. idler",
+            "v3. stola",
+            "v4. idler"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1127,
+        "distance to root": 65.2,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 60,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v4. idler",
+            "v3. stola",
+            "h5. unary"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1129,
+        "distance to root": 67.7,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\nUNARY"
+    },
+    {
+        "total_step": 61,
+        "env_step": 8,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v4. idler",
+            "v4. idler"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1106,
+        "distance to root": 58.2,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 62,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v4. idler",
+            "v4. idler",
+            "v3. stola"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1213,
+        "distance to root": 65.2,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 63,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v4. idler",
+            "v4. idler",
+            "v4. idler"
+        ],
+        "info": {
+            "r_letter": 0.28,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1214,
+        "distance to root": 65.2,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\n__AR_"
+    },
+    {
+        "total_step": 64,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v4. idler",
+            "v4. idler",
+            "h5. unary"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1216,
+        "distance to root": 67.7,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\nUNARY"
+    },
+    {
+        "total_step": 65,
+        "env_step": 8,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v4. idler",
+            "h5. unary"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1108,
+        "distance to root": 60.7,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\nUNARY"
+    },
+    {
+        "total_step": 66,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v4. idler",
+            "h5. unary",
+            "v5. teary"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1300,
+        "distance to root": 69.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SIT\n__TDE\n__OLA\n__LER\nUNARY"
+    },
+    {
+        "total_step": 67,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v4. idler",
+            "h5. unary",
+            "h4. filer"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1310,
+        "distance to root": 70.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\nFILER\nUNARY"
+    },
+    {
+        "total_step": 68,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "v4. idler",
+            "h5. unary",
+            "h4. sales"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 1
+        },
+        "current_node_id": 1311,
+        "distance to root": 70.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\nSALES\nUNARY"
+    },
+    {
+        "total_step": 69,
+        "env_step": 7,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "h5. unary"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 828,
+        "distance to root": 53.7,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\nUNARY"
+    },
+    {
+        "total_step": 70,
+        "env_step": 8,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "h5. unary",
+            "v5. teary"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1364,
+        "distance to root": 62.599999999999994,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "__SIT\n__TDE\n__OLA\n__LER\nUNARY"
+    },
+    {
+        "total_step": 71,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "h5. unary",
+            "v5. teary",
+            "v3. stola"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1390,
+        "distance to root": 71.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SIT\n__TDE\n__OLA\n__LER\nUNARY"
+    },
+    {
+        "total_step": 72,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "h5. unary",
+            "v5. teary",
+            "v4. idler"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1391,
+        "distance to root": 71.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SIT\n__TDE\n__OLA\n__LER\nUNARY"
+    },
+    {
+        "total_step": 73,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "h5. unary",
+            "v5. teary",
+            "v5. teary"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1392,
+        "distance to root": 71.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SIT\n__TDE\n__OLA\n__LER\nUNARY"
+    },
+    {
+        "total_step": 74,
+        "env_step": 8,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "h5. unary",
+            "h4. filer"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1374,
+        "distance to root": 63.5,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\nFILER\nUNARY"
+    },
+    {
+        "total_step": 75,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "h5. unary",
+            "h4. filer",
+            "v5. teary"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1464,
+        "distance to root": 71.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SIT\n__TDE\n__OLA\nFILER\nUNARY"
+    },
+    {
+        "total_step": 76,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "h5. unary",
+            "h4. filer",
+            "h3. choli"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1477,
+        "distance to root": 73.4,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\nCHOLI\nFILER\nUNARY"
+    },
+    {
+        "total_step": 77,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "h5. unary",
+            "h4. filer",
+            "h3. cholu"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 1
+        },
+        "current_node_id": 1481,
+        "distance to root": 73.4,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\nCHOLU\nFILER\nUNARY"
+    },
+    {
+        "total_step": 78,
+        "env_step": 8,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "v4. idler",
+            "h5. unary",
+            "h4. sales"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 1
+        },
+        "current_node_id": 1375,
+        "distance to root": 63.5,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\nSALES\nUNARY"
+    },
+    {
+        "total_step": 79,
+        "env_step": 6,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 108,
+        "distance to root": 46.7,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\n__LE_\nUNARY"
+    },
+    {
+        "total_step": 80,
+        "env_step": 7,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "v5. teary"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1524,
+        "distance to root": 55.599999999999994,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "__SIT\n__TDE\n__OLA\n__LER\nUNARY"
+    },
+    {
+        "total_step": 81,
+        "env_step": 8,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "v5. teary",
+            "v3. stola"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1550,
+        "distance to root": 64.6,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "__SIT\n__TDE\n__OLA\n__LER\nUNARY"
+    },
+    {
+        "total_step": 82,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "v5. teary",
+            "v3. stola",
+            "v3. stola"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1569,
+        "distance to root": 73.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SIT\n__TDE\n__OLA\n__LER\nUNARY"
+    },
+    {
+        "total_step": 83,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "v5. teary",
+            "v3. stola",
+            "v4. idler"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1570,
+        "distance to root": 73.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SIT\n__TDE\n__OLA\n__LER\nUNARY"
+    },
+    {
+        "total_step": 84,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "v5. teary",
+            "v3. stola",
+            "v5. teary"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1571,
+        "distance to root": 73.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SIT\n__TDE\n__OLA\n__LER\nUNARY"
+    },
+    {
+        "total_step": 85,
+        "env_step": 8,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "v5. teary",
+            "v4. idler"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1551,
+        "distance to root": 64.6,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "__SIT\n__TDE\n__OLA\n__LER\nUNARY"
+    },
+    {
+        "total_step": 86,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "v5. teary",
+            "v4. idler",
+            "v3. stola"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1645,
+        "distance to root": 73.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SIT\n__TDE\n__OLA\n__LER\nUNARY"
+    },
+    {
+        "total_step": 87,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "v5. teary",
+            "v4. idler",
+            "v4. idler"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1646,
+        "distance to root": 73.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SIT\n__TDE\n__OLA\n__LER\nUNARY"
+    },
+    {
+        "total_step": 88,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "v5. teary",
+            "v4. idler",
+            "v5. teary"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1647,
+        "distance to root": 73.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SIT\n__TDE\n__OLA\n__LER\nUNARY"
+    },
+    {
+        "total_step": 89,
+        "env_step": 8,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "v5. teary",
+            "v5. teary"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1552,
+        "distance to root": 64.6,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "__SIT\n__TDE\n__OLA\n__LER\nUNARY"
+    },
+    {
+        "total_step": 90,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "v5. teary",
+            "v5. teary",
+            "v3. stola"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1721,
+        "distance to root": 73.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SIT\n__TDE\n__OLA\n__LER\nUNARY"
+    },
+    {
+        "total_step": 91,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "v5. teary",
+            "v5. teary",
+            "v4. idler"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1722,
+        "distance to root": 73.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SIT\n__TDE\n__OLA\n__LER\nUNARY"
+    },
+    {
+        "total_step": 92,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "v5. teary",
+            "v5. teary",
+            "v5. teary"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1723,
+        "distance to root": 73.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SIT\n__TDE\n__OLA\n__LER\nUNARY"
+    },
+    {
+        "total_step": 93,
+        "env_step": 7,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "h4. filer"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1534,
+        "distance to root": 56.5,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\n__OL_\nFILER\nUNARY"
+    },
+    {
+        "total_step": 94,
+        "env_step": 8,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "h4. filer",
+            "v5. teary"
+        ],
+        "info": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1795,
+        "distance to root": 64.5,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "__SIT\n__TDE\n__OLA\nFILER\nUNARY"
+    },
+    {
+        "total_step": 95,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "h4. filer",
+            "v5. teary",
+            "h3. stola"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 3,
+            "impossible": 1
+        },
+        "current_node_id": 1817,
+        "distance to root": 73.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SIT\n__TDE\nSTOLA\nFILER\nUNARY"
+    },
+    {
+        "total_step": 96,
+        "env_step": 8,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "h4. filer",
+            "h3. choli"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1808,
+        "distance to root": 66.4,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\nCHOLI\nFILER\nUNARY"
+    },
+    {
+        "total_step": 97,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "h4. filer",
+            "h3. choli",
+            "v3. stola"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1831,
+        "distance to root": 74.4,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\nCHOLI\nFILER\nUNARY"
+    },
+    {
+        "total_step": 98,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "h4. filer",
+            "h3. choli",
+            "v4. idler"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1832,
+        "distance to root": 74.4,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\nCHOLI\nFILER\nUNARY"
+    },
+    {
+        "total_step": 99,
+        "env_step": 9,
+        "actions": [
+            "v3. stola",
+            "v4. idler",
+            "v3. stola",
+            "v3. stola",
+            "v3. stola",
+            "h5. unary",
+            "h4. filer",
+            "h3. choli",
+            "h3. choli"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1833,
+        "distance to root": 75.4,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "__SI_\n__TD_\nCHOLI\nFILER\nUNARY"
+    },
+    {
+        "index": 18,
+        "best node id": 342,
+        "node depth": 9,
+        "chosen step": 16,
+        "distance to root": 69.6,
+        "answer": "__SIT\n__TDE\n__OLA\n__LER\nUNARY",
+        "accuracy": {
+            "r_letter": 0.56,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "cost time": 79.73719120025635
+    }
+]

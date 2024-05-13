@@ -1,0 +1,282 @@
+[
+    {
+        "index": 0,
+        "best node id": 2,
+        "node depth": 1,
+        "chosen step": 1,
+        "distance to root": 7.199999999999999,
+        "answer": "_____\nMOTOR\n_____\n_____\n_____",
+        "accuracy": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "cost time": 42.85404181480408
+    },
+    {
+        "index": 1,
+        "best node id": 32,
+        "node depth": 4,
+        "chosen step": 3,
+        "distance to root": 30.3,
+        "answer": "__E_Y\n__V_E\nIGALA\nSEDER\n__E_N",
+        "accuracy": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "cost time": 38.88894271850586
+    },
+    {
+        "index": 2,
+        "best node id": 255,
+        "node depth": 9,
+        "chosen step": 16,
+        "distance to root": 72.7,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___",
+        "accuracy": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "cost time": 40.618765354156494
+    },
+    {
+        "index": 3,
+        "best node id": 255,
+        "node depth": 9,
+        "chosen step": 16,
+        "distance to root": 72.7,
+        "answer": "BEBOP\nUR___\nFRIAR\nFO___\nOR___",
+        "accuracy": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "cost time": 2.493483066558838
+    },
+    {
+        "index": 4,
+        "best node id": 132,
+        "node depth": 9,
+        "chosen step": 9,
+        "distance to root": 70.5,
+        "answer": "_HEC_\nHELIX\nERODE\n_OPE_\n_NER_",
+        "accuracy": {
+            "r_letter": 0.68,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "cost time": 67.0248191356659
+    },
+    {
+        "index": 5,
+        "best node id": 26,
+        "node depth": 3,
+        "chosen step": 3,
+        "distance to root": 23.4,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHO__R",
+        "accuracy": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "cost time": 78.77570819854736
+    },
+    {
+        "index": 6,
+        "best node id": 100,
+        "node depth": 6,
+        "chosen step": 5,
+        "distance to root": 47.7,
+        "answer": "CLING\nRULER\nO__RE\nA__TE\nKARST",
+        "accuracy": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "cost time": 104.41239619255066
+    },
+    {
+        "index": 7,
+        "best node id": 1257,
+        "node depth": 9,
+        "chosen step": 86,
+        "distance to root": 71.3,
+        "answer": "COULD\nR__ER\nESSAY\nSIEVE\nT__ER",
+        "accuracy": {
+            "r_letter": 0.84,
+            "r_word": 0.6,
+            "r_game": false
+        },
+        "cost time": 91.33949375152588
+    },
+    {
+        "index": 8,
+        "best node id": 83,
+        "node depth": 7,
+        "chosen step": 13,
+        "distance to root": 58.7,
+        "answer": "DISCO\nUNHAT\nOVERT\nMANSE\nORDER",
+        "accuracy": {
+            "r_letter": 1.0,
+            "r_word": 1.0,
+            "r_game": true
+        },
+        "cost time": 93.00777387619019
+    },
+    {
+        "index": 9,
+        "best node id": 144,
+        "node depth": 4,
+        "chosen step": 23,
+        "distance to root": 33.7,
+        "answer": "ERUCT\nPLACE\n____N\n____O\nENTER",
+        "accuracy": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "cost time": 133.60295343399048
+    },
+    {
+        "index": 10,
+        "best node id": 9,
+        "node depth": 2,
+        "chosen step": 2,
+        "distance to root": 15.9,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE",
+        "accuracy": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "cost time": 45.648481607437134
+    },
+    {
+        "index": 11,
+        "best node id": 9,
+        "node depth": 2,
+        "chosen step": 2,
+        "distance to root": 15.9,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE",
+        "accuracy": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "cost time": 2.692014455795288
+    },
+    {
+        "index": 12,
+        "best node id": 157,
+        "node depth": 9,
+        "chosen step": 17,
+        "distance to root": 71.30000000000001,
+        "answer": "G_A__\nL_R__\nA_O__\nRAISE\nEIDER",
+        "accuracy": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "cost time": 121.94967150688171
+    },
+    {
+        "index": 13,
+        "best node id": 31,
+        "node depth": 3,
+        "chosen step": 2,
+        "distance to root": 23.0,
+        "answer": "_____\nQUILL\nUVULA\n_____\nBARGE",
+        "accuracy": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "cost time": 48.18897986412048
+    },
+    {
+        "index": 14,
+        "best node id": 31,
+        "node depth": 3,
+        "chosen step": 2,
+        "distance to root": 23.0,
+        "answer": "_____\nQUILL\nUVULA\n_____\nBARGE",
+        "accuracy": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "cost time": 3.080780029296875
+    },
+    {
+        "index": 15,
+        "best node id": 56,
+        "node depth": 3,
+        "chosen step": 12,
+        "distance to root": 22.7,
+        "answer": "___A_\n___R_\nSHAME\nNAVEL\n___D_",
+        "accuracy": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "cost time": 184.6108796596527
+    },
+    {
+        "index": 16,
+        "best node id": 26,
+        "node depth": 3,
+        "chosen step": 3,
+        "distance to root": 22.4,
+        "answer": "M____\nOVINE\nW____\nE____\nREALM",
+        "accuracy": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "cost time": 38.446511030197144
+    },
+    {
+        "index": 17,
+        "best node id": 26,
+        "node depth": 3,
+        "chosen step": 3,
+        "distance to root": 22.4,
+        "answer": "M____\nOVINE\nW____\nE____\nREALM",
+        "accuracy": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "cost time": 2.389707565307617
+    },
+    {
+        "index": 18,
+        "best node id": 19,
+        "node depth": 3,
+        "chosen step": 2,
+        "distance to root": 26.6,
+        "answer": "____T\n____E\nCOREA\n____R\nUNARY",
+        "accuracy": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "cost time": 26.547560214996338
+    },
+    {
+        "index": 19,
+        "best node id": 626,
+        "node depth": 9,
+        "chosen step": 42,
+        "distance to root": 52.900000000000006,
+        "answer": "PRINT\n_I__R\n_C__E\nSENSE\nTREAD",
+        "accuracy": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "cost time": 81.65368938446045
+    }
+]

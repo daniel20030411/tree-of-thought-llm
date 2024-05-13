@@ -1,0 +1,16 @@
+[
+    {
+        "index": 11,
+        "best node id": 9,
+        "node depth": 2,
+        "chosen step": 2,
+        "distance to root": 15.9,
+        "answer": "_____\n_____\nINNER\n_____\nMERGE",
+        "accuracy": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "cost time": 2.692014455795288
+    }
+]

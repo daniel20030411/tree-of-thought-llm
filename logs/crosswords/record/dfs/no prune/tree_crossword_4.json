@@ -1,0 +1,2939 @@
+[
+    {
+        "total_step": 0,
+        "env_step": 1,
+        "actions": [
+            "h5. pound"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 1,
+        "distance to root": 9.0,
+        "depth": 1,
+        "d_thres": 10000,
+        "answer": "_____\n_____\n_____\n_____\nPOUND"
+    },
+    {
+        "total_step": 1,
+        "env_step": 2,
+        "actions": [
+            "h5. pound",
+            "h3. erode"
+        ],
+        "info": {
+            "r_letter": 0.16,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 5,
+        "distance to root": 16.8,
+        "depth": 2,
+        "d_thres": 10000,
+        "answer": "_____\n_____\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 2,
+        "env_step": 3,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 23,
+        "distance to root": 25.3,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 3,
+        "env_step": 4,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 46,
+        "distance to root": 34.3,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 4,
+        "env_step": 5,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 63,
+        "distance to root": 43.3,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 5,
+        "env_step": 6,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 80,
+        "distance to root": 52.3,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 6,
+        "env_step": 7,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 97,
+        "distance to root": 61.3,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 7,
+        "env_step": 8,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 114,
+        "distance to root": 70.3,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 8,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 131,
+        "distance to root": 79.3,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 9,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 132,
+        "distance to root": 79.3,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 10,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 135,
+        "distance to root": 79.7,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 11,
+        "env_step": 8,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 115,
+        "distance to root": 70.3,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 12,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h2. helix"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 198,
+        "distance to root": 79.3,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 13,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h5. pound"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 199,
+        "distance to root": 79.3,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 14,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h1. apple"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 202,
+        "distance to root": 79.7,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 15,
+        "env_step": 8,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 118,
+        "distance to root": 70.69999999999999,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 16,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "h4. drink"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 267,
+        "distance to root": 80.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nDRINK\nPOUND"
+    },
+    {
+        "total_step": 17,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "h4. sleep"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 269,
+        "distance to root": 80.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nSLEEP\nPOUND"
+    },
+    {
+        "total_step": 18,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "v4. liden"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 270,
+        "distance to root": 80.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\n___E_\nPOUND"
+    },
+    {
+        "total_step": 19,
+        "env_step": 7,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 98,
+        "distance to root": 61.3,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 20,
+        "env_step": 8,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h2. helix"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 317,
+        "distance to root": 70.3,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 21,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h2. helix",
+            "h2. helix"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 334,
+        "distance to root": 79.3,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 22,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h2. helix",
+            "h5. pound"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 335,
+        "distance to root": 79.3,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 23,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h2. helix",
+            "h1. apple"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 338,
+        "distance to root": 79.7,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 24,
+        "env_step": 8,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h5. pound"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 318,
+        "distance to root": 70.3,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 25,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h5. pound",
+            "h2. helix"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 401,
+        "distance to root": 79.3,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 26,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h5. pound",
+            "h5. pound"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 402,
+        "distance to root": 79.3,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 27,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h5. pound",
+            "h1. apple"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 405,
+        "distance to root": 79.7,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 28,
+        "env_step": 8,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h1. apple"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 321,
+        "distance to root": 70.69999999999999,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 29,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h1. apple",
+            "h4. drink"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 470,
+        "distance to root": 80.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nDRINK\nPOUND"
+    },
+    {
+        "total_step": 30,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h1. apple",
+            "h4. sleep"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 472,
+        "distance to root": 80.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nSLEEP\nPOUND"
+    },
+    {
+        "total_step": 31,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h1. apple",
+            "v4. liden"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 473,
+        "distance to root": 80.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\n___E_\nPOUND"
+    },
+    {
+        "total_step": 32,
+        "env_step": 7,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 101,
+        "distance to root": 61.699999999999996,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 33,
+        "env_step": 8,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "h4. drink"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 522,
+        "distance to root": 71.5,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nDRINK\nPOUND"
+    },
+    {
+        "total_step": 34,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "h4. drink",
+            "h4. drink"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 533,
+        "distance to root": 78.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nDRINK\nPOUND"
+    },
+    {
+        "total_step": 35,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "h4. drink",
+            "h5. pound"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 534,
+        "distance to root": 78.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nDRINK\nPOUND"
+    },
+    {
+        "total_step": 36,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "h4. drink",
+            "v1. ahedp"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 535,
+        "distance to root": 79.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nDRINK\nPOUND"
+    },
+    {
+        "total_step": 37,
+        "env_step": 8,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "h4. sleep"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 524,
+        "distance to root": 71.5,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nSLEEP\nPOUND"
+    },
+    {
+        "total_step": 38,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "h4. sleep",
+            "h1. apple"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 572,
+        "distance to root": 80.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nSLEEP\nPOUND"
+    },
+    {
+        "total_step": 39,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "h4. sleep",
+            "h2. helix"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 573,
+        "distance to root": 80.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nSLEEP\nPOUND"
+    },
+    {
+        "total_step": 40,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "h4. sleep",
+            "h3. erode"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 574,
+        "distance to root": 80.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nSLEEP\nPOUND"
+    },
+    {
+        "total_step": 41,
+        "env_step": 8,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "v4. liden"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 525,
+        "distance to root": 71.5,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\n___E_\nPOUND"
+    },
+    {
+        "total_step": 42,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "v4. liden",
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 631,
+        "distance to root": 81.39999999999999,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nSEDER\nPOUND"
+    },
+    {
+        "total_step": 43,
+        "env_step": 6,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 81,
+        "distance to root": 52.3,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 44,
+        "env_step": 7,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h2. helix"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 647,
+        "distance to root": 61.3,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 45,
+        "env_step": 8,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h2. helix",
+            "h2. helix"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 664,
+        "distance to root": 70.3,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 46,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 681,
+        "distance to root": 79.3,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 47,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 682,
+        "distance to root": 79.3,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 48,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 685,
+        "distance to root": 79.7,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 49,
+        "env_step": 8,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h2. helix",
+            "h5. pound"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 665,
+        "distance to root": 70.3,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 50,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h2. helix",
+            "h5. pound",
+            "h2. helix"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 748,
+        "distance to root": 79.3,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 51,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h2. helix",
+            "h5. pound",
+            "h5. pound"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 749,
+        "distance to root": 79.3,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 52,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h2. helix",
+            "h5. pound",
+            "h1. apple"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 752,
+        "distance to root": 79.7,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 53,
+        "env_step": 8,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h2. helix",
+            "h1. apple"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 668,
+        "distance to root": 70.69999999999999,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 54,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h2. helix",
+            "h1. apple",
+            "h4. drink"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 817,
+        "distance to root": 80.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nDRINK\nPOUND"
+    },
+    {
+        "total_step": 55,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h2. helix",
+            "h1. apple",
+            "h4. sleep"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 819,
+        "distance to root": 80.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nSLEEP\nPOUND"
+    },
+    {
+        "total_step": 56,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h2. helix",
+            "h1. apple",
+            "v4. liden"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 820,
+        "distance to root": 80.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\n___E_\nPOUND"
+    },
+    {
+        "total_step": 57,
+        "env_step": 7,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h5. pound"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 648,
+        "distance to root": 61.3,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 58,
+        "env_step": 8,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h5. pound",
+            "h2. helix"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 867,
+        "distance to root": 70.3,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 59,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h5. pound",
+            "h2. helix",
+            "h2. helix"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 884,
+        "distance to root": 79.3,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 60,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h5. pound",
+            "h2. helix",
+            "h5. pound"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 885,
+        "distance to root": 79.3,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 61,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h5. pound",
+            "h2. helix",
+            "h1. apple"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 888,
+        "distance to root": 79.7,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 62,
+        "env_step": 8,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h5. pound",
+            "h5. pound"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 868,
+        "distance to root": 70.3,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 63,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h5. pound",
+            "h5. pound",
+            "h2. helix"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 951,
+        "distance to root": 79.3,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 64,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h5. pound",
+            "h5. pound",
+            "h5. pound"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 952,
+        "distance to root": 79.3,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 65,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h5. pound",
+            "h5. pound",
+            "h1. apple"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 955,
+        "distance to root": 79.7,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 66,
+        "env_step": 8,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h5. pound",
+            "h1. apple"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 871,
+        "distance to root": 70.69999999999999,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 67,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h5. pound",
+            "h1. apple",
+            "h4. drink"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 1020,
+        "distance to root": 80.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nDRINK\nPOUND"
+    },
+    {
+        "total_step": 68,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h5. pound",
+            "h1. apple",
+            "h4. sleep"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 1022,
+        "distance to root": 80.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nSLEEP\nPOUND"
+    },
+    {
+        "total_step": 69,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h5. pound",
+            "h1. apple",
+            "v4. liden"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 1023,
+        "distance to root": 80.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\n___E_\nPOUND"
+    },
+    {
+        "total_step": 70,
+        "env_step": 7,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h1. apple"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 651,
+        "distance to root": 61.699999999999996,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 71,
+        "env_step": 8,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h1. apple",
+            "h4. drink"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 1072,
+        "distance to root": 71.5,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nDRINK\nPOUND"
+    },
+    {
+        "total_step": 72,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h1. apple",
+            "h4. drink",
+            "h4. drink"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 1083,
+        "distance to root": 78.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nDRINK\nPOUND"
+    },
+    {
+        "total_step": 73,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h1. apple",
+            "h4. drink",
+            "h5. pound"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 1084,
+        "distance to root": 78.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nDRINK\nPOUND"
+    },
+    {
+        "total_step": 74,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h1. apple",
+            "h4. drink",
+            "v1. ahedp"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 1085,
+        "distance to root": 79.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nDRINK\nPOUND"
+    },
+    {
+        "total_step": 75,
+        "env_step": 8,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h1. apple",
+            "h4. sleep"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 1074,
+        "distance to root": 71.5,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nSLEEP\nPOUND"
+    },
+    {
+        "total_step": 76,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h1. apple",
+            "h4. sleep",
+            "h1. apple"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 1122,
+        "distance to root": 80.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nSLEEP\nPOUND"
+    },
+    {
+        "total_step": 77,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h1. apple",
+            "h4. sleep",
+            "h2. helix"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 1123,
+        "distance to root": 80.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nSLEEP\nPOUND"
+    },
+    {
+        "total_step": 78,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h1. apple",
+            "h4. sleep",
+            "h3. erode"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 1124,
+        "distance to root": 80.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nSLEEP\nPOUND"
+    },
+    {
+        "total_step": 79,
+        "env_step": 8,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h1. apple",
+            "v4. liden"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 1075,
+        "distance to root": 71.5,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\n___E_\nPOUND"
+    },
+    {
+        "total_step": 80,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h5. pound",
+            "h1. apple",
+            "v4. liden",
+            "h4. seder"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 1181,
+        "distance to root": 81.39999999999999,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nSEDER\nPOUND"
+    },
+    {
+        "total_step": 81,
+        "env_step": 6,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 84,
+        "distance to root": 52.699999999999996,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\n_____\nPOUND"
+    },
+    {
+        "total_step": 82,
+        "env_step": 7,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "h4. drink"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 1199,
+        "distance to root": 62.5,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nDRINK\nPOUND"
+    },
+    {
+        "total_step": 83,
+        "env_step": 8,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "h4. drink",
+            "h4. drink"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 1210,
+        "distance to root": 69.5,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nDRINK\nPOUND"
+    },
+    {
+        "total_step": 84,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "h4. drink",
+            "h4. drink",
+            "h4. drink"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 1220,
+        "distance to root": 76.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nDRINK\nPOUND"
+    },
+    {
+        "total_step": 85,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "h4. drink",
+            "h4. drink",
+            "h5. pound"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 1221,
+        "distance to root": 76.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nDRINK\nPOUND"
+    },
+    {
+        "total_step": 86,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "h4. drink",
+            "h4. drink",
+            "v1. ahedp"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 1222,
+        "distance to root": 77.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nDRINK\nPOUND"
+    },
+    {
+        "total_step": 87,
+        "env_step": 8,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "h4. drink",
+            "h5. pound"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 1211,
+        "distance to root": 69.5,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nDRINK\nPOUND"
+    },
+    {
+        "total_step": 88,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "h4. drink",
+            "h5. pound",
+            "h4. drink"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 1255,
+        "distance to root": 76.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nDRINK\nPOUND"
+    },
+    {
+        "total_step": 89,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "h4. drink",
+            "h5. pound",
+            "h5. pound"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 1256,
+        "distance to root": 76.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nDRINK\nPOUND"
+    },
+    {
+        "total_step": 90,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "h4. drink",
+            "h5. pound",
+            "v1. ahedp"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 1257,
+        "distance to root": 77.8,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nDRINK\nPOUND"
+    },
+    {
+        "total_step": 91,
+        "env_step": 8,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "h4. drink",
+            "v1. ahedp"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 1212,
+        "distance to root": 70.8,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nDRINK\nPOUND"
+    },
+    {
+        "total_step": 92,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "h4. drink",
+            "v1. ahedp",
+            "v1. ahedp"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 1290,
+        "distance to root": 79.7,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nDRINK\nPOUND"
+    },
+    {
+        "total_step": 93,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "h4. drink",
+            "v1. ahedp",
+            "v2. perro"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 1291,
+        "distance to root": 80.0,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nDRINK\nPOUND"
+    },
+    {
+        "total_step": 94,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "h4. drink",
+            "v1. ahedp",
+            "v5. exekd"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 1292,
+        "distance to root": 80.10000000000001,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nDRINK\nPOUND"
+    },
+    {
+        "total_step": 95,
+        "env_step": 7,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "h4. sleep"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 1201,
+        "distance to root": 62.5,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nSLEEP\nPOUND"
+    },
+    {
+        "total_step": 96,
+        "env_step": 8,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "h4. sleep",
+            "h1. apple"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 1314,
+        "distance to root": 71.5,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nSLEEP\nPOUND"
+    },
+    {
+        "total_step": 97,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "h4. sleep",
+            "h1. apple",
+            "h1. apple"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 1328,
+        "distance to root": 80.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nSLEEP\nPOUND"
+    },
+    {
+        "total_step": 98,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "h4. sleep",
+            "h1. apple",
+            "h2. helix"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 1329,
+        "distance to root": 80.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nSLEEP\nPOUND"
+    },
+    {
+        "total_step": 99,
+        "env_step": 9,
+        "actions": [
+            "h5. pound",
+            "h3. erode",
+            "h2. helix",
+            "h2. helix",
+            "h2. helix",
+            "h1. apple",
+            "h4. sleep",
+            "h1. apple",
+            "h3. erode"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 1330,
+        "distance to root": 80.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "APPLE\nHELIX\nERODE\nSLEEP\nPOUND"
+    },
+    {
+        "index": 4,
+        "best node id": 23,
+        "node depth": 3,
+        "chosen step": 2,
+        "distance to root": 25.3,
+        "answer": "_____\nHELIX\nERODE\n_____\nPOUND",
+        "accuracy": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "cost time": 98.9050498008728
+    }
+]

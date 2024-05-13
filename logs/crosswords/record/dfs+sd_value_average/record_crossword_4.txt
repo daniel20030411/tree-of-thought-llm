@@ -1,0 +1,60 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 4
+pruning = True
+date: 2024-05-10
+time: 02:10:41
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h3. gnarl'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': '_____\n_____\nGNARL\n_____\n_____'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['h3. gnarl', 'h5. pound'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 10, 'depth': 2, 'd_thres': 10000, 'answer': '_____\n_____\nGNARL\n_____\nPOUND'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['h3. gnarl', 'h5. pound', 'h4. drink'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 1}, 'current_node_id': 25, 'depth': 3, 'd_thres': 10000, 'answer': '_____\n_____\nGNARL\nDRINK\nPOUND'}
+
+{'total_step': 3, 'env_step': 3, 'actions': ['h3. gnarl', 'h5. pound', 'h1. apple'], 'info': {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 27, 'depth': 3, 'd_thres': 10000, 'answer': 'APPLE\n_____\nGNARL\n_____\nPOUND'}
+
+{'total_step': 4, 'env_step': 4, 'actions': ['h3. gnarl', 'h5. pound', 'h1. apple', 'h2. helix'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 41, 'depth': 4, 'd_thres': 10000, 'answer': 'APPLE\nHELIX\nGNARL\n_____\nPOUND'}
+
+{'total_step': 5, 'env_step': 5, 'actions': ['h3. gnarl', 'h5. pound', 'h1. apple', 'h2. helix', 'h4. drink'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 1, 'impossible': 4}, 'current_node_id': 48, 'depth': 5, 'd_thres': 10000, 'answer': 'APPLE\nHELIX\nGNARL\nDRINK\nPOUND'}
+
+{'total_step': 6, 'env_step': 5, 'actions': ['h3. gnarl', 'h5. pound', 'h1. apple', 'h2. helix', 'h4. night'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 3}, 'current_node_id': 50, 'depth': 5, 'd_thres': 10000, 'answer': 'APPLE\nHELIX\nGNARL\nNIGHT\nPOUND'}
+
+{'total_step': 7, 'env_step': 5, 'actions': ['h3. gnarl', 'h5. pound', 'h1. apple', 'h2. helix', 'h4. grape'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 1, 'impossible': 3}, 'current_node_id': 51, 'depth': 5, 'd_thres': 10000, 'answer': 'APPLE\nHELIX\nGNARL\nGRAPE\nPOUND'}
+
+{'total_step': 8, 'env_step': 4, 'actions': ['h3. gnarl', 'h5. pound', 'h1. apple', 'h4. night'], 'info': {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 2}, 'current_node_id': 44, 'depth': 4, 'd_thres': 10000, 'answer': 'APPLE\n_____\nGNARL\nNIGHT\nPOUND'}
+
+{'total_step': 9, 'env_step': 4, 'actions': ['h3. gnarl', 'h5. pound', 'h1. apple', 'h4. sopor'], 'info': {'r_letter': 0.2, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 1}, 'current_node_id': 45, 'depth': 4, 'd_thres': 10000, 'answer': 'APPLE\n_____\nGNARL\nSOPOR\nPOUND'}
+
+{'total_step': 10, 'env_step': 3, 'actions': ['h3. gnarl', 'h5. pound', 'h4. drunk'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 29, 'depth': 3, 'd_thres': 10000, 'answer': '_____\n_____\nGNARL\nDRUNK\nPOUND'}
+
+{'total_step': 11, 'env_step': 4, 'actions': ['h3. gnarl', 'h5. pound', 'h4. drunk', 'h3. gnarl'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 59, 'depth': 4, 'd_thres': 10000, 'answer': '_____\n_____\nGNARL\nDRUNK\nPOUND'}
+
+{'total_step': 12, 'env_step': 5, 'actions': ['h3. gnarl', 'h5. pound', 'h4. drunk', 'h3. gnarl', 'h3. gnarl'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 76, 'depth': 5, 'd_thres': 10000, 'answer': '_____\n_____\nGNARL\nDRUNK\nPOUND'}
+
+{'total_step': 13, 'env_step': 6, 'actions': ['h3. gnarl', 'h5. pound', 'h4. drunk', 'h3. gnarl', 'h3. gnarl', 'h3. gnarl'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 93, 'depth': 6, 'd_thres': 10000, 'answer': '_____\n_____\nGNARL\nDRUNK\nPOUND'}
+
+{'total_step': 14, 'env_step': 7, 'actions': ['h3. gnarl', 'h5. pound', 'h4. drunk', 'h3. gnarl', 'h3. gnarl', 'h3. gnarl', 'h3. gnarl'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 110, 'depth': 7, 'd_thres': 10000, 'answer': '_____\n_____\nGNARL\nDRUNK\nPOUND'}
+
+{'total_step': 15, 'env_step': 8, 'actions': ['h3. gnarl', 'h5. pound', 'h4. drunk', 'h3. gnarl', 'h3. gnarl', 'h3. gnarl', 'h3. gnarl', 'h3. gnarl'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 127, 'depth': 8, 'd_thres': 10000, 'answer': '_____\n_____\nGNARL\nDRUNK\nPOUND'}
+
+{'total_step': 16, 'env_step': 9, 'actions': ['h3. gnarl', 'h5. pound', 'h4. drunk', 'h3. gnarl', 'h3. gnarl', 'h3. gnarl', 'h3. gnarl', 'h3. gnarl', 'h3. gnarl'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 144, 'distance to root': 113.5, 'depth': 9, 'd_thres': 113.5, 'answer': '_____\n_____\nGNARL\nDRUNK\nPOUND'}
+
+-----------------------
+
+best node id: 144
+node depth: 9
+chosen step: 16
+distance to root: 113.5
+answer:
+
+_____
+_____
+GNARL
+DRUNK
+POUND
+
+accuracy: {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}
+cost time: 139.38607120513916 s
+
+---- Task Complete ----

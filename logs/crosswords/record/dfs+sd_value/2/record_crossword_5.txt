@@ -1,0 +1,74 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 5
+pruning = True
+date: 2024-05-10
+time: 19:54:47
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h2. penny'], 'info': {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': '_____\nPENNY\n_____\n_____\n_____'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['h2. penny', 'h4. skulk'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 9, 'depth': 2, 'd_thres': 10000, 'answer': '_____\nPENNY\n_____\nSKULK\n_____'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['h2. penny', 'h4. skulk', 'h3. eagle'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 32, 'depth': 3, 'd_thres': 10000, 'answer': '_____\nPENNY\nEAGLE\nSKULK\n_____'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['h2. penny', 'h4. skulk', 'h3. eagle', 'h1. apple'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 6, 'maybe': 1, 'impossible': 2}, 'current_node_id': 57, 'depth': 4, 'd_thres': 10000, 'answer': 'APPLE\nPENNY\nEAGLE\nSKULK\n_____'}
+
+{'total_step': 4, 'env_step': 4, 'actions': ['h2. penny', 'h4. skulk', 'h3. eagle', 'v2. peaks'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 0}, 'current_node_id': 59, 'depth': 4, 'd_thres': 10000, 'answer': '_P___\nPENNY\nEAGLE\nSKULK\n_S___'}
+
+{'total_step': 5, 'env_step': 5, 'actions': ['h2. penny', 'h4. skulk', 'h3. eagle', 'v2. peaks', 'h1. apple'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 7, 'maybe': 0, 'impossible': 2}, 'current_node_id': 71, 'depth': 5, 'd_thres': 10000, 'answer': 'APPLE\nPENNY\nEAGLE\nSKULK\n_S___'}
+
+{'total_step': 6, 'env_step': 4, 'actions': ['h2. penny', 'h4. skulk', 'h3. eagle', 'v1. apese'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 62, 'depth': 4, 'd_thres': 10000, 'answer': 'A____\nPENNY\nEAGLE\nSKULK\nE____'}
+
+{'total_step': 7, 'env_step': 5, 'actions': ['h2. penny', 'h4. skulk', 'h3. eagle', 'v1. apese', 'h1. apple'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 1}, 'current_node_id': 85, 'depth': 5, 'd_thres': 10000, 'answer': 'APPLE\nPENNY\nEAGLE\nSKULK\nE____'}
+
+{'total_step': 8, 'env_step': 5, 'actions': ['h2. penny', 'h4. skulk', 'h3. eagle', 'v1. apese', 'h1. allot'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 6, 'maybe': 1, 'impossible': 2}, 'current_node_id': 88, 'depth': 5, 'd_thres': 10000, 'answer': 'ALLOT\nPENNY\nEAGLE\nSKULK\nE____'}
+
+{'total_step': 9, 'env_step': 5, 'actions': ['h2. penny', 'h4. skulk', 'h3. eagle', 'v1. apese', 'v3. angus'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 6, 'impossible': 1}, 'current_node_id': 89, 'depth': 5, 'd_thres': 10000, 'answer': 'A_A__\nPENNY\nEAGLE\nSKULK\nE_S__'}
+
+{'total_step': 10, 'env_step': 3, 'actions': ['h2. penny', 'h4. skulk', 'h1. apple'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 1, 'impossible': 4}, 'current_node_id': 33, 'depth': 3, 'd_thres': 10000, 'answer': 'APPLE\nPENNY\n_____\nSKULK\n_____'}
+
+{'total_step': 11, 'env_step': 3, 'actions': ['h2. penny', 'h4. skulk', 'h3. tawny'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 37, 'depth': 3, 'd_thres': 10000, 'answer': '_____\nPENNY\nTAWNY\nSKULK\n_____'}
+
+{'total_step': 12, 'env_step': 2, 'actions': ['h2. penny', 'v2. hello'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 10, 'depth': 2, 'd_thres': 10000, 'answer': '_H___\nPENNY\n_L___\n_L___\n_O___'}
+
+{'total_step': 13, 'env_step': 3, 'actions': ['h2. penny', 'v2. hello', 'h1. chose'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 107, 'depth': 3, 'd_thres': 10000, 'answer': 'CHOSE\nPENNY\n_L___\n_L___\n_O___'}
+
+{'total_step': 14, 'env_step': 3, 'actions': ['h2. penny', 'v2. hello', 'h5. hosey'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 3, 'impossible': 2}, 'current_node_id': 114, 'depth': 3, 'd_thres': 10000, 'answer': '_H___\nPENNY\n_L___\n_L___\nHOSEY'}
+
+{'total_step': 15, 'env_step': 2, 'actions': ['h2. penny', 'h1. apple'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 13, 'depth': 2, 'd_thres': 10000, 'answer': 'APPLE\nPENNY\n_____\n_____\n_____'}
+
+{'total_step': 16, 'env_step': 3, 'actions': ['h2. penny', 'h1. apple', 'h3. owlet'], 'info': {'r_letter': 0.2, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 119, 'depth': 3, 'd_thres': 10000, 'answer': 'APPLE\nPENNY\nOWLET\n_____\n_____'}
+
+{'total_step': 17, 'env_step': 3, 'actions': ['h2. penny', 'h1. apple', 'v2. peace'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 120, 'depth': 3, 'd_thres': 10000, 'answer': 'APPLE\nPENNY\n_A___\n_C___\n_E___'}
+
+{'total_step': 18, 'env_step': 4, 'actions': ['h2. penny', 'h1. apple', 'v2. peace', 'v2. peace'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 131, 'depth': 4, 'd_thres': 10000, 'answer': 'APPLE\nPENNY\n_A___\n_C___\n_E___'}
+
+{'total_step': 19, 'env_step': 5, 'actions': ['h2. penny', 'h1. apple', 'v2. peace', 'v2. peace', 'v2. peace'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 145, 'depth': 5, 'd_thres': 10000, 'answer': 'APPLE\nPENNY\n_A___\n_C___\n_E___'}
+
+{'total_step': 20, 'env_step': 6, 'actions': ['h2. penny', 'h1. apple', 'v2. peace', 'v2. peace', 'v2. peace', 'v2. peace'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 159, 'depth': 6, 'd_thres': 10000, 'answer': 'APPLE\nPENNY\n_A___\n_C___\n_E___'}
+
+{'total_step': 21, 'env_step': 7, 'actions': ['h2. penny', 'h1. apple', 'v2. peace', 'v2. peace', 'v2. peace', 'v2. peace', 'v2. peace'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 173, 'depth': 7, 'd_thres': 10000, 'answer': 'APPLE\nPENNY\n_A___\n_C___\n_E___'}
+
+{'total_step': 22, 'env_step': 8, 'actions': ['h2. penny', 'h1. apple', 'v2. peace', 'v2. peace', 'v2. peace', 'v2. peace', 'v2. peace', 'v2. peace'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 187, 'depth': 8, 'd_thres': 10000, 'answer': 'APPLE\nPENNY\n_A___\n_C___\n_E___'}
+
+{'total_step': 23, 'env_step': 9, 'actions': ['h2. penny', 'h1. apple', 'v2. peace', 'v2. peace', 'v2. peace', 'v2. peace', 'v2. peace', 'v2. peace', 'v2. peace'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 201, 'distance to root': 0.0, 'depth': 9, 'd_thres': 0.0, 'answer': 'APPLE\nPENNY\n_A___\n_C___\n_E___'}
+
+-----------------------
+
+best node id: 201
+node depth: 9
+chosen step: 23
+distance to root: 0.0
+answer:
+
+APPLE
+PENNY
+_A___
+_C___
+_E___
+
+accuracy: {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}
+cost time: 150.07749223709106 s
+
+---- Task Complete ----

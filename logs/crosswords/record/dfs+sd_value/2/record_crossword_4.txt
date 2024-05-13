@@ -1,0 +1,58 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 4
+pruning = True
+date: 2024-05-10
+time: 19:54:47
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h5. pound'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': '_____\n_____\n_____\n_____\nPOUND'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['h5. pound', 'h3. erode'], 'info': {'r_letter': 0.16, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 6, 'maybe': 1, 'impossible': 0}, 'current_node_id': 8, 'depth': 2, 'd_thres': 10000, 'answer': '_____\n_____\nERODE\n_____\nPOUND'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['h5. pound', 'h3. erode', 'h4. drink'], 'info': {'r_letter': 0.16, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 2}, 'current_node_id': 28, 'depth': 3, 'd_thres': 10000, 'answer': '_____\n_____\nERODE\nDRINK\nPOUND'}
+
+{'total_step': 3, 'env_step': 3, 'actions': ['h5. pound', 'h3. erode', 'h4. drunk'], 'info': {'r_letter': 0.16, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 5, 'maybe': 1, 'impossible': 2}, 'current_node_id': 31, 'depth': 3, 'd_thres': 10000, 'answer': '_____\n_____\nERODE\nDRUNK\nPOUND'}
+
+{'total_step': 4, 'env_step': 3, 'actions': ['h5. pound', 'h3. erode', 'h2. helix'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 0}, 'current_node_id': 33, 'depth': 3, 'd_thres': 10000, 'answer': '_____\nHELIX\nERODE\n_____\nPOUND'}
+
+{'total_step': 5, 'env_step': 4, 'actions': ['h5. pound', 'h3. erode', 'h2. helix', 'h1. apple'], 'info': {'r_letter': 0.4, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 1}, 'current_node_id': 44, 'depth': 4, 'd_thres': 10000, 'answer': 'APPLE\nHELIX\nERODE\n_____\nPOUND'}
+
+{'total_step': 6, 'env_step': 4, 'actions': ['h5. pound', 'h3. erode', 'h2. helix', 'h2. helix'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 0}, 'current_node_id': 46, 'depth': 4, 'd_thres': 10000, 'answer': '_____\nHELIX\nERODE\n_____\nPOUND'}
+
+{'total_step': 7, 'env_step': 5, 'actions': ['h5. pound', 'h3. erode', 'h2. helix', 'h2. helix', 'h1. apple'], 'info': {'r_letter': 0.4, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 1}, 'current_node_id': 62, 'depth': 5, 'd_thres': 10000, 'answer': 'APPLE\nHELIX\nERODE\n_____\nPOUND'}
+
+{'total_step': 8, 'env_step': 5, 'actions': ['h5. pound', 'h3. erode', 'h2. helix', 'h2. helix', 'h2. helix'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 0}, 'current_node_id': 64, 'depth': 5, 'd_thres': 10000, 'answer': '_____\nHELIX\nERODE\n_____\nPOUND'}
+
+{'total_step': 9, 'env_step': 6, 'actions': ['h5. pound', 'h3. erode', 'h2. helix', 'h2. helix', 'h2. helix', 'h1. apple'], 'info': {'r_letter': 0.4, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 1}, 'current_node_id': 80, 'depth': 6, 'd_thres': 10000, 'answer': 'APPLE\nHELIX\nERODE\n_____\nPOUND'}
+
+{'total_step': 10, 'env_step': 6, 'actions': ['h5. pound', 'h3. erode', 'h2. helix', 'h2. helix', 'h2. helix', 'h2. helix'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 0}, 'current_node_id': 82, 'depth': 6, 'd_thres': 10000, 'answer': '_____\nHELIX\nERODE\n_____\nPOUND'}
+
+{'total_step': 11, 'env_step': 7, 'actions': ['h5. pound', 'h3. erode', 'h2. helix', 'h2. helix', 'h2. helix', 'h2. helix', 'h1. apple'], 'info': {'r_letter': 0.4, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 1}, 'current_node_id': 98, 'depth': 7, 'd_thres': 10000, 'answer': 'APPLE\nHELIX\nERODE\n_____\nPOUND'}
+
+{'total_step': 12, 'env_step': 7, 'actions': ['h5. pound', 'h3. erode', 'h2. helix', 'h2. helix', 'h2. helix', 'h2. helix', 'h2. helix'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 0}, 'current_node_id': 100, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nHELIX\nERODE\n_____\nPOUND'}
+
+{'total_step': 13, 'env_step': 8, 'actions': ['h5. pound', 'h3. erode', 'h2. helix', 'h2. helix', 'h2. helix', 'h2. helix', 'h2. helix', 'h1. apple'], 'info': {'r_letter': 0.4, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 1}, 'current_node_id': 116, 'depth': 8, 'd_thres': 10000, 'answer': 'APPLE\nHELIX\nERODE\n_____\nPOUND'}
+
+{'total_step': 14, 'env_step': 8, 'actions': ['h5. pound', 'h3. erode', 'h2. helix', 'h2. helix', 'h2. helix', 'h2. helix', 'h2. helix', 'h2. helix'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 0}, 'current_node_id': 118, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nHELIX\nERODE\n_____\nPOUND'}
+
+{'total_step': 15, 'env_step': 9, 'actions': ['h5. pound', 'h3. erode', 'h2. helix', 'h2. helix', 'h2. helix', 'h2. helix', 'h2. helix', 'h2. helix', 'h1. apple'], 'info': {'r_letter': 0.4, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 1}, 'current_node_id': 134, 'distance to root': 0.0, 'depth': 9, 'd_thres': 0.0, 'answer': 'APPLE\nHELIX\nERODE\n_____\nPOUND'}
+
+-----------------------
+
+best node id: 134
+node depth: 9
+chosen step: 15
+distance to root: 0.0
+answer:
+
+APPLE
+HELIX
+ERODE
+_____
+POUND
+
+accuracy: {'r_letter': 0.4, 'r_word': 0.1, 'r_game': False}
+cost time: 59.20189023017883 s
+
+---- Task Complete ----

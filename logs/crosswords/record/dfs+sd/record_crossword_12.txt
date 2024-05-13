@@ -1,0 +1,102 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 12
+pruning = True
+date: 2024-05-06
+time: 00:25:52
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h2. siren'], 'info': {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': '_____\nSIREN\n_____\n_____\n_____'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['h2. siren', 'h5. eider'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 8, 'depth': 2, 'd_thres': 10000, 'answer': '_____\nSIREN\n_____\n_____\nEIDER'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['h2. siren', 'h5. eider', 'h4. raise'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 31, 'depth': 3, 'd_thres': 10000, 'answer': '_____\nSIREN\n_____\nRAISE\nEIDER'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['h2. siren', 'h5. eider', 'h4. raise', 'h1. grove'], 'info': {'r_letter': 0.52, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 44, 'depth': 4, 'd_thres': 10000, 'answer': 'GROVE\nSIREN\n_____\nRAISE\nEIDER'}
+
+{'total_step': 4, 'env_step': 4, 'actions': ['h2. siren', 'h5. eider', 'h4. raise', 'v3. aroid'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 45, 'depth': 4, 'd_thres': 10000, 'answer': '__A__\nSIREN\n__O__\nRAISE\nEIDER'}
+
+{'total_step': 5, 'env_step': 5, 'actions': ['h2. siren', 'h5. eider', 'h4. raise', 'v3. aroid', 'h1. glade'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 0}, 'current_node_id': 57, 'depth': 5, 'd_thres': 10000, 'answer': 'GLADE\nSIREN\n__O__\nRAISE\nEIDER'}
+
+{'total_step': 6, 'env_step': 4, 'actions': ['h2. siren', 'h5. eider', 'h4. raise', 'h1. woody'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 48, 'depth': 4, 'd_thres': 10000, 'answer': 'WOODY\nSIREN\n_____\nRAISE\nEIDER'}
+
+{'total_step': 7, 'env_step': 3, 'actions': ['h2. siren', 'h5. eider', 'h2. siren'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 33, 'depth': 3, 'd_thres': 10000, 'answer': '_____\nSIREN\n_____\n_____\nEIDER'}
+
+{'total_step': 8, 'env_step': 4, 'actions': ['h2. siren', 'h5. eider', 'h2. siren', 'h4. raise'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 63, 'depth': 4, 'd_thres': 10000, 'answer': '_____\nSIREN\n_____\nRAISE\nEIDER'}
+
+{'total_step': 9, 'env_step': 5, 'actions': ['h2. siren', 'h5. eider', 'h2. siren', 'h4. raise', 'h1. grove'], 'info': {'r_letter': 0.52, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 76, 'depth': 5, 'd_thres': 10000, 'answer': 'GROVE\nSIREN\n_____\nRAISE\nEIDER'}
+
+{'total_step': 10, 'env_step': 5, 'actions': ['h2. siren', 'h5. eider', 'h2. siren', 'h4. raise', 'v3. aroid'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 77, 'depth': 5, 'd_thres': 10000, 'answer': '__A__\nSIREN\n__O__\nRAISE\nEIDER'}
+
+{'total_step': 11, 'env_step': 6, 'actions': ['h2. siren', 'h5. eider', 'h2. siren', 'h4. raise', 'v3. aroid', 'h1. glade'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 0}, 'current_node_id': 89, 'depth': 6, 'd_thres': 10000, 'answer': 'GLADE\nSIREN\n__O__\nRAISE\nEIDER'}
+
+{'total_step': 12, 'env_step': 5, 'actions': ['h2. siren', 'h5. eider', 'h2. siren', 'h4. raise', 'h1. woody'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 80, 'depth': 5, 'd_thres': 10000, 'answer': 'WOODY\nSIREN\n_____\nRAISE\nEIDER'}
+
+{'total_step': 13, 'env_step': 4, 'actions': ['h2. siren', 'h5. eider', 'h2. siren', 'h2. siren'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 65, 'depth': 4, 'd_thres': 10000, 'answer': '_____\nSIREN\n_____\n_____\nEIDER'}
+
+{'total_step': 14, 'env_step': 5, 'actions': ['h2. siren', 'h5. eider', 'h2. siren', 'h2. siren', 'h4. raise'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 95, 'depth': 5, 'd_thres': 10000, 'answer': '_____\nSIREN\n_____\nRAISE\nEIDER'}
+
+{'total_step': 15, 'env_step': 6, 'actions': ['h2. siren', 'h5. eider', 'h2. siren', 'h2. siren', 'h4. raise', 'h1. grove'], 'info': {'r_letter': 0.52, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 108, 'depth': 6, 'd_thres': 10000, 'answer': 'GROVE\nSIREN\n_____\nRAISE\nEIDER'}
+
+{'total_step': 16, 'env_step': 6, 'actions': ['h2. siren', 'h5. eider', 'h2. siren', 'h2. siren', 'h4. raise', 'v3. aroid'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 109, 'depth': 6, 'd_thres': 10000, 'answer': '__A__\nSIREN\n__O__\nRAISE\nEIDER'}
+
+{'total_step': 17, 'env_step': 7, 'actions': ['h2. siren', 'h5. eider', 'h2. siren', 'h2. siren', 'h4. raise', 'v3. aroid', 'h1. glade'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 0}, 'current_node_id': 121, 'depth': 7, 'd_thres': 10000, 'answer': 'GLADE\nSIREN\n__O__\nRAISE\nEIDER'}
+
+{'total_step': 18, 'env_step': 6, 'actions': ['h2. siren', 'h5. eider', 'h2. siren', 'h2. siren', 'h4. raise', 'h1. woody'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 112, 'depth': 6, 'd_thres': 10000, 'answer': 'WOODY\nSIREN\n_____\nRAISE\nEIDER'}
+
+{'total_step': 19, 'env_step': 5, 'actions': ['h2. siren', 'h5. eider', 'h2. siren', 'h2. siren', 'h2. siren'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 97, 'depth': 5, 'd_thres': 10000, 'answer': '_____\nSIREN\n_____\n_____\nEIDER'}
+
+{'total_step': 20, 'env_step': 6, 'actions': ['h2. siren', 'h5. eider', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 127, 'depth': 6, 'd_thres': 10000, 'answer': '_____\nSIREN\n_____\nRAISE\nEIDER'}
+
+{'total_step': 21, 'env_step': 7, 'actions': ['h2. siren', 'h5. eider', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise', 'h1. grove'], 'info': {'r_letter': 0.52, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 140, 'depth': 7, 'd_thres': 10000, 'answer': 'GROVE\nSIREN\n_____\nRAISE\nEIDER'}
+
+{'total_step': 22, 'env_step': 7, 'actions': ['h2. siren', 'h5. eider', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise', 'v3. aroid'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 141, 'depth': 7, 'd_thres': 10000, 'answer': '__A__\nSIREN\n__O__\nRAISE\nEIDER'}
+
+{'total_step': 23, 'env_step': 8, 'actions': ['h2. siren', 'h5. eider', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise', 'v3. aroid', 'h1. glade'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 0}, 'current_node_id': 153, 'depth': 8, 'd_thres': 10000, 'answer': 'GLADE\nSIREN\n__O__\nRAISE\nEIDER'}
+
+{'total_step': 24, 'env_step': 7, 'actions': ['h2. siren', 'h5. eider', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise', 'h1. woody'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 144, 'depth': 7, 'd_thres': 10000, 'answer': 'WOODY\nSIREN\n_____\nRAISE\nEIDER'}
+
+{'total_step': 25, 'env_step': 6, 'actions': ['h2. siren', 'h5. eider', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 129, 'depth': 6, 'd_thres': 10000, 'answer': '_____\nSIREN\n_____\n_____\nEIDER'}
+
+{'total_step': 26, 'env_step': 7, 'actions': ['h2. siren', 'h5. eider', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 159, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nSIREN\n_____\nRAISE\nEIDER'}
+
+{'total_step': 27, 'env_step': 8, 'actions': ['h2. siren', 'h5. eider', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise', 'h1. grove'], 'info': {'r_letter': 0.52, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 172, 'depth': 8, 'd_thres': 10000, 'answer': 'GROVE\nSIREN\n_____\nRAISE\nEIDER'}
+
+{'total_step': 28, 'env_step': 8, 'actions': ['h2. siren', 'h5. eider', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise', 'v3. aroid'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 173, 'depth': 8, 'd_thres': 10000, 'answer': '__A__\nSIREN\n__O__\nRAISE\nEIDER'}
+
+{'total_step': 29, 'env_step': 9, 'actions': ['h2. siren', 'h5. eider', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise', 'v3. aroid', 'h1. glade'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 0}, 'current_node_id': 185, 'distance to root': 81.3, 'depth': 9, 'd_thres': 81.3, 'answer': 'GLADE\nSIREN\n__O__\nRAISE\nEIDER'}
+
+{'total_step': 30, 'env_step': 8, 'actions': ['h2. siren', 'h5. eider', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise', 'h1. woody'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 176, 'depth': 8, 'd_thres': 81.3, 'answer': 'WOODY\nSIREN\n_____\nRAISE\nEIDER'}
+
+{'total_step': 31, 'env_step': 7, 'actions': ['h2. siren', 'h5. eider', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 161, 'depth': 7, 'd_thres': 81.3, 'answer': '_____\nSIREN\n_____\n_____\nEIDER'}
+
+{'total_step': 32, 'env_step': 8, 'actions': ['h2. siren', 'h5. eider', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 191, 'depth': 8, 'd_thres': 81.3, 'answer': '_____\nSIREN\n_____\nRAISE\nEIDER'}
+
+{'total_step': 33, 'env_step': 9, 'actions': ['h2. siren', 'h5. eider', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise', 'h1. grove'], 'info': {'r_letter': 0.52, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 204, 'distance to root': 80.6, 'depth': 9, 'd_thres': 80.6, 'answer': 'GROVE\nSIREN\n_____\nRAISE\nEIDER'}
+
+{'total_step': 34, 'env_step': 9, 'actions': ['h2. siren', 'h5. eider', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise', 'v3. aroid'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 205, 'distance to root': 80.69999999999999, 'depth': 9, 'd_thres': 80.6, 'answer': '__A__\nSIREN\n__O__\nRAISE\nEIDER'}
+
+{'total_step': 35, 'env_step': 9, 'actions': ['h2. siren', 'h5. eider', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise', 'h1. woody'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 208, 'distance to root': 81.19999999999999, 'depth': 9, 'd_thres': 80.6, 'answer': 'WOODY\nSIREN\n_____\nRAISE\nEIDER'}
+
+{'total_step': 36, 'env_step': 8, 'actions': ['h2. siren', 'h5. eider', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 193, 'depth': 8, 'd_thres': 80.6, 'answer': '_____\nSIREN\n_____\n_____\nEIDER'}
+
+{'total_step': 37, 'env_step': 9, 'actions': ['h2. siren', 'h5. eider', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 223, 'distance to root': 80.39999999999999, 'depth': 9, 'd_thres': 80.39999999999999, 'answer': '_____\nSIREN\n_____\nRAISE\nEIDER'}
+
+-----------------------
+
+best node id: 223
+node depth: 9
+chosen step: 37
+distance to root: 80.39999999999999
+answer:
+
+_____
+SIREN
+_____
+RAISE
+EIDER
+
+accuracy: {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}
+cost time: 62.07455110549927 s
+
+---- Task Complete ----

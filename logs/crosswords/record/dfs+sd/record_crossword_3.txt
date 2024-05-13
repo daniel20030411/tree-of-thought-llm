@@ -1,0 +1,46 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 3
+pruning = True
+date: 2024-05-06
+time: 00:25:52
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h4. prone'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': '_____\n_____\n_____\nPRONE\n_____'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['h4. prone', 'h1. canis'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 1}, 'current_node_id': 12, 'depth': 2, 'd_thres': 10000, 'answer': 'CANIS\n_____\n_____\nPRONE\n_____'}
+
+{'total_step': 2, 'env_step': 2, 'actions': ['h4. prone', 'v5. sheen'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 13, 'depth': 2, 'd_thres': 10000, 'answer': '____S\n____H\n____E\nPRONE\n____N'}
+
+{'total_step': 3, 'env_step': 3, 'actions': ['h4. prone', 'v5. sheen', 'h4. prone'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 31, 'depth': 3, 'd_thres': 10000, 'answer': '____S\n____H\n____E\nPRONE\n____N'}
+
+{'total_step': 4, 'env_step': 4, 'actions': ['h4. prone', 'v5. sheen', 'h4. prone', 'h4. prone'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 50, 'depth': 4, 'd_thres': 10000, 'answer': '____S\n____H\n____E\nPRONE\n____N'}
+
+{'total_step': 5, 'env_step': 5, 'actions': ['h4. prone', 'v5. sheen', 'h4. prone', 'h4. prone', 'h4. prone'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 69, 'depth': 5, 'd_thres': 10000, 'answer': '____S\n____H\n____E\nPRONE\n____N'}
+
+{'total_step': 6, 'env_step': 6, 'actions': ['h4. prone', 'v5. sheen', 'h4. prone', 'h4. prone', 'h4. prone', 'h4. prone'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 88, 'depth': 6, 'd_thres': 10000, 'answer': '____S\n____H\n____E\nPRONE\n____N'}
+
+{'total_step': 7, 'env_step': 7, 'actions': ['h4. prone', 'v5. sheen', 'h4. prone', 'h4. prone', 'h4. prone', 'h4. prone', 'h4. prone'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 107, 'depth': 7, 'd_thres': 10000, 'answer': '____S\n____H\n____E\nPRONE\n____N'}
+
+{'total_step': 8, 'env_step': 8, 'actions': ['h4. prone', 'v5. sheen', 'h4. prone', 'h4. prone', 'h4. prone', 'h4. prone', 'h4. prone', 'h4. prone'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 126, 'depth': 8, 'd_thres': 10000, 'answer': '____S\n____H\n____E\nPRONE\n____N'}
+
+{'total_step': 9, 'env_step': 9, 'actions': ['h4. prone', 'v5. sheen', 'h4. prone', 'h4. prone', 'h4. prone', 'h4. prone', 'h4. prone', 'h4. prone', 'h4. prone'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 145, 'distance to root': 66.7, 'depth': 9, 'd_thres': 66.7, 'answer': '____S\n____H\n____E\nPRONE\n____N'}
+
+-----------------------
+
+best node id: 145
+node depth: 9
+chosen step: 9
+distance to root: 66.7
+answer:
+
+____S
+____H
+____E
+PRONE
+____N
+
+accuracy: {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}
+cost time: 18.744171142578125 s
+
+---- Task Complete ----

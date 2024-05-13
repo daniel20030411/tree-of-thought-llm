@@ -1,0 +1,2852 @@
+[
+    {
+        "total_step": 0,
+        "env_step": 1,
+        "actions": [
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 1,
+        "depth": 1,
+        "d_thres": 10000,
+        "answer": "___L_\n___E_\n___A_\n___V_\n___E_"
+    },
+    {
+        "total_step": 1,
+        "env_step": 2,
+        "actions": [
+            "v4. leave",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 16,
+        "depth": 2,
+        "d_thres": 10000,
+        "answer": "___L_\n___E_\n___A_\n___V_\n___E_"
+    },
+    {
+        "total_step": 2,
+        "env_step": 3,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 36,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "___L_\n___E_\n___A_\n___V_\n___E_"
+    },
+    {
+        "total_step": 3,
+        "env_step": 4,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 56,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "___L_\n___E_\n___A_\n___V_\n___E_"
+    },
+    {
+        "total_step": 4,
+        "env_step": 5,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 76,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "___L_\n___E_\n___A_\n___V_\n___E_"
+    },
+    {
+        "total_step": 5,
+        "env_step": 6,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 96,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "___L_\n___E_\n___A_\n___V_\n___E_"
+    },
+    {
+        "total_step": 6,
+        "env_step": 7,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 116,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "___L_\n___E_\n___A_\n___V_\n___E_"
+    },
+    {
+        "total_step": 7,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 136,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "___L_\n___E_\n___A_\n___V_\n___E_"
+    },
+    {
+        "total_step": 8,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 156,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "___L_\n___E_\n___A_\n___V_\n___E_"
+    },
+    {
+        "total_step": 9,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 157,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "___L_\n___E_\nESSAY\n___V_\n___E_"
+    },
+    {
+        "total_step": 10,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 158,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "___L_\n___E_\n___A_\nSIEVE\n___E_"
+    },
+    {
+        "total_step": 11,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 137,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "___L_\n___E_\nESSAY\n___V_\n___E_"
+    },
+    {
+        "total_step": 12,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 230,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "___L_\n___E_\nESSAY\nSIEVE\n___E_"
+    },
+    {
+        "total_step": 13,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "v3. unsew"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 1
+        },
+        "current_node_id": 231,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "__UL_\n__NE_\nESSAY\n__EV_\n__WE_"
+    },
+    {
+        "total_step": 14,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 1
+        },
+        "current_node_id": 232,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "___LD\n___ER\nESSAY\n___VE\n___ER"
+    },
+    {
+        "total_step": 15,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 138,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "___L_\n___E_\n___A_\nSIEVE\n___E_"
+    },
+    {
+        "total_step": 16,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "h3. essay"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 264,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "___L_\n___E_\nESSAY\nSIEVE\n___E_"
+    },
+    {
+        "total_step": 17,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 265,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__L_\nR__E_\nE__A_\nSIEVE\nT__E_"
+    },
+    {
+        "total_step": 18,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 1
+        },
+        "current_node_id": 266,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "___LD\n___ER\n___AY\nSIEVE\n___ER"
+    },
+    {
+        "total_step": 19,
+        "env_step": 7,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 117,
+        "depth": 7,
+        "d_thres": 0.0,
+        "answer": "___L_\n___E_\nESSAY\n___V_\n___E_"
+    },
+    {
+        "total_step": 20,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 309,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "___L_\n___E_\nESSAY\nSIEVE\n___E_"
+    },
+    {
+        "total_step": 21,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 327,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "___LD\n___ER\nESSAY\nSIEVE\n___ER"
+    },
+    {
+        "total_step": 22,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "h1. agile"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 329,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "AGILE\n___E_\nESSAY\nSIEVE\n___E_"
+    },
+    {
+        "total_step": 23,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 330,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__L_\nR__E_\nESSAY\nSIEVE\nT__E_"
+    },
+    {
+        "total_step": 24,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "v3. unsew"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 1
+        },
+        "current_node_id": 310,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "__UL_\n__NE_\nESSAY\n__EV_\n__WE_"
+    },
+    {
+        "total_step": 25,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 1
+        },
+        "current_node_id": 311,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "___LD\n___ER\nESSAY\n___VE\n___ER"
+    },
+    {
+        "total_step": 26,
+        "env_step": 7,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 118,
+        "depth": 7,
+        "d_thres": 0.0,
+        "answer": "___L_\n___E_\n___A_\nSIEVE\n___E_"
+    },
+    {
+        "total_step": 27,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "h3. essay"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 356,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "___L_\n___E_\nESSAY\nSIEVE\n___E_"
+    },
+    {
+        "total_step": 28,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "h3. essay",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 372,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "___LD\n___ER\nESSAY\nSIEVE\n___ER"
+    },
+    {
+        "total_step": 29,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "h3. essay",
+            "h1. agile"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 374,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "AGILE\n___E_\nESSAY\nSIEVE\n___E_"
+    },
+    {
+        "total_step": 30,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "h3. essay",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 375,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__L_\nR__E_\nESSAY\nSIEVE\nT__E_"
+    },
+    {
+        "total_step": 31,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 357,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "C__L_\nR__E_\nE__A_\nSIEVE\nT__E_"
+    },
+    {
+        "total_step": 32,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "v1. crest",
+            "h3. essay"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 401,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__L_\nR__E_\nESSAY\nSIEVE\nT__E_"
+    },
+    {
+        "total_step": 33,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 404,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__LD\nR__ER\nE__AY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 34,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "v1. crest",
+            "v5. drier"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 405,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__LD\nR__ER\nE__AI\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 35,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 1
+        },
+        "current_node_id": 358,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "___LD\n___ER\n___AY\nSIEVE\n___ER"
+    },
+    {
+        "total_step": 36,
+        "env_step": 6,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 97,
+        "depth": 6,
+        "d_thres": 0.0,
+        "answer": "___L_\n___E_\nESSAY\n___V_\n___E_"
+    },
+    {
+        "total_step": 37,
+        "env_step": 7,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 457,
+        "depth": 7,
+        "d_thres": 0.0,
+        "answer": "___L_\n___E_\nESSAY\nSIEVE\n___E_"
+    },
+    {
+        "total_step": 38,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 475,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "___LD\n___ER\nESSAY\nSIEVE\n___ER"
+    },
+    {
+        "total_step": 39,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "h1. agile"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 477,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "AGILE\n___E_\nESSAY\nSIEVE\n___E_"
+    },
+    {
+        "total_step": 40,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 478,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "C__L_\nR__E_\nESSAY\nSIEVE\nT__E_"
+    },
+    {
+        "total_step": 41,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 491,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 42,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "h5. tawer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 495,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__L_\nR__E_\nESSAY\nSIEVE\nTAWER"
+    },
+    {
+        "total_step": 43,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "h2. rover"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 496,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__L_\nROVER\nESSAY\nSIEVE\nT__E_"
+    },
+    {
+        "total_step": 44,
+        "env_step": 7,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "v3. unsew"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 1
+        },
+        "current_node_id": 458,
+        "depth": 7,
+        "d_thres": 0.0,
+        "answer": "__UL_\n__NE_\nESSAY\n__EV_\n__WE_"
+    },
+    {
+        "total_step": 45,
+        "env_step": 7,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 1
+        },
+        "current_node_id": 459,
+        "depth": 7,
+        "d_thres": 0.0,
+        "answer": "___LD\n___ER\nESSAY\n___VE\n___ER"
+    },
+    {
+        "total_step": 46,
+        "env_step": 6,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 98,
+        "depth": 6,
+        "d_thres": 0.0,
+        "answer": "___L_\n___E_\n___A_\nSIEVE\n___E_"
+    },
+    {
+        "total_step": 47,
+        "env_step": 7,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "h3. essay"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 559,
+        "depth": 7,
+        "d_thres": 0.0,
+        "answer": "___L_\n___E_\nESSAY\nSIEVE\n___E_"
+    },
+    {
+        "total_step": 48,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "h3. essay",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 575,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "___LD\n___ER\nESSAY\nSIEVE\n___ER"
+    },
+    {
+        "total_step": 49,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "h3. essay",
+            "h1. agile"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 577,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "AGILE\n___E_\nESSAY\nSIEVE\n___E_"
+    },
+    {
+        "total_step": 50,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "h3. essay",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 578,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "C__L_\nR__E_\nESSAY\nSIEVE\nT__E_"
+    },
+    {
+        "total_step": 51,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "h3. essay",
+            "v1. crest",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 591,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 52,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "h3. essay",
+            "v1. crest",
+            "h5. tawer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 595,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__L_\nR__E_\nESSAY\nSIEVE\nTAWER"
+    },
+    {
+        "total_step": 53,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "h3. essay",
+            "v1. crest",
+            "h2. rover"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 596,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__L_\nROVER\nESSAY\nSIEVE\nT__E_"
+    },
+    {
+        "total_step": 54,
+        "env_step": 7,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 560,
+        "depth": 7,
+        "d_thres": 0.0,
+        "answer": "C__L_\nR__E_\nE__A_\nSIEVE\nT__E_"
+    },
+    {
+        "total_step": 55,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "v1. crest",
+            "h3. essay"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 659,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "C__L_\nR__E_\nESSAY\nSIEVE\nT__E_"
+    },
+    {
+        "total_step": 56,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "v1. crest",
+            "h3. essay",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 672,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 57,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "v1. crest",
+            "h3. essay",
+            "h5. tawer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 676,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__L_\nR__E_\nESSAY\nSIEVE\nTAWER"
+    },
+    {
+        "total_step": 58,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "v1. crest",
+            "h3. essay",
+            "h2. rover"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 677,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__L_\nROVER\nESSAY\nSIEVE\nT__E_"
+    },
+    {
+        "total_step": 59,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 662,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "C__LD\nR__ER\nE__AY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 60,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "h3. essay"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 740,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 61,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "h4. sieve"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 741,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__LD\nR__ER\nE__AY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 62,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "h2. rover"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 742,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__LD\nROVER\nE__AY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 63,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "v1. crest",
+            "v5. drier"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 663,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "C__LD\nR__ER\nE__AI\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 64,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "v1. crest",
+            "v5. drier",
+            "v5. drier"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 800,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__LD\nR__ER\nE__AI\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 65,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "v1. crest",
+            "v5. drier",
+            "h2. rover"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 801,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__LD\nROVER\nE__AI\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 66,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "v1. crest",
+            "v5. drier",
+            "h1. child"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 804,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "CHILD\nR__ER\nE__AI\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 67,
+        "env_step": 7,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 1
+        },
+        "current_node_id": 561,
+        "depth": 7,
+        "d_thres": 0.0,
+        "answer": "___LD\n___ER\n___AY\nSIEVE\n___ER"
+    },
+    {
+        "total_step": 68,
+        "env_step": 5,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 77,
+        "depth": 5,
+        "d_thres": 0.0,
+        "answer": "___L_\n___E_\nESSAY\n___V_\n___E_"
+    },
+    {
+        "total_step": 69,
+        "env_step": 6,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 866,
+        "depth": 6,
+        "d_thres": 0.0,
+        "answer": "___L_\n___E_\nESSAY\nSIEVE\n___E_"
+    },
+    {
+        "total_step": 70,
+        "env_step": 7,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 884,
+        "depth": 7,
+        "d_thres": 0.0,
+        "answer": "___LD\n___ER\nESSAY\nSIEVE\n___ER"
+    },
+    {
+        "total_step": 71,
+        "env_step": 7,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "h1. agile"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 886,
+        "depth": 7,
+        "d_thres": 0.0,
+        "answer": "AGILE\n___E_\nESSAY\nSIEVE\n___E_"
+    },
+    {
+        "total_step": 72,
+        "env_step": 7,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 887,
+        "depth": 7,
+        "d_thres": 0.0,
+        "answer": "C__L_\nR__E_\nESSAY\nSIEVE\nT__E_"
+    },
+    {
+        "total_step": 73,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 900,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 74,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "h3. essay"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 913,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 75,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "h4. sieve"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 914,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 76,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 915,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 77,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "h5. tawer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 904,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "C__L_\nR__E_\nESSAY\nSIEVE\nTAWER"
+    },
+    {
+        "total_step": 78,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "h5. tawer",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 993,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__L_\nR__E_\nESSAY\nSIEVE\nTAWER"
+    },
+    {
+        "total_step": 79,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "h5. tawer",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.84,
+            "r_word": 0.6,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 994,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nTAWER"
+    },
+    {
+        "total_step": 80,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "h5. tawer",
+            "v3. unsew"
+        ],
+        "info": {
+            "r_letter": 0.84,
+            "r_word": 0.6,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 996,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C_UL_\nR_NE_\nESSAY\nSIEVE\nTAWER"
+    },
+    {
+        "total_step": 81,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "h2. rover"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 905,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "C__L_\nROVER\nESSAY\nSIEVE\nT__E_"
+    },
+    {
+        "total_step": 82,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "h2. rover",
+            "v2. posit"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1054,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "CP_L_\nROVER\nESSAY\nSIEVE\nTT_E_"
+    },
+    {
+        "total_step": 83,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "h2. rover",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1055,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__LD\nROVER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 84,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "h2. rover",
+            "h5. tawer"
+        ],
+        "info": {
+            "r_letter": 0.8,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 1058,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__L_\nROVER\nESSAY\nSIEVE\nTAWER"
+    },
+    {
+        "total_step": 85,
+        "env_step": 6,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "v3. unsew"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 1
+        },
+        "current_node_id": 867,
+        "depth": 6,
+        "d_thres": 0.0,
+        "answer": "__UL_\n__NE_\nESSAY\n__EV_\n__WE_"
+    },
+    {
+        "total_step": 86,
+        "env_step": 6,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h3. essay",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 1
+        },
+        "current_node_id": 868,
+        "depth": 6,
+        "d_thres": 0.0,
+        "answer": "___LD\n___ER\nESSAY\n___VE\n___ER"
+    },
+    {
+        "total_step": 87,
+        "env_step": 5,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 78,
+        "depth": 5,
+        "d_thres": 0.0,
+        "answer": "___L_\n___E_\n___A_\nSIEVE\n___E_"
+    },
+    {
+        "total_step": 88,
+        "env_step": 6,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "h3. essay"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 1,
+            "impossible": 0
+        },
+        "current_node_id": 1089,
+        "depth": 6,
+        "d_thres": 0.0,
+        "answer": "___L_\n___E_\nESSAY\nSIEVE\n___E_"
+    },
+    {
+        "total_step": 89,
+        "env_step": 7,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "h3. essay",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 1105,
+        "depth": 7,
+        "d_thres": 0.0,
+        "answer": "___LD\n___ER\nESSAY\nSIEVE\n___ER"
+    },
+    {
+        "total_step": 90,
+        "env_step": 7,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "h3. essay",
+            "h1. agile"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1107,
+        "depth": 7,
+        "d_thres": 0.0,
+        "answer": "AGILE\n___E_\nESSAY\nSIEVE\n___E_"
+    },
+    {
+        "total_step": 91,
+        "env_step": 7,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "h3. essay",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1108,
+        "depth": 7,
+        "d_thres": 0.0,
+        "answer": "C__L_\nR__E_\nESSAY\nSIEVE\nT__E_"
+    },
+    {
+        "total_step": 92,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "h3. essay",
+            "v1. crest",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1121,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 93,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "h3. essay",
+            "v1. crest",
+            "v5. dryer",
+            "h3. essay"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1134,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 94,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "h3. essay",
+            "v1. crest",
+            "v5. dryer",
+            "h4. sieve"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1135,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 95,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "h3. essay",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1136,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 96,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "h3. essay",
+            "v1. crest",
+            "h5. tawer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1125,
+        "depth": 8,
+        "d_thres": 0.0,
+        "answer": "C__L_\nR__E_\nESSAY\nSIEVE\nTAWER"
+    },
+    {
+        "total_step": 97,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "h3. essay",
+            "v1. crest",
+            "h5. tawer",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 1214,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__L_\nR__E_\nESSAY\nSIEVE\nTAWER"
+    },
+    {
+        "total_step": 98,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "h3. essay",
+            "v1. crest",
+            "h5. tawer",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.84,
+            "r_word": 0.6,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1215,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nTAWER"
+    },
+    {
+        "total_step": 99,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "h4. sieve",
+            "h3. essay",
+            "v1. crest",
+            "h5. tawer",
+            "v3. unsew"
+        ],
+        "info": {
+            "r_letter": 0.84,
+            "r_word": 0.6,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1217,
+        "distance to root": 0.0,
+        "depth": 9,
+        "d_thres": 0.0,
+        "answer": "C_UL_\nR_NE_\nESSAY\nSIEVE\nTAWER"
+    },
+    {
+        "index": 7,
+        "best node id": 156,
+        "node depth": 9,
+        "chosen step": 8,
+        "distance to root": 0.0,
+        "answer": "___L_\n___E_\n___A_\n___V_\n___E_",
+        "accuracy": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "cost time": 7.539788484573364
+    }
+]

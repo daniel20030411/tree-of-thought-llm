@@ -1,0 +1,226 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs
+idx: 12
+pruning = True
+date: 2024-05-10
+time: 18:29:26
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h2. alarm'], 'info': {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'distance to root': 9.0, 'depth': 1, 'd_thres': 10000, 'answer': '_____\nALARM\n_____\n_____\n_____'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['h2. alarm', 'h5. eider'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 1}, 'current_node_id': 9, 'distance to root': 18.0, 'depth': 2, 'd_thres': 10000, 'answer': '_____\nALARM\n_____\n_____\nEIDER'}
+
+{'total_step': 2, 'env_step': 2, 'actions': ['h2. alarm', 'h1. maple'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 10, 'distance to root': 18.4, 'depth': 2, 'd_thres': 10000, 'answer': 'MAPLE\nALARM\n_____\n_____\n_____'}
+
+{'total_step': 3, 'env_step': 3, 'actions': ['h2. alarm', 'h1. maple', 'h3. gecko'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 0}, 'current_node_id': 20, 'distance to root': 27.8, 'depth': 3, 'd_thres': 10000, 'answer': 'MAPLE\nALARM\nGECKO\n_____\n_____'}
+
+{'total_step': 4, 'env_step': 4, 'actions': ['h2. alarm', 'h1. maple', 'h3. gecko', 'h4. raise'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 1, 'impossible': 3}, 'current_node_id': 25, 'distance to root': 36.6, 'depth': 4, 'd_thres': 10000, 'answer': 'MAPLE\nALARM\nGECKO\nRAISE\n_____'}
+
+{'total_step': 5, 'env_step': 4, 'actions': ['h2. alarm', 'h1. maple', 'h3. gecko', 'h5. eider'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 1}, 'current_node_id': 26, 'distance to root': 36.9, 'depth': 4, 'd_thres': 10000, 'answer': 'MAPLE\nALARM\nGECKO\n_____\nEIDER'}
+
+{'total_step': 6, 'env_step': 4, 'actions': ['h2. alarm', 'h1. maple', 'h3. gecko', 'v2. alero'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 1}, 'current_node_id': 28, 'distance to root': 37.5, 'depth': 4, 'd_thres': 10000, 'answer': 'MAPLE\nALARM\nGECKO\n_R___\n_O___'}
+
+{'total_step': 7, 'env_step': 3, 'actions': ['h2. alarm', 'h1. maple', 'h4. raise'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 1}, 'current_node_id': 21, 'distance to root': 27.8, 'depth': 3, 'd_thres': 10000, 'answer': 'MAPLE\nALARM\n_____\nRAISE\n_____'}
+
+{'total_step': 8, 'env_step': 3, 'actions': ['h2. alarm', 'h1. maple', 'h5. eider'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 22, 'distance to root': 27.8, 'depth': 3, 'd_thres': 10000, 'answer': 'MAPLE\nALARM\n_____\n_____\nEIDER'}
+
+{'total_step': 9, 'env_step': 4, 'actions': ['h2. alarm', 'h1. maple', 'h5. eider', 'h4. raise'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 37, 'distance to root': 35.8, 'depth': 4, 'd_thres': 10000, 'answer': 'MAPLE\nALARM\n_____\nRAISE\nEIDER'}
+
+{'total_step': 10, 'env_step': 5, 'actions': ['h2. alarm', 'h1. maple', 'h5. eider', 'h4. raise', 'h3. gecko'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 2}, 'current_node_id': 49, 'distance to root': 45.4, 'depth': 5, 'd_thres': 10000, 'answer': 'MAPLE\nALARM\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 11, 'env_step': 4, 'actions': ['h2. alarm', 'h1. maple', 'h5. eider', 'h3. gecko'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 1}, 'current_node_id': 40, 'distance to root': 37.2, 'depth': 4, 'd_thres': 10000, 'answer': 'MAPLE\nALARM\nGECKO\n_____\nEIDER'}
+
+{'total_step': 12, 'env_step': 2, 'actions': ['h2. alarm', 'h4. raise'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 0}, 'current_node_id': 11, 'distance to root': 18.4, 'depth': 2, 'd_thres': 10000, 'answer': '_____\nALARM\n_____\nRAISE\n_____'}
+
+{'total_step': 13, 'env_step': 3, 'actions': ['h2. alarm', 'h4. raise', 'h5. eider'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 55, 'distance to root': 27.0, 'depth': 3, 'd_thres': 10000, 'answer': '_____\nALARM\n_____\nRAISE\nEIDER'}
+
+{'total_step': 14, 'env_step': 4, 'actions': ['h2. alarm', 'h4. raise', 'h5. eider', 'h1. shade'], 'info': {'r_letter': 0.56, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 75, 'distance to root': 36.4, 'depth': 4, 'd_thres': 10000, 'answer': 'SHADE\nALARM\n_____\nRAISE\nEIDER'}
+
+{'total_step': 15, 'env_step': 5, 'actions': ['h2. alarm', 'h4. raise', 'h5. eider', 'h1. shade', 'h3. gecko'], 'info': {'r_letter': 0.56, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 1}, 'current_node_id': 85, 'distance to root': 45.8, 'depth': 5, 'd_thres': 10000, 'answer': 'SHADE\nALARM\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 16, 'env_step': 4, 'actions': ['h2. alarm', 'h4. raise', 'h5. eider', 'h1. maple'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 77, 'distance to root': 36.8, 'depth': 4, 'd_thres': 10000, 'answer': 'MAPLE\nALARM\n_____\nRAISE\nEIDER'}
+
+{'total_step': 17, 'env_step': 5, 'actions': ['h2. alarm', 'h4. raise', 'h5. eider', 'h1. maple', 'h3. gecko'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 2}, 'current_node_id': 92, 'distance to root': 46.4, 'depth': 5, 'd_thres': 10000, 'answer': 'MAPLE\nALARM\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 18, 'env_step': 4, 'actions': ['h2. alarm', 'h4. raise', 'h5. eider', 'h1. woods'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 1}, 'current_node_id': 79, 'distance to root': 36.8, 'depth': 4, 'd_thres': 10000, 'answer': 'WOODS\nALARM\n_____\nRAISE\nEIDER'}
+
+{'total_step': 19, 'env_step': 3, 'actions': ['h2. alarm', 'h4. raise', 'h3. iguan'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 1}, 'current_node_id': 57, 'distance to root': 28.0, 'depth': 3, 'd_thres': 10000, 'answer': '_____\nALARM\nIGUAN\nRAISE\n_____'}
+
+{'total_step': 20, 'env_step': 3, 'actions': ['h2. alarm', 'h4. raise', 'h3. gecko'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 59, 'distance to root': 28.0, 'depth': 3, 'd_thres': 10000, 'answer': '_____\nALARM\nGECKO\nRAISE\n_____'}
+
+{'total_step': 21, 'env_step': 4, 'actions': ['h2. alarm', 'h4. raise', 'h3. gecko', 'h5. eider'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 98, 'distance to root': 36.6, 'depth': 4, 'd_thres': 10000, 'answer': '_____\nALARM\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 22, 'env_step': 5, 'actions': ['h2. alarm', 'h4. raise', 'h3. gecko', 'h5. eider', 'h1. grove'], 'info': {'r_letter': 0.52, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 7, 'maybe': 1, 'impossible': 2}, 'current_node_id': 115, 'distance to root': 46.0, 'depth': 5, 'd_thres': 10000, 'answer': 'GROVE\nALARM\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 23, 'env_step': 5, 'actions': ['h2. alarm', 'h4. raise', 'h3. gecko', 'h5. eider', 'h1. woods'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 1, 'impossible': 3}, 'current_node_id': 116, 'distance to root': 46.199999999999996, 'depth': 5, 'd_thres': 10000, 'answer': 'WOODS\nALARM\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 24, 'env_step': 5, 'actions': ['h2. alarm', 'h4. raise', 'h3. gecko', 'h5. eider', 'h1. woody'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 3}, 'current_node_id': 118, 'distance to root': 46.4, 'depth': 5, 'd_thres': 10000, 'answer': 'WOODY\nALARM\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 25, 'env_step': 4, 'actions': ['h2. alarm', 'h4. raise', 'h3. gecko', 'h1. woods'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 1, 'impossible': 3}, 'current_node_id': 104, 'distance to root': 37.6, 'depth': 4, 'd_thres': 10000, 'answer': 'WOODS\nALARM\nGECKO\nRAISE\n_____'}
+
+{'total_step': 26, 'env_step': 4, 'actions': ['h2. alarm', 'h4. raise', 'h3. gecko', 'h1. copse'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 1, 'impossible': 2}, 'current_node_id': 105, 'distance to root': 37.8, 'depth': 4, 'd_thres': 10000, 'answer': 'COPSE\nALARM\nGECKO\nRAISE\n_____'}
+
+{'total_step': 27, 'env_step': 1, 'actions': ['h3. gecko'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 2, 'distance to root': 9.5, 'depth': 1, 'd_thres': 10000, 'answer': '_____\n_____\nGECKO\n_____\n_____'}
+
+{'total_step': 28, 'env_step': 2, 'actions': ['h3. gecko', 'h5. eider'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 123, 'distance to root': 16.5, 'depth': 2, 'd_thres': 10000, 'answer': '_____\n_____\nGECKO\n_____\nEIDER'}
+
+{'total_step': 29, 'env_step': 3, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 141, 'distance to root': 25.2, 'depth': 3, 'd_thres': 10000, 'answer': '_____\n_____\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 30, 'env_step': 4, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 155, 'distance to root': 34.0, 'depth': 4, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 31, 'env_step': 5, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 169, 'distance to root': 43.0, 'depth': 5, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 32, 'env_step': 6, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 185, 'distance to root': 52.0, 'depth': 6, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 33, 'env_step': 7, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 201, 'distance to root': 61.0, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 34, 'env_step': 8, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 217, 'distance to root': 70.0, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 35, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 233, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 36, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h3. gecko'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 234, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 37, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 235, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 38, 'env_step': 8, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h3. gecko'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 218, 'distance to root': 70.0, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 39, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h3. gecko', 'h2. siren'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 297, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 40, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h3. gecko', 'h3. gecko'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 298, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 41, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h3. gecko', 'h4. raise'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 299, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 42, 'env_step': 8, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 219, 'distance to root': 70.0, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 43, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise', 'h2. siren'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 361, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 44, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise', 'h3. gecko'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 362, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 45, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise', 'h4. raise'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 363, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 46, 'env_step': 7, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h3. gecko'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 202, 'distance to root': 61.0, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 47, 'env_step': 8, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h3. gecko', 'h2. siren'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 425, 'distance to root': 70.0, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 48, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h3. gecko', 'h2. siren', 'h2. siren'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 441, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 49, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h3. gecko', 'h2. siren', 'h3. gecko'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 442, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 50, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h3. gecko', 'h2. siren', 'h4. raise'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 443, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 51, 'env_step': 8, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h3. gecko', 'h3. gecko'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 426, 'distance to root': 70.0, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 52, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h3. gecko', 'h3. gecko', 'h2. siren'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 505, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 53, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h3. gecko', 'h3. gecko', 'h3. gecko'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 506, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 54, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h3. gecko', 'h3. gecko', 'h4. raise'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 507, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 55, 'env_step': 8, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h3. gecko', 'h4. raise'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 427, 'distance to root': 70.0, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 56, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h3. gecko', 'h4. raise', 'h2. siren'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 569, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 57, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h3. gecko', 'h4. raise', 'h3. gecko'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 570, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 58, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h3. gecko', 'h4. raise', 'h4. raise'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 571, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 59, 'env_step': 7, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 203, 'distance to root': 61.0, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 60, 'env_step': 8, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise', 'h2. siren'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 633, 'distance to root': 70.0, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 61, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise', 'h2. siren', 'h2. siren'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 649, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 62, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise', 'h2. siren', 'h3. gecko'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 650, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 63, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise', 'h2. siren', 'h4. raise'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 651, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 64, 'env_step': 8, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise', 'h3. gecko'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 634, 'distance to root': 70.0, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 65, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise', 'h3. gecko', 'h2. siren'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 713, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 66, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise', 'h3. gecko', 'h3. gecko'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 714, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 67, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise', 'h3. gecko', 'h4. raise'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 715, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 68, 'env_step': 8, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise', 'h4. raise'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 635, 'distance to root': 70.0, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 69, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise', 'h4. raise', 'h2. siren'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 777, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 70, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise', 'h4. raise', 'h3. gecko'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 778, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 71, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h2. siren', 'h4. raise', 'h4. raise', 'h4. raise'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 779, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 72, 'env_step': 6, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h3. gecko'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 186, 'distance to root': 52.0, 'depth': 6, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 73, 'env_step': 7, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h3. gecko', 'h2. siren'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 841, 'distance to root': 61.0, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 74, 'env_step': 8, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h3. gecko', 'h2. siren', 'h2. siren'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 857, 'distance to root': 70.0, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 75, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h3. gecko', 'h2. siren', 'h2. siren', 'h2. siren'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 873, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 76, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h3. gecko', 'h2. siren', 'h2. siren', 'h3. gecko'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 874, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 77, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h3. gecko', 'h2. siren', 'h2. siren', 'h4. raise'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 875, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 78, 'env_step': 8, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h3. gecko', 'h2. siren', 'h3. gecko'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 858, 'distance to root': 70.0, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 79, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h3. gecko', 'h2. siren', 'h3. gecko', 'h2. siren'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 937, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 80, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h3. gecko', 'h2. siren', 'h3. gecko', 'h3. gecko'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 938, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 81, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h3. gecko', 'h2. siren', 'h3. gecko', 'h4. raise'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 939, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 82, 'env_step': 8, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h3. gecko', 'h2. siren', 'h4. raise'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 859, 'distance to root': 70.0, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 83, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h3. gecko', 'h2. siren', 'h4. raise', 'h2. siren'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1001, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 84, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h3. gecko', 'h2. siren', 'h4. raise', 'h3. gecko'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1002, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 85, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h3. gecko', 'h2. siren', 'h4. raise', 'h4. raise'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1003, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 86, 'env_step': 7, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h3. gecko', 'h3. gecko'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 842, 'distance to root': 61.0, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 87, 'env_step': 8, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h3. gecko', 'h3. gecko', 'h2. siren'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1065, 'distance to root': 70.0, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 88, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h3. gecko', 'h3. gecko', 'h2. siren', 'h2. siren'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1081, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 89, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h3. gecko', 'h3. gecko', 'h2. siren', 'h3. gecko'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1082, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 90, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h3. gecko', 'h3. gecko', 'h2. siren', 'h4. raise'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1083, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 91, 'env_step': 8, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h3. gecko', 'h3. gecko', 'h3. gecko'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1066, 'distance to root': 70.0, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 92, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h3. gecko', 'h3. gecko', 'h3. gecko', 'h2. siren'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1145, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 93, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h3. gecko', 'h3. gecko', 'h3. gecko', 'h3. gecko'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1146, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 94, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h3. gecko', 'h3. gecko', 'h3. gecko', 'h4. raise'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1147, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 95, 'env_step': 8, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h3. gecko', 'h3. gecko', 'h4. raise'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1067, 'distance to root': 70.0, 'depth': 8, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 96, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h3. gecko', 'h3. gecko', 'h4. raise', 'h2. siren'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1209, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 97, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h3. gecko', 'h3. gecko', 'h4. raise', 'h3. gecko'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1210, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 98, 'env_step': 9, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h3. gecko', 'h3. gecko', 'h4. raise', 'h4. raise'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 1211, 'distance to root': 79.0, 'depth': 9, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+{'total_step': 99, 'env_step': 7, 'actions': ['h3. gecko', 'h5. eider', 'h4. raise', 'h2. siren', 'h2. siren', 'h3. gecko', 'h4. raise'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 0}, 'current_node_id': 843, 'distance to root': 61.0, 'depth': 7, 'd_thres': 10000, 'answer': '_____\nSIREN\nGECKO\nRAISE\nEIDER'}
+
+-----------------------
+
+best node id: 37
+node depth: 4
+chosen step: 9
+distance to root: 35.8
+answer:
+
+MAPLE
+ALARM
+_____
+RAISE
+EIDER
+
+accuracy: {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}
+cost time: 307.3060259819031 s
+
+---- Task Complete ----

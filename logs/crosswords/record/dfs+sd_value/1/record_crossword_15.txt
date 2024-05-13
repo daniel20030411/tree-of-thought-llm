@@ -1,0 +1,44 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 15
+pruning = True
+date: 2024-05-09
+time: 20:28:54
+
+{'total_step': 0, 'env_step': 1, 'actions': ['v1. kiang'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': 'K____\nI____\nA____\nN____\nG____'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['v1. kiang', 'h4. navel'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 4, 'depth': 2, 'd_thres': 10000, 'answer': 'K____\nI____\nA____\nNAVEL\nG____'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['v1. kiang', 'h4. navel', 'v1. kiang'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 21, 'depth': 3, 'd_thres': 10000, 'answer': 'K____\nI____\nA____\nNAVEL\nG____'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['v1. kiang', 'h4. navel', 'v1. kiang', 'v1. kiang'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 49, 'depth': 4, 'd_thres': 10000, 'answer': 'K____\nI____\nA____\nNAVEL\nG____'}
+
+{'total_step': 4, 'env_step': 5, 'actions': ['v1. kiang', 'h4. navel', 'v1. kiang', 'v1. kiang', 'v1. kiang'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 77, 'depth': 5, 'd_thres': 10000, 'answer': 'K____\nI____\nA____\nNAVEL\nG____'}
+
+{'total_step': 5, 'env_step': 6, 'actions': ['v1. kiang', 'h4. navel', 'v1. kiang', 'v1. kiang', 'v1. kiang', 'v1. kiang'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 105, 'depth': 6, 'd_thres': 10000, 'answer': 'K____\nI____\nA____\nNAVEL\nG____'}
+
+{'total_step': 6, 'env_step': 7, 'actions': ['v1. kiang', 'h4. navel', 'v1. kiang', 'v1. kiang', 'v1. kiang', 'v1. kiang', 'v1. kiang'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 133, 'depth': 7, 'd_thres': 10000, 'answer': 'K____\nI____\nA____\nNAVEL\nG____'}
+
+{'total_step': 7, 'env_step': 8, 'actions': ['v1. kiang', 'h4. navel', 'v1. kiang', 'v1. kiang', 'v1. kiang', 'v1. kiang', 'v1. kiang', 'v1. kiang'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 161, 'depth': 8, 'd_thres': 10000, 'answer': 'K____\nI____\nA____\nNAVEL\nG____'}
+
+{'total_step': 8, 'env_step': 9, 'actions': ['v1. kiang', 'h4. navel', 'v1. kiang', 'v1. kiang', 'v1. kiang', 'v1. kiang', 'v1. kiang', 'v1. kiang', 'v1. kiang'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 189, 'distance to root': 0.0, 'depth': 9, 'd_thres': 0.0, 'answer': 'K____\nI____\nA____\nNAVEL\nG____'}
+
+-----------------------
+
+best node id: 189
+node depth: 9
+chosen step: 8
+distance to root: 0.0
+answer:
+
+K____
+I____
+A____
+NAVEL
+G____
+
+accuracy: {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}
+cost time: 14.662478923797607 s
+
+---- Task Complete ----

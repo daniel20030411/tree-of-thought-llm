@@ -1,0 +1,226 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs
+idx: 13
+pruning = True
+date: 2024-05-10
+time: 18:29:26
+
+{'total_step': 0, 'env_step': 1, 'actions': ['v3. amuse'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'distance to root': 7.7, 'depth': 1, 'd_thres': 10000, 'answer': '__A__\n__M__\n__U__\n__S__\n__E__'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['v3. amuse', 'h3. uvula'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 10, 'distance to root': 14.5, 'depth': 2, 'd_thres': 10000, 'answer': '__A__\n__M__\nUVULA\n__S__\n__E__'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['v3. amuse', 'h3. uvula', 'v2. level'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 2, 'impossible': 1}, 'current_node_id': 28, 'distance to root': 22.9, 'depth': 3, 'd_thres': 10000, 'answer': '_LA__\n_EM__\nUVULA\n_ES__\n_LE__'}
+
+{'total_step': 3, 'env_step': 3, 'actions': ['v3. amuse', 'h3. uvula', 'h1. glade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 6, 'maybe': 1, 'impossible': 0}, 'current_node_id': 31, 'distance to root': 23.9, 'depth': 3, 'd_thres': 10000, 'answer': 'GLADE\n__M__\nUVULA\n__S__\n__E__'}
+
+{'total_step': 4, 'env_step': 3, 'actions': ['v3. amuse', 'h3. uvula', 'v5. exalt'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 33, 'distance to root': 24.099999999999998, 'depth': 3, 'd_thres': 10000, 'answer': '__A_E\n__M_X\nUVULA\n__S_L\n__E_T'}
+
+{'total_step': 5, 'env_step': 4, 'actions': ['v3. amuse', 'h3. uvula', 'v5. exalt', 'v2. level'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 0}, 'current_node_id': 51, 'distance to root': 32.6, 'depth': 4, 'd_thres': 10000, 'answer': '_LA_E\n_EM_X\nUVULA\n_ES_L\n_LE_T'}
+
+{'total_step': 6, 'env_step': 5, 'actions': ['v3. amuse', 'h3. uvula', 'v5. exalt', 'v2. level', 'h1. glade'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 65, 'distance to root': 41.6, 'depth': 5, 'd_thres': 10000, 'answer': 'GLADE\n_EM_X\nUVULA\n_ES_L\n_LE_T'}
+
+{'total_step': 7, 'env_step': 6, 'actions': ['v3. amuse', 'h3. uvula', 'v5. exalt', 'v2. level', 'h1. glade', 'v4. delay'], 'info': {'r_letter': 0.88, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 76, 'distance to root': 51.0, 'depth': 6, 'd_thres': 10000, 'answer': 'GLADE\n_EMEX\nUVULA\n_ESAL\n_LEYT'}
+
+{'total_step': 8, 'env_step': 5, 'actions': ['v3. amuse', 'h3. uvula', 'v5. exalt', 'v2. level', 'h5. fleet'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 1}, 'current_node_id': 66, 'distance to root': 41.9, 'depth': 5, 'd_thres': 10000, 'answer': '_LA_E\n_EM_X\nUVULA\n_ES_L\nFLEET'}
+
+{'total_step': 9, 'env_step': 5, 'actions': ['v3. amuse', 'h3. uvula', 'v5. exalt', 'v2. level', 'h4. mesal'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 1}, 'current_node_id': 68, 'distance to root': 42.1, 'depth': 5, 'd_thres': 10000, 'answer': '_LA_E\n_EM_X\nUVULA\nMESAL\n_LE_T'}
+
+{'total_step': 10, 'env_step': 4, 'actions': ['v3. amuse', 'h3. uvula', 'v5. exalt', 'h1. glade'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 52, 'distance to root': 32.8, 'depth': 4, 'd_thres': 10000, 'answer': 'GLADE\n__M_X\nUVULA\n__S_L\n__E_T'}
+
+{'total_step': 11, 'env_step': 5, 'actions': ['v3. amuse', 'h3. uvula', 'v5. exalt', 'h1. glade', 'v2. level'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 83, 'distance to root': 40.9, 'depth': 5, 'd_thres': 10000, 'answer': 'GLADE\n_EM_X\nUVULA\n_ES_L\n_LE_T'}
+
+{'total_step': 12, 'env_step': 6, 'actions': ['v3. amuse', 'h3. uvula', 'v5. exalt', 'h1. glade', 'v2. level', 'v4. delay'], 'info': {'r_letter': 0.88, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 96, 'distance to root': 50.3, 'depth': 6, 'd_thres': 10000, 'answer': 'GLADE\n_EMEX\nUVULA\n_ESAL\n_LEYT'}
+
+{'total_step': 13, 'env_step': 5, 'actions': ['v3. amuse', 'h3. uvula', 'v5. exalt', 'h1. glade', 'v4. delay'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 84, 'distance to root': 40.9, 'depth': 5, 'd_thres': 10000, 'answer': 'GLADE\n__MEX\nUVULA\n__SAL\n__EYT'}
+
+{'total_step': 14, 'env_step': 5, 'actions': ['v3. amuse', 'h3. uvula', 'v5. exalt', 'h1. glade', 'h4. nasal'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 86, 'distance to root': 42.1, 'depth': 5, 'd_thres': 10000, 'answer': 'GLADE\n__M_X\nUVULA\nNASAL\n__E_T'}
+
+{'total_step': 15, 'env_step': 6, 'actions': ['v3. amuse', 'h3. uvula', 'v5. exalt', 'h1. glade', 'h4. nasal', 'v4. delay'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 103, 'distance to root': 51.1, 'depth': 6, 'd_thres': 10000, 'answer': 'GLADE\n__MEX\nUVULA\nNASAL\n__EYT'}
+
+{'total_step': 16, 'env_step': 4, 'actions': ['v3. amuse', 'h3. uvula', 'v5. exalt', 'h5. fleet'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 1}, 'current_node_id': 53, 'distance to root': 33.2, 'depth': 4, 'd_thres': 10000, 'answer': '__A_E\n__M_X\nUVULA\n__S_L\nFLEET'}
+
+{'total_step': 17, 'env_step': 2, 'actions': ['v3. amuse', 'v2. level'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 2, 'impossible': 1}, 'current_node_id': 13, 'distance to root': 16.5, 'depth': 2, 'd_thres': 10000, 'answer': '_LA__\n_EM__\n_VU__\n_ES__\n_LE__'}
+
+{'total_step': 18, 'env_step': 2, 'actions': ['v3. amuse', 'h1. glade'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 14, 'distance to root': 16.7, 'depth': 2, 'd_thres': 10000, 'answer': 'GLADE\n__M__\n__U__\n__S__\n__E__'}
+
+{'total_step': 19, 'env_step': 3, 'actions': ['v3. amuse', 'h1. glade', 'h3. uvula'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 6, 'maybe': 1, 'impossible': 0}, 'current_node_id': 113, 'distance to root': 25.2, 'depth': 3, 'd_thres': 10000, 'answer': 'GLADE\n__M__\nUVULA\n__S__\n__E__'}
+
+{'total_step': 20, 'env_step': 3, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 115, 'distance to root': 26.0, 'depth': 3, 'd_thres': 10000, 'answer': 'GLADE\n__M_X\n__U_A\n__S_L\n__E_T'}
+
+{'total_step': 21, 'env_step': 4, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'h3. uvula'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 124, 'distance to root': 34.0, 'depth': 4, 'd_thres': 10000, 'answer': 'GLADE\n__M_X\nUVULA\n__S_L\n__E_T'}
+
+{'total_step': 22, 'env_step': 5, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'h3. uvula', 'v2. level'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 134, 'distance to root': 42.10000000000001, 'depth': 5, 'd_thres': 10000, 'answer': 'GLADE\n_EM_X\nUVULA\n_ES_L\n_LE_T'}
+
+{'total_step': 23, 'env_step': 6, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'h3. uvula', 'v2. level', 'v4. delay'], 'info': {'r_letter': 0.88, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 147, 'distance to root': 51.5, 'depth': 6, 'd_thres': 10000, 'answer': 'GLADE\n_EMEX\nUVULA\n_ESAL\n_LEYT'}
+
+{'total_step': 24, 'env_step': 5, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'h3. uvula', 'v4. delay'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 135, 'distance to root': 42.10000000000001, 'depth': 5, 'd_thres': 10000, 'answer': 'GLADE\n__MEX\nUVULA\n__SAL\n__EYT'}
+
+{'total_step': 25, 'env_step': 5, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'h3. uvula', 'h4. nasal'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 137, 'distance to root': 43.300000000000004, 'depth': 5, 'd_thres': 10000, 'answer': 'GLADE\n__M_X\nUVULA\nNASAL\n__E_T'}
+
+{'total_step': 26, 'env_step': 6, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'h3. uvula', 'h4. nasal', 'v4. delay'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 154, 'distance to root': 52.300000000000004, 'depth': 6, 'd_thres': 10000, 'answer': 'GLADE\n__MEX\nUVULA\nNASAL\n__EYT'}
+
+{'total_step': 27, 'env_step': 4, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'v2. level'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 0}, 'current_node_id': 125, 'distance to root': 34.900000000000006, 'depth': 4, 'd_thres': 10000, 'answer': 'GLADE\n_EM_X\n_VU_A\n_ES_L\n_LE_T'}
+
+{'total_step': 28, 'env_step': 5, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'v2. level', 'h3. uvula'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 164, 'distance to root': 43.900000000000006, 'depth': 5, 'd_thres': 10000, 'answer': 'GLADE\n_EM_X\nUVULA\n_ES_L\n_LE_T'}
+
+{'total_step': 29, 'env_step': 6, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'v2. level', 'h3. uvula', 'v4. delay'], 'info': {'r_letter': 0.88, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 169, 'distance to root': 53.3, 'depth': 6, 'd_thres': 10000, 'answer': 'GLADE\n_EMEX\nUVULA\n_ESAL\n_LEYT'}
+
+{'total_step': 30, 'env_step': 5, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'v2. level', 'v4. delay'], 'info': {'r_letter': 0.84, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 0}, 'current_node_id': 165, 'distance to root': 43.900000000000006, 'depth': 5, 'd_thres': 10000, 'answer': 'GLADE\n_EMEX\n_VULA\n_ESAL\n_LEYT'}
+
+{'total_step': 31, 'env_step': 6, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'v2. level', 'v4. delay', 'h3. uvula'], 'info': {'r_letter': 0.88, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 176, 'distance to root': 46.900000000000006, 'depth': 6, 'd_thres': 10000, 'answer': 'GLADE\n_EMEX\nUVULA\n_ESAL\n_LEYT'}
+
+{'total_step': 32, 'env_step': 6, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'v2. level', 'v4. delay', 'v1. gripe'], 'info': {'r_letter': 0.88, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 7, 'maybe': 0, 'impossible': 3}, 'current_node_id': 177, 'distance to root': 52.5, 'depth': 6, 'd_thres': 10000, 'answer': 'GLADE\nREMEX\nIVULA\nPESAL\nELEYT'}
+
+{'total_step': 33, 'env_step': 6, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'v2. level', 'v4. delay', 'h2. remex'], 'info': {'r_letter': 0.88, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 179, 'distance to root': 52.8, 'depth': 6, 'd_thres': 10000, 'answer': 'GLADE\nREMEX\n_VULA\n_ESAL\n_LEYT'}
+
+{'total_step': 34, 'env_step': 4, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'v4. delay'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 0}, 'current_node_id': 126, 'distance to root': 34.900000000000006, 'depth': 4, 'd_thres': 10000, 'answer': 'GLADE\n__MEX\n__ULA\n__SAL\n__EYT'}
+
+{'total_step': 35, 'env_step': 5, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'v4. delay', 'h3. uvula'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 188, 'distance to root': 38.900000000000006, 'depth': 5, 'd_thres': 10000, 'answer': 'GLADE\n__MEX\nUVULA\n__SAL\n__EYT'}
+
+{'total_step': 36, 'env_step': 5, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'v4. delay', 'h4. nasal'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 191, 'distance to root': 41.2, 'depth': 5, 'd_thres': 10000, 'answer': 'GLADE\n__MEX\n__ULA\nNASAL\n__EYT'}
+
+{'total_step': 37, 'env_step': 6, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'v4. delay', 'h4. nasal', 'h3. uvula'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 196, 'distance to root': 47.2, 'depth': 6, 'd_thres': 10000, 'answer': 'GLADE\n__MEX\nUVULA\nNASAL\n__EYT'}
+
+{'total_step': 38, 'env_step': 5, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'v4. delay', 'v2. level'], 'info': {'r_letter': 0.84, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 0}, 'current_node_id': 192, 'distance to root': 42.400000000000006, 'depth': 5, 'd_thres': 10000, 'answer': 'GLADE\n_EMEX\n_VULA\n_ESAL\n_LEYT'}
+
+{'total_step': 39, 'env_step': 6, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'v4. delay', 'v2. level', 'h3. uvula'], 'info': {'r_letter': 0.88, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 207, 'distance to root': 45.400000000000006, 'depth': 6, 'd_thres': 10000, 'answer': 'GLADE\n_EMEX\nUVULA\n_ESAL\n_LEYT'}
+
+{'total_step': 40, 'env_step': 6, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'v4. delay', 'v2. level', 'v1. gripe'], 'info': {'r_letter': 0.88, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 7, 'maybe': 0, 'impossible': 3}, 'current_node_id': 208, 'distance to root': 51.0, 'depth': 6, 'd_thres': 10000, 'answer': 'GLADE\nREMEX\nIVULA\nPESAL\nELEYT'}
+
+{'total_step': 41, 'env_step': 6, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'v4. delay', 'v2. level', 'h2. remex'], 'info': {'r_letter': 0.88, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 210, 'distance to root': 51.3, 'depth': 6, 'd_thres': 10000, 'answer': 'GLADE\nREMEX\n_VULA\n_ESAL\n_LEYT'}
+
+{'total_step': 42, 'env_step': 3, 'actions': ['v3. amuse', 'h1. glade', 'v2. level'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 1}, 'current_node_id': 116, 'distance to root': 26.099999999999998, 'depth': 3, 'd_thres': 10000, 'answer': 'GLADE\n_EM__\n_VU__\n_ES__\n_LE__'}
+
+{'total_step': 43, 'env_step': 1, 'actions': ['h2. quill'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 2, 'distance to root': 7.9, 'depth': 1, 'd_thres': 10000, 'answer': '_____\nQUILL\n_____\n_____\n_____'}
+
+{'total_step': 44, 'env_step': 2, 'actions': ['h2. quill', 'h5. barge'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 219, 'distance to root': 15.100000000000001, 'depth': 2, 'd_thres': 10000, 'answer': '_____\nQUILL\n_____\n_____\nBARGE'}
+
+{'total_step': 45, 'env_step': 3, 'actions': ['h2. quill', 'h5. barge', 'h3. uvula'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 233, 'distance to root': 23.0, 'depth': 3, 'd_thres': 10000, 'answer': '_____\nQUILL\nUVULA\n_____\nBARGE'}
+
+{'total_step': 46, 'env_step': 4, 'actions': ['h2. quill', 'h5. barge', 'h3. uvula', 'v1. squab'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 253, 'distance to root': 31.200000000000003, 'depth': 4, 'd_thres': 10000, 'answer': 'S____\nQUILL\nUVULA\nA____\nBARGE'}
+
+{'total_step': 47, 'env_step': 5, 'actions': ['h2. quill', 'h5. barge', 'h3. uvula', 'v1. squab', 'h1. shade'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 0}, 'current_node_id': 275, 'distance to root': 39.6, 'depth': 5, 'd_thres': 10000, 'answer': 'SHADE\nQUILL\nUVULA\nA____\nBARGE'}
+
+{'total_step': 48, 'env_step': 6, 'actions': ['h2. quill', 'h5. barge', 'h3. uvula', 'v1. squab', 'h1. shade', 'h4. axial'], 'info': {'r_letter': 0.4, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 293, 'distance to root': 49.400000000000006, 'depth': 6, 'd_thres': 10000, 'answer': 'SHADE\nQUILL\nUVULA\nAXIAL\nBARGE'}
+
+{'total_step': 49, 'env_step': 5, 'actions': ['h2. quill', 'h5. barge', 'h3. uvula', 'v1. squab', 'h4. axial'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 2}, 'current_node_id': 277, 'distance to root': 40.3, 'depth': 5, 'd_thres': 10000, 'answer': 'S____\nQUILL\nUVULA\nAXIAL\nBARGE'}
+
+{'total_step': 50, 'env_step': 5, 'actions': ['h2. quill', 'h5. barge', 'h3. uvula', 'v1. squab', 'h4. avera'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 2}, 'current_node_id': 281, 'distance to root': 41.0, 'depth': 5, 'd_thres': 10000, 'answer': 'S____\nQUILL\nUVULA\nAVERA\nBARGE'}
+
+{'total_step': 51, 'env_step': 4, 'actions': ['h2. quill', 'h5. barge', 'h3. uvula', 'h1. glade'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 1}, 'current_node_id': 256, 'distance to root': 32.1, 'depth': 4, 'd_thres': 10000, 'answer': 'GLADE\nQUILL\nUVULA\n_____\nBARGE'}
+
+{'total_step': 52, 'env_step': 4, 'actions': ['h2. quill', 'h5. barge', 'h3. uvula', 'h4. midst'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 2}, 'current_node_id': 257, 'distance to root': 32.2, 'depth': 4, 'd_thres': 10000, 'answer': '_____\nQUILL\nUVULA\nMIDST\nBARGE'}
+
+{'total_step': 53, 'env_step': 3, 'actions': ['h2. quill', 'h5. barge', 'h4. later'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 236, 'distance to root': 24.200000000000003, 'depth': 3, 'd_thres': 10000, 'answer': '_____\nQUILL\n_____\nLATER\nBARGE'}
+
+{'total_step': 54, 'env_step': 4, 'actions': ['h2. quill', 'h5. barge', 'h4. later', 'h3. uvula'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 300, 'distance to root': 31.299999999999997, 'depth': 4, 'd_thres': 10000, 'answer': '_____\nQUILL\nUVULA\nLATER\nBARGE'}
+
+{'total_step': 55, 'env_step': 5, 'actions': ['h2. quill', 'h5. barge', 'h4. later', 'h3. uvula', 'h1. grove'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 3}, 'current_node_id': 313, 'distance to root': 40.9, 'depth': 5, 'd_thres': 10000, 'answer': 'GROVE\nQUILL\nUVULA\nLATER\nBARGE'}
+
+{'total_step': 56, 'env_step': 4, 'actions': ['h2. quill', 'h5. barge', 'h4. later', 'h1. maple'], 'info': {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 302, 'distance to root': 33.6, 'depth': 4, 'd_thres': 10000, 'answer': 'MAPLE\nQUILL\n_____\nLATER\nBARGE'}
+
+{'total_step': 57, 'env_step': 3, 'actions': ['h2. quill', 'h5. barge', 'h1. oaken'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 237, 'distance to root': 24.299999999999997, 'depth': 3, 'd_thres': 10000, 'answer': 'OAKEN\nQUILL\n_____\n_____\nBARGE'}
+
+{'total_step': 58, 'env_step': 2, 'actions': ['h2. quill', 'h3. uvula'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 221, 'distance to root': 15.8, 'depth': 2, 'd_thres': 10000, 'answer': '_____\nQUILL\nUVULA\n_____\n_____'}
+
+{'total_step': 59, 'env_step': 3, 'actions': ['h2. quill', 'h3. uvula', 'h5. barge'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 319, 'distance to root': 24.299999999999997, 'depth': 3, 'd_thres': 10000, 'answer': '_____\nQUILL\nUVULA\n_____\nBARGE'}
+
+{'total_step': 60, 'env_step': 4, 'actions': ['h2. quill', 'h3. uvula', 'h5. barge', 'v1. squab'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 334, 'distance to root': 32.5, 'depth': 4, 'd_thres': 10000, 'answer': 'S____\nQUILL\nUVULA\nA____\nBARGE'}
+
+{'total_step': 61, 'env_step': 5, 'actions': ['h2. quill', 'h3. uvula', 'h5. barge', 'v1. squab', 'h1. shade'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 0}, 'current_node_id': 356, 'distance to root': 40.9, 'depth': 5, 'd_thres': 10000, 'answer': 'SHADE\nQUILL\nUVULA\nA____\nBARGE'}
+
+{'total_step': 62, 'env_step': 6, 'actions': ['h2. quill', 'h3. uvula', 'h5. barge', 'v1. squab', 'h1. shade', 'h4. axial'], 'info': {'r_letter': 0.4, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 374, 'distance to root': 50.7, 'depth': 6, 'd_thres': 10000, 'answer': 'SHADE\nQUILL\nUVULA\nAXIAL\nBARGE'}
+
+{'total_step': 63, 'env_step': 5, 'actions': ['h2. quill', 'h3. uvula', 'h5. barge', 'v1. squab', 'h4. axial'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 2}, 'current_node_id': 358, 'distance to root': 41.599999999999994, 'depth': 5, 'd_thres': 10000, 'answer': 'S____\nQUILL\nUVULA\nAXIAL\nBARGE'}
+
+{'total_step': 64, 'env_step': 5, 'actions': ['h2. quill', 'h3. uvula', 'h5. barge', 'v1. squab', 'h4. avera'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 2}, 'current_node_id': 362, 'distance to root': 42.3, 'depth': 5, 'd_thres': 10000, 'answer': 'S____\nQUILL\nUVULA\nAVERA\nBARGE'}
+
+{'total_step': 65, 'env_step': 4, 'actions': ['h2. quill', 'h3. uvula', 'h5. barge', 'h1. glade'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 1}, 'current_node_id': 337, 'distance to root': 33.4, 'depth': 4, 'd_thres': 10000, 'answer': 'GLADE\nQUILL\nUVULA\n_____\nBARGE'}
+
+{'total_step': 66, 'env_step': 4, 'actions': ['h2. quill', 'h3. uvula', 'h5. barge', 'h4. midst'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 2}, 'current_node_id': 338, 'distance to root': 33.5, 'depth': 4, 'd_thres': 10000, 'answer': '_____\nQUILL\nUVULA\nMIDST\nBARGE'}
+
+{'total_step': 67, 'env_step': 3, 'actions': ['h2. quill', 'h3. uvula', 'h1. grove'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 323, 'distance to root': 25.200000000000003, 'depth': 3, 'd_thres': 10000, 'answer': 'GROVE\nQUILL\nUVULA\n_____\n_____'}
+
+{'total_step': 68, 'env_step': 3, 'actions': ['h2. quill', 'h3. uvula', 'v1. squaw'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 324, 'distance to root': 25.299999999999997, 'depth': 3, 'd_thres': 10000, 'answer': 'S____\nQUILL\nUVULA\nA____\nW____'}
+
+{'total_step': 69, 'env_step': 4, 'actions': ['h2. quill', 'h3. uvula', 'v1. squaw', 'h1. shade'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 0}, 'current_node_id': 382, 'distance to root': 33.9, 'depth': 4, 'd_thres': 10000, 'answer': 'SHADE\nQUILL\nUVULA\nA____\nW____'}
+
+{'total_step': 70, 'env_step': 4, 'actions': ['h2. quill', 'h3. uvula', 'v1. squaw', 'h4. axial'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 383, 'distance to root': 34.0, 'depth': 4, 'd_thres': 10000, 'answer': 'S____\nQUILL\nUVULA\nAXIAL\nW____'}
+
+{'total_step': 71, 'env_step': 5, 'actions': ['h2. quill', 'h3. uvula', 'v1. squaw', 'h4. axial', 'h1. shade'], 'info': {'r_letter': 0.4, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 0, 'impossible': 4}, 'current_node_id': 403, 'distance to root': 43.0, 'depth': 5, 'd_thres': 10000, 'answer': 'SHADE\nQUILL\nUVULA\nAXIAL\nW____'}
+
+{'total_step': 72, 'env_step': 5, 'actions': ['h2. quill', 'h3. uvula', 'v1. squaw', 'h4. axial', 'h5. wharf'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 2}, 'current_node_id': 405, 'distance to root': 43.3, 'depth': 5, 'd_thres': 10000, 'answer': 'S____\nQUILL\nUVULA\nAXIAL\nWHARF'}
+
+{'total_step': 73, 'env_step': 4, 'actions': ['h2. quill', 'h3. uvula', 'v1. squaw', 'h5. wharf'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 385, 'distance to root': 34.5, 'depth': 4, 'd_thres': 10000, 'answer': 'S____\nQUILL\nUVULA\nA____\nWHARF'}
+
+{'total_step': 74, 'env_step': 2, 'actions': ['h2. quill', 'h4. molar'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 223, 'distance to root': 16.8, 'depth': 2, 'd_thres': 10000, 'answer': '_____\nQUILL\n_____\nMOLAR\n_____'}
+
+{'total_step': 75, 'env_step': 3, 'actions': ['h2. quill', 'h4. molar', 'h5. barge'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 415, 'distance to root': 24.799999999999997, 'depth': 3, 'd_thres': 10000, 'answer': '_____\nQUILL\n_____\nMOLAR\nBARGE'}
+
+{'total_step': 76, 'env_step': 4, 'actions': ['h2. quill', 'h4. molar', 'h5. barge', 'h3. uvula'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 3}, 'current_node_id': 427, 'distance to root': 33.3, 'depth': 4, 'd_thres': 10000, 'answer': '_____\nQUILL\nUVULA\nMOLAR\nBARGE'}
+
+{'total_step': 77, 'env_step': 4, 'actions': ['h2. quill', 'h4. molar', 'h5. barge', 'h3. velum'], 'info': {'r_letter': 0.08, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 3}, 'current_node_id': 430, 'distance to root': 34.4, 'depth': 4, 'd_thres': 10000, 'answer': '_____\nQUILL\nVELUM\nMOLAR\nBARGE'}
+
+{'total_step': 78, 'env_step': 4, 'actions': ['h2. quill', 'h4. molar', 'h5. barge', 'v5. glare'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 431, 'distance to root': 34.4, 'depth': 4, 'd_thres': 10000, 'answer': '____G\nQUILL\n____A\nMOLAR\nBARGE'}
+
+{'total_step': 79, 'env_step': 5, 'actions': ['h2. quill', 'h4. molar', 'h5. barge', 'v5. glare', 'v5. glare'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 441, 'distance to root': 43.4, 'depth': 5, 'd_thres': 10000, 'answer': '____G\nQUILL\n____A\nMOLAR\nBARGE'}
+
+{'total_step': 80, 'env_step': 6, 'actions': ['h2. quill', 'h4. molar', 'h5. barge', 'v5. glare', 'v5. glare', 'v5. glare'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 445, 'distance to root': 52.4, 'depth': 6, 'd_thres': 10000, 'answer': '____G\nQUILL\n____A\nMOLAR\nBARGE'}
+
+{'total_step': 81, 'env_step': 7, 'actions': ['h2. quill', 'h4. molar', 'h5. barge', 'v5. glare', 'v5. glare', 'v5. glare', 'v5. glare'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 449, 'distance to root': 61.4, 'depth': 7, 'd_thres': 10000, 'answer': '____G\nQUILL\n____A\nMOLAR\nBARGE'}
+
+{'total_step': 82, 'env_step': 8, 'actions': ['h2. quill', 'h4. molar', 'h5. barge', 'v5. glare', 'v5. glare', 'v5. glare', 'v5. glare', 'v5. glare'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 453, 'distance to root': 70.4, 'depth': 8, 'd_thres': 10000, 'answer': '____G\nQUILL\n____A\nMOLAR\nBARGE'}
+
+{'total_step': 83, 'env_step': 9, 'actions': ['h2. quill', 'h4. molar', 'h5. barge', 'v5. glare', 'v5. glare', 'v5. glare', 'v5. glare', 'v5. glare', 'v5. glare'], 'info': {'r_letter': 0.12, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 457, 'distance to root': 79.4, 'depth': 9, 'd_thres': 10000, 'answer': '____G\nQUILL\n____A\nMOLAR\nBARGE'}
+
+{'total_step': 84, 'env_step': 3, 'actions': ['h2. quill', 'h4. molar', 'h1. grove'], 'info': {'r_letter': 0.16, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 416, 'distance to root': 25.6, 'depth': 3, 'd_thres': 10000, 'answer': 'GROVE\nQUILL\n_____\nMOLAR\n_____'}
+
+{'total_step': 85, 'env_step': 3, 'actions': ['h2. quill', 'h4. molar', 'h3. uvula'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 417, 'distance to root': 26.1, 'depth': 3, 'd_thres': 10000, 'answer': '_____\nQUILL\nUVULA\nMOLAR\n_____'}
+
+{'total_step': 86, 'env_step': 4, 'actions': ['h2. quill', 'h4. molar', 'h3. uvula', 'h5. barge'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 3}, 'current_node_id': 466, 'distance to root': 34.3, 'depth': 4, 'd_thres': 10000, 'answer': '_____\nQUILL\nUVULA\nMOLAR\nBARGE'}
+
+{'total_step': 87, 'env_step': 4, 'actions': ['h2. quill', 'h4. molar', 'h3. uvula', 'h1. grove'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 0, 'impossible': 4}, 'current_node_id': 468, 'distance to root': 35.3, 'depth': 4, 'd_thres': 10000, 'answer': 'GROVE\nQUILL\nUVULA\nMOLAR\n_____'}
+
+{'total_step': 88, 'env_step': 1, 'actions': ['h5. barge'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 3, 'distance to root': 7.9, 'depth': 1, 'd_thres': 10000, 'answer': '_____\n_____\n_____\n_____\nBARGE'}
+
+{'total_step': 89, 'env_step': 2, 'actions': ['h5. barge', 'h2. quill'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 474, 'distance to root': 14.5, 'depth': 2, 'd_thres': 10000, 'answer': '_____\nQUILL\n_____\n_____\nBARGE'}
+
+{'total_step': 90, 'env_step': 3, 'actions': ['h5. barge', 'h2. quill', 'h3. uvula'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 494, 'distance to root': 22.4, 'depth': 3, 'd_thres': 10000, 'answer': '_____\nQUILL\nUVULA\n_____\nBARGE'}
+
+{'total_step': 91, 'env_step': 4, 'actions': ['h5. barge', 'h2. quill', 'h3. uvula', 'v1. squab'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 514, 'distance to root': 30.6, 'depth': 4, 'd_thres': 10000, 'answer': 'S____\nQUILL\nUVULA\nA____\nBARGE'}
+
+{'total_step': 92, 'env_step': 5, 'actions': ['h5. barge', 'h2. quill', 'h3. uvula', 'v1. squab', 'h1. shade'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 0}, 'current_node_id': 536, 'distance to root': 39.0, 'depth': 5, 'd_thres': 10000, 'answer': 'SHADE\nQUILL\nUVULA\nA____\nBARGE'}
+
+{'total_step': 93, 'env_step': 6, 'actions': ['h5. barge', 'h2. quill', 'h3. uvula', 'v1. squab', 'h1. shade', 'h4. axial'], 'info': {'r_letter': 0.4, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 554, 'distance to root': 48.800000000000004, 'depth': 6, 'd_thres': 10000, 'answer': 'SHADE\nQUILL\nUVULA\nAXIAL\nBARGE'}
+
+{'total_step': 94, 'env_step': 5, 'actions': ['h5. barge', 'h2. quill', 'h3. uvula', 'v1. squab', 'h4. axial'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 2}, 'current_node_id': 538, 'distance to root': 39.699999999999996, 'depth': 5, 'd_thres': 10000, 'answer': 'S____\nQUILL\nUVULA\nAXIAL\nBARGE'}
+
+{'total_step': 95, 'env_step': 5, 'actions': ['h5. barge', 'h2. quill', 'h3. uvula', 'v1. squab', 'h4. avera'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 2}, 'current_node_id': 542, 'distance to root': 40.4, 'depth': 5, 'd_thres': 10000, 'answer': 'S____\nQUILL\nUVULA\nAVERA\nBARGE'}
+
+{'total_step': 96, 'env_step': 4, 'actions': ['h5. barge', 'h2. quill', 'h3. uvula', 'h1. glade'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 1}, 'current_node_id': 517, 'distance to root': 31.5, 'depth': 4, 'd_thres': 10000, 'answer': 'GLADE\nQUILL\nUVULA\n_____\nBARGE'}
+
+{'total_step': 97, 'env_step': 4, 'actions': ['h5. barge', 'h2. quill', 'h3. uvula', 'h4. midst'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 2}, 'current_node_id': 518, 'distance to root': 31.6, 'depth': 4, 'd_thres': 10000, 'answer': '_____\nQUILL\nUVULA\nMIDST\nBARGE'}
+
+{'total_step': 98, 'env_step': 3, 'actions': ['h5. barge', 'h2. quill', 'h4. later'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 3, 'maybe': 5, 'impossible': 0}, 'current_node_id': 497, 'distance to root': 23.6, 'depth': 3, 'd_thres': 10000, 'answer': '_____\nQUILL\n_____\nLATER\nBARGE'}
+
+{'total_step': 99, 'env_step': 4, 'actions': ['h5. barge', 'h2. quill', 'h4. later', 'h3. uvula'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 561, 'distance to root': 30.699999999999996, 'depth': 4, 'd_thres': 10000, 'answer': '_____\nQUILL\nUVULA\nLATER\nBARGE'}
+
+-----------------------
+
+best node id: 76
+node depth: 6
+chosen step: 7
+distance to root: 51.0
+answer:
+
+GLADE
+_EMEX
+UVULA
+_ESAL
+_LEYT
+
+accuracy: {'r_letter': 0.88, 'r_word': 0.6, 'r_game': False}
+cost time: 469.9634792804718 s
+
+---- Task Complete ----

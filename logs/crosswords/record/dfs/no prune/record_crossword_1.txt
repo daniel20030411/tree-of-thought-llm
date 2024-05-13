@@ -1,0 +1,226 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs
+idx: 1
+pruning = False
+date: 2024-05-06
+time: 02:32:47
+
+{'total_step': 0, 'env_step': 1, 'actions': ['v3. evade'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'distance to root': 3.8, 'depth': 1, 'd_thres': 10000, 'answer': '__E__\n__V__\n__A__\n__D__\n__E__'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['v3. evade', 'h4. seder'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 9, 'distance to root': 10.3, 'depth': 2, 'd_thres': 10000, 'answer': '__E__\n__V__\n__A__\nSEDER\n__E__'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['v3. evade', 'h4. seder', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 25, 'distance to root': 18.2, 'depth': 3, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 37, 'distance to root': 27.2, 'depth': 4, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 4, 'env_step': 5, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 52, 'distance to root': 36.199999999999996, 'depth': 5, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 5, 'env_step': 6, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 67, 'distance to root': 45.199999999999996, 'depth': 6, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 6, 'env_step': 7, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 82, 'distance to root': 54.199999999999996, 'depth': 7, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 7, 'env_step': 8, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'h4. seder', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 97, 'distance to root': 63.199999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 8, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'h4. seder', 'h4. seder', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 112, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 9, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'h4. seder', 'h4. seder', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 113, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 10, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'h4. seder', 'h4. seder', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 114, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 11, 'env_step': 8, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'h4. seder', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 98, 'distance to root': 63.199999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 12, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'h4. seder', 'v3. evade', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 172, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 13, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'h4. seder', 'v3. evade', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 173, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 14, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'h4. seder', 'v3. evade', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 174, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 15, 'env_step': 8, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'h4. seder', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 99, 'distance to root': 63.199999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 16, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'h4. seder', 'v4. filer', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 232, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 17, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'h4. seder', 'v4. filer', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 233, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 18, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'h4. seder', 'v4. filer', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 234, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 19, 'env_step': 7, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 83, 'distance to root': 54.199999999999996, 'depth': 7, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 20, 'env_step': 8, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'v3. evade', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 292, 'distance to root': 63.199999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 21, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'v3. evade', 'h4. seder', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 307, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 22, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'v3. evade', 'h4. seder', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 308, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 23, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'v3. evade', 'h4. seder', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 309, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 24, 'env_step': 8, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'v3. evade', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 293, 'distance to root': 63.199999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 25, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'v3. evade', 'v3. evade', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 367, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 26, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'v3. evade', 'v3. evade', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 368, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 27, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'v3. evade', 'v3. evade', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 369, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 28, 'env_step': 8, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'v3. evade', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 294, 'distance to root': 63.199999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 29, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'v3. evade', 'v4. filer', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 427, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 30, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'v3. evade', 'v4. filer', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 428, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 31, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'v3. evade', 'v4. filer', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 429, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 32, 'env_step': 7, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 84, 'distance to root': 54.199999999999996, 'depth': 7, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 33, 'env_step': 8, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'v4. filer', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 487, 'distance to root': 63.199999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 34, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 502, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 35, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'v4. filer', 'h4. seder', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 503, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 36, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'v4. filer', 'h4. seder', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 504, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 37, 'env_step': 8, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'v4. filer', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 488, 'distance to root': 63.199999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 38, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'v4. filer', 'v3. evade', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 562, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 39, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'v4. filer', 'v3. evade', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 563, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 40, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'v4. filer', 'v3. evade', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 564, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 41, 'env_step': 8, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'v4. filer', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 489, 'distance to root': 63.199999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 42, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'v4. filer', 'v4. filer', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 622, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 43, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'v4. filer', 'v4. filer', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 623, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 44, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder', 'v4. filer', 'v4. filer', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 624, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 45, 'env_step': 6, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 68, 'distance to root': 45.199999999999996, 'depth': 6, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 46, 'env_step': 7, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 682, 'distance to root': 54.199999999999996, 'depth': 7, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 47, 'env_step': 8, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'h4. seder', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 697, 'distance to root': 63.199999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 48, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'h4. seder', 'h4. seder', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 712, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 49, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'h4. seder', 'h4. seder', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 713, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 50, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'h4. seder', 'h4. seder', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 714, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 51, 'env_step': 8, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'h4. seder', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 698, 'distance to root': 63.199999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 52, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'h4. seder', 'v3. evade', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 772, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 53, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'h4. seder', 'v3. evade', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 773, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 54, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'h4. seder', 'v3. evade', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 774, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 55, 'env_step': 8, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'h4. seder', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 699, 'distance to root': 63.199999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 56, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'h4. seder', 'v4. filer', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 832, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 57, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'h4. seder', 'v4. filer', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 833, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 58, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'h4. seder', 'v4. filer', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 834, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 59, 'env_step': 7, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 683, 'distance to root': 54.199999999999996, 'depth': 7, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 60, 'env_step': 8, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'v3. evade', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 892, 'distance to root': 63.199999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 61, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'v3. evade', 'h4. seder', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 907, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 62, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'v3. evade', 'h4. seder', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 908, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 63, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'v3. evade', 'h4. seder', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 909, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 64, 'env_step': 8, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'v3. evade', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 893, 'distance to root': 63.199999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 65, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'v3. evade', 'v3. evade', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 967, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 66, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'v3. evade', 'v3. evade', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 968, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 67, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'v3. evade', 'v3. evade', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 969, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 68, 'env_step': 8, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'v3. evade', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 894, 'distance to root': 63.199999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 69, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'v3. evade', 'v4. filer', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1027, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 70, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'v3. evade', 'v4. filer', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1028, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 71, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'v3. evade', 'v4. filer', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1029, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 72, 'env_step': 7, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 684, 'distance to root': 54.199999999999996, 'depth': 7, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 73, 'env_step': 8, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'v4. filer', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1087, 'distance to root': 63.199999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 74, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'v4. filer', 'h4. seder', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1102, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 75, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'v4. filer', 'h4. seder', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1103, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 76, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'v4. filer', 'h4. seder', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1104, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 77, 'env_step': 8, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'v4. filer', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1088, 'distance to root': 63.199999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 78, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'v4. filer', 'v3. evade', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1162, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 79, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'v4. filer', 'v3. evade', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1163, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 80, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'v4. filer', 'v3. evade', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1164, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 81, 'env_step': 8, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'v4. filer', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1089, 'distance to root': 63.199999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 82, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'v4. filer', 'v4. filer', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1222, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 83, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'v4. filer', 'v4. filer', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1223, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 84, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade', 'v4. filer', 'v4. filer', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1224, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 85, 'env_step': 6, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 69, 'distance to root': 45.199999999999996, 'depth': 6, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 86, 'env_step': 7, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v4. filer', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1282, 'distance to root': 54.199999999999996, 'depth': 7, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 87, 'env_step': 8, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1297, 'distance to root': 63.199999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 88, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1312, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 89, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1313, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 90, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1314, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 91, 'env_step': 8, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v4. filer', 'h4. seder', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1298, 'distance to root': 63.199999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 92, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v4. filer', 'h4. seder', 'v3. evade', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1372, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 93, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v4. filer', 'h4. seder', 'v3. evade', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1373, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 94, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v4. filer', 'h4. seder', 'v3. evade', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1374, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 95, 'env_step': 8, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v4. filer', 'h4. seder', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1299, 'distance to root': 63.199999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 96, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v4. filer', 'h4. seder', 'v4. filer', 'h4. seder'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1432, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 97, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v4. filer', 'h4. seder', 'v4. filer', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1433, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 98, 'env_step': 9, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v4. filer', 'h4. seder', 'v4. filer', 'v4. filer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1434, 'distance to root': 72.2, 'depth': 9, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+{'total_step': 99, 'env_step': 7, 'actions': ['v3. evade', 'h4. seder', 'v4. filer', 'h4. seder', 'h4. seder', 'v4. filer', 'v3. evade'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 1283, 'distance to root': 54.199999999999996, 'depth': 7, 'd_thres': 10000, 'answer': '__EF_\n__VI_\n__AL_\nSEDER\n__ER_'}
+
+-----------------------
+
+best node id: 25
+node depth: 3
+chosen step: 2
+distance to root: 18.2
+answer:
+
+__EF_
+__VI_
+__AL_
+SEDER
+__ER_
+
+accuracy: {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}
+cost time: 21.426212072372437 s
+
+---- Task Complete ----

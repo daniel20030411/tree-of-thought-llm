@@ -1,0 +1,2903 @@
+[
+    {
+        "total_step": 0,
+        "env_step": 1,
+        "actions": [
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 1,
+        "depth": 1,
+        "d_thres": 10000,
+        "answer": "___L_\n___E_\n___A_\n___V_\n___E_"
+    },
+    {
+        "total_step": 1,
+        "env_step": 2,
+        "actions": [
+            "v4. leave",
+            "h3. essay"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 9,
+        "depth": 2,
+        "d_thres": 10000,
+        "answer": "___L_\n___E_\nESSAY\n___V_\n___E_"
+    },
+    {
+        "total_step": 2,
+        "env_step": 3,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 27,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "___L_\n___E_\nESSAY\nSIEVE\n___E_"
+    },
+    {
+        "total_step": 3,
+        "env_step": 4,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.4,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 48,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "C__L_\nR__E_\nESSAY\nSIEVE\nT__E_"
+    },
+    {
+        "total_step": 4,
+        "env_step": 5,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 51,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 5,
+        "env_step": 6,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 70,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 6,
+        "env_step": 7,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 88,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 7,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v1. crest",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 106,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 8,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v1. crest",
+            "v1. crest",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 124,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 9,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v1. crest",
+            "v1. crest",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 125,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 10,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v1. crest",
+            "v1. crest",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 126,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 11,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v1. crest",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 107,
+        "depth": 8,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 12,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v1. crest",
+            "v4. leave",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 196,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 13,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v1. crest",
+            "v4. leave",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 197,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 14,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v1. crest",
+            "v4. leave",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 198,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 15,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v1. crest",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 108,
+        "depth": 8,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 16,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 268,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 17,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 269,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 18,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v1. crest",
+            "v5. dryer",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 270,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 19,
+        "env_step": 7,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 89,
+        "depth": 7,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 20,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v4. leave",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 340,
+        "depth": 8,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 21,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v4. leave",
+            "v1. crest",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 358,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 22,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v4. leave",
+            "v1. crest",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 359,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 23,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v4. leave",
+            "v1. crest",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 360,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 24,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v4. leave",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 341,
+        "depth": 8,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 25,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v4. leave",
+            "v4. leave",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 430,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 26,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 431,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 27,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v4. leave",
+            "v4. leave",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 432,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 28,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v4. leave",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 342,
+        "depth": 8,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 29,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v4. leave",
+            "v5. dryer",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 502,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 30,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v4. leave",
+            "v5. dryer",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 503,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 31,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v4. leave",
+            "v5. dryer",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 504,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 32,
+        "env_step": 7,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 90,
+        "depth": 7,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 33,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 574,
+        "depth": 8,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 34,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 592,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 35,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 593,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 36,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 594,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 37,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 575,
+        "depth": 8,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 38,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 664,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 39,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 665,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 40,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 666,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 41,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v5. dryer",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 576,
+        "depth": 8,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 42,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v5. dryer",
+            "v5. dryer",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 736,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 43,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v5. dryer",
+            "v5. dryer",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 737,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 44,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest",
+            "v5. dryer",
+            "v5. dryer",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 738,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 45,
+        "env_step": 6,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 71,
+        "depth": 6,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 46,
+        "env_step": 7,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 808,
+        "depth": 7,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 47,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v1. crest",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 826,
+        "depth": 8,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 48,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v1. crest",
+            "v1. crest",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 844,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 49,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v1. crest",
+            "v1. crest",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 845,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 50,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v1. crest",
+            "v1. crest",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 846,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 51,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v1. crest",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 827,
+        "depth": 8,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 52,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v1. crest",
+            "v4. leave",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 916,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 53,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v1. crest",
+            "v4. leave",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 917,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 54,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v1. crest",
+            "v4. leave",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 918,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 55,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v1. crest",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 828,
+        "depth": 8,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 56,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 988,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 57,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 989,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 58,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v1. crest",
+            "v5. dryer",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 990,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 59,
+        "env_step": 7,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 809,
+        "depth": 7,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 60,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v4. leave",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1060,
+        "depth": 8,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 61,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v4. leave",
+            "v1. crest",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1078,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 62,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v4. leave",
+            "v1. crest",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1079,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 63,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v4. leave",
+            "v1. crest",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1080,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 64,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1061,
+        "depth": 8,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 65,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1150,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 66,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1151,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 67,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v4. leave",
+            "v4. leave",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1152,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 68,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v4. leave",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1062,
+        "depth": 8,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 69,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v4. leave",
+            "v5. dryer",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1222,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 70,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v4. leave",
+            "v5. dryer",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1223,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 71,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v4. leave",
+            "v5. dryer",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1224,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 72,
+        "env_step": 7,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 810,
+        "depth": 7,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 73,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v5. dryer",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1294,
+        "depth": 8,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 74,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v5. dryer",
+            "v1. crest",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1312,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 75,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v5. dryer",
+            "v1. crest",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1313,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 76,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v5. dryer",
+            "v1. crest",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1314,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 77,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v5. dryer",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1295,
+        "depth": 8,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 78,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v5. dryer",
+            "v4. leave",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1384,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 79,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v5. dryer",
+            "v4. leave",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1385,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 80,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v5. dryer",
+            "v4. leave",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1386,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 81,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v5. dryer",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1296,
+        "depth": 8,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 82,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v5. dryer",
+            "v5. dryer",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1456,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 83,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v5. dryer",
+            "v5. dryer",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1457,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 84,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave",
+            "v5. dryer",
+            "v5. dryer",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1458,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 85,
+        "env_step": 6,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 72,
+        "depth": 6,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 86,
+        "env_step": 7,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v5. dryer",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1528,
+        "depth": 7,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 87,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v5. dryer",
+            "v1. crest",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1546,
+        "depth": 8,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 88,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v5. dryer",
+            "v1. crest",
+            "v1. crest",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1564,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 89,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v5. dryer",
+            "v1. crest",
+            "v1. crest",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1565,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 90,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v5. dryer",
+            "v1. crest",
+            "v1. crest",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1566,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 91,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v5. dryer",
+            "v1. crest",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1547,
+        "depth": 8,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 92,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v5. dryer",
+            "v1. crest",
+            "v4. leave",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1636,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 93,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v5. dryer",
+            "v1. crest",
+            "v4. leave",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1637,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 94,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v5. dryer",
+            "v1. crest",
+            "v4. leave",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1638,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 95,
+        "env_step": 8,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v5. dryer",
+            "v1. crest",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1548,
+        "depth": 8,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 96,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v5. dryer",
+            "v1. crest",
+            "v5. dryer",
+            "v1. crest"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1708,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 97,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v5. dryer",
+            "v1. crest",
+            "v5. dryer",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1709,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 98,
+        "env_step": 9,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v5. dryer",
+            "v1. crest",
+            "v5. dryer",
+            "v5. dryer"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1710,
+        "distance to root": 62.800000000000004,
+        "depth": 9,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "total_step": 99,
+        "env_step": 7,
+        "actions": [
+            "v4. leave",
+            "h3. essay",
+            "h4. sieve",
+            "v1. crest",
+            "v5. dryer",
+            "v5. dryer",
+            "v4. leave"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "count": {
+            "sure": 8,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1529,
+        "depth": 7,
+        "d_thres": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER"
+    },
+    {
+        "index": 7,
+        "best node id": 124,
+        "node depth": 9,
+        "chosen step": 8,
+        "distance to root": 62.800000000000004,
+        "answer": "C__LD\nR__ER\nESSAY\nSIEVE\nT__ER",
+        "accuracy": {
+            "r_letter": 0.76,
+            "r_word": 0.5,
+            "r_game": false
+        },
+        "cost time": 47.34281301498413
+    }
+]

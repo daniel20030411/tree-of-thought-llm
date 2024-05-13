@@ -1,0 +1,44 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 15
+pruning = True
+date: 2024-05-10
+time: 02:10:41
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h3. shame'], 'info': {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': '_____\n_____\nSHAME\n_____\n_____'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['h3. shame', 'h4. navel'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 9, 'depth': 2, 'd_thres': 10000, 'answer': '_____\n_____\nSHAME\nNAVEL\n_____'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['h3. shame', 'h4. navel', 'v4. armed'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 23, 'depth': 3, 'd_thres': 10000, 'answer': '___A_\n___R_\nSHAME\nNAVEL\n___D_'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['h3. shame', 'h4. navel', 'v4. armed', 'h3. shame'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 34, 'depth': 4, 'd_thres': 10000, 'answer': '___A_\n___R_\nSHAME\nNAVEL\n___D_'}
+
+{'total_step': 4, 'env_step': 5, 'actions': ['h3. shame', 'h4. navel', 'v4. armed', 'h3. shame', 'h3. shame'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 57, 'depth': 5, 'd_thres': 10000, 'answer': '___A_\n___R_\nSHAME\nNAVEL\n___D_'}
+
+{'total_step': 5, 'env_step': 6, 'actions': ['h3. shame', 'h4. navel', 'v4. armed', 'h3. shame', 'h3. shame', 'h3. shame'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 80, 'depth': 6, 'd_thres': 10000, 'answer': '___A_\n___R_\nSHAME\nNAVEL\n___D_'}
+
+{'total_step': 6, 'env_step': 7, 'actions': ['h3. shame', 'h4. navel', 'v4. armed', 'h3. shame', 'h3. shame', 'h3. shame', 'h3. shame'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 103, 'depth': 7, 'd_thres': 10000, 'answer': '___A_\n___R_\nSHAME\nNAVEL\n___D_'}
+
+{'total_step': 7, 'env_step': 8, 'actions': ['h3. shame', 'h4. navel', 'v4. armed', 'h3. shame', 'h3. shame', 'h3. shame', 'h3. shame', 'h3. shame'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 126, 'depth': 8, 'd_thres': 10000, 'answer': '___A_\n___R_\nSHAME\nNAVEL\n___D_'}
+
+{'total_step': 8, 'env_step': 9, 'actions': ['h3. shame', 'h4. navel', 'v4. armed', 'h3. shame', 'h3. shame', 'h3. shame', 'h3. shame', 'h3. shame', 'h3. shame'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 149, 'distance to root': 111.60000000000001, 'depth': 9, 'd_thres': 111.60000000000001, 'answer': '___A_\n___R_\nSHAME\nNAVEL\n___D_'}
+
+-----------------------
+
+best node id: 149
+node depth: 9
+chosen step: 8
+distance to root: 111.60000000000001
+answer:
+
+___A_
+___R_
+SHAME
+NAVEL
+___D_
+
+accuracy: {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}
+cost time: 29.521588802337646 s
+
+---- Task Complete ----

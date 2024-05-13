@@ -1,0 +1,196 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 11
+pruning = True
+date: 2024-05-06
+time: 00:25:52
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h3. sioux'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': '_____\n_____\nSIOUX\n_____\n_____'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['h3. sioux', 'h4. totem'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 11, 'depth': 2, 'd_thres': 10000, 'answer': '_____\n_____\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['h3. sioux', 'h4. totem', 'h1. crowd'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 24, 'depth': 3, 'd_thres': 10000, 'answer': 'CROWD\n_____\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 3, 'env_step': 3, 'actions': ['h3. sioux', 'h4. totem', 'h2. renew'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 25, 'depth': 3, 'd_thres': 10000, 'answer': '_____\nRENEW\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 4, 'env_step': 4, 'actions': ['h3. sioux', 'h4. totem', 'h2. renew', 'h1. crowd'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 0, 'impossible': 3}, 'current_node_id': 42, 'depth': 4, 'd_thres': 10000, 'answer': 'CROWD\nRENEW\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 5, 'env_step': 4, 'actions': ['h3. sioux', 'h4. totem', 'h2. renew', 'h5. ewery'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 43, 'depth': 4, 'd_thres': 10000, 'answer': '_____\nRENEW\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 6, 'env_step': 4, 'actions': ['h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 1, 'impossible': 0}, 'current_node_id': 45, 'depth': 4, 'd_thres': 10000, 'answer': '_R___\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 7, 'env_step': 5, 'actions': ['h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion', 'v2. reion'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 1, 'impossible': 0}, 'current_node_id': 54, 'depth': 5, 'd_thres': 10000, 'answer': '_R___\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 8, 'env_step': 6, 'actions': ['h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion', 'v2. reion', 'v2. reion'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 1, 'impossible': 0}, 'current_node_id': 68, 'depth': 6, 'd_thres': 10000, 'answer': '_R___\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 9, 'env_step': 7, 'actions': ['h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion', 'v2. reion', 'v2. reion', 'v2. reion'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 1, 'impossible': 0}, 'current_node_id': 82, 'depth': 7, 'd_thres': 10000, 'answer': '_R___\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 10, 'env_step': 8, 'actions': ['h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion', 'v2. reion', 'v2. reion', 'v2. reion', 'v2. reion'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 1, 'impossible': 0}, 'current_node_id': 96, 'depth': 8, 'd_thres': 10000, 'answer': '_R___\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 11, 'env_step': 9, 'actions': ['h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion', 'v2. reion', 'v2. reion', 'v2. reion', 'v2. reion', 'v2. reion'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 1, 'impossible': 0}, 'current_node_id': 110, 'distance to root': 82.2, 'depth': 9, 'd_thres': 82.2, 'answer': '_R___\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 12, 'env_step': 9, 'actions': ['h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion', 'v2. reion', 'v2. reion', 'v2. reion', 'v2. reion', 'h1. crowd'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 0, 'impossible': 2}, 'current_node_id': 111, 'distance to root': 82.4, 'depth': 9, 'd_thres': 82.2, 'answer': 'CROWD\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 13, 'env_step': 8, 'actions': ['h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion', 'v2. reion', 'v2. reion', 'v2. reion', 'h1. crowd'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 0, 'impossible': 2}, 'current_node_id': 97, 'depth': 8, 'd_thres': 82.2, 'answer': 'CROWD\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 14, 'env_step': 7, 'actions': ['h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion', 'v2. reion', 'v2. reion', 'h1. crowd'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 0, 'impossible': 2}, 'current_node_id': 83, 'depth': 7, 'd_thres': 82.2, 'answer': 'CROWD\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 15, 'env_step': 6, 'actions': ['h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion', 'v2. reion', 'h1. crowd'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 0, 'impossible': 2}, 'current_node_id': 69, 'depth': 6, 'd_thres': 82.2, 'answer': 'CROWD\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 16, 'env_step': 5, 'actions': ['h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion', 'h1. crowd'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 0, 'impossible': 2}, 'current_node_id': 55, 'depth': 5, 'd_thres': 82.2, 'answer': 'CROWD\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 17, 'env_step': 3, 'actions': ['h3. sioux', 'h4. totem', 'v1. dusty'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 27, 'depth': 3, 'd_thres': 82.2, 'answer': 'D____\nU____\nSIOUX\nTOTEM\nY____'}
+
+{'total_step': 18, 'env_step': 2, 'actions': ['h3. sioux', 'h3. sioux'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 12, 'depth': 2, 'd_thres': 82.2, 'answer': '_____\n_____\nSIOUX\n_____\n_____'}
+
+{'total_step': 19, 'env_step': 3, 'actions': ['h3. sioux', 'h3. sioux', 'h4. totem'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 138, 'depth': 3, 'd_thres': 82.2, 'answer': '_____\n_____\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 20, 'env_step': 4, 'actions': ['h3. sioux', 'h3. sioux', 'h4. totem', 'h1. crowd'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 151, 'depth': 4, 'd_thres': 82.2, 'answer': 'CROWD\n_____\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 21, 'env_step': 4, 'actions': ['h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 152, 'depth': 4, 'd_thres': 82.2, 'answer': '_____\nRENEW\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 22, 'env_step': 5, 'actions': ['h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'h1. crowd'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 0, 'impossible': 3}, 'current_node_id': 169, 'depth': 5, 'd_thres': 82.2, 'answer': 'CROWD\nRENEW\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 23, 'env_step': 5, 'actions': ['h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'h5. ewery'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 170, 'depth': 5, 'd_thres': 82.2, 'answer': '_____\nRENEW\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 24, 'env_step': 5, 'actions': ['h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 1, 'impossible': 0}, 'current_node_id': 172, 'depth': 5, 'd_thres': 82.2, 'answer': '_R___\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 25, 'env_step': 6, 'actions': ['h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion', 'v2. reion'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 1, 'impossible': 0}, 'current_node_id': 181, 'depth': 6, 'd_thres': 82.2, 'answer': '_R___\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 26, 'env_step': 7, 'actions': ['h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion', 'v2. reion', 'v2. reion'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 1, 'impossible': 0}, 'current_node_id': 195, 'depth': 7, 'd_thres': 82.2, 'answer': '_R___\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 27, 'env_step': 8, 'actions': ['h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion', 'v2. reion', 'v2. reion', 'v2. reion'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 1, 'impossible': 0}, 'current_node_id': 209, 'depth': 8, 'd_thres': 82.2, 'answer': '_R___\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 28, 'env_step': 9, 'actions': ['h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion', 'v2. reion', 'v2. reion', 'v2. reion', 'v2. reion'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 1, 'impossible': 0}, 'current_node_id': 223, 'distance to root': 82.19999999999999, 'depth': 9, 'd_thres': 82.19999999999999, 'answer': '_R___\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 29, 'env_step': 9, 'actions': ['h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion', 'v2. reion', 'v2. reion', 'v2. reion', 'h1. crowd'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 0, 'impossible': 2}, 'current_node_id': 224, 'distance to root': 82.4, 'depth': 9, 'd_thres': 82.19999999999999, 'answer': 'CROWD\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 30, 'env_step': 8, 'actions': ['h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion', 'v2. reion', 'v2. reion', 'h1. crowd'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 0, 'impossible': 2}, 'current_node_id': 210, 'depth': 8, 'd_thres': 82.19999999999999, 'answer': 'CROWD\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 31, 'env_step': 7, 'actions': ['h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion', 'v2. reion', 'h1. crowd'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 0, 'impossible': 2}, 'current_node_id': 196, 'depth': 7, 'd_thres': 82.19999999999999, 'answer': 'CROWD\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 32, 'env_step': 6, 'actions': ['h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion', 'h1. crowd'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 0, 'impossible': 2}, 'current_node_id': 182, 'depth': 6, 'd_thres': 82.19999999999999, 'answer': 'CROWD\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 33, 'env_step': 4, 'actions': ['h3. sioux', 'h3. sioux', 'h4. totem', 'v1. dusty'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 154, 'depth': 4, 'd_thres': 82.19999999999999, 'answer': 'D____\nU____\nSIOUX\nTOTEM\nY____'}
+
+{'total_step': 34, 'env_step': 3, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 139, 'depth': 3, 'd_thres': 82.19999999999999, 'answer': '_____\n_____\nSIOUX\n_____\n_____'}
+
+{'total_step': 35, 'env_step': 4, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 251, 'depth': 4, 'd_thres': 82.19999999999999, 'answer': '_____\n_____\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 36, 'env_step': 5, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h1. crowd'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 264, 'depth': 5, 'd_thres': 82.19999999999999, 'answer': 'CROWD\n_____\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 37, 'env_step': 5, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 265, 'depth': 5, 'd_thres': 82.19999999999999, 'answer': '_____\nRENEW\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 38, 'env_step': 6, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'h1. crowd'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 0, 'impossible': 3}, 'current_node_id': 282, 'depth': 6, 'd_thres': 82.19999999999999, 'answer': 'CROWD\nRENEW\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 39, 'env_step': 6, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'h5. ewery'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 283, 'depth': 6, 'd_thres': 82.19999999999999, 'answer': '_____\nRENEW\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 40, 'env_step': 6, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 1, 'impossible': 0}, 'current_node_id': 285, 'depth': 6, 'd_thres': 82.19999999999999, 'answer': '_R___\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 41, 'env_step': 7, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion', 'v2. reion'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 1, 'impossible': 0}, 'current_node_id': 294, 'depth': 7, 'd_thres': 82.19999999999999, 'answer': '_R___\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 42, 'env_step': 8, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion', 'v2. reion', 'v2. reion'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 1, 'impossible': 0}, 'current_node_id': 308, 'depth': 8, 'd_thres': 82.19999999999999, 'answer': '_R___\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 43, 'env_step': 9, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion', 'v2. reion', 'v2. reion', 'v2. reion'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 1, 'impossible': 0}, 'current_node_id': 322, 'distance to root': 82.19999999999999, 'depth': 9, 'd_thres': 82.19999999999999, 'answer': '_R___\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 44, 'env_step': 9, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion', 'v2. reion', 'v2. reion', 'h1. crowd'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 0, 'impossible': 2}, 'current_node_id': 323, 'distance to root': 82.4, 'depth': 9, 'd_thres': 82.19999999999999, 'answer': 'CROWD\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 45, 'env_step': 8, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion', 'v2. reion', 'h1. crowd'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 0, 'impossible': 2}, 'current_node_id': 309, 'depth': 8, 'd_thres': 82.19999999999999, 'answer': 'CROWD\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 46, 'env_step': 7, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion', 'h1. crowd'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 0, 'impossible': 2}, 'current_node_id': 295, 'depth': 7, 'd_thres': 82.19999999999999, 'answer': 'CROWD\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 47, 'env_step': 5, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'v1. dusty'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 267, 'depth': 5, 'd_thres': 82.19999999999999, 'answer': 'D____\nU____\nSIOUX\nTOTEM\nY____'}
+
+{'total_step': 48, 'env_step': 4, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 252, 'depth': 4, 'd_thres': 82.19999999999999, 'answer': '_____\n_____\nSIOUX\n_____\n_____'}
+
+{'total_step': 49, 'env_step': 5, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 350, 'depth': 5, 'd_thres': 82.19999999999999, 'answer': '_____\n_____\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 50, 'env_step': 6, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h1. crowd'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 363, 'depth': 6, 'd_thres': 82.19999999999999, 'answer': 'CROWD\n_____\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 51, 'env_step': 6, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 364, 'depth': 6, 'd_thres': 82.19999999999999, 'answer': '_____\nRENEW\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 52, 'env_step': 7, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'h1. crowd'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 0, 'impossible': 3}, 'current_node_id': 381, 'depth': 7, 'd_thres': 82.19999999999999, 'answer': 'CROWD\nRENEW\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 53, 'env_step': 7, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'h5. ewery'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 382, 'depth': 7, 'd_thres': 82.19999999999999, 'answer': '_____\nRENEW\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 54, 'env_step': 7, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 1, 'impossible': 0}, 'current_node_id': 384, 'depth': 7, 'd_thres': 82.19999999999999, 'answer': '_R___\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 55, 'env_step': 8, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion', 'v2. reion'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 1, 'impossible': 0}, 'current_node_id': 393, 'depth': 8, 'd_thres': 82.19999999999999, 'answer': '_R___\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 56, 'env_step': 9, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion', 'v2. reion', 'v2. reion'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 1, 'impossible': 0}, 'current_node_id': 407, 'distance to root': 82.19999999999999, 'depth': 9, 'd_thres': 82.19999999999999, 'answer': '_R___\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 57, 'env_step': 9, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion', 'v2. reion', 'h1. crowd'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 0, 'impossible': 2}, 'current_node_id': 408, 'distance to root': 82.4, 'depth': 9, 'd_thres': 82.19999999999999, 'answer': 'CROWD\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 58, 'env_step': 8, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion', 'h1. crowd'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 0, 'impossible': 2}, 'current_node_id': 394, 'depth': 8, 'd_thres': 82.19999999999999, 'answer': 'CROWD\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 59, 'env_step': 6, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'v1. dusty'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 366, 'depth': 6, 'd_thres': 82.19999999999999, 'answer': 'D____\nU____\nSIOUX\nTOTEM\nY____'}
+
+{'total_step': 60, 'env_step': 5, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 351, 'depth': 5, 'd_thres': 82.19999999999999, 'answer': '_____\n_____\nSIOUX\n_____\n_____'}
+
+{'total_step': 61, 'env_step': 6, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 435, 'depth': 6, 'd_thres': 82.19999999999999, 'answer': '_____\n_____\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 62, 'env_step': 7, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h1. crowd'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 448, 'depth': 7, 'd_thres': 82.19999999999999, 'answer': 'CROWD\n_____\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 63, 'env_step': 7, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 449, 'depth': 7, 'd_thres': 82.19999999999999, 'answer': '_____\nRENEW\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 64, 'env_step': 8, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'h1. crowd'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 0, 'impossible': 3}, 'current_node_id': 466, 'depth': 8, 'd_thres': 82.19999999999999, 'answer': 'CROWD\nRENEW\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 65, 'env_step': 8, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'h5. ewery'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 467, 'depth': 8, 'd_thres': 82.19999999999999, 'answer': '_____\nRENEW\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 66, 'env_step': 8, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 1, 'impossible': 0}, 'current_node_id': 469, 'depth': 8, 'd_thres': 82.19999999999999, 'answer': '_R___\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 67, 'env_step': 9, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion', 'v2. reion'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 1, 'impossible': 0}, 'current_node_id': 478, 'distance to root': 82.2, 'depth': 9, 'd_thres': 82.19999999999999, 'answer': '_R___\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 68, 'env_step': 9, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion', 'h1. crowd'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 0, 'impossible': 2}, 'current_node_id': 479, 'distance to root': 82.4, 'depth': 9, 'd_thres': 82.19999999999999, 'answer': 'CROWD\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 69, 'env_step': 7, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'v1. dusty'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 451, 'depth': 7, 'd_thres': 82.19999999999999, 'answer': 'D____\nU____\nSIOUX\nTOTEM\nY____'}
+
+{'total_step': 70, 'env_step': 6, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 436, 'depth': 6, 'd_thres': 82.19999999999999, 'answer': '_____\n_____\nSIOUX\n_____\n_____'}
+
+{'total_step': 71, 'env_step': 7, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 506, 'depth': 7, 'd_thres': 82.19999999999999, 'answer': '_____\n_____\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 72, 'env_step': 8, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h1. crowd'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 519, 'depth': 8, 'd_thres': 82.19999999999999, 'answer': 'CROWD\n_____\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 73, 'env_step': 8, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 520, 'depth': 8, 'd_thres': 82.19999999999999, 'answer': '_____\nRENEW\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 74, 'env_step': 9, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'h1. crowd'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 0, 'impossible': 3}, 'current_node_id': 537, 'distance to root': 82.2, 'depth': 9, 'd_thres': 82.19999999999999, 'answer': 'CROWD\nRENEW\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 75, 'env_step': 9, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'h5. ewery'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 538, 'distance to root': 82.2, 'depth': 9, 'd_thres': 82.19999999999999, 'answer': '_____\nRENEW\nSIOUX\nTOTEM\nEWERY'}
+
+{'total_step': 76, 'env_step': 9, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew', 'v2. reion'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 6, 'maybe': 1, 'impossible': 0}, 'current_node_id': 540, 'distance to root': 82.2, 'depth': 9, 'd_thres': 82.19999999999999, 'answer': '_R___\nRENEW\nSIOUX\nTOTEM\n_N___'}
+
+{'total_step': 77, 'env_step': 8, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'v1. dusty'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 522, 'depth': 8, 'd_thres': 82.19999999999999, 'answer': 'D____\nU____\nSIOUX\nTOTEM\nY____'}
+
+{'total_step': 78, 'env_step': 7, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 507, 'depth': 7, 'd_thres': 82.19999999999999, 'answer': '_____\n_____\nSIOUX\n_____\n_____'}
+
+{'total_step': 79, 'env_step': 8, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 563, 'depth': 8, 'd_thres': 82.19999999999999, 'answer': '_____\n_____\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 80, 'env_step': 9, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h1. crowd'], 'info': {'r_letter': 0.24, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 576, 'distance to root': 81.3, 'depth': 9, 'd_thres': 81.3, 'answer': 'CROWD\n_____\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 81, 'env_step': 9, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'h2. renew'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 577, 'distance to root': 81.4, 'depth': 9, 'd_thres': 81.3, 'answer': '_____\nRENEW\nSIOUX\nTOTEM\n_____'}
+
+{'total_step': 82, 'env_step': 9, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem', 'v1. dusty'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 579, 'distance to root': 81.6, 'depth': 9, 'd_thres': 81.3, 'answer': 'D____\nU____\nSIOUX\nTOTEM\nY____'}
+
+{'total_step': 83, 'env_step': 8, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 564, 'depth': 8, 'd_thres': 81.3, 'answer': '_____\n_____\nSIOUX\n_____\n_____'}
+
+{'total_step': 84, 'env_step': 9, 'actions': ['h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h3. sioux', 'h4. totem'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 606, 'distance to root': 80.9, 'depth': 9, 'd_thres': 80.9, 'answer': '_____\n_____\nSIOUX\nTOTEM\n_____'}
+
+-----------------------
+
+best node id: 606
+node depth: 9
+chosen step: 84
+distance to root: 80.9
+answer:
+
+_____
+_____
+SIOUX
+TOTEM
+_____
+
+accuracy: {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}
+cost time: 71.23422265052795 s
+
+---- Task Complete ----

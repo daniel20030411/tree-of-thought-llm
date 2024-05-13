@@ -1,0 +1,102 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 13
+pruning = True
+date: 2024-05-06
+time: 00:25:52
+
+{'total_step': 0, 'env_step': 1, 'actions': ['v3. amuse'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': '__A__\n__M__\n__U__\n__S__\n__E__'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['v3. amuse', 'h3. uvula'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 1}, 'current_node_id': 13, 'depth': 2, 'd_thres': 10000, 'answer': '__A__\n__M__\nUVULA\n__S__\n__E__'}
+
+{'total_step': 2, 'env_step': 2, 'actions': ['v3. amuse', 'v4. delay'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 14, 'depth': 2, 'd_thres': 10000, 'answer': '__AD_\n__ME_\n__UL_\n__SA_\n__EY_'}
+
+{'total_step': 3, 'env_step': 3, 'actions': ['v3. amuse', 'v4. delay', 'h3. uvula'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 1}, 'current_node_id': 28, 'depth': 3, 'd_thres': 10000, 'answer': '__AD_\n__ME_\nUVULA\n__SA_\n__EY_'}
+
+{'total_step': 4, 'env_step': 3, 'actions': ['v3. amuse', 'v4. delay', 'v2. level'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 0}, 'current_node_id': 31, 'depth': 3, 'd_thres': 10000, 'answer': '_LAD_\n_EME_\n_VUL_\n_ESA_\n_LEY_'}
+
+{'total_step': 5, 'env_step': 4, 'actions': ['v3. amuse', 'v4. delay', 'v2. level', 'h3. uvula'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 1}, 'current_node_id': 40, 'depth': 4, 'd_thres': 10000, 'answer': '_LAD_\n_EME_\nUVULA\n_ESA_\n_LEY_'}
+
+{'total_step': 6, 'env_step': 4, 'actions': ['v3. amuse', 'v4. delay', 'v2. level', 'h1. glade'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 0}, 'current_node_id': 41, 'depth': 4, 'd_thres': 10000, 'answer': 'GLADE\n_EME_\n_VUL_\n_ESA_\n_LEY_'}
+
+{'total_step': 7, 'env_step': 4, 'actions': ['v3. amuse', 'v4. delay', 'v2. level', 'v5. exalt'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 0}, 'current_node_id': 42, 'depth': 4, 'd_thres': 10000, 'answer': '_LADE\n_EMEX\n_VULA\n_ESAL\n_LEYT'}
+
+{'total_step': 8, 'env_step': 5, 'actions': ['v3. amuse', 'v4. delay', 'v2. level', 'v5. exalt', 'h3. uvula'], 'info': {'r_letter': 0.84, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 1}, 'current_node_id': 51, 'depth': 5, 'd_thres': 10000, 'answer': '_LADE\n_EMEX\nUVULA\n_ESAL\n_LEYT'}
+
+{'total_step': 9, 'env_step': 5, 'actions': ['v3. amuse', 'v4. delay', 'v2. level', 'v5. exalt', 'h1. glade'], 'info': {'r_letter': 0.84, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 0}, 'current_node_id': 52, 'depth': 5, 'd_thres': 10000, 'answer': 'GLADE\n_EMEX\n_VULA\n_ESAL\n_LEYT'}
+
+{'total_step': 10, 'env_step': 6, 'actions': ['v3. amuse', 'v4. delay', 'v2. level', 'v5. exalt', 'h1. glade', 'h3. uvula'], 'info': {'r_letter': 0.88, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 1}, 'current_node_id': 69, 'depth': 6, 'd_thres': 10000, 'answer': 'GLADE\n_EMEX\nUVULA\n_ESAL\n_LEYT'}
+
+{'total_step': 11, 'env_step': 6, 'actions': ['v3. amuse', 'v4. delay', 'v2. level', 'v5. exalt', 'h1. glade', 'v1. gripe'], 'info': {'r_letter': 0.88, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 7, 'maybe': 0, 'impossible': 3}, 'current_node_id': 70, 'depth': 6, 'd_thres': 10000, 'answer': 'GLADE\nREMEX\nIVULA\nPESAL\nELEYT'}
+
+{'total_step': 12, 'env_step': 6, 'actions': ['v3. amuse', 'v4. delay', 'v2. level', 'v5. exalt', 'h1. glade', 'h2. remex'], 'info': {'r_letter': 0.88, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 1}, 'current_node_id': 71, 'depth': 6, 'd_thres': 10000, 'answer': 'GLADE\nREMEX\n_VULA\n_ESAL\n_LEYT'}
+
+{'total_step': 13, 'env_step': 5, 'actions': ['v3. amuse', 'v4. delay', 'v2. level', 'v5. exalt', 'v1. whine'], 'info': {'r_letter': 0.8, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 1, 'impossible': 2}, 'current_node_id': 54, 'depth': 5, 'd_thres': 10000, 'answer': 'WLADE\nHEMEX\nIVULA\nNESAL\nELEYT'}
+
+{'total_step': 14, 'env_step': 3, 'actions': ['v3. amuse', 'v4. delay', 'h4. nasal'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 32, 'depth': 3, 'd_thres': 10000, 'answer': '__AD_\n__ME_\n__UL_\nNASAL\n__EY_'}
+
+{'total_step': 15, 'env_step': 4, 'actions': ['v3. amuse', 'v4. delay', 'h4. nasal', 'h3. uvula'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 1}, 'current_node_id': 74, 'depth': 4, 'd_thres': 10000, 'answer': '__AD_\n__ME_\nUVULA\nNASAL\n__EY_'}
+
+{'total_step': 16, 'env_step': 4, 'actions': ['v3. amuse', 'v4. delay', 'h4. nasal', 'v1. whine'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 0}, 'current_node_id': 78, 'depth': 4, 'd_thres': 10000, 'answer': 'W_AD_\nH_ME_\nI_UL_\nNASAL\nE_EY_'}
+
+{'total_step': 17, 'env_step': 5, 'actions': ['v3. amuse', 'v4. delay', 'h4. nasal', 'v1. whine', 'v5. exalt'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 7, 'maybe': 1, 'impossible': 1}, 'current_node_id': 91, 'depth': 5, 'd_thres': 10000, 'answer': 'W_ADE\nH_MEX\nI_ULA\nNASAL\nE_EYT'}
+
+{'total_step': 18, 'env_step': 4, 'actions': ['v3. amuse', 'v4. delay', 'h4. nasal', 'v5. exalt'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 7, 'maybe': 1, 'impossible': 0}, 'current_node_id': 79, 'depth': 4, 'd_thres': 10000, 'answer': '__ADE\n__MEX\n__ULA\nNASAL\n__EYT'}
+
+{'total_step': 19, 'env_step': 5, 'actions': ['v3. amuse', 'v4. delay', 'h4. nasal', 'v5. exalt', 'h3. uvula'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 1}, 'current_node_id': 98, 'depth': 5, 'd_thres': 10000, 'answer': '__ADE\n__MEX\nUVULA\nNASAL\n__EYT'}
+
+{'total_step': 20, 'env_step': 5, 'actions': ['v3. amuse', 'v4. delay', 'h4. nasal', 'v5. exalt', 'v1. whine'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 7, 'maybe': 1, 'impossible': 1}, 'current_node_id': 100, 'depth': 5, 'd_thres': 10000, 'answer': 'W_ADE\nH_MEX\nI_ULA\nNASAL\nE_EYT'}
+
+{'total_step': 21, 'env_step': 5, 'actions': ['v3. amuse', 'v4. delay', 'h4. nasal', 'v5. exalt', 'h1. shade'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 103, 'depth': 5, 'd_thres': 10000, 'answer': 'SHADE\n__MEX\n__ULA\nNASAL\n__EYT'}
+
+{'total_step': 22, 'env_step': 6, 'actions': ['v3. amuse', 'v4. delay', 'h4. nasal', 'v5. exalt', 'h1. shade', 'h3. uvula'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 1}, 'current_node_id': 111, 'depth': 6, 'd_thres': 10000, 'answer': 'SHADE\n__MEX\nUVULA\nNASAL\n__EYT'}
+
+{'total_step': 23, 'env_step': 2, 'actions': ['v3. amuse', 'h1. glade'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 15, 'depth': 2, 'd_thres': 10000, 'answer': 'GLADE\n__M__\n__U__\n__S__\n__E__'}
+
+{'total_step': 24, 'env_step': 3, 'actions': ['v3. amuse', 'h1. glade', 'h3. uvula'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 1, 'impossible': 1}, 'current_node_id': 116, 'depth': 3, 'd_thres': 10000, 'answer': 'GLADE\n__M__\nUVULA\n__S__\n__E__'}
+
+{'total_step': 25, 'env_step': 3, 'actions': ['v3. amuse', 'h1. glade', 'v2. level'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 117, 'depth': 3, 'd_thres': 10000, 'answer': 'GLADE\n_EM__\n_VU__\n_ES__\n_LE__'}
+
+{'total_step': 26, 'env_step': 3, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 118, 'depth': 3, 'd_thres': 10000, 'answer': 'GLADE\n__M_X\n__U_A\n__S_L\n__E_T'}
+
+{'total_step': 27, 'env_step': 4, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'h3. uvula'], 'info': {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 130, 'depth': 4, 'd_thres': 10000, 'answer': 'GLADE\n__M_X\nUVULA\n__S_L\n__E_T'}
+
+{'total_step': 28, 'env_step': 4, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'v2. level'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 0}, 'current_node_id': 132, 'depth': 4, 'd_thres': 10000, 'answer': 'GLADE\n_EM_X\n_VU_A\n_ES_L\n_LE_T'}
+
+{'total_step': 29, 'env_step': 5, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'v2. level', 'h3. uvula'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 1}, 'current_node_id': 143, 'depth': 5, 'd_thres': 10000, 'answer': 'GLADE\n_EM_X\nUVULA\n_ES_L\n_LE_T'}
+
+{'total_step': 30, 'env_step': 5, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'v2. level', 'v2. level'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 0}, 'current_node_id': 144, 'depth': 5, 'd_thres': 10000, 'answer': 'GLADE\n_EM_X\n_VU_A\n_ES_L\n_LE_T'}
+
+{'total_step': 31, 'env_step': 6, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'v2. level', 'v2. level', 'h3. uvula'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 1}, 'current_node_id': 154, 'depth': 6, 'd_thres': 10000, 'answer': 'GLADE\n_EM_X\nUVULA\n_ES_L\n_LE_T'}
+
+{'total_step': 32, 'env_step': 6, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'v2. level', 'v2. level', 'v2. level'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 0}, 'current_node_id': 155, 'depth': 6, 'd_thres': 10000, 'answer': 'GLADE\n_EM_X\n_VU_A\n_ES_L\n_LE_T'}
+
+{'total_step': 33, 'env_step': 7, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'v2. level', 'v2. level', 'v2. level', 'h3. uvula'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 1}, 'current_node_id': 165, 'depth': 7, 'd_thres': 10000, 'answer': 'GLADE\n_EM_X\nUVULA\n_ES_L\n_LE_T'}
+
+{'total_step': 34, 'env_step': 7, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'v2. level', 'v2. level', 'v2. level', 'v2. level'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 0}, 'current_node_id': 166, 'depth': 7, 'd_thres': 10000, 'answer': 'GLADE\n_EM_X\n_VU_A\n_ES_L\n_LE_T'}
+
+{'total_step': 35, 'env_step': 8, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'v2. level', 'v2. level', 'v2. level', 'v2. level', 'h3. uvula'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 1}, 'current_node_id': 176, 'depth': 8, 'd_thres': 10000, 'answer': 'GLADE\n_EM_X\nUVULA\n_ES_L\n_LE_T'}
+
+{'total_step': 36, 'env_step': 8, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'v2. level', 'v2. level', 'v2. level', 'v2. level', 'v2. level'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 0}, 'current_node_id': 177, 'depth': 8, 'd_thres': 10000, 'answer': 'GLADE\n_EM_X\n_VU_A\n_ES_L\n_LE_T'}
+
+{'total_step': 37, 'env_step': 9, 'actions': ['v3. amuse', 'h1. glade', 'v5. exalt', 'v2. level', 'v2. level', 'v2. level', 'v2. level', 'v2. level', 'h3. uvula'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 1}, 'current_node_id': 187, 'distance to root': 77.5, 'depth': 9, 'd_thres': 77.5, 'answer': 'GLADE\n_EM_X\nUVULA\n_ES_L\n_LE_T'}
+
+-----------------------
+
+best node id: 187
+node depth: 9
+chosen step: 37
+distance to root: 77.5
+answer:
+
+GLADE
+_EM_X
+UVULA
+_ES_L
+_LE_T
+
+accuracy: {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}
+cost time: 140.8976137638092 s
+
+---- Task Complete ----

@@ -1,0 +1,2819 @@
+[
+    {
+        "total_step": 0,
+        "env_step": 1,
+        "actions": [
+            "h2. intro"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 1,
+        "depth": 1,
+        "d_thres": 10000,
+        "answer": "_____\nINTRO\n_____\n_____\n_____"
+    },
+    {
+        "total_step": 1,
+        "env_step": 2,
+        "actions": [
+            "h2. intro",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 8,
+        "depth": 2,
+        "d_thres": 10000,
+        "answer": "_____\nINTRO\nSHAME\n_____\n_____"
+    },
+    {
+        "total_step": 2,
+        "env_step": 3,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 15,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "_____\nINTRO\nSHAME\nNAVEL\n_____"
+    },
+    {
+        "total_step": 3,
+        "env_step": 4,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "h4. navel",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 26,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "___A_\nINTRO\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 4,
+        "env_step": 5,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 30,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "___A_\nINTRO\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 5,
+        "env_step": 6,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "v4. armed",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 37,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "___A_\nINTRO\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 6,
+        "env_step": 7,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "v4. armed",
+            "v4. armed",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 44,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "___A_\nINTRO\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 7,
+        "env_step": 8,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "v4. armed",
+            "v4. armed",
+            "v4. armed",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 51,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "___A_\nINTRO\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 8,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "h4. navel",
+            "v4. armed",
+            "v4. armed",
+            "v4. armed",
+            "v4. armed",
+            "v4. armed",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 58,
+        "distance to root": 75.5,
+        "depth": 9,
+        "d_thres": 75.5,
+        "answer": "___A_\nINTRO\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 9,
+        "env_step": 3,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "h5. ember"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 16,
+        "depth": 3,
+        "d_thres": 75.5,
+        "answer": "_____\nINTRO\nSHAME\n_____\nEMBER"
+    },
+    {
+        "total_step": 10,
+        "env_step": 4,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "h5. ember",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 72,
+        "depth": 4,
+        "d_thres": 75.5,
+        "answer": "_____\nINTRO\nSHAME\nNAVEL\nEMBER"
+    },
+    {
+        "total_step": 11,
+        "env_step": 5,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "h5. ember",
+            "h4. navel",
+            "v2. inham"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 1
+        },
+        "current_node_id": 85,
+        "depth": 5,
+        "d_thres": 75.5,
+        "answer": "_I___\nINTRO\nSHAME\nNAVEL\nEMBER"
+    },
+    {
+        "total_step": 12,
+        "env_step": 4,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "h5. ember",
+            "v2. inhum"
+        ],
+        "info": {
+            "r_letter": 0.24,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 2,
+            "impossible": 1
+        },
+        "current_node_id": 76,
+        "depth": 4,
+        "d_thres": 75.5,
+        "answer": "_I___\nINTRO\nSHAME\n_U___\nEMBER"
+    },
+    {
+        "total_step": 13,
+        "env_step": 3,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 18,
+        "depth": 3,
+        "d_thres": 75.5,
+        "answer": "___A_\nINTRO\nSHAME\n___E_\n___D_"
+    },
+    {
+        "total_step": 14,
+        "env_step": 4,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "h4. navel"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 87,
+        "depth": 4,
+        "d_thres": 75.5,
+        "answer": "___A_\nINTRO\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 15,
+        "env_step": 5,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "h4. navel",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 103,
+        "depth": 5,
+        "d_thres": 75.5,
+        "answer": "___A_\nINTRO\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 16,
+        "env_step": 6,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "h4. navel",
+            "v4. armed",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 110,
+        "depth": 6,
+        "d_thres": 75.5,
+        "answer": "___A_\nINTRO\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 17,
+        "env_step": 7,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "h4. navel",
+            "v4. armed",
+            "v4. armed",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 117,
+        "depth": 7,
+        "d_thres": 75.5,
+        "answer": "___A_\nINTRO\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 18,
+        "env_step": 8,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "h4. navel",
+            "v4. armed",
+            "v4. armed",
+            "v4. armed",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 124,
+        "depth": 8,
+        "d_thres": 75.5,
+        "answer": "___A_\nINTRO\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 19,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "h4. navel",
+            "v4. armed",
+            "v4. armed",
+            "v4. armed",
+            "v4. armed",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 131,
+        "distance to root": 71.5,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "___A_\nINTRO\nSHAME\nNAVEL\n___D_"
+    },
+    {
+        "total_step": 20,
+        "env_step": 4,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 99,
+        "depth": 4,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nH__E_\nA__D_"
+    },
+    {
+        "total_step": 21,
+        "env_step": 5,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 146,
+        "depth": 5,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nH__E_\nA__D_"
+    },
+    {
+        "total_step": 22,
+        "env_step": 6,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 177,
+        "depth": 6,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nH__E_\nA__D_"
+    },
+    {
+        "total_step": 23,
+        "env_step": 7,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 208,
+        "depth": 7,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nH__E_\nA__D_"
+    },
+    {
+        "total_step": 24,
+        "env_step": 8,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 239,
+        "depth": 8,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nH__E_\nA__D_"
+    },
+    {
+        "total_step": 25,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 270,
+        "distance to root": 81.10000000000001,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nH__E_\nA__D_"
+    },
+    {
+        "total_step": 26,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h4. holey"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 273,
+        "distance to root": 81.5,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "total_step": 27,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "v2. inhue"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 274,
+        "distance to root": 81.9,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "YI_A_\nINTRO\nSHAME\nHU_E_\nAE_D_"
+    },
+    {
+        "total_step": 28,
+        "env_step": 8,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h4. holey"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 242,
+        "depth": 8,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "total_step": 29,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h4. holey",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 375,
+        "distance to root": 80.5,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "total_step": 30,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h4. holey",
+            "v1. yisha"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 376,
+        "distance to root": 81.5,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "total_step": 31,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "h4. holey",
+            "v2. inhot"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 380,
+        "distance to root": 82.0,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "YI_A_\nINTRO\nSHAME\nHOLEY\nAT_D_"
+    },
+    {
+        "total_step": 32,
+        "env_step": 8,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "v2. inhue"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 243,
+        "depth": 8,
+        "d_thres": 71.5,
+        "answer": "YI_A_\nINTRO\nSHAME\nHU_E_\nAE_D_"
+    },
+    {
+        "total_step": 33,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "v2. inhue",
+            "v5. roele"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 476,
+        "distance to root": 82.60000000000001,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "YI_AR\nINTRO\nSHAME\nHU_EL\nAE_DE"
+    },
+    {
+        "total_step": 34,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "v2. inhue",
+            "v5. toeye"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 484,
+        "distance to root": 82.80000000000001,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "YI_AT\nINTRO\nSHAME\nHU_EY\nAE_DE"
+    },
+    {
+        "total_step": 35,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "h3. shame",
+            "v2. inhue",
+            "v5. roede"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 3,
+            "impossible": 1
+        },
+        "current_node_id": 485,
+        "distance to root": 82.80000000000001,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "YI_AR\nINTRO\nSHAME\nHU_ED\nAE_DE"
+    },
+    {
+        "total_step": 36,
+        "env_step": 7,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "h4. holey"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 211,
+        "depth": 7,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "total_step": 37,
+        "env_step": 8,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "h4. holey",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 501,
+        "depth": 8,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "total_step": 38,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "h4. holey",
+            "v4. armed",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 526,
+        "distance to root": 79.5,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "total_step": 39,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "h4. holey",
+            "v4. armed",
+            "v1. yisha"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 527,
+        "distance to root": 80.5,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "total_step": 40,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "h4. holey",
+            "v4. armed",
+            "v2. inhot"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 531,
+        "distance to root": 81.0,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "YI_A_\nINTRO\nSHAME\nHOLEY\nAT_D_"
+    },
+    {
+        "total_step": 41,
+        "env_step": 8,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "h4. holey",
+            "v1. yisha"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 502,
+        "depth": 8,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "total_step": 42,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "h4. holey",
+            "v1. yisha",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 621,
+        "distance to root": 80.5,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "total_step": 43,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "h4. holey",
+            "v1. yisha",
+            "v1. yisha"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 622,
+        "distance to root": 81.5,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "total_step": 44,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "h4. holey",
+            "v1. yisha",
+            "v2. inhot"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 626,
+        "distance to root": 82.0,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "YI_A_\nINTRO\nSHAME\nHOLEY\nAT_D_"
+    },
+    {
+        "total_step": 45,
+        "env_step": 8,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "h4. holey",
+            "v2. inhot"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 506,
+        "depth": 8,
+        "d_thres": 71.5,
+        "answer": "YI_A_\nINTRO\nSHAME\nHOLEY\nAT_D_"
+    },
+    {
+        "total_step": 46,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "h4. holey",
+            "v2. inhot",
+            "h5. atude"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 1
+        },
+        "current_node_id": 719,
+        "distance to root": 82.5,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "YI_A_\nINTRO\nSHAME\nHOLEY\nATUDE"
+    },
+    {
+        "total_step": 47,
+        "env_step": 7,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "v2. inhue"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 212,
+        "depth": 7,
+        "d_thres": 71.5,
+        "answer": "YI_A_\nINTRO\nSHAME\nHU_E_\nAE_D_"
+    },
+    {
+        "total_step": 48,
+        "env_step": 8,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "v2. inhue",
+            "v5. roele"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 742,
+        "depth": 8,
+        "d_thres": 71.5,
+        "answer": "YI_AR\nINTRO\nSHAME\nHU_EL\nAE_DE"
+    },
+    {
+        "total_step": 49,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "v2. inhue",
+            "v5. roele",
+            "v1. yisha"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 756,
+        "distance to root": 81.60000000000001,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "YI_AR\nINTRO\nSHAME\nHU_EL\nAE_DE"
+    },
+    {
+        "total_step": 50,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "v2. inhue",
+            "v5. roele",
+            "v2. inhue"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 757,
+        "distance to root": 81.60000000000001,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "YI_AR\nINTRO\nSHAME\nHU_EL\nAE_DE"
+    },
+    {
+        "total_step": 51,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "v2. inhue",
+            "v5. roele",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 758,
+        "distance to root": 81.60000000000001,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "YI_AR\nINTRO\nSHAME\nHU_EL\nAE_DE"
+    },
+    {
+        "total_step": 52,
+        "env_step": 8,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "v2. inhue",
+            "v5. toeye"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 750,
+        "depth": 8,
+        "d_thres": 71.5,
+        "answer": "YI_AT\nINTRO\nSHAME\nHU_EY\nAE_DE"
+    },
+    {
+        "total_step": 53,
+        "env_step": 8,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h3. shame",
+            "v2. inhue",
+            "v5. roede"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 3,
+            "impossible": 1
+        },
+        "current_node_id": 751,
+        "depth": 8,
+        "d_thres": 71.5,
+        "answer": "YI_AR\nINTRO\nSHAME\nHU_ED\nAE_DE"
+    },
+    {
+        "total_step": 54,
+        "env_step": 6,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h4. holey"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 180,
+        "depth": 6,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "total_step": 55,
+        "env_step": 7,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h4. holey",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 800,
+        "depth": 7,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "total_step": 56,
+        "env_step": 8,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h4. holey",
+            "v4. armed",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 825,
+        "depth": 8,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "total_step": 57,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h4. holey",
+            "v4. armed",
+            "v4. armed",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 850,
+        "distance to root": 78.5,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "total_step": 58,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h4. holey",
+            "v4. armed",
+            "v4. armed",
+            "v1. yisha"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 851,
+        "distance to root": 79.5,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "total_step": 59,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h4. holey",
+            "v4. armed",
+            "v4. armed",
+            "v2. inhot"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 855,
+        "distance to root": 80.0,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "YI_A_\nINTRO\nSHAME\nHOLEY\nAT_D_"
+    },
+    {
+        "total_step": 60,
+        "env_step": 8,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h4. holey",
+            "v4. armed",
+            "v1. yisha"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 826,
+        "depth": 8,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "total_step": 61,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h4. holey",
+            "v4. armed",
+            "v1. yisha",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 945,
+        "distance to root": 79.5,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "total_step": 62,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h4. holey",
+            "v4. armed",
+            "v1. yisha",
+            "v1. yisha"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 946,
+        "distance to root": 80.5,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "total_step": 63,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h4. holey",
+            "v4. armed",
+            "v1. yisha",
+            "v2. inhot"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 950,
+        "distance to root": 81.0,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "YI_A_\nINTRO\nSHAME\nHOLEY\nAT_D_"
+    },
+    {
+        "total_step": 64,
+        "env_step": 8,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h4. holey",
+            "v4. armed",
+            "v2. inhot"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 830,
+        "depth": 8,
+        "d_thres": 71.5,
+        "answer": "YI_A_\nINTRO\nSHAME\nHOLEY\nAT_D_"
+    },
+    {
+        "total_step": 65,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h4. holey",
+            "v4. armed",
+            "v2. inhot",
+            "h5. atude"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 1
+        },
+        "current_node_id": 1043,
+        "distance to root": 81.5,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "YI_A_\nINTRO\nSHAME\nHOLEY\nATUDE"
+    },
+    {
+        "total_step": 66,
+        "env_step": 7,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h4. holey",
+            "v1. yisha"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 801,
+        "depth": 7,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "total_step": 67,
+        "env_step": 8,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h4. holey",
+            "v1. yisha",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 1060,
+        "depth": 8,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "total_step": 68,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h4. holey",
+            "v1. yisha",
+            "v4. armed",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 1085,
+        "distance to root": 79.5,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "total_step": 69,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h4. holey",
+            "v1. yisha",
+            "v4. armed",
+            "v1. yisha"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 1086,
+        "distance to root": 80.5,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "total_step": 70,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h4. holey",
+            "v1. yisha",
+            "v4. armed",
+            "v2. inhot"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 1090,
+        "distance to root": 81.0,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "YI_A_\nINTRO\nSHAME\nHOLEY\nAT_D_"
+    },
+    {
+        "total_step": 71,
+        "env_step": 8,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h4. holey",
+            "v1. yisha",
+            "v1. yisha"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 1061,
+        "depth": 8,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "total_step": 72,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h4. holey",
+            "v1. yisha",
+            "v1. yisha",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 1180,
+        "distance to root": 80.5,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "total_step": 73,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h4. holey",
+            "v1. yisha",
+            "v1. yisha",
+            "v1. yisha"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 1181,
+        "distance to root": 81.5,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "total_step": 74,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h4. holey",
+            "v1. yisha",
+            "v1. yisha",
+            "v2. inhot"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 1185,
+        "distance to root": 82.0,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "YI_A_\nINTRO\nSHAME\nHOLEY\nAT_D_"
+    },
+    {
+        "total_step": 75,
+        "env_step": 8,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h4. holey",
+            "v1. yisha",
+            "v2. inhot"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 1065,
+        "depth": 8,
+        "d_thres": 71.5,
+        "answer": "YI_A_\nINTRO\nSHAME\nHOLEY\nAT_D_"
+    },
+    {
+        "total_step": 76,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h4. holey",
+            "v1. yisha",
+            "v2. inhot",
+            "h5. atude"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 1
+        },
+        "current_node_id": 1278,
+        "distance to root": 82.5,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "YI_A_\nINTRO\nSHAME\nHOLEY\nATUDE"
+    },
+    {
+        "total_step": 77,
+        "env_step": 7,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h4. holey",
+            "v2. inhot"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 805,
+        "depth": 7,
+        "d_thres": 71.5,
+        "answer": "YI_A_\nINTRO\nSHAME\nHOLEY\nAT_D_"
+    },
+    {
+        "total_step": 78,
+        "env_step": 8,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "h4. holey",
+            "v2. inhot",
+            "h5. atude"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 1
+        },
+        "current_node_id": 1298,
+        "depth": 8,
+        "d_thres": 71.5,
+        "answer": "YI_A_\nINTRO\nSHAME\nHOLEY\nATUDE"
+    },
+    {
+        "total_step": 79,
+        "env_step": 6,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "v2. inhue"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 6,
+            "impossible": 0
+        },
+        "current_node_id": 181,
+        "depth": 6,
+        "d_thres": 71.5,
+        "answer": "YI_A_\nINTRO\nSHAME\nHU_E_\nAE_D_"
+    },
+    {
+        "total_step": 80,
+        "env_step": 7,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "v2. inhue",
+            "v5. roele"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1321,
+        "depth": 7,
+        "d_thres": 71.5,
+        "answer": "YI_AR\nINTRO\nSHAME\nHU_EL\nAE_DE"
+    },
+    {
+        "total_step": 81,
+        "env_step": 8,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "v2. inhue",
+            "v5. roele",
+            "v1. yisha"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1335,
+        "depth": 8,
+        "d_thres": 71.5,
+        "answer": "YI_AR\nINTRO\nSHAME\nHU_EL\nAE_DE"
+    },
+    {
+        "total_step": 82,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "v2. inhue",
+            "v5. roele",
+            "v1. yisha",
+            "v1. yisha"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1346,
+        "distance to root": 80.60000000000001,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "YI_AR\nINTRO\nSHAME\nHU_EL\nAE_DE"
+    },
+    {
+        "total_step": 83,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "v2. inhue",
+            "v5. roele",
+            "v1. yisha",
+            "v2. inhue"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1347,
+        "distance to root": 80.60000000000001,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "YI_AR\nINTRO\nSHAME\nHU_EL\nAE_DE"
+    },
+    {
+        "total_step": 84,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "v2. inhue",
+            "v5. roele",
+            "v1. yisha",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1348,
+        "distance to root": 80.60000000000001,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "YI_AR\nINTRO\nSHAME\nHU_EL\nAE_DE"
+    },
+    {
+        "total_step": 85,
+        "env_step": 8,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "v2. inhue",
+            "v5. roele",
+            "v2. inhue"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1336,
+        "depth": 8,
+        "d_thres": 71.5,
+        "answer": "YI_AR\nINTRO\nSHAME\nHU_EL\nAE_DE"
+    },
+    {
+        "total_step": 86,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "v2. inhue",
+            "v5. roele",
+            "v2. inhue",
+            "v1. yisha"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1390,
+        "distance to root": 80.60000000000001,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "YI_AR\nINTRO\nSHAME\nHU_EL\nAE_DE"
+    },
+    {
+        "total_step": 87,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "v2. inhue",
+            "v5. roele",
+            "v2. inhue",
+            "v2. inhue"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1391,
+        "distance to root": 80.60000000000001,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "YI_AR\nINTRO\nSHAME\nHU_EL\nAE_DE"
+    },
+    {
+        "total_step": 88,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "v2. inhue",
+            "v5. roele",
+            "v2. inhue",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1392,
+        "distance to root": 80.60000000000001,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "YI_AR\nINTRO\nSHAME\nHU_EL\nAE_DE"
+    },
+    {
+        "total_step": 89,
+        "env_step": 8,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "v2. inhue",
+            "v5. roele",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1337,
+        "depth": 8,
+        "d_thres": 71.5,
+        "answer": "YI_AR\nINTRO\nSHAME\nHU_EL\nAE_DE"
+    },
+    {
+        "total_step": 90,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "v2. inhue",
+            "v5. roele",
+            "v4. armed",
+            "v1. yisha"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1434,
+        "distance to root": 80.60000000000001,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "YI_AR\nINTRO\nSHAME\nHU_EL\nAE_DE"
+    },
+    {
+        "total_step": 91,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "v2. inhue",
+            "v5. roele",
+            "v4. armed",
+            "v2. inhue"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1435,
+        "distance to root": 80.60000000000001,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "YI_AR\nINTRO\nSHAME\nHU_EL\nAE_DE"
+    },
+    {
+        "total_step": 92,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "v2. inhue",
+            "v5. roele",
+            "v4. armed",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.48,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1436,
+        "distance to root": 80.60000000000001,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "YI_AR\nINTRO\nSHAME\nHU_EL\nAE_DE"
+    },
+    {
+        "total_step": 93,
+        "env_step": 7,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "v2. inhue",
+            "v5. toeye"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 4,
+            "impossible": 1
+        },
+        "current_node_id": 1329,
+        "depth": 7,
+        "d_thres": 71.5,
+        "answer": "YI_AT\nINTRO\nSHAME\nHU_EY\nAE_DE"
+    },
+    {
+        "total_step": 94,
+        "env_step": 7,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h3. shame",
+            "v2. inhue",
+            "v5. roede"
+        ],
+        "info": {
+            "r_letter": 0.44,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 3,
+            "impossible": 1
+        },
+        "current_node_id": 1330,
+        "depth": 7,
+        "d_thres": 71.5,
+        "answer": "YI_AR\nINTRO\nSHAME\nHU_ED\nAE_DE"
+    },
+    {
+        "total_step": 95,
+        "env_step": 5,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h4. holey"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 149,
+        "depth": 5,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "total_step": 96,
+        "env_step": 6,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h4. holey",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 1478,
+        "depth": 6,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "total_step": 97,
+        "env_step": 7,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h4. holey",
+            "v4. armed",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 1503,
+        "depth": 7,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "total_step": 98,
+        "env_step": 8,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h4. holey",
+            "v4. armed",
+            "v4. armed",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 1528,
+        "depth": 8,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "total_step": 99,
+        "env_step": 9,
+        "actions": [
+            "h2. intro",
+            "h3. shame",
+            "v4. armed",
+            "v1. yisha",
+            "h4. holey",
+            "v4. armed",
+            "v4. armed",
+            "v4. armed",
+            "v4. armed"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 7,
+            "impossible": 0
+        },
+        "current_node_id": 1553,
+        "distance to root": 77.5,
+        "depth": 9,
+        "d_thres": 71.5,
+        "answer": "Y__A_\nINTRO\nSHAME\nHOLEY\nA__D_"
+    },
+    {
+        "index": 15,
+        "best node id": 131,
+        "node depth": 9,
+        "chosen step": 19,
+        "distance to root": 71.5,
+        "answer": "___A_\nINTRO\nSHAME\nNAVEL\n___D_",
+        "accuracy": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "cost time": 70.91791248321533
+    }
+]

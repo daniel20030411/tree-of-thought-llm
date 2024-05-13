@@ -1,0 +1,3894 @@
+[
+    {
+        "node_id": 0,
+        "action": "gRoot",
+        "depth": 0,
+        "parent_node_id": null,
+        "children_node_id": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ]
+    },
+    {
+        "node_id": 1,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 1,
+        "parent_node_id": 0,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 2,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 1,
+        "parent_node_id": 0,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 3,
+        "action": "h3. gnash",
+        "value": 0,
+        "depth": 1,
+        "parent_node_id": 0,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 4,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 1,
+        "parent_node_id": 0,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 5,
+        "action": "v1. idiot",
+        "value": 0,
+        "depth": 1,
+        "parent_node_id": 0,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 6,
+        "action": "v2. usurp",
+        "value": 0,
+        "depth": 1,
+        "parent_node_id": 0,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 7,
+        "action": "v4. prawn",
+        "value": 0,
+        "depth": 1,
+        "parent_node_id": 0,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 8,
+        "action": "v5. achoo",
+        "value": 0,
+        "depth": 1,
+        "parent_node_id": 0,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 9,
+        "action": "h5. spare",
+        "value": 20,
+        "depth": 2,
+        "parent_node_id": 1,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 10,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 2,
+        "parent_node_id": 1,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            59,
+            60,
+            61,
+            62
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 11,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 2,
+        "parent_node_id": 1,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 12,
+        "action": "h3. chomp",
+        "value": 0,
+        "depth": 2,
+        "parent_node_id": 1,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 13,
+        "action": "v1. empty",
+        "value": 0,
+        "depth": 2,
+        "parent_node_id": 1,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 14,
+        "action": "h3. munch",
+        "value": 0,
+        "depth": 2,
+        "parent_node_id": 1,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 15,
+        "action": "v1. eejit",
+        "value": 0,
+        "depth": 2,
+        "parent_node_id": 1,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 16,
+        "action": "h3. eaten",
+        "value": 0,
+        "depth": 2,
+        "parent_node_id": 1,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 17,
+        "action": "h4. pryse",
+        "value": 0,
+        "depth": 2,
+        "parent_node_id": 1,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 18,
+        "action": "v1. erwit",
+        "value": 0,
+        "depth": 2,
+        "parent_node_id": 1,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 19,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 3,
+        "parent_node_id": 9,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 20,
+        "action": "v2. usurp",
+        "value": 0,
+        "depth": 3,
+        "parent_node_id": 9,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 21,
+        "action": "v3. mania",
+        "value": 0,
+        "depth": 3,
+        "parent_node_id": 9,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 22,
+        "action": "v4. tiger",
+        "value": 0.001,
+        "depth": 3,
+        "parent_node_id": 9,
+        "distance_to_parent": 19.999,
+        "distance_to_root": 19.999,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 23,
+        "action": "h2. habit",
+        "value": 20,
+        "depth": 3,
+        "parent_node_id": 9,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 24,
+        "action": "h3. munch",
+        "value": 0,
+        "depth": 3,
+        "parent_node_id": 9,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 25,
+        "action": "v4. tiler",
+        "value": 0,
+        "depth": 3,
+        "parent_node_id": 9,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 26,
+        "action": "v1. essay",
+        "value": 0,
+        "depth": 3,
+        "parent_node_id": 9,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 27,
+        "action": "v5. honor",
+        "value": 0,
+        "depth": 3,
+        "parent_node_id": 9,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 28,
+        "action": "h4. prise",
+        "value": 0,
+        "depth": 3,
+        "parent_node_id": 9,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 29,
+        "action": "v2. annex",
+        "value": 0,
+        "depth": 3,
+        "parent_node_id": 9,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 30,
+        "action": "v4. taker",
+        "value": 0,
+        "depth": 3,
+        "parent_node_id": 9,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 31,
+        "action": "v2. adept",
+        "value": 0,
+        "depth": 3,
+        "parent_node_id": 9,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 32,
+        "action": "v5. hache",
+        "value": 0,
+        "depth": 3,
+        "parent_node_id": 9,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 33,
+        "action": "v1. eejit",
+        "value": 0,
+        "depth": 3,
+        "parent_node_id": 9,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 34,
+        "action": "v1. eaves",
+        "value": 0,
+        "depth": 3,
+        "parent_node_id": 9,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 35,
+        "action": "v1. eases",
+        "value": 0,
+        "depth": 3,
+        "parent_node_id": 9,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 36,
+        "action": "h3. gnash",
+        "value": 0,
+        "depth": 3,
+        "parent_node_id": 9,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 37,
+        "action": "v5. heave",
+        "value": 0,
+        "depth": 3,
+        "parent_node_id": 9,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 38,
+        "action": "v4. tusar",
+        "value": 0,
+        "depth": 3,
+        "parent_node_id": 9,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 39,
+        "action": "v5. hewie",
+        "value": 0,
+        "depth": 3,
+        "parent_node_id": 9,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 40,
+        "action": "v1. eidos",
+        "value": 0,
+        "depth": 3,
+        "parent_node_id": 9,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 41,
+        "action": "v4. truer",
+        "value": 0,
+        "depth": 3,
+        "parent_node_id": 9,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 42,
+        "action": "v1. emiss",
+        "value": 0,
+        "depth": 3,
+        "parent_node_id": 9,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 43,
+        "action": "v5. heeze",
+        "value": 0,
+        "depth": 3,
+        "parent_node_id": 9,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 44,
+        "action": "v5. haste",
+        "value": 0,
+        "depth": 4,
+        "parent_node_id": 23,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 45,
+        "action": "v2. abase",
+        "value": 0,
+        "depth": 4,
+        "parent_node_id": 23,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 46,
+        "action": "v3. craze",
+        "value": 0,
+        "depth": 4,
+        "parent_node_id": 23,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 47,
+        "action": "v4. tiger",
+        "value": 0.001,
+        "depth": 4,
+        "parent_node_id": 23,
+        "distance_to_parent": 19.999,
+        "distance_to_root": 19.999,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 48,
+        "action": "h4. probe",
+        "value": 20,
+        "depth": 4,
+        "parent_node_id": 23,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 49,
+        "action": "v3. rabia",
+        "value": 0,
+        "depth": 4,
+        "parent_node_id": 23,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 50,
+        "action": "v1. eejit",
+        "value": 0,
+        "depth": 4,
+        "parent_node_id": 23,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 51,
+        "action": "h4. prove",
+        "value": 20,
+        "depth": 4,
+        "parent_node_id": 23,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 52,
+        "action": "v2. award",
+        "value": 0,
+        "depth": 4,
+        "parent_node_id": 23,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 53,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 4,
+        "parent_node_id": 23,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 54,
+        "action": "h3. munch",
+        "value": 0,
+        "depth": 4,
+        "parent_node_id": 23,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 55,
+        "action": "v1. echos",
+        "value": 0,
+        "depth": 4,
+        "parent_node_id": 23,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 56,
+        "action": "v1. ehlos",
+        "value": 0,
+        "depth": 4,
+        "parent_node_id": 23,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 57,
+        "action": "v4. titir",
+        "value": 0,
+        "depth": 4,
+        "parent_node_id": 23,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 58,
+        "action": "v4. tiler",
+        "value": 0,
+        "depth": 4,
+        "parent_node_id": 23,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 59,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 3,
+        "parent_node_id": 10,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            63,
+            64,
+            65,
+            66
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 60,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 3,
+        "parent_node_id": 10,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 61,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 3,
+        "parent_node_id": 10,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 62,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 3,
+        "parent_node_id": 10,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 63,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 4,
+        "parent_node_id": 59,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            67,
+            68,
+            69,
+            70
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 64,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 4,
+        "parent_node_id": 59,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 65,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 4,
+        "parent_node_id": 59,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 66,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 4,
+        "parent_node_id": 59,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 67,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 5,
+        "parent_node_id": 63,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            71,
+            72,
+            73,
+            74
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 68,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 5,
+        "parent_node_id": 63,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            195,
+            196,
+            197,
+            198
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 69,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 5,
+        "parent_node_id": 63,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 70,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 5,
+        "parent_node_id": 63,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 71,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 6,
+        "parent_node_id": 67,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            75,
+            76,
+            77,
+            78
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 72,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 6,
+        "parent_node_id": 67,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            135,
+            136,
+            137,
+            138
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 73,
+        "action": "h3. snack",
+        "value": 20,
+        "depth": 6,
+        "parent_node_id": 67,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 74,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 6,
+        "parent_node_id": 67,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 75,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 7,
+        "parent_node_id": 71,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            79,
+            80,
+            81,
+            82
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 76,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 7,
+        "parent_node_id": 71,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            107,
+            108,
+            109,
+            110
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 77,
+        "action": "h3. snack",
+        "value": 20,
+        "depth": 7,
+        "parent_node_id": 71,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 78,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 7,
+        "parent_node_id": 71,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 79,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 8,
+        "parent_node_id": 75,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            83,
+            84,
+            85,
+            86
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 80,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 8,
+        "parent_node_id": 75,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            95,
+            96,
+            97,
+            98
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 81,
+        "action": "h3. snack",
+        "value": 20,
+        "depth": 8,
+        "parent_node_id": 75,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 82,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 8,
+        "parent_node_id": 75,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 83,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 79,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            87,
+            88,
+            89,
+            90
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 84,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 79,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            91,
+            92,
+            93,
+            94
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 85,
+        "action": "h3. snack",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 79,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 86,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 9,
+        "parent_node_id": 79,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 87,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 83,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 88,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 83,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 89,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 83,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 90,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 83,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 91,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 84,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 92,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 84,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 93,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 84,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 94,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 84,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 95,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 80,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            99,
+            100,
+            101,
+            102
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 96,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 80,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            103,
+            104,
+            105,
+            106
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 97,
+        "action": "h3. snack",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 80,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 98,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 9,
+        "parent_node_id": 80,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 99,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 95,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 100,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 95,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 101,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 95,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 102,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 95,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 103,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 96,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 104,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 96,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 105,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 96,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 106,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 96,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 107,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 8,
+        "parent_node_id": 76,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            111,
+            112,
+            113,
+            114
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 108,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 8,
+        "parent_node_id": 76,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            123,
+            124,
+            125,
+            126
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 109,
+        "action": "h3. snack",
+        "value": 20,
+        "depth": 8,
+        "parent_node_id": 76,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 110,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 8,
+        "parent_node_id": 76,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 111,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 107,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            115,
+            116,
+            117,
+            118
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 112,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 107,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            119,
+            120,
+            121,
+            122
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 113,
+        "action": "h3. snack",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 107,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 114,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 9,
+        "parent_node_id": 107,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 115,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 111,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 116,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 111,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 117,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 111,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 118,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 111,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 119,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 112,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 120,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 112,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 121,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 112,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 122,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 112,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 123,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 108,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            127,
+            128,
+            129,
+            130
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 124,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 108,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            131,
+            132,
+            133,
+            134
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 125,
+        "action": "h3. snack",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 108,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 126,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 9,
+        "parent_node_id": 108,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 127,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 123,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 128,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 123,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 129,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 123,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 130,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 123,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 131,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 124,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 132,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 124,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 133,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 124,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 134,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 124,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 135,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 7,
+        "parent_node_id": 72,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            139,
+            140,
+            141,
+            142
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 136,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 7,
+        "parent_node_id": 72,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            167,
+            168,
+            169,
+            170
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 137,
+        "action": "h3. snack",
+        "value": 20,
+        "depth": 7,
+        "parent_node_id": 72,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 138,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 7,
+        "parent_node_id": 72,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 139,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 8,
+        "parent_node_id": 135,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            143,
+            144,
+            145,
+            146
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 140,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 8,
+        "parent_node_id": 135,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            155,
+            156,
+            157,
+            158
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 141,
+        "action": "h3. snack",
+        "value": 20,
+        "depth": 8,
+        "parent_node_id": 135,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 142,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 8,
+        "parent_node_id": 135,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 143,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 139,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            147,
+            148,
+            149,
+            150
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 144,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 139,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            151,
+            152,
+            153,
+            154
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 145,
+        "action": "h3. snack",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 139,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 146,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 9,
+        "parent_node_id": 139,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 147,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 143,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 148,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 143,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 149,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 143,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 150,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 143,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 151,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 144,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 152,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 144,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 153,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 144,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 154,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 144,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 155,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 140,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            159,
+            160,
+            161,
+            162
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 156,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 140,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            163,
+            164,
+            165,
+            166
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 157,
+        "action": "h3. snack",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 140,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 158,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 9,
+        "parent_node_id": 140,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 159,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 155,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 160,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 155,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 161,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 155,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 162,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 155,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 163,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 156,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 164,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 156,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 165,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 156,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 166,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 156,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 167,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 8,
+        "parent_node_id": 136,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            171,
+            172,
+            173,
+            174
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 168,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 8,
+        "parent_node_id": 136,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            183,
+            184,
+            185,
+            186
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 169,
+        "action": "h3. snack",
+        "value": 20,
+        "depth": 8,
+        "parent_node_id": 136,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 170,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 8,
+        "parent_node_id": 136,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 171,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 167,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            175,
+            176,
+            177,
+            178
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 172,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 167,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            179,
+            180,
+            181,
+            182
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 173,
+        "action": "h3. snack",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 167,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 174,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 9,
+        "parent_node_id": 167,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 175,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 171,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 176,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 171,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 177,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 171,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 178,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 171,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 179,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 172,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 180,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 172,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 181,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 172,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 182,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 172,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 183,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 168,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            187,
+            188,
+            189,
+            190
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 184,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 168,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            191,
+            192,
+            193,
+            194
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 185,
+        "action": "h3. snack",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 168,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 186,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 9,
+        "parent_node_id": 168,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 187,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 183,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 188,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 183,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 189,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 183,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 190,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 183,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 191,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 184,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 192,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 184,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 193,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 184,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 194,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 184,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 195,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 6,
+        "parent_node_id": 68,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            199,
+            200,
+            201,
+            202
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 196,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 6,
+        "parent_node_id": 68,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            259,
+            260,
+            261,
+            262
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 197,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 6,
+        "parent_node_id": 68,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 198,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 6,
+        "parent_node_id": 68,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 199,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 7,
+        "parent_node_id": 195,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            203,
+            204,
+            205,
+            206
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 200,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 7,
+        "parent_node_id": 195,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            231,
+            232,
+            233,
+            234
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 201,
+        "action": "h3. snack",
+        "value": 20,
+        "depth": 7,
+        "parent_node_id": 195,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 202,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 7,
+        "parent_node_id": 195,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 203,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 8,
+        "parent_node_id": 199,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            207,
+            208,
+            209,
+            210
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 204,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 8,
+        "parent_node_id": 199,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            219,
+            220,
+            221,
+            222
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 205,
+        "action": "h3. snack",
+        "value": 20,
+        "depth": 8,
+        "parent_node_id": 199,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 206,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 8,
+        "parent_node_id": 199,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 207,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 203,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            211,
+            212,
+            213,
+            214
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 208,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 203,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            215,
+            216,
+            217,
+            218
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 209,
+        "action": "h3. snack",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 203,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 210,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 9,
+        "parent_node_id": 203,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 211,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 207,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 212,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 207,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 213,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 207,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 214,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 207,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 215,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 208,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 216,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 208,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 217,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 208,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 218,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 208,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 219,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 204,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            223,
+            224,
+            225,
+            226
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 220,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 204,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            227,
+            228,
+            229,
+            230
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 221,
+        "action": "h3. snack",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 204,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 222,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 9,
+        "parent_node_id": 204,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 223,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 219,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 224,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 219,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 225,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 219,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 226,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 219,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 227,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 220,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 228,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 220,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 229,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 220,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 230,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 220,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 231,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 8,
+        "parent_node_id": 200,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            235,
+            236,
+            237,
+            238
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 232,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 8,
+        "parent_node_id": 200,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            247,
+            248,
+            249,
+            250
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 233,
+        "action": "h3. snack",
+        "value": 20,
+        "depth": 8,
+        "parent_node_id": 200,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 234,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 8,
+        "parent_node_id": 200,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 235,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 231,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            239,
+            240,
+            241,
+            242
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 236,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 231,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            243,
+            244,
+            245,
+            246
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 237,
+        "action": "h3. snack",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 231,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 238,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 9,
+        "parent_node_id": 231,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 239,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 235,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 240,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 235,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 241,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 235,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 242,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 235,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 243,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 236,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 244,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 236,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 245,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 236,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 246,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 236,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 247,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 232,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            251,
+            252,
+            253,
+            254
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 248,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 232,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            255,
+            256,
+            257,
+            258
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 249,
+        "action": "h3. snack",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 232,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 250,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 9,
+        "parent_node_id": 232,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 251,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 247,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 252,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 247,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 253,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 247,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 254,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 247,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 255,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 248,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 256,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 248,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 257,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 248,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 258,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 248,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 259,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 7,
+        "parent_node_id": 196,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            263,
+            264,
+            265,
+            266
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 260,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 7,
+        "parent_node_id": 196,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            291,
+            292,
+            293,
+            294
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 261,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 7,
+        "parent_node_id": 196,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 262,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 7,
+        "parent_node_id": 196,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 263,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 8,
+        "parent_node_id": 259,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            267,
+            268,
+            269,
+            270
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 264,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 8,
+        "parent_node_id": 259,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            279,
+            280,
+            281,
+            282
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 265,
+        "action": "h3. snack",
+        "value": 20,
+        "depth": 8,
+        "parent_node_id": 259,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 266,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 8,
+        "parent_node_id": 259,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 267,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 263,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            271,
+            272,
+            273,
+            274
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 268,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 263,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            275,
+            276,
+            277,
+            278
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 269,
+        "action": "h3. snack",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 263,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 270,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 9,
+        "parent_node_id": 263,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 271,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 267,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 272,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 267,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 273,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 267,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 274,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 267,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 275,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 268,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 276,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 268,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 277,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 268,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 278,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 268,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 279,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 264,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            283,
+            284,
+            285,
+            286
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 280,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 264,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            287,
+            288,
+            289,
+            290
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 281,
+        "action": "h3. snack",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 264,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 282,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 9,
+        "parent_node_id": 264,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 283,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 279,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 284,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 279,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 285,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 279,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 286,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 279,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 287,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 280,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 288,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 280,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 289,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 280,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 290,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 280,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 291,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 8,
+        "parent_node_id": 260,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            295,
+            296,
+            297,
+            298
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 292,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 8,
+        "parent_node_id": 260,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            307,
+            308,
+            309,
+            310
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 293,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 8,
+        "parent_node_id": 260,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 294,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 8,
+        "parent_node_id": 260,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 295,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 291,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            299,
+            300,
+            301,
+            302
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 296,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 291,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            303,
+            304,
+            305,
+            306
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 297,
+        "action": "h3. snack",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 291,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 298,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 9,
+        "parent_node_id": 291,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 299,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 295,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 300,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 295,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 301,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 295,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 302,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 295,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 303,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 296,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 304,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 296,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 305,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 296,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 306,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 296,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 307,
+        "action": "h1. earth",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 292,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            311,
+            312,
+            313,
+            314
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 308,
+        "action": "h2. usage",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 292,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [
+            315,
+            316,
+            317,
+            318
+        ],
+        "pruned": false
+    },
+    {
+        "node_id": 309,
+        "action": "h3. snack",
+        "value": 20,
+        "depth": 9,
+        "parent_node_id": 292,
+        "distance_to_parent": 0,
+        "distance_to_root": 0.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 310,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 9,
+        "parent_node_id": 292,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 311,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 307,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 312,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 307,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 313,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 307,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 314,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 307,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 315,
+        "action": "h1. earth",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 308,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 316,
+        "action": "h2. usage",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 308,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 317,
+        "action": "h3. snack",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 308,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    },
+    {
+        "node_id": 318,
+        "action": "h5. spare",
+        "value": 0,
+        "depth": 10,
+        "parent_node_id": 308,
+        "distance_to_parent": 20,
+        "distance_to_root": 20.0,
+        "children_node_id": [],
+        "pruned": false
+    }
+]

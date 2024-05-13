@@ -1,0 +1,58 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 17
+pruning = True
+date: 2024-05-10
+time: 19:54:47
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h1. earth'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': 'EARTH\n_____\n_____\n_____\n_____'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['h1. earth', 'h5. spare'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 9, 'depth': 2, 'd_thres': 10000, 'answer': 'EARTH\n_____\n_____\n_____\nSPARE'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['h1. earth', 'h5. spare', 'h2. usage'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 6, 'maybe': 1, 'impossible': 1}, 'current_node_id': 19, 'depth': 3, 'd_thres': 10000, 'answer': 'EARTH\nUSAGE\n_____\n_____\nSPARE'}
+
+{'total_step': 3, 'env_step': 3, 'actions': ['h1. earth', 'h5. spare', 'v4. tiger'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 1}, 'current_node_id': 22, 'depth': 3, 'd_thres': 10000, 'answer': 'EARTH\n___I_\n___G_\n___E_\nSPARE'}
+
+{'total_step': 4, 'env_step': 3, 'actions': ['h1. earth', 'h5. spare', 'h2. habit'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 23, 'depth': 3, 'd_thres': 10000, 'answer': 'EARTH\nHABIT\n_____\n_____\nSPARE'}
+
+{'total_step': 5, 'env_step': 4, 'actions': ['h1. earth', 'h5. spare', 'h2. habit', 'v4. tiger'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 1}, 'current_node_id': 47, 'depth': 4, 'd_thres': 10000, 'answer': 'EARTH\nHABIT\n___G_\n___E_\nSPARE'}
+
+{'total_step': 6, 'env_step': 4, 'actions': ['h1. earth', 'h5. spare', 'h2. habit', 'h4. probe'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 1}, 'current_node_id': 48, 'depth': 4, 'd_thres': 10000, 'answer': 'EARTH\nHABIT\n_____\nPROBE\nSPARE'}
+
+{'total_step': 7, 'env_step': 4, 'actions': ['h1. earth', 'h5. spare', 'h2. habit', 'h4. prove'], 'info': {'r_letter': 0.28, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 2}, 'current_node_id': 51, 'depth': 4, 'd_thres': 10000, 'answer': 'EARTH\nHABIT\n_____\nPROVE\nSPARE'}
+
+{'total_step': 8, 'env_step': 2, 'actions': ['h1. earth', 'h2. usage'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 10, 'depth': 2, 'd_thres': 10000, 'answer': 'EARTH\nUSAGE\n_____\n_____\n_____'}
+
+{'total_step': 9, 'env_step': 3, 'actions': ['h1. earth', 'h2. usage', 'h1. earth'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 59, 'depth': 3, 'd_thres': 10000, 'answer': 'EARTH\nUSAGE\n_____\n_____\n_____'}
+
+{'total_step': 10, 'env_step': 4, 'actions': ['h1. earth', 'h2. usage', 'h1. earth', 'h1. earth'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 63, 'depth': 4, 'd_thres': 10000, 'answer': 'EARTH\nUSAGE\n_____\n_____\n_____'}
+
+{'total_step': 11, 'env_step': 5, 'actions': ['h1. earth', 'h2. usage', 'h1. earth', 'h1. earth', 'h1. earth'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 67, 'depth': 5, 'd_thres': 10000, 'answer': 'EARTH\nUSAGE\n_____\n_____\n_____'}
+
+{'total_step': 12, 'env_step': 6, 'actions': ['h1. earth', 'h2. usage', 'h1. earth', 'h1. earth', 'h1. earth', 'h1. earth'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 71, 'depth': 6, 'd_thres': 10000, 'answer': 'EARTH\nUSAGE\n_____\n_____\n_____'}
+
+{'total_step': 13, 'env_step': 7, 'actions': ['h1. earth', 'h2. usage', 'h1. earth', 'h1. earth', 'h1. earth', 'h1. earth', 'h1. earth'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 75, 'depth': 7, 'd_thres': 10000, 'answer': 'EARTH\nUSAGE\n_____\n_____\n_____'}
+
+{'total_step': 14, 'env_step': 8, 'actions': ['h1. earth', 'h2. usage', 'h1. earth', 'h1. earth', 'h1. earth', 'h1. earth', 'h1. earth', 'h1. earth'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 79, 'depth': 8, 'd_thres': 10000, 'answer': 'EARTH\nUSAGE\n_____\n_____\n_____'}
+
+{'total_step': 15, 'env_step': 9, 'actions': ['h1. earth', 'h2. usage', 'h1. earth', 'h1. earth', 'h1. earth', 'h1. earth', 'h1. earth', 'h1. earth', 'h1. earth'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 83, 'distance to root': 0.0, 'depth': 9, 'd_thres': 0.0, 'answer': 'EARTH\nUSAGE\n_____\n_____\n_____'}
+
+-----------------------
+
+best node id: 83
+node depth: 9
+chosen step: 15
+distance to root: 0.0
+answer:
+
+EARTH
+USAGE
+_____
+_____
+_____
+
+accuracy: {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}
+cost time: 90.48738265037537 s
+
+---- Task Complete ----

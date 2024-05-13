@@ -1,0 +1,44 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 19
+pruning = True
+date: 2024-05-06
+time: 00:25:52
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h4. sense'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': '_____\n_____\n_____\nSENSE\n_____'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['h4. sense', 'v5. treed'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 14, 'depth': 2, 'd_thres': 10000, 'answer': '____T\n____R\n____E\nSENSE\n____D'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['h4. sense', 'v5. treed', 'h4. sense'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 32, 'depth': 3, 'd_thres': 10000, 'answer': '____T\n____R\n____E\nSENSE\n____D'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['h4. sense', 'v5. treed', 'h4. sense', 'h4. sense'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 48, 'depth': 4, 'd_thres': 10000, 'answer': '____T\n____R\n____E\nSENSE\n____D'}
+
+{'total_step': 4, 'env_step': 5, 'actions': ['h4. sense', 'v5. treed', 'h4. sense', 'h4. sense', 'h4. sense'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 64, 'depth': 5, 'd_thres': 10000, 'answer': '____T\n____R\n____E\nSENSE\n____D'}
+
+{'total_step': 5, 'env_step': 6, 'actions': ['h4. sense', 'v5. treed', 'h4. sense', 'h4. sense', 'h4. sense', 'h4. sense'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 80, 'depth': 6, 'd_thres': 10000, 'answer': '____T\n____R\n____E\nSENSE\n____D'}
+
+{'total_step': 6, 'env_step': 7, 'actions': ['h4. sense', 'v5. treed', 'h4. sense', 'h4. sense', 'h4. sense', 'h4. sense', 'h4. sense'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 96, 'depth': 7, 'd_thres': 10000, 'answer': '____T\n____R\n____E\nSENSE\n____D'}
+
+{'total_step': 7, 'env_step': 8, 'actions': ['h4. sense', 'v5. treed', 'h4. sense', 'h4. sense', 'h4. sense', 'h4. sense', 'h4. sense', 'h4. sense'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 112, 'depth': 8, 'd_thres': 10000, 'answer': '____T\n____R\n____E\nSENSE\n____D'}
+
+{'total_step': 8, 'env_step': 9, 'actions': ['h4. sense', 'v5. treed', 'h4. sense', 'h4. sense', 'h4. sense', 'h4. sense', 'h4. sense', 'h4. sense', 'h4. sense'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 128, 'distance to root': 59.5, 'depth': 9, 'd_thres': 59.5, 'answer': '____T\n____R\n____E\nSENSE\n____D'}
+
+-----------------------
+
+best node id: 128
+node depth: 9
+chosen step: 8
+distance to root: 59.5
+answer:
+
+____T
+____R
+____E
+SENSE
+____D
+
+accuracy: {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}
+cost time: 14.19990873336792 s
+
+---- Task Complete ----

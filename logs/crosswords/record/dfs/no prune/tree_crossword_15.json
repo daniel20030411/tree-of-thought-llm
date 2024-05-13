@@ -1,0 +1,16 @@
+[
+    {
+        "index": 15,
+        "best node id": 37,
+        "node depth": 3,
+        "chosen step": 2,
+        "distance to root": 19.0,
+        "answer": "_LA__\n_EM__\nUVULA\n_ES__\n_LE__",
+        "accuracy": {
+            "r_letter": 0.52,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "cost time": 2.9363956451416016
+    }
+]

@@ -1,0 +1,58 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 18
+pruning = True
+date: 2024-05-10
+time: 02:10:41
+
+{'total_step': 0, 'env_step': 1, 'actions': ['v5. teary'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': '____T\n____E\n____A\n____R\n____Y'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['v5. teary', 'h3. korea'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 9, 'depth': 2, 'd_thres': 10000, 'answer': '____T\n____E\nKOREA\n____R\n____Y'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['v5. teary', 'h3. korea', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 0}, 'current_node_id': 32, 'depth': 3, 'd_thres': 10000, 'answer': '____T\n____E\nKOREA\n____R\nUNARY'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['v5. teary', 'h3. korea', 'h5. unary', 'h4. fiver'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 44, 'depth': 4, 'd_thres': 10000, 'answer': '____T\n____E\nKOREA\nFIVER\nUNARY'}
+
+{'total_step': 4, 'env_step': 5, 'actions': ['v5. teary', 'h3. korea', 'h5. unary', 'h4. fiver', 'h2. firme'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 2}, 'current_node_id': 62, 'depth': 5, 'd_thres': 10000, 'answer': '____T\nFIRME\nKOREA\nFIVER\nUNARY'}
+
+{'total_step': 5, 'env_step': 5, 'actions': ['v5. teary', 'h3. korea', 'h5. unary', 'h4. fiver', 'h2. apple'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 2}, 'current_node_id': 63, 'depth': 5, 'd_thres': 10000, 'answer': '____T\nAPPLE\nKOREA\nFIVER\nUNARY'}
+
+{'total_step': 6, 'env_step': 5, 'actions': ['v5. teary', 'h3. korea', 'h5. unary', 'h4. fiver', 'h1. larot'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 6, 'impossible': 0}, 'current_node_id': 70, 'depth': 5, 'd_thres': 10000, 'answer': 'LAROT\n____E\nKOREA\nFIVER\nUNARY'}
+
+{'total_step': 7, 'env_step': 6, 'actions': ['v5. teary', 'h3. korea', 'h5. unary', 'h4. fiver', 'h1. larot', 'h2. ferme'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 1}, 'current_node_id': 75, 'depth': 6, 'd_thres': 10000, 'answer': 'LAROT\nFERME\nKOREA\nFIVER\nUNARY'}
+
+{'total_step': 8, 'env_step': 6, 'actions': ['v5. teary', 'h3. korea', 'h5. unary', 'h4. fiver', 'h1. larot', 'v2. adoin'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 6, 'impossible': 0}, 'current_node_id': 76, 'depth': 6, 'd_thres': 10000, 'answer': 'LAROT\n_D__E\nKOREA\nFIVER\nUNARY'}
+
+{'total_step': 9, 'env_step': 6, 'actions': ['v5. teary', 'h3. korea', 'h5. unary', 'h4. fiver', 'h1. larot', 'h2. firme'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 1}, 'current_node_id': 78, 'depth': 6, 'd_thres': 10000, 'answer': 'LAROT\nFIRME\nKOREA\nFIVER\nUNARY'}
+
+{'total_step': 10, 'env_step': 4, 'actions': ['v5. teary', 'h3. korea', 'h5. unary', 'h4. safer'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 46, 'depth': 4, 'd_thres': 10000, 'answer': '____T\n____E\nKOREA\nSAFER\nUNARY'}
+
+{'total_step': 11, 'env_step': 5, 'actions': ['v5. teary', 'h3. korea', 'h5. unary', 'h4. safer', 'h4. safer'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 92, 'depth': 5, 'd_thres': 10000, 'answer': '____T\n____E\nKOREA\nSAFER\nUNARY'}
+
+{'total_step': 12, 'env_step': 6, 'actions': ['v5. teary', 'h3. korea', 'h5. unary', 'h4. safer', 'h4. safer', 'h4. safer'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 102, 'depth': 6, 'd_thres': 10000, 'answer': '____T\n____E\nKOREA\nSAFER\nUNARY'}
+
+{'total_step': 13, 'env_step': 7, 'actions': ['v5. teary', 'h3. korea', 'h5. unary', 'h4. safer', 'h4. safer', 'h4. safer', 'h4. safer'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 112, 'depth': 7, 'd_thres': 10000, 'answer': '____T\n____E\nKOREA\nSAFER\nUNARY'}
+
+{'total_step': 14, 'env_step': 8, 'actions': ['v5. teary', 'h3. korea', 'h5. unary', 'h4. safer', 'h4. safer', 'h4. safer', 'h4. safer', 'h4. safer'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 122, 'depth': 8, 'd_thres': 10000, 'answer': '____T\n____E\nKOREA\nSAFER\nUNARY'}
+
+{'total_step': 15, 'env_step': 9, 'actions': ['v5. teary', 'h3. korea', 'h5. unary', 'h4. safer', 'h4. safer', 'h4. safer', 'h4. safer', 'h4. safer', 'h4. safer'], 'info': {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 4, 'maybe': 3, 'impossible': 0}, 'current_node_id': 132, 'distance to root': 119.9, 'depth': 9, 'd_thres': 119.9, 'answer': '____T\n____E\nKOREA\nSAFER\nUNARY'}
+
+-----------------------
+
+best node id: 132
+node depth: 9
+chosen step: 15
+distance to root: 119.9
+answer:
+
+____T
+____E
+KOREA
+SAFER
+UNARY
+
+accuracy: {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}
+cost time: 96.22045159339905 s
+
+---- Task Complete ----

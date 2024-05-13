@@ -1,0 +1,16 @@
+[
+    {
+        "index": 17,
+        "best node id": 26,
+        "node depth": 3,
+        "chosen step": 3,
+        "distance to root": 22.4,
+        "answer": "M____\nOVINE\nW____\nE____\nREALM",
+        "accuracy": {
+            "r_letter": 0.4,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "cost time": 2.389707565307617
+    }
+]

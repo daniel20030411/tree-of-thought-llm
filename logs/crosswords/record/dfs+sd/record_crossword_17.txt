@@ -1,0 +1,54 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 17
+pruning = True
+date: 2024-05-06
+time: 00:25:52
+
+{'total_step': 0, 'env_step': 1, 'actions': ['v3. craze'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': '__C__\n__R__\n__A__\n__Z__\n__E__'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['v3. craze', 'v5. achoo'], 'info': {'r_letter': 0.0, 'r_word': 0.0, 'r_game': False}, 'count': {'sure': 2, 'maybe': 5, 'impossible': 0}, 'current_node_id': 10, 'depth': 2, 'd_thres': 10000, 'answer': '__C_A\n__R_C\n__A_H\n__Z_O\n__E_O'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['v3. craze', 'v5. achoo', 'v2. usurp'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 30, 'depth': 3, 'd_thres': 10000, 'answer': '_UC_A\n_SR_C\n_UA_H\n_RZ_O\n_PE_O'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['v3. craze', 'v5. achoo', 'v2. usurp', 'v1. idiot'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 2, 'impossible': 3}, 'current_node_id': 49, 'depth': 4, 'd_thres': 10000, 'answer': 'IUC_A\nDSR_C\nIUA_H\nORZ_O\nTPE_O'}
+
+{'total_step': 4, 'env_step': 4, 'actions': ['v3. craze', 'v5. achoo', 'v2. usurp', 'v4. spurs'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 60, 'depth': 4, 'd_thres': 10000, 'answer': '_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO'}
+
+{'total_step': 5, 'env_step': 5, 'actions': ['v3. craze', 'v5. achoo', 'v2. usurp', 'v4. spurs', 'v1. idiot'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 1, 'impossible': 4}, 'current_node_id': 68, 'depth': 5, 'd_thres': 10000, 'answer': 'IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO'}
+
+{'total_step': 6, 'env_step': 5, 'actions': ['v3. craze', 'v5. achoo', 'v2. usurp', 'v4. spurs', 'v2. usurp'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 70, 'depth': 5, 'd_thres': 10000, 'answer': '_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO'}
+
+{'total_step': 7, 'env_step': 6, 'actions': ['v3. craze', 'v5. achoo', 'v2. usurp', 'v4. spurs', 'v2. usurp', 'v1. idiot'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 1, 'impossible': 4}, 'current_node_id': 86, 'depth': 6, 'd_thres': 10000, 'answer': 'IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO'}
+
+{'total_step': 8, 'env_step': 6, 'actions': ['v3. craze', 'v5. achoo', 'v2. usurp', 'v4. spurs', 'v2. usurp', 'v2. usurp'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 88, 'depth': 6, 'd_thres': 10000, 'answer': '_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO'}
+
+{'total_step': 9, 'env_step': 7, 'actions': ['v3. craze', 'v5. achoo', 'v2. usurp', 'v4. spurs', 'v2. usurp', 'v2. usurp', 'v1. idiot'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 1, 'impossible': 4}, 'current_node_id': 104, 'depth': 7, 'd_thres': 10000, 'answer': 'IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO'}
+
+{'total_step': 10, 'env_step': 7, 'actions': ['v3. craze', 'v5. achoo', 'v2. usurp', 'v4. spurs', 'v2. usurp', 'v2. usurp', 'v2. usurp'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 106, 'depth': 7, 'd_thres': 10000, 'answer': '_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO'}
+
+{'total_step': 11, 'env_step': 8, 'actions': ['v3. craze', 'v5. achoo', 'v2. usurp', 'v4. spurs', 'v2. usurp', 'v2. usurp', 'v2. usurp', 'v1. idiot'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 1, 'impossible': 4}, 'current_node_id': 122, 'depth': 8, 'd_thres': 10000, 'answer': 'IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO'}
+
+{'total_step': 12, 'env_step': 8, 'actions': ['v3. craze', 'v5. achoo', 'v2. usurp', 'v4. spurs', 'v2. usurp', 'v2. usurp', 'v2. usurp', 'v2. usurp'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 124, 'depth': 8, 'd_thres': 10000, 'answer': '_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO'}
+
+{'total_step': 13, 'env_step': 9, 'actions': ['v3. craze', 'v5. achoo', 'v2. usurp', 'v4. spurs', 'v2. usurp', 'v2. usurp', 'v2. usurp', 'v2. usurp', 'v1. idiot'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 1, 'impossible': 4}, 'current_node_id': 140, 'distance to root': 80.39999999999999, 'depth': 9, 'd_thres': 80.39999999999999, 'answer': 'IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO'}
+
+-----------------------
+
+best node id: 140
+node depth: 9
+chosen step: 13
+distance to root: 80.39999999999999
+answer:
+
+IUCSA
+DSRPC
+IUAUH
+ORZRO
+TPESO
+
+accuracy: {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}
+cost time: 63.499438524246216 s
+
+---- Task Complete ----

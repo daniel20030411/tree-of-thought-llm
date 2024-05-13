@@ -1,0 +1,16 @@
+[
+    {
+        "index": 14,
+        "best node id": 31,
+        "node depth": 3,
+        "chosen step": 2,
+        "distance to root": 23.0,
+        "answer": "_____\nQUILL\nUVULA\n_____\nBARGE",
+        "accuracy": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "cost time": 3.080780029296875
+    }
+]

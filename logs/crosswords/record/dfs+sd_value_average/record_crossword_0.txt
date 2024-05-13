@@ -1,0 +1,174 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs+sd
+idx: 0
+pruning = True
+date: 2024-05-10
+time: 02:10:41
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h2. motor'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'depth': 1, 'd_thres': 10000, 'answer': '_____\nMOTOR\n_____\n_____\n_____'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['h2. motor', 'v5. drier'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 9, 'depth': 2, 'd_thres': 10000, 'answer': '____D\nMOTOR\n____I\n____E\n____R'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['h2. motor', 'v5. drier', 'v5. drier'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 26, 'depth': 3, 'd_thres': 10000, 'answer': '____D\nMOTOR\n____I\n____E\n____R'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 47, 'depth': 4, 'd_thres': 10000, 'answer': '____D\nMOTOR\n____I\n____E\n____R'}
+
+{'total_step': 4, 'env_step': 5, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 68, 'depth': 5, 'd_thres': 10000, 'answer': '____D\nMOTOR\n____I\n____E\n____R'}
+
+{'total_step': 5, 'env_step': 6, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 89, 'depth': 6, 'd_thres': 10000, 'answer': '____D\nMOTOR\n____I\n____E\n____R'}
+
+{'total_step': 6, 'env_step': 7, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 110, 'depth': 7, 'd_thres': 10000, 'answer': '____D\nMOTOR\n____I\n____E\n____R'}
+
+{'total_step': 7, 'env_step': 8, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 131, 'depth': 8, 'd_thres': 10000, 'answer': '____D\nMOTOR\n____I\n____E\n____R'}
+
+{'total_step': 8, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 152, 'distance to root': 146.0, 'depth': 9, 'd_thres': 146.0, 'answer': '____D\nMOTOR\n____I\n____E\n____R'}
+
+{'total_step': 9, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. agend'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 1}, 'current_node_id': 156, 'distance to root': 143.6999, 'depth': 9, 'd_thres': 143.6999, 'answer': 'AGEND\nMOTOR\n____I\n____E\n____R'}
+
+{'total_step': 10, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 159, 'distance to root': 143.6, 'depth': 9, 'd_thres': 143.6, 'answer': 'ENDED\nMOTOR\n____I\n____E\n____R'}
+
+{'total_step': 11, 'env_step': 8, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. agend'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 1}, 'current_node_id': 135, 'depth': 8, 'd_thres': 143.6, 'answer': 'AGEND\nMOTOR\n____I\n____E\n____R'}
+
+{'total_step': 12, 'env_step': 8, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 138, 'depth': 8, 'd_thres': 143.6, 'answer': 'ENDED\nMOTOR\n____I\n____E\n____R'}
+
+{'total_step': 13, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'h5. sneer'], 'info': {'r_letter': 0.44, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 206, 'distance to root': 139.2, 'depth': 9, 'd_thres': 139.2, 'answer': 'ENDED\nMOTOR\n____I\n____E\nSNEER'}
+
+{'total_step': 14, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. emend'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 209, 'distance to root': 139.0, 'depth': 9, 'd_thres': 139.0, 'answer': 'ENDED\nMOTOR\nE___I\nN___E\nD___R'}
+
+{'total_step': 15, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. empty'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 212, 'distance to root': 139.0, 'depth': 9, 'd_thres': 139.0, 'answer': 'ENDED\nMOTOR\nP___I\nT___E\nY___R'}
+
+{'total_step': 16, 'env_step': 7, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. agend'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 1}, 'current_node_id': 114, 'depth': 7, 'd_thres': 139.0, 'answer': 'AGEND\nMOTOR\n____I\n____E\n____R'}
+
+{'total_step': 17, 'env_step': 7, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 117, 'depth': 7, 'd_thres': 139.0, 'answer': 'ENDED\nMOTOR\n____I\n____E\n____R'}
+
+{'total_step': 18, 'env_step': 8, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'h5. sneer'], 'info': {'r_letter': 0.44, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 267, 'depth': 8, 'd_thres': 139.0, 'answer': 'ENDED\nMOTOR\n____I\n____E\nSNEER'}
+
+{'total_step': 19, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'h5. sneer', 'v1. embus'], 'info': {'r_letter': 0.44, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 1}, 'current_node_id': 282, 'distance to root': 132.7999, 'depth': 9, 'd_thres': 132.7999, 'answer': 'ENDED\nMOTOR\nB___I\nU___E\nSNEER'}
+
+{'total_step': 20, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'h5. sneer', 'v2. nogan'], 'info': {'r_letter': 0.48, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 285, 'distance to root': 134.7, 'depth': 9, 'd_thres': 132.7999, 'answer': 'ENDED\nMOTOR\n_G__I\n_A__E\nSNEER'}
+
+{'total_step': 21, 'env_step': 8, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. emend'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 270, 'depth': 8, 'd_thres': 132.7999, 'answer': 'ENDED\nMOTOR\nE___I\nN___E\nD___R'}
+
+{'total_step': 22, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. emend', 'h1. ended'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 295, 'distance to root': 134.4, 'depth': 9, 'd_thres': 132.7999, 'answer': 'ENDED\nMOTOR\nE___I\nN___E\nD___R'}
+
+{'total_step': 23, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. emend', 'h2. motor'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 296, 'distance to root': 134.4, 'depth': 9, 'd_thres': 132.7999, 'answer': 'ENDED\nMOTOR\nE___I\nN___E\nD___R'}
+
+{'total_step': 24, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. emend', 'v1. emend'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 297, 'distance to root': 134.4, 'depth': 9, 'd_thres': 132.7999, 'answer': 'ENDED\nMOTOR\nE___I\nN___E\nD___R'}
+
+{'total_step': 25, 'env_step': 8, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. empty'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 273, 'depth': 8, 'd_thres': 132.7999, 'answer': 'ENDED\nMOTOR\nP___I\nT___E\nY___R'}
+
+{'total_step': 26, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. empty', 'h5. yawer'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 1}, 'current_node_id': 377, 'distance to root': 134.4999, 'depth': 9, 'd_thres': 132.7999, 'answer': 'ENDED\nMOTOR\nP___I\nT___E\nYAWER'}
+
+{'total_step': 27, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. empty', 'v2. noble'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 379, 'distance to root': 134.4, 'depth': 9, 'd_thres': 132.7999, 'answer': 'ENDED\nMOTOR\nPB__I\nTL__E\nYE__R'}
+
+{'total_step': 28, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. empty', 'h4. toile'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 381, 'distance to root': 132.5, 'depth': 9, 'd_thres': 132.5, 'answer': 'ENDED\nMOTOR\nP___I\nTOILE\nY___R'}
+
+{'total_step': 29, 'env_step': 6, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. agend'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 1}, 'current_node_id': 93, 'depth': 6, 'd_thres': 132.5, 'answer': 'AGEND\nMOTOR\n____I\n____E\n____R'}
+
+{'total_step': 30, 'env_step': 6, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 96, 'depth': 6, 'd_thres': 132.5, 'answer': 'ENDED\nMOTOR\n____I\n____E\n____R'}
+
+{'total_step': 31, 'env_step': 7, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'h5. sneer'], 'info': {'r_letter': 0.44, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 410, 'depth': 7, 'd_thres': 132.5, 'answer': 'ENDED\nMOTOR\n____I\n____E\nSNEER'}
+
+{'total_step': 32, 'env_step': 8, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'h5. sneer', 'v1. embus'], 'info': {'r_letter': 0.44, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 1}, 'current_node_id': 425, 'depth': 8, 'd_thres': 132.5, 'answer': 'ENDED\nMOTOR\nB___I\nU___E\nSNEER'}
+
+{'total_step': 33, 'env_step': 8, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'h5. sneer', 'v2. nogan'], 'info': {'r_letter': 0.48, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 428, 'depth': 8, 'd_thres': 132.5, 'answer': 'ENDED\nMOTOR\n_G__I\n_A__E\nSNEER'}
+
+{'total_step': 34, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'h5. sneer', 'v2. nogan', 'v2. nogan'], 'info': {'r_letter': 0.48, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 429, 'distance to root': 130.2, 'depth': 9, 'd_thres': 130.2, 'answer': 'ENDED\nMOTOR\n_G__I\n_A__E\nSNEER'}
+
+{'total_step': 35, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'h5. sneer', 'v2. nogan', 'v5. drier'], 'info': {'r_letter': 0.48, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 430, 'distance to root': 130.2, 'depth': 9, 'd_thres': 130.2, 'answer': 'ENDED\nMOTOR\n_G__I\n_A__E\nSNEER'}
+
+{'total_step': 36, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'h5. sneer', 'v2. nogan', 'v1. emits'], 'info': {'r_letter': 0.48, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 1}, 'current_node_id': 434, 'distance to root': 130.1999, 'depth': 9, 'd_thres': 130.1999, 'answer': 'ENDED\nMOTOR\nIG__I\nTA__E\nSNEER'}
+
+{'total_step': 37, 'env_step': 7, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. emend'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 413, 'depth': 7, 'd_thres': 130.1999, 'answer': 'ENDED\nMOTOR\nE___I\nN___E\nD___R'}
+
+{'total_step': 38, 'env_step': 8, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. emend', 'h1. ended'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 456, 'depth': 8, 'd_thres': 130.1999, 'answer': 'ENDED\nMOTOR\nE___I\nN___E\nD___R'}
+
+{'total_step': 39, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. emend', 'h1. ended', 'h1. ended'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 476, 'distance to root': 129.8, 'depth': 9, 'd_thres': 129.8, 'answer': 'ENDED\nMOTOR\nE___I\nN___E\nD___R'}
+
+{'total_step': 40, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. emend', 'h1. ended', 'h2. motor'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 477, 'distance to root': 129.8, 'depth': 9, 'd_thres': 129.8, 'answer': 'ENDED\nMOTOR\nE___I\nN___E\nD___R'}
+
+{'total_step': 41, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. emend', 'h1. ended', 'v1. emend'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 478, 'distance to root': 129.8, 'depth': 9, 'd_thres': 129.8, 'answer': 'ENDED\nMOTOR\nE___I\nN___E\nD___R'}
+
+{'total_step': 42, 'env_step': 8, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. emend', 'h2. motor'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 457, 'depth': 8, 'd_thres': 129.8, 'answer': 'ENDED\nMOTOR\nE___I\nN___E\nD___R'}
+
+{'total_step': 43, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. emend', 'h2. motor', 'h1. ended'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 556, 'distance to root': 129.8, 'depth': 9, 'd_thres': 129.8, 'answer': 'ENDED\nMOTOR\nE___I\nN___E\nD___R'}
+
+{'total_step': 44, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. emend', 'h2. motor', 'h2. motor'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 557, 'distance to root': 129.8, 'depth': 9, 'd_thres': 129.8, 'answer': 'ENDED\nMOTOR\nE___I\nN___E\nD___R'}
+
+{'total_step': 45, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. emend', 'h2. motor', 'v1. emend'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 558, 'distance to root': 129.8, 'depth': 9, 'd_thres': 129.8, 'answer': 'ENDED\nMOTOR\nE___I\nN___E\nD___R'}
+
+{'total_step': 46, 'env_step': 8, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. emend', 'v1. emend'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 458, 'depth': 8, 'd_thres': 129.8, 'answer': 'ENDED\nMOTOR\nE___I\nN___E\nD___R'}
+
+{'total_step': 47, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. emend', 'v1. emend', 'h1. ended'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 636, 'distance to root': 129.8, 'depth': 9, 'd_thres': 129.8, 'answer': 'ENDED\nMOTOR\nE___I\nN___E\nD___R'}
+
+{'total_step': 48, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. emend', 'v1. emend', 'h2. motor'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 637, 'distance to root': 129.8, 'depth': 9, 'd_thres': 129.8, 'answer': 'ENDED\nMOTOR\nE___I\nN___E\nD___R'}
+
+{'total_step': 49, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. emend', 'v1. emend', 'v1. emend'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 638, 'distance to root': 129.8, 'depth': 9, 'd_thres': 129.8, 'answer': 'ENDED\nMOTOR\nE___I\nN___E\nD___R'}
+
+{'total_step': 50, 'env_step': 7, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. empty'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 416, 'depth': 7, 'd_thres': 129.8, 'answer': 'ENDED\nMOTOR\nP___I\nT___E\nY___R'}
+
+{'total_step': 51, 'env_step': 8, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. empty', 'h5. yawer'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 1}, 'current_node_id': 718, 'depth': 8, 'd_thres': 129.8, 'answer': 'ENDED\nMOTOR\nP___I\nT___E\nYAWER'}
+
+{'total_step': 52, 'env_step': 8, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. empty', 'v2. noble'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 720, 'depth': 8, 'd_thres': 129.8, 'answer': 'ENDED\nMOTOR\nPB__I\nTL__E\nYE__R'}
+
+{'total_step': 53, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. empty', 'v2. noble', 'h3. pbali'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 1}, 'current_node_id': 747, 'distance to root': 129.8999, 'depth': 9, 'd_thres': 129.8, 'answer': 'ENDED\nMOTOR\nPBALI\nTL__E\nYE__R'}
+
+{'total_step': 54, 'env_step': 8, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. empty', 'h4. toile'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 722, 'depth': 8, 'd_thres': 129.8, 'answer': 'ENDED\nMOTOR\nP___I\nTOILE\nY___R'}
+
+{'total_step': 55, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. empty', 'h4. toile', 'v5. drier'], 'info': {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 749, 'distance to root': 126.0, 'depth': 9, 'd_thres': 126.0, 'answer': 'ENDED\nMOTOR\nP___I\nTOILE\nY___R'}
+
+{'total_step': 56, 'env_step': 5, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. agend'], 'info': {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 1}, 'current_node_id': 72, 'depth': 5, 'd_thres': 126.0, 'answer': 'AGEND\nMOTOR\n____I\n____E\n____R'}
+
+{'total_step': 57, 'env_step': 5, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 3, 'maybe': 4, 'impossible': 0}, 'current_node_id': 75, 'depth': 5, 'd_thres': 126.0, 'answer': 'ENDED\nMOTOR\n____I\n____E\n____R'}
+
+{'total_step': 58, 'env_step': 6, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'h5. sneer'], 'info': {'r_letter': 0.44, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 4, 'impossible': 0}, 'current_node_id': 753, 'depth': 6, 'd_thres': 126.0, 'answer': 'ENDED\nMOTOR\n____I\n____E\nSNEER'}
+
+{'total_step': 59, 'env_step': 7, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'h5. sneer', 'v1. embus'], 'info': {'r_letter': 0.44, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 5, 'maybe': 4, 'impossible': 1}, 'current_node_id': 768, 'depth': 7, 'd_thres': 126.0, 'answer': 'ENDED\nMOTOR\nB___I\nU___E\nSNEER'}
+
+{'total_step': 60, 'env_step': 7, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'h5. sneer', 'v2. nogan'], 'info': {'r_letter': 0.48, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 771, 'depth': 7, 'd_thres': 126.0, 'answer': 'ENDED\nMOTOR\n_G__I\n_A__E\nSNEER'}
+
+{'total_step': 61, 'env_step': 8, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'h5. sneer', 'v2. nogan', 'v2. nogan'], 'info': {'r_letter': 0.48, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 772, 'depth': 8, 'd_thres': 126.0, 'answer': 'ENDED\nMOTOR\n_G__I\n_A__E\nSNEER'}
+
+{'total_step': 62, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'h5. sneer', 'v2. nogan', 'v2. nogan', 'v2. nogan'], 'info': {'r_letter': 0.48, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 781, 'distance to root': 125.7, 'depth': 9, 'd_thres': 125.7, 'answer': 'ENDED\nMOTOR\n_G__I\n_A__E\nSNEER'}
+
+{'total_step': 63, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'h5. sneer', 'v2. nogan', 'v2. nogan', 'v5. drier'], 'info': {'r_letter': 0.48, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 782, 'distance to root': 125.7, 'depth': 9, 'd_thres': 125.7, 'answer': 'ENDED\nMOTOR\n_G__I\n_A__E\nSNEER'}
+
+{'total_step': 64, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'h5. sneer', 'v2. nogan', 'v2. nogan', 'v1. emits'], 'info': {'r_letter': 0.48, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 1}, 'current_node_id': 786, 'distance to root': 125.6999, 'depth': 9, 'd_thres': 125.6999, 'answer': 'ENDED\nMOTOR\nIG__I\nTA__E\nSNEER'}
+
+{'total_step': 65, 'env_step': 8, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'h5. sneer', 'v2. nogan', 'v5. drier'], 'info': {'r_letter': 0.48, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 773, 'depth': 8, 'd_thres': 125.6999, 'answer': 'ENDED\nMOTOR\n_G__I\n_A__E\nSNEER'}
+
+{'total_step': 66, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'h5. sneer', 'v2. nogan', 'v5. drier', 'v2. nogan'], 'info': {'r_letter': 0.48, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 808, 'distance to root': 125.7, 'depth': 9, 'd_thres': 125.6999, 'answer': 'ENDED\nMOTOR\n_G__I\n_A__E\nSNEER'}
+
+{'total_step': 67, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'h5. sneer', 'v2. nogan', 'v5. drier', 'v5. drier'], 'info': {'r_letter': 0.48, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 0}, 'current_node_id': 809, 'distance to root': 125.7, 'depth': 9, 'd_thres': 125.6999, 'answer': 'ENDED\nMOTOR\n_G__I\n_A__E\nSNEER'}
+
+{'total_step': 68, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'h5. sneer', 'v2. nogan', 'v5. drier', 'v1. emits'], 'info': {'r_letter': 0.48, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 1}, 'current_node_id': 813, 'distance to root': 125.6999, 'depth': 9, 'd_thres': 125.6999, 'answer': 'ENDED\nMOTOR\nIG__I\nTA__E\nSNEER'}
+
+{'total_step': 69, 'env_step': 8, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'h5. sneer', 'v2. nogan', 'v1. emits'], 'info': {'r_letter': 0.48, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 5, 'impossible': 1}, 'current_node_id': 777, 'depth': 8, 'd_thres': 125.6999, 'answer': 'ENDED\nMOTOR\nIG__I\nTA__E\nSNEER'}
+
+{'total_step': 70, 'env_step': 6, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. emend'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 756, 'depth': 6, 'd_thres': 125.6999, 'answer': 'ENDED\nMOTOR\nE___I\nN___E\nD___R'}
+
+{'total_step': 71, 'env_step': 7, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. emend', 'h1. ended'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 835, 'depth': 7, 'd_thres': 125.6999, 'answer': 'ENDED\nMOTOR\nE___I\nN___E\nD___R'}
+
+{'total_step': 72, 'env_step': 8, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. emend', 'h1. ended', 'h1. ended'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 855, 'depth': 8, 'd_thres': 125.6999, 'answer': 'ENDED\nMOTOR\nE___I\nN___E\nD___R'}
+
+{'total_step': 73, 'env_step': 9, 'actions': ['h2. motor', 'v5. drier', 'v5. drier', 'v5. drier', 'h1. ended', 'v1. emend', 'h1. ended', 'h1. ended', 'h1. ended'], 'info': {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 4, 'maybe': 6, 'impossible': 0}, 'current_node_id': 875, 'distance to root': 125.2, 'depth': 9, 'd_thres': 125.2, 'answer': 'ENDED\nMOTOR\nE___I\nN___E\nD___R'}
+
+-----------------------
+
+best node id: 875
+node depth: 9
+chosen step: 73
+distance to root: 125.2
+answer:
+
+ENDED
+MOTOR
+E___I
+N___E
+D___R
+
+accuracy: {'r_letter': 0.32, 'r_word': 0.1, 'r_game': False}
+cost time: 131.52947688102722 s
+
+---- Task Complete ----

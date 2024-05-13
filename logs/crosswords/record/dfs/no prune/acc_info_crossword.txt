@@ -1,0 +1,334 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs
+start_index = 0
+end_index = 20
+pruning = False
+date: 2024-05-06
+time: 02:32:47
+
+idx: 0
+best node id: 35
+node depth: 3
+chosen step: 2
+distance to root: 25.4
+answer:
+AGEND
+MOTOR
+____I
+____E
+____R
+
+accuracy: {'r_letter': 0.48, 'r_word': 0.2, 'r_game': False}
+cost time: 83.41620564460754 s
+--------------------------
+
+idx: 1
+best node id: 25
+node depth: 3
+chosen step: 2
+distance to root: 18.2
+answer:
+__EF_
+__VI_
+__AL_
+SEDER
+__ER_
+
+accuracy: {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}
+cost time: 21.426212072372437 s
+--------------------------
+
+idx: 2
+best node id: 27
+node depth: 3
+chosen step: 2
+distance to root: 22.3
+answer:
+BE___
+UR___
+FRIAR
+FO___
+OR___
+
+accuracy: {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}
+cost time: 19.21815800666809 s
+--------------------------
+
+idx: 3
+best node id: 27
+node depth: 3
+chosen step: 2
+distance to root: 22.3
+answer:
+BE___
+UR___
+FRIAR
+FO___
+OR___
+
+accuracy: {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}
+cost time: 2.599669933319092 s
+--------------------------
+
+idx: 4
+best node id: 23
+node depth: 3
+chosen step: 2
+distance to root: 25.3
+answer:
+_____
+HELIX
+ERODE
+_____
+POUND
+
+accuracy: {'r_letter': 0.36, 'r_word': 0.1, 'r_game': False}
+cost time: 98.9050498008728 s
+--------------------------
+
+idx: 5
+best node id: 9
+node depth: 2
+chosen step: 1
+distance to root: 16.9
+answer:
+_H___
+PENNY
+_L___
+_L___
+_O___
+
+accuracy: {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}
+cost time: 172.8344442844391 s
+--------------------------
+
+idx: 6
+best node id: 1062
+node depth: 7
+chosen step: 69
+distance to root: 55.4
+answer:
+CLING
+RULER
+OMBRE
+A__TE
+KARST
+
+accuracy: {'r_letter': 0.84, 'r_word': 0.6, 'r_game': False}
+cost time: 102.41060519218445 s
+--------------------------
+
+idx: 7
+best node id: 43
+node depth: 4
+chosen step: 3
+distance to root: 34.7
+answer:
+___LD
+___ER
+ESSAY
+SIEVE
+___ER
+
+accuracy: {'r_letter': 0.64, 'r_word': 0.4, 'r_game': False}
+cost time: 29.276474475860596 s
+--------------------------
+
+idx: 8
+best node id: 87
+node depth: 7
+chosen step: 10
+distance to root: 59.50000000000001
+answer:
+DISMO
+UNHAT
+OVERT
+MANSE
+ORDHR
+
+accuracy: {'r_letter': 0.92, 'r_word': 0.7, 'r_game': False}
+cost time: 86.33073568344116 s
+--------------------------
+
+idx: 9
+best node id: 45
+node depth: 4
+chosen step: 3
+distance to root: 30.9
+answer:
+ERUCT
+PLACE
+ALARM
+_____
+ENTER
+
+accuracy: {'r_letter': 0.56, 'r_word': 0.2, 'r_game': False}
+cost time: 172.77134799957275 s
+--------------------------
+
+idx: 10
+best node id: 1
+node depth: 1
+chosen step: 0
+distance to root: 3.0
+answer:
+____W
+____O
+____U
+____L
+____D
+
+accuracy: {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}
+cost time: 31.129292488098145 s
+--------------------------
+
+idx: 11
+best node id: 61
+node depth: 5
+chosen step: 6
+distance to root: 47.400000000000006
+answer:
+HORDE
+SHIFT
+OSAGE
+TOTEM
+__A__
+
+accuracy: {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}
+cost time: 109.72707867622375 s
+--------------------------
+
+idx: 12
+best node id: 21
+node depth: 3
+chosen step: 2
+distance to root: 19.6
+answer:
+_____
+ALARM
+_____
+RAISE
+EIDER
+
+accuracy: {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}
+cost time: 33.276143312454224 s
+--------------------------
+
+idx: 13
+best node id: 37
+node depth: 3
+chosen step: 2
+distance to root: 19.0
+answer:
+_LA__
+_EM__
+UVULA
+_ES__
+_LE__
+
+accuracy: {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}
+cost time: 20.88881516456604 s
+--------------------------
+
+idx: 14
+best node id: 37
+node depth: 3
+chosen step: 2
+distance to root: 19.0
+answer:
+_LA__
+_EM__
+UVULA
+_ES__
+_LE__
+
+accuracy: {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}
+cost time: 2.8311574459075928 s
+--------------------------
+
+idx: 15
+best node id: 37
+node depth: 3
+chosen step: 2
+distance to root: 19.0
+answer:
+_LA__
+_EM__
+UVULA
+_ES__
+_LE__
+
+accuracy: {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}
+cost time: 2.9363956451416016 s
+--------------------------
+
+idx: 16
+best node id: 1
+node depth: 1
+chosen step: 0
+distance to root: 9.0
+answer:
+_____
+_____
+_____
+INNER
+_____
+
+accuracy: {'r_letter': 0.04, 'r_word': 0.0, 'r_game': False}
+cost time: 34.73927617073059 s
+--------------------------
+
+idx: 17
+best node id: 30
+node depth: 3
+chosen step: 2
+distance to root: 25.7
+answer:
+__M__
+USAGE
+MUNCH
+__I__
+__A__
+
+accuracy: {'r_letter': 0.44, 'r_word': 0.2, 'r_game': False}
+cost time: 24.311766862869263 s
+--------------------------
+
+idx: 18
+best node id: 38
+node depth: 4
+chosen step: 3
+distance to root: 31.7
+answer:
+__SIT
+__TDE
+__OLA
+__LER
+UNARY
+
+accuracy: {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}
+cost time: 42.654592752456665 s
+--------------------------
+
+idx: 19
+best node id: 1188
+node depth: 9
+chosen step: 89
+distance to root: 72.8
+answer:
+PRINT
+_I_AR
+_C_SE
+SENSE
+TREAD
+
+accuracy: {'r_letter': 0.84, 'r_word': 0.6, 'r_game': False}
+cost time: 113.289719581604 s
+--------------------------
+
+average accuracy: {'r_letter': 0.496, 'r_word': 0.280, 'r_game': 0}
+average cost time: 60.2486570596695
+total cost time: 1204.97314119339 s
+
+---- Record Complete ----

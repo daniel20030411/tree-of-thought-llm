@@ -1,0 +1,226 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs
+idx: 19
+pruning = True
+date: 2024-05-10
+time: 18:29:26
+
+{'total_step': 0, 'env_step': 1, 'actions': ['h4. sense'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'distance to root': 9.0, 'depth': 1, 'd_thres': 10000, 'answer': '_____\n_____\n_____\nSENSE\n_____'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['h4. sense', 'h5. tread'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 13, 'distance to root': 17.3, 'depth': 2, 'd_thres': 10000, 'answer': '_____\n_____\n_____\nSENSE\nTREAD'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 31, 'distance to root': 25.0, 'depth': 3, 'd_thres': 10000, 'answer': '_R___\n_I___\n_C___\nSENSE\nTREAD'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 51, 'distance to root': 32.0, 'depth': 4, 'd_thres': 10000, 'answer': '_R___\n_I___\n_C___\nSENSE\nTREAD'}
+
+{'total_step': 4, 'env_step': 5, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 59, 'distance to root': 39.0, 'depth': 5, 'd_thres': 10000, 'answer': '_R___\n_I___\n_C___\nSENSE\nTREAD'}
+
+{'total_step': 5, 'env_step': 6, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 67, 'distance to root': 46.0, 'depth': 6, 'd_thres': 10000, 'answer': '_R___\n_I___\n_C___\nSENSE\nTREAD'}
+
+{'total_step': 6, 'env_step': 7, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 75, 'distance to root': 53.0, 'depth': 7, 'd_thres': 10000, 'answer': '_R___\n_I___\n_C___\nSENSE\nTREAD'}
+
+{'total_step': 7, 'env_step': 8, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 83, 'distance to root': 60.0, 'depth': 8, 'd_thres': 10000, 'answer': '_R___\n_I___\n_C___\nSENSE\nTREAD'}
+
+{'total_step': 8, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer'], 'info': {'r_letter': 0.52, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 2, 'impossible': 0}, 'current_node_id': 91, 'distance to root': 67.0, 'depth': 9, 'd_thres': 10000, 'answer': '_R___\n_I___\n_C___\nSENSE\nTREAD'}
+
+{'total_step': 9, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 0}, 'current_node_id': 92, 'distance to root': 69.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': 'PRINT\n_I___\n_C___\nSENSE\nTREAD'}
+
+{'total_step': 10, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 93, 'distance to root': 69.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 11, 'env_step': 8, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 0}, 'current_node_id': 84, 'distance to root': 62.10000000000001, 'depth': 8, 'd_thres': 10000, 'answer': 'PRINT\n_I___\n_C___\nSENSE\nTREAD'}
+
+{'total_step': 12, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v2. ricer'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 0}, 'current_node_id': 127, 'distance to root': 71.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': 'PRINT\n_I___\n_C___\nSENSE\nTREAD'}
+
+{'total_step': 13, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v5. treed'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 128, 'distance to root': 71.5, 'depth': 9, 'd_thres': 10000, 'answer': 'PRINT\n_I__R\n_C__E\nSENSE\nTREAD'}
+
+{'total_step': 14, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v3. inane'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 130, 'distance to root': 71.60000000000001, 'depth': 9, 'd_thres': 10000, 'answer': 'PRINT\n_IN__\n_CA__\nSENSE\nTREAD'}
+
+{'total_step': 15, 'env_step': 8, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 85, 'distance to root': 62.10000000000001, 'depth': 8, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 16, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v3. amine'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 169, 'distance to root': 66.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 17, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v2. ricer'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 170, 'distance to root': 67.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 18, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'h4. sense'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 171, 'distance to root': 68.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 19, 'env_step': 7, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 0}, 'current_node_id': 76, 'distance to root': 55.10000000000001, 'depth': 7, 'd_thres': 10000, 'answer': 'PRINT\n_I___\n_C___\nSENSE\nTREAD'}
+
+{'total_step': 20, 'env_step': 8, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v2. ricer'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 0}, 'current_node_id': 205, 'distance to root': 64.10000000000001, 'depth': 8, 'd_thres': 10000, 'answer': 'PRINT\n_I___\n_C___\nSENSE\nTREAD'}
+
+{'total_step': 21, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v2. ricer', 'v2. ricer'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 0}, 'current_node_id': 216, 'distance to root': 73.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': 'PRINT\n_I___\n_C___\nSENSE\nTREAD'}
+
+{'total_step': 22, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v2. ricer', 'v5. treed'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 217, 'distance to root': 73.5, 'depth': 9, 'd_thres': 10000, 'answer': 'PRINT\n_I__R\n_C__E\nSENSE\nTREAD'}
+
+{'total_step': 23, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v2. ricer', 'v3. inane'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 219, 'distance to root': 73.60000000000001, 'depth': 9, 'd_thres': 10000, 'answer': 'PRINT\n_IN__\n_CA__\nSENSE\nTREAD'}
+
+{'total_step': 24, 'env_step': 8, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v5. treed'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 206, 'distance to root': 64.5, 'depth': 8, 'd_thres': 10000, 'answer': 'PRINT\n_I__R\n_C__E\nSENSE\nTREAD'}
+
+{'total_step': 25, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v5. treed', 'v3. inane'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 262, 'distance to root': 74.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': 'PRINT\n_IN_R\n_CA_E\nSENSE\nTREAD'}
+
+{'total_step': 26, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v5. treed', 'h2. ficer'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 1}, 'current_node_id': 266, 'distance to root': 74.4, 'depth': 9, 'd_thres': 10000, 'answer': 'PRINT\nFICER\n_C__E\nSENSE\nTREAD'}
+
+{'total_step': 27, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v5. treed', 'v4. nassa'], 'info': {'r_letter': 0.84, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 270, 'distance to root': 74.4, 'depth': 9, 'd_thres': 10000, 'answer': 'PRINT\n_I_AR\n_C_SE\nSENSE\nTREAD'}
+
+{'total_step': 28, 'env_step': 8, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v3. inane'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 208, 'distance to root': 64.60000000000001, 'depth': 8, 'd_thres': 10000, 'answer': 'PRINT\n_IN__\n_CA__\nSENSE\nTREAD'}
+
+{'total_step': 29, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v3. inane', 'h2. linen'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 2}, 'current_node_id': 276, 'distance to root': 74.2, 'depth': 9, 'd_thres': 10000, 'answer': 'PRINT\nLINEN\n_CA__\nSENSE\nTREAD'}
+
+{'total_step': 30, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v3. inane', 'v5. treed'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 278, 'distance to root': 74.3, 'depth': 9, 'd_thres': 10000, 'answer': 'PRINT\n_IN_R\n_CA_E\nSENSE\nTREAD'}
+
+{'total_step': 31, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v3. inane', 'v4. nessa'], 'info': {'r_letter': 0.72, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 281, 'distance to root': 74.5, 'depth': 9, 'd_thres': 10000, 'answer': 'PRINT\n_INE_\n_CAS_\nSENSE\nTREAD'}
+
+{'total_step': 32, 'env_step': 7, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 77, 'distance to root': 55.10000000000001, 'depth': 7, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 33, 'env_step': 8, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v3. amine'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 288, 'distance to root': 59.10000000000001, 'depth': 8, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 34, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v3. amine', 'v3. amine'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 297, 'distance to root': 63.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 35, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v3. amine', 'v2. ricer'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 298, 'distance to root': 64.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 36, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v3. amine', 'h4. sense'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 299, 'distance to root': 65.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 37, 'env_step': 8, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v2. ricer'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 289, 'distance to root': 60.10000000000001, 'depth': 8, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 38, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v2. ricer', 'v3. amine'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 333, 'distance to root': 64.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 39, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v2. ricer', 'v2. ricer'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 334, 'distance to root': 65.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 40, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v2. ricer', 'h4. sense'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 335, 'distance to root': 66.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 41, 'env_step': 8, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'h4. sense'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 290, 'distance to root': 61.10000000000001, 'depth': 8, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 42, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'h4. sense', 'v3. amine'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 369, 'distance to root': 65.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 43, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'h4. sense', 'v2. ricer'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 370, 'distance to root': 66.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 44, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'h4. sense', 'h4. sense'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 371, 'distance to root': 67.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 45, 'env_step': 6, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 0}, 'current_node_id': 68, 'distance to root': 48.1, 'depth': 6, 'd_thres': 10000, 'answer': 'PRINT\n_I___\n_C___\nSENSE\nTREAD'}
+
+{'total_step': 46, 'env_step': 7, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v2. ricer'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 0}, 'current_node_id': 405, 'distance to root': 57.10000000000001, 'depth': 7, 'd_thres': 10000, 'answer': 'PRINT\n_I___\n_C___\nSENSE\nTREAD'}
+
+{'total_step': 47, 'env_step': 8, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v2. ricer', 'v2. ricer'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 0}, 'current_node_id': 416, 'distance to root': 66.10000000000001, 'depth': 8, 'd_thres': 10000, 'answer': 'PRINT\n_I___\n_C___\nSENSE\nTREAD'}
+
+{'total_step': 48, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v2. ricer', 'v2. ricer', 'v2. ricer'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 5, 'maybe': 3, 'impossible': 0}, 'current_node_id': 427, 'distance to root': 75.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': 'PRINT\n_I___\n_C___\nSENSE\nTREAD'}
+
+{'total_step': 49, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v2. ricer', 'v2. ricer', 'v5. treed'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 428, 'distance to root': 75.5, 'depth': 9, 'd_thres': 10000, 'answer': 'PRINT\n_I__R\n_C__E\nSENSE\nTREAD'}
+
+{'total_step': 50, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v2. ricer', 'v2. ricer', 'v3. inane'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 430, 'distance to root': 75.60000000000001, 'depth': 9, 'd_thres': 10000, 'answer': 'PRINT\n_IN__\n_CA__\nSENSE\nTREAD'}
+
+{'total_step': 51, 'env_step': 8, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v2. ricer', 'v5. treed'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 417, 'distance to root': 66.5, 'depth': 8, 'd_thres': 10000, 'answer': 'PRINT\n_I__R\n_C__E\nSENSE\nTREAD'}
+
+{'total_step': 52, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v2. ricer', 'v5. treed', 'v3. inane'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 473, 'distance to root': 76.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': 'PRINT\n_IN_R\n_CA_E\nSENSE\nTREAD'}
+
+{'total_step': 53, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v2. ricer', 'v5. treed', 'h2. ficer'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 1}, 'current_node_id': 477, 'distance to root': 76.4, 'depth': 9, 'd_thres': 10000, 'answer': 'PRINT\nFICER\n_C__E\nSENSE\nTREAD'}
+
+{'total_step': 54, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v2. ricer', 'v5. treed', 'v4. nassa'], 'info': {'r_letter': 0.84, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 481, 'distance to root': 76.4, 'depth': 9, 'd_thres': 10000, 'answer': 'PRINT\n_I_AR\n_C_SE\nSENSE\nTREAD'}
+
+{'total_step': 55, 'env_step': 8, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v2. ricer', 'v3. inane'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 419, 'distance to root': 66.60000000000001, 'depth': 8, 'd_thres': 10000, 'answer': 'PRINT\n_IN__\n_CA__\nSENSE\nTREAD'}
+
+{'total_step': 56, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v2. ricer', 'v3. inane', 'h2. linen'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 2}, 'current_node_id': 487, 'distance to root': 76.2, 'depth': 9, 'd_thres': 10000, 'answer': 'PRINT\nLINEN\n_CA__\nSENSE\nTREAD'}
+
+{'total_step': 57, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v2. ricer', 'v3. inane', 'v5. treed'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 489, 'distance to root': 76.3, 'depth': 9, 'd_thres': 10000, 'answer': 'PRINT\n_IN_R\n_CA_E\nSENSE\nTREAD'}
+
+{'total_step': 58, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v2. ricer', 'v3. inane', 'v4. nessa'], 'info': {'r_letter': 0.72, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 492, 'distance to root': 76.5, 'depth': 9, 'd_thres': 10000, 'answer': 'PRINT\n_INE_\n_CAS_\nSENSE\nTREAD'}
+
+{'total_step': 59, 'env_step': 7, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v5. treed'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 406, 'distance to root': 57.5, 'depth': 7, 'd_thres': 10000, 'answer': 'PRINT\n_I__R\n_C__E\nSENSE\nTREAD'}
+
+{'total_step': 60, 'env_step': 8, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v5. treed', 'v3. inane'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 503, 'distance to root': 67.10000000000001, 'depth': 8, 'd_thres': 10000, 'answer': 'PRINT\n_IN_R\n_CA_E\nSENSE\nTREAD'}
+
+{'total_step': 61, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v5. treed', 'v3. inane', 'h2. liner'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 513, 'distance to root': 76.5, 'depth': 9, 'd_thres': 10000, 'answer': 'PRINT\nLINER\n_CA_E\nSENSE\nTREAD'}
+
+{'total_step': 62, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v5. treed', 'v3. inane', 'v1. pipst'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 8, 'maybe': 1, 'impossible': 1}, 'current_node_id': 515, 'distance to root': 76.9, 'depth': 9, 'd_thres': 10000, 'answer': 'PRINT\nIIN_R\nPCA_E\nSENSE\nTREAD'}
+
+{'total_step': 63, 'env_step': 8, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v5. treed', 'h2. ficer'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 6, 'maybe': 3, 'impossible': 1}, 'current_node_id': 507, 'distance to root': 67.4, 'depth': 8, 'd_thres': 10000, 'answer': 'PRINT\nFICER\n_C__E\nSENSE\nTREAD'}
+
+{'total_step': 64, 'env_step': 8, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v5. treed', 'v4. nassa'], 'info': {'r_letter': 0.84, 'r_word': 0.6, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 511, 'distance to root': 67.4, 'depth': 8, 'd_thres': 10000, 'answer': 'PRINT\n_I_AR\n_C_SE\nSENSE\nTREAD'}
+
+{'total_step': 65, 'env_step': 7, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v3. inane'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 408, 'distance to root': 57.60000000000001, 'depth': 7, 'd_thres': 10000, 'answer': 'PRINT\n_IN__\n_CA__\nSENSE\nTREAD'}
+
+{'total_step': 66, 'env_step': 8, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v3. inane', 'h2. linen'], 'info': {'r_letter': 0.68, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 6, 'maybe': 2, 'impossible': 2}, 'current_node_id': 517, 'distance to root': 67.2, 'depth': 8, 'd_thres': 10000, 'answer': 'PRINT\nLINEN\n_CA__\nSENSE\nTREAD'}
+
+{'total_step': 67, 'env_step': 8, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v3. inane', 'v5. treed'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 6, 'maybe': 4, 'impossible': 0}, 'current_node_id': 519, 'distance to root': 67.3, 'depth': 8, 'd_thres': 10000, 'answer': 'PRINT\n_IN_R\n_CA_E\nSENSE\nTREAD'}
+
+{'total_step': 68, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v3. inane', 'v5. treed', 'h2. liner'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 7, 'maybe': 2, 'impossible': 1}, 'current_node_id': 525, 'distance to root': 76.7, 'depth': 9, 'd_thres': 10000, 'answer': 'PRINT\nLINER\n_CA_E\nSENSE\nTREAD'}
+
+{'total_step': 69, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v3. inane', 'v5. treed', 'v1. pipst'], 'info': {'r_letter': 0.76, 'r_word': 0.5, 'r_game': False}, 'count': {'sure': 8, 'maybe': 1, 'impossible': 1}, 'current_node_id': 527, 'distance to root': 77.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': 'PRINT\nIIN_R\nPCA_E\nSENSE\nTREAD'}
+
+{'total_step': 70, 'env_step': 8, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'h1. print', 'v3. inane', 'v4. nessa'], 'info': {'r_letter': 0.72, 'r_word': 0.4, 'r_game': False}, 'count': {'sure': 7, 'maybe': 3, 'impossible': 0}, 'current_node_id': 522, 'distance to root': 67.5, 'depth': 8, 'd_thres': 10000, 'answer': 'PRINT\n_INE_\n_CAS_\nSENSE\nTREAD'}
+
+{'total_step': 71, 'env_step': 6, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 69, 'distance to root': 48.1, 'depth': 6, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 72, 'env_step': 7, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v3. amine'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 529, 'distance to root': 52.10000000000001, 'depth': 7, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 73, 'env_step': 8, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v3. amine', 'v3. amine'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 538, 'distance to root': 56.10000000000001, 'depth': 8, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 74, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v3. amine', 'v3. amine', 'v3. amine'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 547, 'distance to root': 60.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 75, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v3. amine', 'v3. amine', 'v2. ricer'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 548, 'distance to root': 61.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 76, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v3. amine', 'v3. amine', 'h4. sense'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 549, 'distance to root': 62.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 77, 'env_step': 8, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v3. amine', 'v2. ricer'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 539, 'distance to root': 57.10000000000001, 'depth': 8, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 78, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v3. amine', 'v2. ricer', 'v3. amine'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 583, 'distance to root': 61.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 79, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v3. amine', 'v2. ricer', 'v2. ricer'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 584, 'distance to root': 62.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 80, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v3. amine', 'v2. ricer', 'h4. sense'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 585, 'distance to root': 63.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 81, 'env_step': 8, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v3. amine', 'h4. sense'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 540, 'distance to root': 58.10000000000001, 'depth': 8, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 82, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v3. amine', 'h4. sense', 'v3. amine'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 619, 'distance to root': 62.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 83, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v3. amine', 'h4. sense', 'v2. ricer'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 620, 'distance to root': 63.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 84, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v3. amine', 'h4. sense', 'h4. sense'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 621, 'distance to root': 64.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 85, 'env_step': 7, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v2. ricer'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 530, 'distance to root': 53.10000000000001, 'depth': 7, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 86, 'env_step': 8, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v2. ricer', 'v3. amine'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 655, 'distance to root': 57.10000000000001, 'depth': 8, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 87, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v2. ricer', 'v3. amine', 'v3. amine'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 664, 'distance to root': 61.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 88, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v2. ricer', 'v3. amine', 'v2. ricer'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 665, 'distance to root': 62.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 89, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v2. ricer', 'v3. amine', 'h4. sense'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 666, 'distance to root': 63.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 90, 'env_step': 8, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v2. ricer', 'v2. ricer'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 656, 'distance to root': 58.10000000000001, 'depth': 8, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 91, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v2. ricer', 'v2. ricer', 'v3. amine'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 700, 'distance to root': 62.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 92, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v2. ricer', 'v2. ricer', 'v2. ricer'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 701, 'distance to root': 63.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 93, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v2. ricer', 'v2. ricer', 'h4. sense'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 702, 'distance to root': 64.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 94, 'env_step': 8, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v2. ricer', 'h4. sense'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 657, 'distance to root': 59.10000000000001, 'depth': 8, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 95, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v2. ricer', 'h4. sense', 'v3. amine'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 736, 'distance to root': 63.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 96, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v2. ricer', 'h4. sense', 'v2. ricer'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 737, 'distance to root': 64.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 97, 'env_step': 9, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'v2. ricer', 'h4. sense', 'h4. sense'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 738, 'distance to root': 65.10000000000001, 'depth': 9, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 98, 'env_step': 7, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'h4. sense'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 531, 'distance to root': 54.10000000000001, 'depth': 7, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+{'total_step': 99, 'env_step': 8, 'actions': ['h4. sense', 'h5. tread', 'v2. ricer', 'v2. ricer', 'v2. ricer', 'v3. amine', 'h4. sense', 'v3. amine'], 'info': {'r_letter': 0.6, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 5, 'maybe': 5, 'impossible': 0}, 'current_node_id': 772, 'distance to root': 58.10000000000001, 'depth': 8, 'd_thres': 10000, 'answer': '_RA__\n_IM__\n_CI__\nSENSE\nTREAD'}
+
+-----------------------
+
+best node id: 270
+node depth: 9
+chosen step: 27
+distance to root: 74.4
+answer:
+
+PRINT
+_I_AR
+_C_SE
+SENSE
+TREAD
+
+accuracy: {'r_letter': 0.84, 'r_word': 0.6, 'r_game': False}
+cost time: 122.78701639175415 s
+
+---- Task Complete ----

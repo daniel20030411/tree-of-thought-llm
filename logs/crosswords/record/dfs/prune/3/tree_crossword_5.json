@@ -1,0 +1,2894 @@
+[
+    {
+        "total_step": 0,
+        "env_step": 1,
+        "actions": [
+            "v2. hello"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 1,
+        "distance to root": 7.5,
+        "depth": 1,
+        "d_thres": 10000,
+        "answer": "_H___\n_E___\n_L___\n_L___\n_O___"
+    },
+    {
+        "total_step": 1,
+        "env_step": 2,
+        "actions": [
+            "v2. hello",
+            "v3. iblis"
+        ],
+        "info": {
+            "r_letter": 0.36,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 5,
+            "impossible": 1
+        },
+        "current_node_id": 13,
+        "distance to root": 14.6,
+        "depth": 2,
+        "d_thres": 10000,
+        "answer": "_HI__\n_EB__\n_LL__\n_LI__\n_OS__"
+    },
+    {
+        "total_step": 2,
+        "env_step": 2,
+        "actions": [
+            "v2. hello",
+            "v5. eater"
+        ],
+        "info": {
+            "r_letter": 0.4,
+            "r_word": 0.2,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 14,
+        "distance to root": 15.0,
+        "depth": 2,
+        "d_thres": 10000,
+        "answer": "_H__E\n_E__A\n_L__T\n_L__E\n_O__R"
+    },
+    {
+        "total_step": 3,
+        "env_step": 3,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 26,
+        "distance to root": 23.4,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHO__R"
+    },
+    {
+        "total_step": 4,
+        "env_step": 4,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "v3. iblis"
+        ],
+        "info": {
+            "r_letter": 0.76,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 3
+        },
+        "current_node_id": 42,
+        "distance to root": 31.6,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "CHI_E\nREB_A\nULL_T\nSLI_E\nHOS_R"
+    },
+    {
+        "total_step": 5,
+        "env_step": 4,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 44,
+        "distance to root": 32.2,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 6,
+        "env_step": 5,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "h1. chose"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 57,
+        "distance to root": 40.6,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 7,
+        "env_step": 6,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "h1. chose",
+            "h3. ulmet"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 78,
+        "distance to root": 50.5,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nULMET\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 8,
+        "env_step": 5,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 60,
+        "distance to root": 41.2,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 9,
+        "env_step": 6,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "h1. chose"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 80,
+        "distance to root": 49.6,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 10,
+        "env_step": 7,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "h1. chose",
+            "h3. ulmet"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 101,
+        "distance to root": 59.5,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nULMET\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 11,
+        "env_step": 6,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 83,
+        "distance to root": 50.2,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 12,
+        "env_step": 7,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v1. crush",
+            "h1. chose"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 103,
+        "distance to root": 58.6,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 13,
+        "env_step": 8,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v1. crush",
+            "h1. chose",
+            "h3. ulmet"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 124,
+        "distance to root": 68.5,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nULMET\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 14,
+        "env_step": 7,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v1. crush",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 106,
+        "distance to root": 59.199999999999996,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 15,
+        "env_step": 8,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v1. crush",
+            "v1. crush",
+            "h1. chose"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 126,
+        "distance to root": 67.6,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 16,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v1. crush",
+            "v1. crush",
+            "h1. chose",
+            "h3. ulmet"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 147,
+        "distance to root": 77.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nULMET\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 17,
+        "env_step": 8,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v1. crush",
+            "v1. crush",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 129,
+        "distance to root": 68.19999999999999,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 18,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v1. crush",
+            "v1. crush",
+            "v1. crush",
+            "h1. chose"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 149,
+        "distance to root": 76.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 19,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v1. crush",
+            "v1. crush",
+            "v1. crush",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 152,
+        "distance to root": 77.19999999999999,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 20,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v1. crush",
+            "v1. crush",
+            "v1. crush",
+            "v2. hello"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 153,
+        "distance to root": 77.19999999999999,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 21,
+        "env_step": 8,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v1. crush",
+            "v1. crush",
+            "v2. hello"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 130,
+        "distance to root": 68.19999999999999,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 22,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v1. crush",
+            "v1. crush",
+            "v2. hello",
+            "h1. chose"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 210,
+        "distance to root": 76.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 23,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v1. crush",
+            "v1. crush",
+            "v2. hello",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 213,
+        "distance to root": 77.19999999999999,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 24,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v1. crush",
+            "v1. crush",
+            "v2. hello",
+            "v2. hello"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 214,
+        "distance to root": 77.19999999999999,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 25,
+        "env_step": 7,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v1. crush",
+            "v2. hello"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 107,
+        "distance to root": 59.199999999999996,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 26,
+        "env_step": 8,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v1. crush",
+            "v2. hello",
+            "h1. chose"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 271,
+        "distance to root": 67.6,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 27,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v1. crush",
+            "v2. hello",
+            "h1. chose",
+            "h3. ulmet"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 292,
+        "distance to root": 77.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nULMET\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 28,
+        "env_step": 8,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v1. crush",
+            "v2. hello",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 274,
+        "distance to root": 68.19999999999999,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 29,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v1. crush",
+            "v2. hello",
+            "v1. crush",
+            "h1. chose"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 294,
+        "distance to root": 76.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 30,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v1. crush",
+            "v2. hello",
+            "v1. crush",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 297,
+        "distance to root": 77.19999999999999,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 31,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v1. crush",
+            "v2. hello",
+            "v1. crush",
+            "v2. hello"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 298,
+        "distance to root": 77.19999999999999,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 32,
+        "env_step": 8,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v1. crush",
+            "v2. hello",
+            "v2. hello"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 275,
+        "distance to root": 68.19999999999999,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 33,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v1. crush",
+            "v2. hello",
+            "v2. hello",
+            "h1. chose"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 355,
+        "distance to root": 76.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 34,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v1. crush",
+            "v2. hello",
+            "v2. hello",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 358,
+        "distance to root": 77.19999999999999,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 35,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v1. crush",
+            "v2. hello",
+            "v2. hello",
+            "v2. hello"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 359,
+        "distance to root": 77.19999999999999,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 36,
+        "env_step": 6,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v2. hello"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 84,
+        "distance to root": 50.2,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 37,
+        "env_step": 7,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v2. hello",
+            "h1. chose"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 416,
+        "distance to root": 58.6,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 38,
+        "env_step": 8,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v2. hello",
+            "h1. chose",
+            "h3. ulmet"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 437,
+        "distance to root": 68.5,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nULMET\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 39,
+        "env_step": 7,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v2. hello",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 419,
+        "distance to root": 59.199999999999996,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 40,
+        "env_step": 8,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v2. hello",
+            "v1. crush",
+            "h1. chose"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 439,
+        "distance to root": 67.6,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 41,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v2. hello",
+            "v1. crush",
+            "h1. chose",
+            "h3. ulmet"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 460,
+        "distance to root": 77.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nULMET\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 42,
+        "env_step": 8,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v2. hello",
+            "v1. crush",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 442,
+        "distance to root": 68.19999999999999,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 43,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v2. hello",
+            "v1. crush",
+            "v1. crush",
+            "h1. chose"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 462,
+        "distance to root": 76.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 44,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v2. hello",
+            "v1. crush",
+            "v1. crush",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 465,
+        "distance to root": 77.19999999999999,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 45,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v2. hello",
+            "v1. crush",
+            "v1. crush",
+            "v2. hello"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 466,
+        "distance to root": 77.19999999999999,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 46,
+        "env_step": 8,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v2. hello",
+            "v1. crush",
+            "v2. hello"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 443,
+        "distance to root": 68.19999999999999,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 47,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v2. hello",
+            "v1. crush",
+            "v2. hello",
+            "h1. chose"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 523,
+        "distance to root": 76.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 48,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v2. hello",
+            "v1. crush",
+            "v2. hello",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 526,
+        "distance to root": 77.19999999999999,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 49,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v2. hello",
+            "v1. crush",
+            "v2. hello",
+            "v2. hello"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 527,
+        "distance to root": 77.19999999999999,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 50,
+        "env_step": 7,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v2. hello",
+            "v2. hello"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 420,
+        "distance to root": 59.199999999999996,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 51,
+        "env_step": 8,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v2. hello",
+            "v2. hello",
+            "h1. chose"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 584,
+        "distance to root": 67.6,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 52,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v2. hello",
+            "v2. hello",
+            "h1. chose",
+            "h3. ulmet"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 605,
+        "distance to root": 77.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nULMET\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 53,
+        "env_step": 8,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v2. hello",
+            "v2. hello",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 587,
+        "distance to root": 68.19999999999999,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 54,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v2. hello",
+            "v2. hello",
+            "v1. crush",
+            "h1. chose"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 607,
+        "distance to root": 76.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 55,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v2. hello",
+            "v2. hello",
+            "v1. crush",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 610,
+        "distance to root": 77.19999999999999,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 56,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v2. hello",
+            "v2. hello",
+            "v1. crush",
+            "v2. hello"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 611,
+        "distance to root": 77.19999999999999,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 57,
+        "env_step": 8,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v2. hello",
+            "v2. hello",
+            "v2. hello"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 588,
+        "distance to root": 68.19999999999999,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 58,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v2. hello",
+            "v2. hello",
+            "v2. hello",
+            "h1. chose"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 668,
+        "distance to root": 76.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 59,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v2. hello",
+            "v2. hello",
+            "v2. hello",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 671,
+        "distance to root": 77.19999999999999,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 60,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v1. crush",
+            "v2. hello",
+            "v2. hello",
+            "v2. hello",
+            "v2. hello"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 672,
+        "distance to root": 77.19999999999999,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 61,
+        "env_step": 5,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 61,
+        "distance to root": 41.2,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 62,
+        "env_step": 6,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "h1. chose"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 729,
+        "distance to root": 49.6,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 63,
+        "env_step": 7,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "h1. chose",
+            "h3. ulmet"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 750,
+        "distance to root": 59.5,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nULMET\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 64,
+        "env_step": 6,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 732,
+        "distance to root": 50.2,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 65,
+        "env_step": 7,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v1. crush",
+            "h1. chose"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 752,
+        "distance to root": 58.6,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 66,
+        "env_step": 8,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v1. crush",
+            "h1. chose",
+            "h3. ulmet"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 773,
+        "distance to root": 68.5,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nULMET\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 67,
+        "env_step": 7,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v1. crush",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 755,
+        "distance to root": 59.199999999999996,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 68,
+        "env_step": 8,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v1. crush",
+            "v1. crush",
+            "h1. chose"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 775,
+        "distance to root": 67.6,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 69,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v1. crush",
+            "v1. crush",
+            "h1. chose",
+            "h3. ulmet"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 796,
+        "distance to root": 77.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nULMET\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 70,
+        "env_step": 8,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v1. crush",
+            "v1. crush",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 778,
+        "distance to root": 68.19999999999999,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 71,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v1. crush",
+            "v1. crush",
+            "v1. crush",
+            "h1. chose"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 798,
+        "distance to root": 76.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 72,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v1. crush",
+            "v1. crush",
+            "v1. crush",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 801,
+        "distance to root": 77.19999999999999,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 73,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v1. crush",
+            "v1. crush",
+            "v1. crush",
+            "v2. hello"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 802,
+        "distance to root": 77.19999999999999,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 74,
+        "env_step": 8,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v1. crush",
+            "v1. crush",
+            "v2. hello"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 779,
+        "distance to root": 68.19999999999999,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 75,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v1. crush",
+            "v1. crush",
+            "v2. hello",
+            "h1. chose"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 859,
+        "distance to root": 76.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 76,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v1. crush",
+            "v1. crush",
+            "v2. hello",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 862,
+        "distance to root": 77.19999999999999,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 77,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v1. crush",
+            "v1. crush",
+            "v2. hello",
+            "v2. hello"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 863,
+        "distance to root": 77.19999999999999,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 78,
+        "env_step": 7,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v1. crush",
+            "v2. hello"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 756,
+        "distance to root": 59.199999999999996,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 79,
+        "env_step": 8,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v1. crush",
+            "v2. hello",
+            "h1. chose"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 920,
+        "distance to root": 67.6,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 80,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v1. crush",
+            "v2. hello",
+            "h1. chose",
+            "h3. ulmet"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 941,
+        "distance to root": 77.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nULMET\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 81,
+        "env_step": 8,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v1. crush",
+            "v2. hello",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 923,
+        "distance to root": 68.19999999999999,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 82,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v1. crush",
+            "v2. hello",
+            "v1. crush",
+            "h1. chose"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 943,
+        "distance to root": 76.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 83,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v1. crush",
+            "v2. hello",
+            "v1. crush",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 946,
+        "distance to root": 77.19999999999999,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 84,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v1. crush",
+            "v2. hello",
+            "v1. crush",
+            "v2. hello"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 947,
+        "distance to root": 77.19999999999999,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 85,
+        "env_step": 8,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v1. crush",
+            "v2. hello",
+            "v2. hello"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 924,
+        "distance to root": 68.19999999999999,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 86,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v1. crush",
+            "v2. hello",
+            "v2. hello",
+            "h1. chose"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1004,
+        "distance to root": 76.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 87,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v1. crush",
+            "v2. hello",
+            "v2. hello",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1007,
+        "distance to root": 77.19999999999999,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 88,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v1. crush",
+            "v2. hello",
+            "v2. hello",
+            "v2. hello"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1008,
+        "distance to root": 77.19999999999999,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 89,
+        "env_step": 6,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v2. hello"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 733,
+        "distance to root": 50.2,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 90,
+        "env_step": 7,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v2. hello",
+            "h1. chose"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1065,
+        "distance to root": 58.6,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 91,
+        "env_step": 8,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v2. hello",
+            "h1. chose",
+            "h3. ulmet"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 1086,
+        "distance to root": 68.5,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nULMET\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 92,
+        "env_step": 7,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v2. hello",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1068,
+        "distance to root": 59.199999999999996,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 93,
+        "env_step": 8,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v2. hello",
+            "v1. crush",
+            "h1. chose"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1088,
+        "distance to root": 67.6,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 94,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v2. hello",
+            "v1. crush",
+            "h1. chose",
+            "h3. ulmet"
+        ],
+        "info": {
+            "r_letter": 0.68,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 2
+        },
+        "current_node_id": 1109,
+        "distance to root": 77.5,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nULMET\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 95,
+        "env_step": 8,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v2. hello",
+            "v1. crush",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1091,
+        "distance to root": 68.19999999999999,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 96,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v2. hello",
+            "v1. crush",
+            "v1. crush",
+            "h1. chose"
+        ],
+        "info": {
+            "r_letter": 0.64,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 7,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 1111,
+        "distance to root": 76.6,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CHOSE\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 97,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v2. hello",
+            "v1. crush",
+            "v1. crush",
+            "v1. crush"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1114,
+        "distance to root": 77.19999999999999,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 98,
+        "env_step": 9,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v2. hello",
+            "v1. crush",
+            "v1. crush",
+            "v2. hello"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1115,
+        "distance to root": 77.19999999999999,
+        "depth": 9,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "total_step": 99,
+        "env_step": 8,
+        "actions": [
+            "v2. hello",
+            "v5. eater",
+            "v1. crush",
+            "h5. honor",
+            "v2. hello",
+            "v2. hello",
+            "v1. crush",
+            "v2. hello"
+        ],
+        "info": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "count": {
+            "sure": 6,
+            "maybe": 2,
+            "impossible": 0
+        },
+        "current_node_id": 1092,
+        "distance to root": 68.19999999999999,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHONOR"
+    },
+    {
+        "index": 5,
+        "best node id": 26,
+        "node depth": 3,
+        "chosen step": 3,
+        "distance to root": 23.4,
+        "answer": "CH__E\nRE__A\nUL__T\nSL__E\nHO__R",
+        "accuracy": {
+            "r_letter": 0.6,
+            "r_word": 0.3,
+            "r_game": false
+        },
+        "cost time": 78.77570819854736
+    }
+]

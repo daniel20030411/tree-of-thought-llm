@@ -1,0 +1,226 @@
+model: gpt-3.5-turbo
+temperature: 0.7
+algorithm: dfs
+idx: 18
+pruning = False
+date: 2024-05-06
+time: 02:32:47
+
+{'total_step': 0, 'env_step': 1, 'actions': ['v4. idler'], 'info': {'r_letter': 0.2, 'r_word': 0.1, 'r_game': False}, 'count': {'sure': 1, 'maybe': 0, 'impossible': 0}, 'current_node_id': 1, 'distance to root': 7.3, 'depth': 1, 'd_thres': 10000, 'answer': '___I_\n___D_\n___L_\n___E_\n___R_'}
+
+{'total_step': 1, 'env_step': 2, 'actions': ['v4. idler', 'h5. unary'], 'info': {'r_letter': 0.36, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 0, 'impossible': 0}, 'current_node_id': 18, 'distance to root': 16.3, 'depth': 2, 'd_thres': 10000, 'answer': '___I_\n___D_\n___L_\n___E_\nUNARY'}
+
+{'total_step': 2, 'env_step': 3, 'actions': ['v4. idler', 'h5. unary', 'v3. stola'], 'info': {'r_letter': 0.4, 'r_word': 0.2, 'r_game': False}, 'count': {'sure': 2, 'maybe': 4, 'impossible': 1}, 'current_node_id': 29, 'distance to root': 24.7, 'depth': 3, 'd_thres': 10000, 'answer': '__SI_\n__TD_\n__OL_\n__LE_\nUNARY'}
+
+{'total_step': 3, 'env_step': 4, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 38, 'distance to root': 31.7, 'depth': 4, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 4, 'env_step': 5, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 58, 'distance to root': 39.699999999999996, 'depth': 5, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 5, 'env_step': 6, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 86, 'distance to root': 47.699999999999996, 'depth': 6, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 6, 'env_step': 7, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 114, 'distance to root': 55.699999999999996, 'depth': 7, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 7, 'env_step': 8, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v3. stola', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 142, 'distance to root': 63.699999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 8, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v3. stola', 'v3. stola', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 170, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 9, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v3. stola', 'v3. stola', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 171, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 10, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v3. stola', 'v3. stola', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 172, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 11, 'env_step': 8, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v3. stola', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 143, 'distance to root': 63.699999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 12, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v3. stola', 'v4. idler', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 282, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 13, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v3. stola', 'v4. idler', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 283, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 14, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v3. stola', 'v4. idler', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 284, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 15, 'env_step': 8, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v3. stola', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 144, 'distance to root': 63.699999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 16, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v3. stola', 'v5. teary', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 394, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 17, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v3. stola', 'v5. teary', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 395, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 18, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v3. stola', 'v5. teary', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 396, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 19, 'env_step': 7, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 115, 'distance to root': 55.699999999999996, 'depth': 7, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 20, 'env_step': 8, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v4. idler', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 506, 'distance to root': 63.699999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 21, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v4. idler', 'v3. stola', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 534, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 22, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v4. idler', 'v3. stola', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 535, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 23, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v4. idler', 'v3. stola', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 536, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 24, 'env_step': 8, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v4. idler', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 507, 'distance to root': 63.699999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 25, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v4. idler', 'v4. idler', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 646, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 26, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v4. idler', 'v4. idler', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 647, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 27, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v4. idler', 'v4. idler', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 648, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 28, 'env_step': 8, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v4. idler', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 508, 'distance to root': 63.699999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 29, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v4. idler', 'v5. teary', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 758, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 30, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v4. idler', 'v5. teary', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 759, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 31, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v4. idler', 'v5. teary', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 760, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 32, 'env_step': 7, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 116, 'distance to root': 55.699999999999996, 'depth': 7, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 33, 'env_step': 8, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v5. teary', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 870, 'distance to root': 63.699999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 34, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 898, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 35, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 899, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 36, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v5. teary', 'v3. stola', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 900, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 37, 'env_step': 8, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v5. teary', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 871, 'distance to root': 63.699999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 38, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v5. teary', 'v4. idler', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1010, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 39, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v5. teary', 'v4. idler', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1011, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 40, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v5. teary', 'v4. idler', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1012, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 41, 'env_step': 8, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v5. teary', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 872, 'distance to root': 63.699999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 42, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v5. teary', 'v5. teary', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1122, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 43, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v5. teary', 'v5. teary', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1123, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 44, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v5. teary', 'v5. teary', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1124, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 45, 'env_step': 6, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 87, 'distance to root': 47.699999999999996, 'depth': 6, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 46, 'env_step': 7, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1234, 'distance to root': 55.699999999999996, 'depth': 7, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 47, 'env_step': 8, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v3. stola', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1262, 'distance to root': 63.699999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 48, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v3. stola', 'v3. stola', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1290, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 49, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v3. stola', 'v3. stola', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1291, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 50, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v3. stola', 'v3. stola', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1292, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 51, 'env_step': 8, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v3. stola', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1263, 'distance to root': 63.699999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 52, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v3. stola', 'v4. idler', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1402, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 53, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v3. stola', 'v4. idler', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1403, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 54, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v3. stola', 'v4. idler', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1404, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 55, 'env_step': 8, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v3. stola', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1264, 'distance to root': 63.699999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 56, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v3. stola', 'v5. teary', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1514, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 57, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v3. stola', 'v5. teary', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1515, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 58, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v3. stola', 'v5. teary', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1516, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 59, 'env_step': 7, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1235, 'distance to root': 55.699999999999996, 'depth': 7, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 60, 'env_step': 8, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v4. idler', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1626, 'distance to root': 63.699999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 61, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v4. idler', 'v3. stola', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1654, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 62, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v4. idler', 'v3. stola', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1655, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 63, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v4. idler', 'v3. stola', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1656, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 64, 'env_step': 8, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v4. idler', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1627, 'distance to root': 63.699999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 65, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v4. idler', 'v4. idler', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1766, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 66, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v4. idler', 'v4. idler', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1767, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 67, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v4. idler', 'v4. idler', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1768, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 68, 'env_step': 8, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v4. idler', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1628, 'distance to root': 63.699999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 69, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v4. idler', 'v5. teary', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1878, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 70, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v4. idler', 'v5. teary', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1879, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 71, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v4. idler', 'v5. teary', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1880, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 72, 'env_step': 7, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1236, 'distance to root': 55.699999999999996, 'depth': 7, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 73, 'env_step': 8, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v5. teary', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1990, 'distance to root': 63.699999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 74, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v5. teary', 'v3. stola', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 2018, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 75, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v5. teary', 'v3. stola', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 2019, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 76, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v5. teary', 'v3. stola', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 2020, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 77, 'env_step': 8, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v5. teary', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1991, 'distance to root': 63.699999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 78, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v5. teary', 'v4. idler', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 2130, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 79, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v5. teary', 'v4. idler', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 2131, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 80, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v5. teary', 'v4. idler', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 2132, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 81, 'env_step': 8, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v5. teary', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 1992, 'distance to root': 63.699999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 82, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v5. teary', 'v5. teary', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 2242, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 83, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v5. teary', 'v5. teary', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 2243, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 84, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v5. teary', 'v5. teary', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 2244, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 85, 'env_step': 6, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 88, 'distance to root': 47.699999999999996, 'depth': 6, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 86, 'env_step': 7, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v5. teary', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 2354, 'distance to root': 55.699999999999996, 'depth': 7, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 87, 'env_step': 8, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 2382, 'distance to root': 63.699999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 88, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 2410, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 89, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 2411, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 90, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v5. teary', 'v3. stola', 'v3. stola', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 2412, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 91, 'env_step': 8, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 2383, 'distance to root': 63.699999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 92, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 2522, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 93, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 2523, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 94, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v5. teary', 'v3. stola', 'v4. idler', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 2524, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 95, 'env_step': 8, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v5. teary', 'v3. stola', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 2384, 'distance to root': 63.699999999999996, 'depth': 8, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 96, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v5. teary', 'v3. stola', 'v5. teary', 'v3. stola'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 2634, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 97, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v5. teary', 'v3. stola', 'v5. teary', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 2635, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 98, 'env_step': 9, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v5. teary', 'v3. stola', 'v5. teary', 'v5. teary'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 2636, 'distance to root': 71.7, 'depth': 9, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+{'total_step': 99, 'env_step': 7, 'actions': ['v4. idler', 'h5. unary', 'v3. stola', 'v5. teary', 'v3. stola', 'v5. teary', 'v4. idler'], 'info': {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}, 'count': {'sure': 3, 'maybe': 3, 'impossible': 2}, 'current_node_id': 2355, 'distance to root': 55.699999999999996, 'depth': 7, 'd_thres': 10000, 'answer': '__SIT\n__TDE\n__OLA\n__LER\nUNARY'}
+
+-----------------------
+
+best node id: 38
+node depth: 4
+chosen step: 3
+distance to root: 31.7
+answer:
+
+__SIT
+__TDE
+__OLA
+__LER
+UNARY
+
+accuracy: {'r_letter': 0.56, 'r_word': 0.3, 'r_game': False}
+cost time: 42.654592752456665 s
+
+---- Task Complete ----

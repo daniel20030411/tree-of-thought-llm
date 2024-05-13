@@ -1,0 +1,2844 @@
+[
+    {
+        "total_step": 0,
+        "env_step": 1,
+        "actions": [
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 1,
+            "maybe": 0,
+            "impossible": 0
+        },
+        "current_node_id": 1,
+        "depth": 1,
+        "d_thres": 10000,
+        "answer": "__C__\n__R__\n__A__\n__Z__\n__E__"
+    },
+    {
+        "total_step": 1,
+        "env_step": 2,
+        "actions": [
+            "v3. craze",
+            "v5. achoo"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 2,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 10,
+        "depth": 2,
+        "d_thres": 10000,
+        "answer": "__C_A\n__R_C\n__A_H\n__Z_O\n__E_O"
+    },
+    {
+        "total_step": 2,
+        "env_step": 3,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 4,
+            "impossible": 0
+        },
+        "current_node_id": 30,
+        "depth": 3,
+        "d_thres": 10000,
+        "answer": "_UC_A\n_SR_C\n_UA_H\n_RZ_O\n_PE_O"
+    },
+    {
+        "total_step": 3,
+        "env_step": 4,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 2,
+            "impossible": 3
+        },
+        "current_node_id": 49,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "IUC_A\nDSR_C\nIUA_H\nORZ_O\nTPE_O"
+    },
+    {
+        "total_step": 4,
+        "env_step": 4,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 60,
+        "depth": 4,
+        "d_thres": 10000,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 5,
+        "env_step": 5,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 68,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 6,
+        "env_step": 5,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 70,
+        "depth": 5,
+        "d_thres": 10000,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 7,
+        "env_step": 6,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 86,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 8,
+        "env_step": 6,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 88,
+        "depth": 6,
+        "d_thres": 10000,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 9,
+        "env_step": 7,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v2. usurp",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 104,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 10,
+        "env_step": 7,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v2. usurp",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 106,
+        "depth": 7,
+        "d_thres": 10000,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 11,
+        "env_step": 8,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v2. usurp",
+            "v2. usurp",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 122,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 12,
+        "env_step": 8,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v2. usurp",
+            "v2. usurp",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 124,
+        "depth": 8,
+        "d_thres": 10000,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 13,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v2. usurp",
+            "v2. usurp",
+            "v2. usurp",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 140,
+        "distance to root": 80.39999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 14,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v2. usurp",
+            "v2. usurp",
+            "v2. usurp",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 142,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 15,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v2. usurp",
+            "v2. usurp",
+            "v2. usurp",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 143,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 16,
+        "env_step": 8,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v2. usurp",
+            "v2. usurp",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 125,
+        "depth": 8,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 17,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v2. usurp",
+            "v2. usurp",
+            "v3. craze",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 194,
+        "distance to root": 80.39999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 18,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v2. usurp",
+            "v2. usurp",
+            "v3. craze",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 196,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 19,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v2. usurp",
+            "v2. usurp",
+            "v3. craze",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 197,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 20,
+        "env_step": 7,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v2. usurp",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 107,
+        "depth": 7,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 21,
+        "env_step": 8,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v2. usurp",
+            "v3. craze",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 248,
+        "depth": 8,
+        "d_thres": 80.39999999999999,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 22,
+        "env_step": 8,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v2. usurp",
+            "v3. craze",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 250,
+        "depth": 8,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 23,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v2. usurp",
+            "v3. craze",
+            "v2. usurp",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 266,
+        "distance to root": 80.39999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 24,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v2. usurp",
+            "v3. craze",
+            "v2. usurp",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 268,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 25,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v2. usurp",
+            "v3. craze",
+            "v2. usurp",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 269,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 26,
+        "env_step": 8,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v2. usurp",
+            "v3. craze",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 251,
+        "depth": 8,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 27,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v2. usurp",
+            "v3. craze",
+            "v3. craze",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 320,
+        "distance to root": 80.39999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 28,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v2. usurp",
+            "v3. craze",
+            "v3. craze",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 322,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 29,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v2. usurp",
+            "v3. craze",
+            "v3. craze",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 323,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 30,
+        "env_step": 6,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 89,
+        "depth": 6,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 31,
+        "env_step": 7,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v3. craze",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 374,
+        "depth": 7,
+        "d_thres": 80.39999999999999,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 32,
+        "env_step": 7,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v3. craze",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 376,
+        "depth": 7,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 33,
+        "env_step": 8,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v3. craze",
+            "v2. usurp",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 392,
+        "depth": 8,
+        "d_thres": 80.39999999999999,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 34,
+        "env_step": 8,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v3. craze",
+            "v2. usurp",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 394,
+        "depth": 8,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 35,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v3. craze",
+            "v2. usurp",
+            "v2. usurp",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 410,
+        "distance to root": 80.39999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 36,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v3. craze",
+            "v2. usurp",
+            "v2. usurp",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 412,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 37,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v3. craze",
+            "v2. usurp",
+            "v2. usurp",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 413,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 38,
+        "env_step": 8,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v3. craze",
+            "v2. usurp",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 395,
+        "depth": 8,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 39,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v3. craze",
+            "v2. usurp",
+            "v3. craze",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 464,
+        "distance to root": 80.39999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 40,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v3. craze",
+            "v2. usurp",
+            "v3. craze",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 466,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 41,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v3. craze",
+            "v2. usurp",
+            "v3. craze",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 467,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 42,
+        "env_step": 7,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v3. craze",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 377,
+        "depth": 7,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 43,
+        "env_step": 8,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v3. craze",
+            "v3. craze",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 518,
+        "depth": 8,
+        "d_thres": 80.39999999999999,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 44,
+        "env_step": 8,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v3. craze",
+            "v3. craze",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 520,
+        "depth": 8,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 45,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v3. craze",
+            "v3. craze",
+            "v2. usurp",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 536,
+        "distance to root": 80.39999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 46,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v3. craze",
+            "v3. craze",
+            "v2. usurp",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 538,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 47,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v3. craze",
+            "v3. craze",
+            "v2. usurp",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 539,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 48,
+        "env_step": 8,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v3. craze",
+            "v3. craze",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 521,
+        "depth": 8,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 49,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v3. craze",
+            "v3. craze",
+            "v3. craze",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 590,
+        "distance to root": 80.39999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 50,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v3. craze",
+            "v3. craze",
+            "v3. craze",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 592,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 51,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v2. usurp",
+            "v3. craze",
+            "v3. craze",
+            "v3. craze",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 593,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 52,
+        "env_step": 5,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 71,
+        "depth": 5,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 53,
+        "env_step": 6,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 644,
+        "depth": 6,
+        "d_thres": 80.39999999999999,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 54,
+        "env_step": 6,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 646,
+        "depth": 6,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 55,
+        "env_step": 7,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v2. usurp",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 662,
+        "depth": 7,
+        "d_thres": 80.39999999999999,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 56,
+        "env_step": 7,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v2. usurp",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 664,
+        "depth": 7,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 57,
+        "env_step": 8,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v2. usurp",
+            "v2. usurp",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 680,
+        "depth": 8,
+        "d_thres": 80.39999999999999,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 58,
+        "env_step": 8,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v2. usurp",
+            "v2. usurp",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 682,
+        "depth": 8,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 59,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v2. usurp",
+            "v2. usurp",
+            "v2. usurp",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 698,
+        "distance to root": 80.39999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 60,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v2. usurp",
+            "v2. usurp",
+            "v2. usurp",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 700,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 61,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v2. usurp",
+            "v2. usurp",
+            "v2. usurp",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 701,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 62,
+        "env_step": 8,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v2. usurp",
+            "v2. usurp",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 683,
+        "depth": 8,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 63,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v2. usurp",
+            "v2. usurp",
+            "v3. craze",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 752,
+        "distance to root": 80.39999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 64,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v2. usurp",
+            "v2. usurp",
+            "v3. craze",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 754,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 65,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v2. usurp",
+            "v2. usurp",
+            "v3. craze",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 755,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 66,
+        "env_step": 7,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v2. usurp",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 665,
+        "depth": 7,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 67,
+        "env_step": 8,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v2. usurp",
+            "v3. craze",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 806,
+        "depth": 8,
+        "d_thres": 80.39999999999999,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 68,
+        "env_step": 8,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v2. usurp",
+            "v3. craze",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 808,
+        "depth": 8,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 69,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v2. usurp",
+            "v3. craze",
+            "v2. usurp",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 824,
+        "distance to root": 80.39999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 70,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v2. usurp",
+            "v3. craze",
+            "v2. usurp",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 826,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 71,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v2. usurp",
+            "v3. craze",
+            "v2. usurp",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 827,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 72,
+        "env_step": 8,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v2. usurp",
+            "v3. craze",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 809,
+        "depth": 8,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 73,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v2. usurp",
+            "v3. craze",
+            "v3. craze",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 878,
+        "distance to root": 80.39999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 74,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v2. usurp",
+            "v3. craze",
+            "v3. craze",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 880,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 75,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v2. usurp",
+            "v3. craze",
+            "v3. craze",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 881,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 76,
+        "env_step": 6,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 647,
+        "depth": 6,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 77,
+        "env_step": 7,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v3. craze",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 932,
+        "depth": 7,
+        "d_thres": 80.39999999999999,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 78,
+        "env_step": 7,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v3. craze",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 934,
+        "depth": 7,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 79,
+        "env_step": 8,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v3. craze",
+            "v2. usurp",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 950,
+        "depth": 8,
+        "d_thres": 80.39999999999999,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 80,
+        "env_step": 8,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v3. craze",
+            "v2. usurp",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 952,
+        "depth": 8,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 81,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v3. craze",
+            "v2. usurp",
+            "v2. usurp",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 968,
+        "distance to root": 80.39999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 82,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v3. craze",
+            "v2. usurp",
+            "v2. usurp",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 970,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 83,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v3. craze",
+            "v2. usurp",
+            "v2. usurp",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 971,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 84,
+        "env_step": 8,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v3. craze",
+            "v2. usurp",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 953,
+        "depth": 8,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 85,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v3. craze",
+            "v2. usurp",
+            "v3. craze",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 1022,
+        "distance to root": 80.39999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 86,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v3. craze",
+            "v2. usurp",
+            "v3. craze",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1024,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 87,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v3. craze",
+            "v2. usurp",
+            "v3. craze",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1025,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 88,
+        "env_step": 7,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v3. craze",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 935,
+        "depth": 7,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 89,
+        "env_step": 8,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v3. craze",
+            "v3. craze",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 1076,
+        "depth": 8,
+        "d_thres": 80.39999999999999,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 90,
+        "env_step": 8,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v3. craze",
+            "v3. craze",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1078,
+        "depth": 8,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 91,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v3. craze",
+            "v3. craze",
+            "v2. usurp",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 1094,
+        "distance to root": 80.39999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 92,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v3. craze",
+            "v3. craze",
+            "v2. usurp",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1096,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 93,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v3. craze",
+            "v3. craze",
+            "v2. usurp",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1097,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 94,
+        "env_step": 8,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v3. craze",
+            "v3. craze",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1079,
+        "depth": 8,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 95,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v3. craze",
+            "v3. craze",
+            "v3. craze",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 1,
+            "impossible": 4
+        },
+        "current_node_id": 1148,
+        "distance to root": 80.39999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO"
+    },
+    {
+        "total_step": 96,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v3. craze",
+            "v3. craze",
+            "v3. craze",
+            "v2. usurp"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1150,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 97,
+        "env_step": 9,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. spurs",
+            "v3. craze",
+            "v3. craze",
+            "v3. craze",
+            "v3. craze",
+            "v3. craze"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 4,
+            "maybe": 5,
+            "impossible": 0
+        },
+        "current_node_id": 1151,
+        "distance to root": 81.19999999999999,
+        "depth": 9,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCSA\n_SRPC\n_UAUH\n_RZRO\n_PESO"
+    },
+    {
+        "total_step": 98,
+        "env_step": 4,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v2. usurp",
+            "v4. pirus"
+        ],
+        "info": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "count": {
+            "sure": 3,
+            "maybe": 4,
+            "impossible": 2
+        },
+        "current_node_id": 65,
+        "depth": 4,
+        "d_thres": 80.39999999999999,
+        "answer": "_UCPA\n_SRIC\n_UARH\n_RZUO\n_PESO"
+    },
+    {
+        "total_step": 99,
+        "env_step": 3,
+        "actions": [
+            "v3. craze",
+            "v5. achoo",
+            "v1. idiot"
+        ],
+        "info": {
+            "r_letter": 0.0,
+            "r_word": 0.0,
+            "r_game": false
+        },
+        "count": {
+            "sure": 5,
+            "maybe": 3,
+            "impossible": 0
+        },
+        "current_node_id": 31,
+        "depth": 3,
+        "d_thres": 80.39999999999999,
+        "answer": "I_C_A\nD_R_C\nI_A_H\nO_Z_O\nT_E_O"
+    },
+    {
+        "index": 17,
+        "best node id": 140,
+        "node depth": 9,
+        "chosen step": 13,
+        "distance to root": 80.39999999999999,
+        "answer": "IUCSA\nDSRPC\nIUAUH\nORZRO\nTPESO",
+        "accuracy": {
+            "r_letter": 0.2,
+            "r_word": 0.1,
+            "r_game": false
+        },
+        "cost time": 63.499438524246216
+    }
+]
